@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: installation/security.html 
+keywords: VMware, security, hardening, Keystone Collector 
+summary: O Keystone Collector inclui recursos de segurança que monitoram as métricas de desempenho e uso dos sistemas Keystone, e ele está configurado para usar configurações com segurança reforçada. 
+---
+= Segurança do Keystone Collector
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Keystone Collector inclui recursos de segurança que monitoram as métricas de desempenho e uso dos sistemas Keystone, sem arriscar a segurança dos dados do cliente.
+
+O funcionamento do Keystone Collector baseia-se nos seguintes princípios de segurança:
+
+* *Privacy by design*-Keystone Collector coleta dados mínimos para executar a medição de uso e o monitoramento de desempenho. Para obter mais informações, link:data-collection.html["Dados coletados para faturamento"^]consulte . A link:configuration.html#limit-collection-of-private-data["Remover dados privados"] opção é ativada por padrão, que mascara e protege informações confidenciais.
+* * O Keystone Collector requer permissões mínimas para monitorar os sistemas de armazenamento, o que minimiza os riscos de segurança e impede modificações não intencionais nos dados. Essa abordagem se alinha ao princípio do menor privilégio, aprimorando a postura geral de segurança dos ambientes monitorados.
+* * Estrutura de desenvolvimento de software segura*- o Keystone usa uma estrutura de desenvolvimento de software segura em todo o ciclo de desenvolvimento, que reduz riscos, reduz vulnerabilidades e protege o sistema contra possíveis ameaças.
+
+
+
+
+== Endurecimento da segurança
+
+Por padrão, o Keystone Collector está configurado para usar configurações de segurança endurecidas. A seguir estão as configurações de segurança recomendadas:
+
+* O sistema operacional da máquina virtual Keystone Collector:
++
+** Está em conformidade com o padrão CIS Debian Linux 12 Benchmark. Fazer alterações na configuração do sistema operacional fora do software de gerenciamento Keystone Collector pode reduzir a segurança do sistema. Para obter mais informações, link:https://learn.cisecurity.org/benchmarks["Guia de referência do CIS"^]consulte .
+** Recebe e instala automaticamente patches de segurança verificados pelo Keystone Collector por meio do recurso de atualização automática. Desativar esta funcionalidade pode levar a software vulnerável não corrigido.
+** Autentica as atualizações recebidas do Keystone Collector. Desativar a verificação do repositório APT pode levar à instalação automática de patches não autorizados, potencialmente introduzindo vulnerabilidades.
+
+
+* O Keystone Collector valida automaticamente certificados HTTPS para garantir a segurança da conexão. Desativar esse recurso pode levar à personificação de endpoints externos e vazamento de dados de uso.
+* O Keystone Collector oferece suporte link:configuration.html#trust-a-custom-root-ca["CA fidedigna personalizada"] à certificação. Por padrão, ele confia em certificados assinados por CAs raiz pública reconhecidos pelo link:https://wiki.mozilla.org/CA["Programa Mozilla CA Certificate"^]. Ao ativar CAs confiáveis adicionais, o Keystone Collector habilita a validação de certificado HTTPS para conexões com endpoints que apresentam esses certificados.
+* O coletor Keystone habilita a opção *Remover dados privados* por padrão, que mascara e protege informações confidenciais. Para obter mais informações, link:configuration.html#limit-collection-of-private-data["Limitar a coleta de dados privados"^]consulte . Desativar essa opção faz com que dados adicionais sejam comunicados ao sistema Keystone. Por exemplo, ele pode incluir informações inseridas pelo usuário, como nomes de volume, que podem ser consideradas informações confidenciais.
+
+
+*Informações relacionadas*
+
+* link:installation-overview.html["Visão geral do Keystone Collector"]
+* link:vapp-prereqs.html["Requisitos de infraestrutura virtual"]
+* link:configuration.html["Configure o Keystone Collector"]
+

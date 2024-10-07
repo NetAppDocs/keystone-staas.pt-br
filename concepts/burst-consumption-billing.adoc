@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-consumption-billing.html 
+keywords: burst consumption billing 
+summary: A cobrança do Keystone STaaS é baseada na capacidade de expansão sazonal, que é a capacidade consumida por você, além da capacidade comprometida da sua assinatura. 
+---
+= Cobrança baseada no consumo de expansões sazonais
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+A cobrança do Keystone STaaS é baseada em _capacidade de expansão sazonal_, que é a capacidade consumida por você, além da capacidade comprometida da sua assinatura.
+
+Seu limite de explosão é determinado e especificado no contrato do Keystone. Normalmente, está 20% acima da capacidade comprometida.
+
+Capacidade comprometida é a capacidade comprometida com você durante a compra da assinatura. A capacidade comprometida e a capacidade de sobrecarga são medidas por nível de serviço. A capacidade consumida é a capacidade que seus workloads realmente usam.
+
+Quando a capacidade consumida é maior que a capacidade comprometida de um nível de serviço, o consumo de expansões sazonais é registrado e cobrado de acordo. Normalmente, está 20% acima da capacidade comprometida. O uso acima da capacidade de explosão é indicado como "acima do limite de explosão".
+
+Este processo ocorre para cada Registro de consumo gerado. O consumo de expansões sazonais, portanto, é um reflexo da quantidade e da posse de suas capacidades sobreconsumidas, além de suas capacidades comprometidas. Para saber mais, link:../integrations/capacity-trend-tab.html["Separador tendência de consumo"]consulte .
+
+Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .

@@ -1,0 +1,89 @@
+---
+sidebar: sidebar 
+permalink: installation/vapp-installation.html 
+keywords: install, VMware 
+summary: Implante o Keystone Collector em um sistema VMware vSphere baixando o modelo OVA, implantando o modelo e muito mais. 
+---
+= Implante o Keystone Collector em sistemas VMware vSphere
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+A implantação do Keystone Collector em sistemas VMware vSphere inclui o download do modelo OVA, a implantação do modelo usando o assistente *Deploy OVF Template*, a verificação da integridade dos certificados e a verificação da prontidão da VM.
+
+
+
+== Implantando o modelo OVA
+
+Siga estes passos:
+
+.Passos
+. Baixe o arquivo OVA https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova["este link"^] e armazene-o em seu sistema VMware vSphere.
+. No seu sistema VMware vSphere, navegue até a visualização *VMs e modelos*.
+. Clique com o botão direito na pasta necessária para a máquina virtual (VM) (ou data center, se não estiver usando pastas de VM) e selecione *Deploy OVF Template*.
+. Em _Etapa 1_ do assistente *Deploy OVF Template*, clique em *Select e OVF template* para selecionar o arquivo baixado `KeystoneCollector-latest.ova`.
+. Em _Etapa 2_, especifique o nome da VM e selecione a pasta da VM.
+. Em _Etapa 3_, especifique o recurso de computação necessário para executar a VM.
+. Em _Etapa 4: Revise os detalhes_, verifique a correção e autenticidade do arquivo OVA. As versões do vCentre anteriores a 7.0u2 não conseguem verificar automaticamente a autenticidade do certificado de assinatura de código. VCentre 7.0u2 e posteriores podem realizar as verificações. No entanto, para isso, a autoridade do certificado de assinatura deve ser adicionada ao vCentre. Siga estas instruções para a sua versão do vCentre:
++
+.VCentre 7.0u1 e anteriores: Saiba mais
+[%collapsible]
+====
+O vCentre valida a integridade do conteúdo do arquivo OVA e é fornecido um resumo válido de assinatura de código para os arquivos contidos no ARQUIVO OVA. No entanto, ele não valida a autenticidade do certificado de assinatura de código. Para verificar a integridade, você deve baixar o certificado de resumo de assinatura completo e verificá-lo em relação ao certificado público publicado pelo Keystone.
+
+.. Clique no link *Publisher* para baixar o certificado de resumo completo da assinatura.
+.. Faça o download do certificado público _Keystone Billing_ do https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem["este link"^].
+.. Verifique a autenticidade do certificado de assinatura OVA em relação ao certificado público usando OpenSSL:
+`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
+
+
+====
++
+.VCentre 7.0u2 e posterior: Saiba mais
+[%collapsible]
+====
+7.0u2 e versões posteriores do vCenter são capazes de validar a integridade do conteúdo do arquivo OVA e a autenticidade do certificado de assinatura de código, quando um resumo válido de assinatura de código é fornecido. O armazenamento de confiança raiz do vCenter contém apenas certificados VMware. O NetApp usa o Entrust como autoridade de certificação e esses certificados precisam ser adicionados ao armazenamento de confiança do vCenter.
+
+.. Faça o download do certificado de CA de assinatura de código do Entrust https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer["aqui"^].
+.. Siga as etapas na `Resolution` seção deste artigo da base de conhecimento (KB) https://kb.vmware.com/s/article/84240[]: .
+
+
+====
++
+Quando a integridade e autenticidade do Keystone Collector OVA são validadas, você pode ver o texto `(Trusted certificate)` com o editor. image:ova-deploy.png["OVA UI exibindo um certificado verificado"]
+
+. Em _Etapa 5_ do assistente *Deploy OVF Template*, especifique o local para armazenar a VM.
+. Em _Etapa 6_, selecione a rede de destino para a VM usar.
+. Em _Etapa 7 Personalizar modelo_, especifique o endereço de rede e a senha iniciais para a conta de usuário do administrador.
++
+
+NOTE: A senha de administrador é armazenada em um formato reversível no vCentre e deve ser usada como uma credencial de inicialização para obter acesso inicial ao sistema VMware vSphere. Durante a configuração inicial do software, essa senha de administrador deve ser alterada. A máscara de sub-rede para o endereço IPv4 deve ser fornecida na notação CIDR. Por exemplo, use o valor de 24 para uma máscara de sub-rede de 255.255.255.0.
+
+. Em _Etapa 8 Pronto para concluir_ do assistente *Deploy OVF Template*, revise a configuração e verifique se você definiu corretamente os parâmetros para a implantação DO OVA.
+
+
+Depois que a VM tiver sido implantada a partir do modelo e ativada, abra uma sessão SSH para a VM e faça login com as credenciais de administrador temporário para verificar se a VM está pronta para configuração.
+
+
+
+== Configuração inicial do sistema
+
+Execute estas etapas em seus sistemas VMware vSphere para obter uma configuração inicial dos servidores Keystone Collector implantados por meio DO OVA:
+
+
+NOTE: Ao concluir a implantação, você pode usar o utilitário Keystone Collector Management Terminal User Interface (TUI) para executar as atividades de configuração e monitoramento. Você pode usar vários controles de teclado, como as teclas Enter e seta, para selecionar as opções e navegar por esta TUI.
+
+. Abra uma sessão SSH no servidor Keystone Collector. Quando você se conetar, o sistema solicitará que você atualize a senha de administrador. Conclua a atualização da senha de administrador conforme necessário.
+. Inicie sessão utilizando a nova palavra-passe para aceder à TUI. Ao iniciar sessão, a TUI é apresentada.
++
+Como alternativa, você pode iniciá-lo manualmente executando o `keystone-collector-tui` comando CLI.
+
+. Se necessário, configure os detalhes do proxy na seção *Configuração > rede* na TUI.
+. Configure o nome do host do sistema, a localização e o servidor NTP na seção *Configuração > sistema*.
+. Atualize os coletores Keystone usando a opção *Manutenção > Atualizar coletores*. Após a atualização, reinicie o utilitário TUI de gerenciamento do Keystone Collector para aplicar as alterações.
+

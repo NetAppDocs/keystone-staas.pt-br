@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: installation/validation.html 
+keywords: validate, validation 
+summary: O repositório do Keystone é configurado para validar automaticamente a integridade do software Keystone. 
+---
+= Validação automática do software Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O repositório do Keystone está configurado para validar automaticamente a integridade do software Keystone para que somente software válido e autêntico seja instalado no seu local.
+
+A configuração do cliente do repositório do Keystone YUM fornecida no `keystonerepo.rpm` faz uso da verificação GPG forçada (`gpgcheck=1`) em todos os softwares baixados por meio deste repositório. Qualquer RPM baixado pelo repositório do Keystone que falhar na validação de assinatura é impedido de ser instalado. Essa funcionalidade é usada no recurso de atualização automática programada do Keystone Collector para garantir que somente software válido e autêntico seja instalado em seu local.

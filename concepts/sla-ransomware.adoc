@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-ransomware.html 
+keywords: ransomware, recovery, guarantee, SLA, Keystone, assurance 
+summary: A NetApp garante a recuperação dos dados instantâneos do SnapLock Compliance volumes em caso de um ataque de ransomware com o programa Garantia de recuperação de ransomware 
+---
+= Garantia de recuperação de ransomware
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+A NetApp garante a recuperação dos dados instantâneos do SnapLock Compliance volumes em caso de um ataque de ransomware com o programa Garantia de recuperação de ransomware. O serviço de garantia de recuperação do NetApp ransomware é necessário para oferecer suporte ao programa Garantia de recuperação de ransomware e deve ser adquirido separadamente do pedido associado do Keystone.
+
+
+NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
+
+
+
+== Níveis de serviço
+
+O serviço de garantia de recuperação de ransomware é necessário para todo o hardware que suporte a assinatura do Keystone durante o período de assinatura aplicável.
+
+
+
+== Créditos de serviço
+
+Se o SnapLock Compliance for implantado de acordo com as práticas recomendadas e os serviços profissionais da NetApp o configurarem ou validarem após a compra do Serviço de Garantia de recuperação de ransomware, o NetApp emitirá os créditos de serviço se os dados protegidos pelo SnapLock não forem recuperáveis. Os critérios para estes créditos são os seguintes:
+
+* Os créditos de serviço podem ser aplicados a faturas futuras. Os créditos são limitados a 10% do valor do Contrato comprometido (CCV) e são pagos por assinatura.
+* Os créditos são fornecidos durante o período de assinatura ativo do pedido relevante do Keystone.
+* Para assinaturas com cobrança mensal, os créditos serão divididos nos próximos 12 meses e podem ser usados para quaisquer faturas futuras do Keystone até o final do prazo de assinatura. Se a assinatura terminar em menos de 12 meses, ela poderá ser renovada para continuar usando os créditos ou os créditos podem ser aplicados a outras faturas da NetApp.
+* Para assinaturas anuais, os créditos serão aplicados à próxima fatura do Keystone, se disponível. Se não houver faturas futuras do Keystone, os créditos poderão ser aplicados a outras faturas da NetApp.
+

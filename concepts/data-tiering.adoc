@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-tiering.html 
+keywords: add-on services, add-on, data tiering 
+summary: O serviço complementar de categorização de dados identifica os dados usados com menos frequência e categoriza-os em storage com suporte. 
+---
+= Saiba mais sobre categorização de dados
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os serviços padrão do Keystone STaaS para storage de arquivo e de bloco incluem funcionalidades de disposição em camadas que identificam dados usados com menos frequência e categorizam-no no storage frio NetApp compatível com STaaS do Keystone. Você pode usar a disposição de dados em categorias como serviço complementar se quiser categorizar seus dados inativos em qualquer storage que não seja NetApp compatível com Keystone STaaS.
+
+Para obter informações sobre serviços padrão e complementares, link:../concepts/supported-storage-services.html["Serviços Keystone STaaS"]consulte . Para obter informações sobre os níveis de serviço, link:../concepts/service-levels.html["Níveis de serviço no Keystone"]consulte .
+
+O serviço complementar em categorias só é necessário quando os dados são dispostos em camadas em qualquer storage que não seja da NetApp, como Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) e outros, com suporte para Keystone STaaS, compatível com S3 e storage de objetos de terceiros.
+
+A funcionalidade de disposição em camadas utiliza a tecnologia NetApp FabricPool que permite a disposição automatizada em camadas de storage de objetos no local e fora dela.
+
+O serviço complementar de categorização de dados permite a disposição em camadas das categorias Extreme, Premium, Performance, Standard e Value para um destino de storage de objetos. A proporção de dados ativos e inativos a serem dispostos em camadas não é fixa, e cada nível é medido e faturado separadamente.
+
+Por exemplo, se o destino para a camada de storage frio for:
+
+* Camada de valor do Keystone STaaS, camada de objeto do Keystone STaaS StorageGRID ou grade SGWS existente (de propriedade do cliente) - não há custo adicional; ela faz parte do serviço padrão.
+* Storage de objetos de terceiros com suporte para nuvem pública (AWS, Azure, Google) ou Keystone STaaS – há uma cobrança adicional pela capacidade de dados que é categorizada no destino de storage frio.
+
+
+As cobranças por serviços de disposição em camadas complementares se aplicam a todo o prazo de assinatura.
+
+
+NOTE: Os serviços de computação, storage e rede baseados em Hyperscalar exigidos pelo Cloud Volumes ONTAP não são fornecidos pelo NetApp como parte das assinaturas do Keystone STaaS. Esses serviços precisam ser adquiridos diretamente com fornecedores de serviços de nuvem em hyperscalar.

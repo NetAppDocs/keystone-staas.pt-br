@@ -1,0 +1,154 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-availability.html 
+keywords: availability, sla, service level agreement, 
+summary: disponibilidade, sla, contrato de nível de serviço 
+---
+= SLA de disponibilidade
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O SLA de disponibilidade tem como objetivo um tempo de atividade de 99,999% durante um período de cobrança para todos os storage arrays flash NetApp ONTAP implantados para entregar o pedido do Keystone.
+
+
+NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
+
+
+
+== Métricas
+
+* *Porcentagem de tempo de atividade mensal*: [(número de segundos qualificados em um mês - média de segundos de tempo de inatividade para todos os storage arrays AFF implantados para entregar a ordem do Keystone nesse mês) / número de segundos qualificados em um mês] x 100%
+* *Tempo de inatividade*: O período de tempo em que ambas as controladoras em um par dentro de um storage array não estão disponíveis, conforme determinado pelo NetApp.
+* *Número elegível de segundos*: São segundos em um mês que contam para o cálculo de tempo de atividade. Isso não inclui o período de tempo em que os serviços STaaS não estão disponíveis devido à manutenção planejada, upgrades, atividades de suporte acordadas com a NetApp ou devido a circunstâncias que estão fora de controle ou responsabilidade dos serviços do NetApp ou do Keystone.
+
+
+
+
+== Níveis de serviço
+
+Todos os níveis de serviço compatíveis com storage arrays flash ONTAP estão qualificados para SLA de disponibilidade. Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Níveis de serviço no Keystone"]consulte .
+
+
+
+== Créditos de serviço
+
+Se a disponibilidade de storage arrays flash ONTAP para assinaturas qualificadas for menor que a meta de tempo de atividade mensal de 99,999.9% em um período de faturamento, a NetApp emitirá créditos de serviço da seguinte forma:
+
+|===
+| *Tempo de atividade mensal (inferior a)* | *Crédito de serviço* 
+
+
+ a| 
+99,999%
+ a| 
+5%
+
+
+
+ a| 
+99,99%
+ a| 
+10%
+
+
+
+ a| 
+99,9%
+ a| 
+25%
+
+
+
+ a| 
+99,0%
+ a| 
+50%
+
+|===
+
+
+== Cálculo do crédito de serviço
+
+Os créditos de serviço são determinados usando a seguinte fórmula:
+
+Créditos de serviço (capacidade impactada / capacidade total comprometida) X taxas de capacidade X porcentagem de crédito
+
+Local:
+
+* *Capacidade impactada*: A quantidade de capacidade armazenada afetada.
+* *Capacidade comprometida total*: A capacidade comprometida para o nível de serviço do pedido do Keystone.
+* * Taxas de capacidade*: As taxas para o nível de serviço afetado para o mês.
+* *Porcentagem de crédito*: A porcentagem predeterminada para crédito de serviço.
+
+
+*Exemplo*
+
+O exemplo a seguir mostra o método de cálculo para créditos de serviço:
+
+. Calcule o tempo de atividade mensal para determinar a porcentagem de crédito de serviço :
++
+** Segundos elegíveis em um mês de 30 dias: 30 (dias) X 24 (horas/dia) X 60 (minutos/hora) X 60 (segundos/minuto): 2.592.000 segundos
+** Tempo de inatividade em segundos: 95 segundos
++
+Usando a fórmula: Porcentagem de tempo de atividade mensal: [(2.592.000 - 95)/(2.592.000)] X 100
+
++
+Com base no cálculo, o tempo de atividade mensal será de 99,996%, e a porcentagem de crédito do serviço será de 5%.
+
+
+
+. Calcular créditos de serviço:
++
+|===
+
+
+| *Nível de serviço* | *Capacidade impactada* | * Capacidade comprometida total* | *Taxas de capacidade* | *Porcentagem de crédito* 
+
+
+ a| 
+Extremo
+| 10 Tib por 95 segundos | 100 Tib | $1000 | 5% 
+|===
++
+Usando a fórmula: Créditos de serviço ( 10 / 100 ) X 1000 x 0,05
+
++
+Com base no cálculo, os créditos de serviço serão de 5 dólares.
+
+
+
+
+
+== Pedido de crédito de serviço
+
+Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com o Keystone Global Services and Support Center (GSSC).
+
+* São necessários os seguintes detalhes:
++
+.. Número de assinatura do Keystone
+.. Detalhes do controlador de volumes e armazenamento
+.. Local, hora, data e descrição do problema
+.. Duração calculada da deteção de latência
+.. Ferramentas e métodos de medição
+.. Qualquer outro documento aplicável
+
+
+* Forneça os detalhes na Planilha do excel, conforme mostrado abaixo, para um ticket P3 aberto com o Keystone GSSC.
++
+image:sla-breach.png["modelo de folha do excel"]
+
+
+
+[NOTE]
+====
+* Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o GSSC ter validado uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.
+* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas expiradas do Keystone. Para saber mais, link:../concepts/gssc.html["Centro de suporte a Serviços globais da NetApp"]consulte .
+
+
+====

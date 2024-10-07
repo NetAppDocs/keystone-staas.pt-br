@@ -1,0 +1,73 @@
+---
+sidebar: sidebar 
+permalink: integrations/aiq-keystone-details.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq, digital advisor, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts, different tabs 
+summary: O painel do Digital Advisor permite visualizar os detalhes das assinaturas do Keystone, monitorar o uso da capacidade e gerar relatórios. 
+---
+= Veja detalhes de uso e gere relatórios
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O painel do Digital Advisor permite visualizar os detalhes das assinaturas do Keystone, monitorar o uso da capacidade e gerar relatórios.
+
+Ao assinar os serviços do Keystone, você pode visualizar os detalhes da sua assinatura e uso no widget *assinaturas do Keystone* no painel do Digital Advisor.
+
+
+NOTE: As informações aqui se aplicam tanto ao ONTAP quanto ao StorageGRID. Exceções foram apontadas nas seções relevantes.
+
+Para saber mais sobre o widget do Keystone Digital Advisor, https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Visualizar a utilização de capacidade com a assinatura NetApp Keystone"^] consulte .
+
+Para ver os detalhes de utilização e a subscrição do Keystone, execute o seguinte procedimento:
+
+.Passos
+. Inicie sessão no Digital Advisor. Você pode ver o widget *Keystone Subscriptions* que resume o uso da capacidade em relação aos serviços do Keystone adquiridos.
+. No widget *Keystone Subscriptions*, clique em *Exibir todas as assinaturas* para exibir os detalhes de uso e alertas em seus volumes na página *Keystone Subscriptions*. Como alternativa, no painel de navegação esquerdo, vá para *GENERAL > Keystone Subscriptions*. Os detalhes das assinaturas, gráficos de uso de cada nível de serviço e detalhes do volume são exibidos nas diferentes guias na tela *assinaturas do Keystone*.
+
+
+
+NOTE: O consumo de capacidade nas assinaturas do Keystone é exibido no Tibs nos painéis e relatórios e é arredondado para duas casas decimais. Se o uso for inferior a 0,01 TIB, o valor será mostrado como 0 ou `No Usage`. Os dados nessas telas são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC.
+
+Para saber mais sobre métricas de utilização, link:../concepts/metrics.html#metrics-measurement["Medição de métricas"]consulte . Para obter informações sobre diferentes capacidades usadas no Keystone, link:../concepts/supported-storage-capacity.html["Capacidades de armazenamento suportadas"]consulte .
+
+Os links a seguir fornecem mais informações sobre cada uma dessas guias:
+
+* link:../integrations/subscriptions-tab.html["Subscrições"]
+* link:../integrations/current-usage-tab.html["Consumo de corrente"]
+* link:../integrations/capacity-trend-tab.html["Tendência de consumo"]
+* link:../integrations/volumes-objects-tab.html["Objetos  volumes"]
+* link:../integrations/assets-tab.html["Ativos"]
+* link:../integrations/performance-tab.html["Desempenho"]
+
+
+
+
+== Gerar relatórios
+
+Você pode gerar e exibir relatórios para os dados do Keystone. Cada guia na página *assinaturas do Keystone* permite gerar relatórios para suas assinaturas, uso histórico e uso de expansões sazonais, desempenho, ativos e volumes e objetos clicando no botão de download: image:download-icon.png["ícone de download do relatório"]
+
+Os detalhes são gerados em formato CSV que você pode salvar para uso futuro e comparação.
+
+Um relatório de exemplo para a guia *tendência de consumo*, onde os dados gráficos são convertidos:
+
+image:report_1.png["csv de relatório"]
+
+
+
+== Ver alertas
+
+O painel fornece notificações de alerta que permitem que você entenda os problemas que ocorrem no ambiente de storage. Essas notificações podem aparecer como alertas informativos ou avisos. Por exemplo, se houver volumes nos clusters gerenciados que não tenham políticas de QoS adaptável (AQoS) anexadas, você poderá ver uma mensagem de aviso. Você pode clicar no link na mensagem de aviso para ver a lista de volumes não compatíveis na guia *volumes & objetos*.
+
+
+NOTE: Se você se inscreveu em um único nível de serviço ou plano de taxa, não será possível ver o alerta para volumes não compatíveis.
+
+image:alert-aiq-3.png["alerta"]
+
+Para obter informações sobre as políticas AQoS, link:../concepts/qos.html["QoS adaptável"]consulte .
+
+Entre em Contato com o suporte da NetApp para obter mais informações sobre essas mensagens. Para obter informações sobre como levantar solicitações de serviço, link:../concepts/gssc.html#generating-service-requests["Gerando solicitações de serviço"]consulte .

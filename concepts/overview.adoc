@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: concepts/overview.html 
+keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
+summary: O Keystone é um modelo de serviço baseado em subscrição com pagamento conforme o uso para empresas que preferem modelos de consumo de despesas operacionais para CapEx adiantado ou leasing. 
+---
+= Saiba mais sobre o NetApp Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O NetApp Keystone (Keystone) é um modelo de serviço baseado em subscrição e com pagamento conforme o uso. Ele oferece uma experiência otimizada de nuvem híbrida para empresas que preferem modelos de consumo de despesas operacionais para CapEx adiantado ou aluguel.
+
+O Keystone permite que os clientes acelerem o retorno do investimento reduzindo os obstáculos no gerenciamento do crescimento imprevisível da capacidade e dos ciclos de aquisição complexos. Com o Keystone, os clientes podem alinhar economia e operações às prioridades de negócios.
+
+image:nkfsosm_image2.png["keystone"]
+
+O Keystone oferece capacidade de storage em níveis de serviço predefinidos para tipos de dados de bloco, arquivo e objeto que podem ser implantados no local e operados pela NetApp, um parceiro ou cliente. O Keystone pode ser usado em associação com os serviços de nuvem da NetApp, como o Cloud Volumes ONTAP, que pode ser implantado em um ambiente hyperscalar de sua preferência.
+
+Uma subscrição do Keystone está associada a planos de tarifas. Pode haver vários planos de taxa anexados a uma única assinatura.
+
+
+
+== Storage como serviço do Keystone (STaaS)
+
+As ofertas de storage como serviço (STaaS) visam fornecer um modelo semelhante à nuvem pública para a aquisição, implantação e gerenciamento da infraestrutura de storage. Embora a maioria das empresas ainda esteja trabalhando em sua estratégia de nuvem híbrida, você, como cliente, pode optar por um modelo de consumo _pay-per-use_ baseado em OpEx. Você pode ter um mandato para mover todas as suas cargas de trabalho para a nuvem em algum momento e ainda não ter um plano ou cronograma claros para migrar partes específicas ou todas as suas cargas de trabalho para a nuvem. O Keystone STaaS oferece a flexibilidade para você começar com serviços no local e decidir, posteriormente, sobre os workloads certos e o tempo de migração para a nuvem. O Keystone STaaS fornece proteção de compromisso em todos os modelos de implantação. Em vez de pagar mais por serviços de nuvem, você, como cliente no local, pode realocar seus gastos no local para adicionar serviços de nuvem e pagar essencialmente a mesma fatura mensal comprometida antes dessa realocação.
+
+*Informações relacionadas*
+
+* link:../concepts/pricing.html["Preços do Keystone"]
+* link:../concepts/add-on.html["Serviços complementares no Keystone STaaS"]
+* link:../concepts/service-levels.html["Níveis de serviço no Keystone"]
+* link:../concepts/infra.html["Infraestrutura do Keystone"]
+* link:../concepts/operational-models.html["Modelos operacionais em Keystone"]
+

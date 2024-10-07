@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concepts/committed-capacity-billing.html 
+keywords: Billing based on committed capacity, committed capacity billing 
+summary: Capacidade comprometida é a capacidade comprometida em um nível de serviço específico durante a compra da assinatura. 
+---
+= Cobrança baseada na capacidade comprometida
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Capacidade comprometida é a capacidade comprometida em um nível de serviço específico durante a compra da assinatura.
+
+A capacidade comprometida pode ser a capacidade total de vários níveis de serviço em uma única subscrição, conforme aceito por você e pela NetApp/parceiro. Essa capacidade é indicada em cada pedido do Keystone e é cobrada, independentemente do consumo de capacidade real.
+
+Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .

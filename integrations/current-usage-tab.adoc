@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: integrations/current-usage-tab.html 
+keywords: keystone-aiq, digital advisor keystone, current consumption tab 
+summary: Para entender o uso da assinatura, você pode visualizar a capacidade comprometida, a capacidade consumida, a capacidade disponível e muito mais. 
+---
+= Veja o consumo atual de suas assinaturas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para entender o uso da assinatura, você pode visualizar os detalhes de uso, como capacidade comprometida, capacidade consumida, capacidade disponível e muito mais.
+
+Para visualizar esta guia, no painel de navegação esquerdo, vá para *GENERAL > Keystone Subscriptions > Current Consumption* e selecione o número de assinatura necessário.
+
+image:aiq-ks-dtls-3.png["Separador consumo de corrente"]
+
+Para a assinatura selecionada, você pode exibir detalhes, como as datas de início e término da assinatura e o período de faturamento, como mensal ou anual. Como parte do uso da assinatura, você pode visualizar o nome do nível de serviço, comprometido, consumido, as capacidades disponíveis e o uso de estouro atual e acumulado (no TIB).
+
+
+TIP: O image:icon-info.png["ícone de informação"] ícone ao lado de cada coluna fornece informações abrangentes sobre essa coluna. Níveis de serviço específicos que Registram maior consumo são destacados. Também pode ver avisos e alertas gerados para os seus volumes.
+
+Para obter informações sobre os serviços de storage do Keystone e os níveis de serviço relevantes, link:../concepts/service-levels.html["Níveis de serviço no Keystone"]consulte .
+
+Juntamente com o consumo atual, você pode querer ver os dados de uso do histórico para comparação. Clique no botão *Exibir dados históricos* para navegar até a guia *tendência de consumo* para exibir os dados históricos da mesma assinatura.
+
+*Informações relacionadas*
+
+* link:../integrations/aiq-keystone-details.html["Use o painel e a geração de relatórios do Keystone"]
+* link:../integrations/subscriptions-tab.html["Subscrições"]
+* link:../integrations/capacity-trend-tab.html["Tendência de consumo"]
+* link:../integrations/volumes-objects-tab.html["Objetos  volumes"]
+* link:../integrations/assets-tab.html["Separador ativos"]
+* link:../integrations/performance-tab.html["Desempenho"]
+

@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-flow.html 
+keywords: data flow 
+summary: Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e pela ferramenta de solução AIOps, que é o sistema de monitoramento associado. 
+---
+= Fluxo de dados do Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e pela ferramenta de solução AIOps, que é o sistema de monitoramento associado.
+
+
+
+== Fluxo de dados do Keystone Collector
+
+O Keystone Collector inicia chamadas de API REST para os controladores de storage e obtém detalhes de uso dos controladores periodicamente, como indicado neste diagrama de fluxo:
+
+image:collector-data-flow.png["mostra o fluxo de dados dentro dos componentes do coletor"]
+
+.Legenda
+. O NetApp Collector inicia uma sessão HTTPS para o portal de nuvem do active IQ.
+. O firewall operado pelo cliente permite a conexão.
+. O portal da nuvem do Active IQ aceita a conexão e estabelece um túnel para o Coletor de NetApp.
+. O coletor NetApp estabelece uma sessão de API REST para a conexão de gerenciamento do controlador de storage, obtém dados ambientais e os envia para o portal Active IQ.
+
+
+
+
+== Monitoramento de fluxos de dados
+
+O monitoramento contínuo da integridade da infraestrutura de storage é um dos recursos mais importantes do serviço do Keystone. Para monitoramento e geração de relatórios, o Keystone usa a solução AIOps, que precisa de acesso remoto à rede do cliente. A imagem a seguir descreve como o acesso remoto à localização do cliente é protegido pela ferramenta de solução AIOps.
+
+image:monitoring-flow.png["fluxo de dados"]
+
+.Legenda
+. O gateway da solução AIOps inicia uma sessão TLS para o portal da nuvem.
+. O firewall operado pelo cliente permite a conexão.
+. O servidor da solução AIOps na nuvem aceita a conexão.
+. Um túnel TLS é estabelecido entre o portal da nuvem e o gateway local.
+. Os controladores NetApp enviam alertas usando o protocolo SNMP ou respondem a solicitações de API para o gateway local.
+. O gateway local envia esses alertas para seu portal de nuvem usando a sessão TLS, que foi estabelecida anteriormente.
+

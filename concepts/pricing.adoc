@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: concepts/pricing.html 
+keywords: pricing, billing introduction, Keystone billing 
+summary: O Keystone oferece um modelo de pagamento conforme o uso para suas necessidades de consumo flexível e dimensionável. 
+---
+= Preços do Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se você preferir o modelo de consumo de despesas operacionais (OpEx) em despesas de capital (CapEx) ou leasing, pode optar pelo modelo de pagamento conforme o uso do NetApp Keystone STaaS, que oferece consumo flexível e dimensionável com preços previsíveis e iniciais para a sua subscrição de storage.
+
+O Keystone oferece as seguintes instalações de cobrança:
+
+* Você pode pagar com base em IOPS e latência da capacidade comprometida para atender a várias necessidades de workload. As diferentes categorias de serviço de performance: Extreme, Premium, Performance, Standard, Value e Object permitem que você gerencie seu storage com base no nível de serviço adquirido.
+* Ele apresenta cobrança previsível para a capacidade comprometida e pagamento por uso para uso de capacidade variável (sobrecarga).
+* Você pode selecionar um preço de pacote para hardware, sistema operacional central e suporte por um preço por TIB. Você tem uma única fatura para cada tipo de storage, arquivo, bloco, objeto ou serviços de storage de nuvem.
+* Selecione um prazo flexível para os serviços e pagamento: Você pode optar por 12 meses, 25TiB ou mais por site. Depois disso, você pode renovar automaticamente por 12 meses.
+
+
+A cobrança do Keystone é baseada na capacidade comprometida e no consumo de sobrecarga variável.
+
+Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .
+
+*Informações relacionadas*
+
+* link:../concepts/committed-capacity-billing.html["Cobrança baseada na capacidade comprometida"]
+* link:../concepts/consumed-capacity-billing.html["Medição baseada na capacidade consumida"]
+* link:../concepts/burst-consumption-billing.html["Cobrança baseada no consumo de expansões sazonais"]
+* link:../concepts/misc-volume-billing.html["Faturação baseada em tipos de volume diversos"]
+* link:../concepts/billing-schedules.html["Horários de faturamento"]
+

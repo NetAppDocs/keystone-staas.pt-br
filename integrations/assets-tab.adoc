@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets-tab.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
+summary: Use a guia ativos para exibir detalhes sobre os clusters e nós gerenciados pelas assinaturas do Keystone. 
+---
+= Visualize os detalhes do cluster e do nó gerenciados pelo Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Use a guia *Assets* para exibir detalhes sobre os clusters e nós gerenciados pelas assinaturas do Keystone.
+
+O Digital Advisor fornece informações abrangentes em nível de inventário de suas implantações. A aba *Assets* do painel do Keystone, por outro lado, acumula as informações no nível do cluster com base em suas assinaturas e separa-as e apresenta o nível preciso de detalhes.
+
+.Passos
+. Clique em *GENERAL > Keystone Subscriptions > Assets*.
+. Selecione o número da assinatura para o qual você deseja exibir os clusters.
++
+Você vê os detalhes do cluster, discriminados por configurações de eficiência de storage, tipo de plataforma e detalhes de capacidade. Clicar em um dos clusters leva você ao widget *clusters* na tela Digital Advisor, onde você obtém informações adicionais para esse cluster.
+
+
+
+image:assets-tab-3.png["Separador ativos"]
+
+*Informações relacionadas*
+
+* link:../integrations/aiq-keystone-details.html["Use o painel e a geração de relatórios do Keystone"]
+* link:../integrations/subscriptions-tab.html["Subscrições"]
+* link:../integrations/current-usage-tab.html["Consumo de corrente"]
+* link:../integrations/volumes-objects-tab.html["Objetos  volumes"]
+* link:../integrations/capacity-trend-tab.html["Tendência de consumo"]
+* link:../integrations/performance-tab.html["Desempenho"]
+

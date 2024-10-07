@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/monitor.html 
+keywords: monitoring system health 
+summary: Para garantir que os dados estejam disponíveis, você pode monitorar a integridade do Keystone Collector usando qualquer sistema de monitoramento compatível com solicitações HTTP. 
+---
+= Monitore o funcionamento do Keystone Collector no modo privado
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode monitorar a integridade do Keystone Collector usando qualquer sistema de monitoramento compatível com solicitações HTTP.
+
+Por padrão, os serviços de integridade do Keystone não aceitam conexões de qualquer IP diferente do localhost. O endpoint de integridade do Keystone é `/uber/health`, e ele escuta todas as interfaces do servidor Keystone Collector na porta `7777`. Na consulta, um código de status de solicitação HTTP com uma saída JSON é retornado do endpoint como uma resposta, descrevendo o status do sistema Keystone Collector. O corpo JSON fornece um status geral de integridade para o `is_healthy` atributo, que é um booleano; e uma lista detalhada de status por componente para o `component_details` atributo. Aqui está um exemplo:
+
+[listing]
+----
+$ curl http://127.0.0.1:7777/uber/health
+{"is_healthy": true, "component_details": {"vicmet": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+----
+Estes códigos de estado são devolvidos:
+
+* *200*: indica que todos os componentes monitorados estão saudáveis
+* *503*: indica que um ou mais componentes não são saudáveis
+* *403*: Indica que o cliente HTTP que consulta o status de integridade não está na lista _allow_, que é uma lista de CIDR de rede permitidos. Para esse status, nenhuma informação de saúde é retornada.
++
+A lista _allow_ usa o método CIDR de rede para controlar quais dispositivos de rede têm permissão para consultar o sistema de integridade do Keystone. Se você receber o erro 403, adicione seu sistema de monitoramento à lista _allow_ de *Keystone Collector Management TUI > Configure > Health Monitoring*.
+
++
+image:cidr-list.png["cidrs de rede permitidos"]
+
+
+
+
+
+== Gerar e coletar pacotes de suporte
+
+Para solucionar problemas com o Keystone Collector, você pode trabalhar com o suporte da NetApp que pode pedir um arquivo _.tar_. Você pode gerar esse arquivo por meio do utilitário TUI de gerenciamento do Keystone Collector.
+
+Siga estas etapas para gerar um arquivo _.tar_:
+
+. Vá para *Troubleshooting > Generate Support Bundle*.
+. Selecione o local para salvar o pacote e clique em *Generate Support Bundle*.
++
+image:dark-site-generate-support-bundle-1.png["Gerar pacote de suporte"]
+
++
+Esse processo cria um `tar` pacote no local mencionado que pode ser compartilhado com o NetApp para solucionar problemas.
+
+. Quando o arquivo é baixado, você pode anexá-lo ao ticket de suporte do Keystone ServiceNow. Para obter informações sobre como levantar tickets, link:../concepts/gssc.html["Gerando solicitações de serviço"]consulte .
+

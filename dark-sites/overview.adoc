@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/overview.html 
+keywords: keystone, dark, site, staas, security, deployment, collector, encryption, access 
+summary: O Keystone oferece um modo de implantação _private_, também conhecido como _dark site_, para atender aos requisitos de negócios e segurança. 
+---
+= Saiba mais sobre o Keystone (modo privado)
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Keystone oferece um modo de implantação _private_, também conhecido como _dark site_, para atender aos requisitos de negócios e segurança. Este modo está disponível para organizações com restrições de conetividade.
+
+A NetApp oferece uma implantação especializada do Keystone STaaS desenvolvido para ambientes com conetividade limitada ou sem Internet (também conhecidos como dark sites). Estes são ambientes seguros ou isolados onde a comunicação externa é restrita devido a requisitos de segurança, conformidade ou operacionais.
+
+Para a NetApp Keystone, oferecer serviços para locais escuros significa fornecer o serviço de subscrição de storage flexível do Keystone de uma forma que respeite as restrições desses ambientes. Isso envolve:
+
+* * Implantação local*: O Keystone pode ser configurado em ambientes isolados de forma independente, garantindo que não haja necessidade de conetividade à Internet ou pessoal externo para acesso à configuração.
+* *Operações off-line*: Todos os recursos de gerenciamento de armazenamento com verificações de integridade e faturamento estão disponíveis off-line para operações.
+* *Segurança e conformidade*: O Keystone garante que a implantação atenda aos requisitos de segurança e conformidade de sites obscuros, que podem incluir criptografia avançada, controles de acesso seguro e recursos de auditoria detalhados.
+* *Ajuda e suporte*: O NetApp oferece suporte global 24/7 horas por dia, 7 dias por semana, com um gerente de sucesso dedicado do Keystone designado a cada conta para obter assistência e solução de problemas.
+
+
+
+NOTE: O Keystone Collector pode ser configurado sem restrições de conetividade, também conhecido como modo _standard_. Para saber mais, link:../installation/installation-overview.html["Saiba mais sobre o Keystone Collector"]consulte .
+
+
+
+== Keystone Collector em modo privado
+
+O Keystone Collector é responsável por coletar periodicamente dados de uso de sistemas de storage e exportar as métricas para um repórter de uso off-line e um armazenamento de arquivos local. Os arquivos gerados, que são criados nos formatos de texto criptografado e sem formatação, são encaminhados manualmente para o NetApp pelo usuário após as verificações de validação. Após o recebimento, a plataforma de cobrança do Keystone da NetApp autentica e processa esses arquivos, integrando-os aos sistemas de gerenciamento de assinaturas e cobrança para calcular os encargos mensais.
+
+image:dark-sites-diagram-computer-system.png["Diagrama de um sistema informático"]
+
+O serviço Keystone Collector no servidor tem a tarefa de coletar periodicamente dados de uso, processar essas informações e gerar um arquivo de uso localmente no servidor. O serviço de saúde realiza verificações de integridade do sistema e é projetado para fazer interface com os sistemas de monitoramento de integridade usados pelo cliente. Esses relatórios estão disponíveis para acesso off-line pelos usuários, permitindo a validação e auxiliando na solução de problemas.
+
+image:dark-sites-customer-premise.png["premissa do cliente"]

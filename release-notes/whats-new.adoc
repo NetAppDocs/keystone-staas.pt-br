@@ -1,0 +1,215 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: 'new features, release notes, enhancements, what"s new' 
+summary: A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços do Keystone STaaS. 
+---
+= Novidades do Keystone STaaS
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços do Keystone STaaS.
+
+Os seguintes aprimoramentos são introduzidos na tela *assinaturas do Keystone* do consultor digital da Active IQ (também conhecido como consultor digital):
+
+
+
+== 10 de julho de 2024
+
+
+
+=== Modificações na etiqueta
+
+O rótulo *uso atual* é alterado para *consumo atual* e *tendência de capacidade* é alterado para *tendência de consumo*.
+
+
+
+=== Barra de pesquisa para assinaturas
+
+O menu suspenso *assinaturas* em todas as guias na tela *assinaturas do Keystone* agora inclui uma barra de pesquisa. Você pode pesquisar assinaturas específicas listadas no menu suspenso *assinaturas*.
+
+
+
+== 27 de junho de 2024
+
+
+
+=== Exibição consistente da assinatura
+
+A tela *Keystone Subscriptions* é atualizada para exibir o número de assinatura selecionado em todas as guias.
+
+* Quando qualquer guia na tela *assinaturas do Keystone* é atualizado, a tela navega automaticamente para a guia *assinaturas* e redefine todas as guias para a primeira assinatura listada no menu suspenso *assinatura*.
+* Se a assinatura selecionada não for subscrita às métricas de desempenho, a guia *desempenho* exibirá a primeira assinatura listada no menu suspenso *assinatura* após a navegação.
+
+
+
+
+== 29 de maio de 2024
+
+
+
+=== Indicador de Burst melhorado
+
+O indicador *Burst* no índice do gráfico de uso é aprimorado para exibir o valor da porcentagem do limite de burst. Esse valor muda dependendo do limite de estouro acordado para uma assinatura. Você também pode visualizar o valor limite de burst na guia *assinaturas* passando o Mouse sobre o indicador *Burst Usage* na coluna *Usage Status*.
+
+
+
+=== Adição de níveis de serviço
+
+Os níveis de serviço *CVO Primary* e *CVO Secondary* estão incluídos para oferecer suporte ao Cloud Volumes ONTAP para assinaturas que tenham planos de taxa com zero capacidade comprometida ou configuradas com um cluster de Metrô.
+
+* Você pode visualizar o gráfico de uso de capacidade para esses níveis de serviço a partir do painel antigo do widget *Keystone Subscriptions* e da guia *Capacity Trend*, além de informações detalhadas de uso na guia *Current Usage*.
+* Na guia *assinaturas*, esses níveis de serviço são exibidos como `CVO (v2)` na coluna *tipo de uso*, permitindo a identificação da cobrança de acordo com esses níveis de serviço.
+
+
+
+
+=== Funcionalidade de ampliação para rajadas de curto prazo
+
+A guia *tendência de capacidade* agora inclui um recurso de zoom para exibir os detalhes de picos de curto prazo nos gráficos de uso. Para obter mais informações, link:../integrations/capacity-trend-tab.html["Separador tendência capacidade"^]consulte .
+
+
+
+=== Exibição aprimorada de assinaturas
+
+A exibição padrão de assinaturas é aprimorada para classificar por ID de rastreamento. As assinaturas na guia *assinaturas*, inclusive nos relatórios de *assinatura* e CSV, agora serão exibidas com base na sequência alfabética dos IDs de rastreamento, seguindo a ordem de a, A, b, B, e assim por diante.
+
+
+
+=== Ecrã de sequência acumulada melhorado
+
+A dica de ferramenta que aparece ao passar o Mouse sobre o gráfico de barra de uso de capacidade na guia *tendência de capacidade* agora exibe o tipo de explosão acumulada com base na capacidade comprometida. Ele diferencia entre o estouro acumulado provisório e faturado, mostrando *consumo acumulado provisório* e *consumo acumulado faturado* para assinaturas com planos de taxa de capacidade comprometida zero e *explosão acumulada provisória* e *explosão acumulada faturada* para aqueles com capacidade não zero comprometida.
+
+
+
+== 9 de maio de 2024
+
+
+
+=== Novas colunas nos relatórios CSV
+
+Os relatórios CSV da guia *tendência de capacidade* agora incluem as colunas *número de assinatura* e *Nome da conta* para detalhes aprimorados.
+
+
+
+=== Coluna Enhanced Usage Type
+
+A coluna *tipo de uso* na guia *assinaturas* é aprimorada para exibir usos lógicos e físicos como valores separados por vírgula para assinaturas que cobrem níveis de serviço para arquivos e objetos.
+
+
+
+=== Acesse os detalhes do armazenamento de objetos na guia Detalhes do volume
+
+A guia *Detalhes do volume* na guia *volumes & objetos* agora fornece detalhes de armazenamento de objetos juntamente com informações de volume para assinaturas que incluem níveis de serviço para arquivos e objetos. Você pode clicar no botão *Detalhes do armazenamento de objetos* na guia *Detalhes do volume* para exibir os detalhes.
+
+
+
+== 28 de março de 2024
+
+
+
+=== A melhoria da conformidade com a política de QoS é exibida na guia Detalhes do volume
+
+A guia *Detalhes do volume* na guia *volumes & objetos* agora oferece melhor visibilidade da conformidade com a política de qualidade do serviço (QoS). A coluna anteriormente conhecida como *AQM* é renomeada para *compliant*, o que indica se a política de QoS está em conformidade. Além disso, uma nova coluna *QoS Policy Type* é adicionada, que especifica se a política é fixa ou adaptável. Se nenhum dos dois se aplicar, a coluna exibirá _não disponível_. Para obter mais informações, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+
+
+
+=== Nova coluna e assinatura simplificada são exibidos na guia Resumo de volume
+
+* A guia *Resumo do volume* dentro da guia *volumes & objetos* agora inclui uma nova coluna intitulada *protegido*. Esta coluna fornece uma contagem dos volumes protegidos associados aos níveis de serviço subscritos. Se você clicar no número de volumes protegidos, ele o levará para a guia *Detalhes do volume*, onde você pode exibir uma lista filtrada de volumes protegidos.
+* A guia *Resumo de volume* é atualizada para exibir somente assinaturas básicas, excluindo serviços adicionais. Para obter mais informações, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+
+
+
+
+=== Mude para a exibição de detalhes acumulados na guia tendência de capacidade
+
+A dica de ferramenta que aparece ao passar o Mouse sobre o gráfico de barra de uso de capacidade na guia *tendência de capacidade* exibirá os detalhes de explosões acumuladas para o mês atual. Os detalhes não estarão disponíveis nos meses anteriores.
+
+
+
+=== Acesso aprimorado para exibir dados históricos das assinaturas do Keystone
+
+Agora você pode exibir os dados históricos se uma assinatura do Keystone for modificada ou renovada. Pode definir a data de início de uma subscrição para uma data anterior para visualizar :
+
+* Consumo e dados de uso de expansões acumuladas na guia *tendência de capacidade*,
+* Métricas de desempenho de volumes ONTAP na guia *desempenho*,
+
+
+todos os quais mostram os dados com base na data selecionada da assinatura.
+
+
+
+== 29 de fevereiro de 2024
+
+
+
+=== Adição da guia ativos
+
+A tela *Keystone Subscriptions* agora inclui a guia *Assets*. Esta nova guia fornece informações no nível do cluster com base em suas assinaturas. Para obter mais informações, link:../integrations/assets-tab.html["Separador ativos"^]consulte .
+
+
+
+=== Melhorias no separador volumes e objetos
+
+Para proporcionar maior clareza aos volumes do sistema ONTAP, dois novos botões de guia, *Resumo do volume* e *Detalhes do volume*, foram adicionados à guia *volumes*. A guia *Resumo de volume* fornece uma contagem geral dos volumes associados aos níveis de serviço subscritos, incluindo o status de conformidade do AQoS e as informações de capacidade. A guia *Detalhes do volume* lista todos os volumes e suas especificidades. Para obter mais informações, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+
+
+
+=== Experiência de pesquisa aprimorada no Digital Advisor
+
+Os parâmetros de pesquisa na tela *Digital Advisor* agora incluem números de assinatura do Keystone e listas de observação criadas para assinaturas do Keystone. Você pode inserir os três primeiros carateres de um número de assinatura ou nome da lista de observação. Para obter mais informações, link:../integrations/keystone-aiq.html["Veja o dashboard do Keystone no consultor digital do Active IQ"^]consulte .
+
+
+
+=== Exibir o carimbo de data/hora dos dados de consumo
+
+Você pode ver o carimbo de data/hora dos dados de consumo (em UTC) no painel antigo do widget *Keystone Subscriptions*.
+
+
+
+== 13 de fevereiro de 2024
+
+
+
+=== Capacidade de visualizar subscrições associadas a uma subscrição primária
+
+Algumas de suas assinaturas principais podem ter assinaturas secundárias vinculadas. Se for esse o caso, o número de assinatura principal continuará a ser exibido na coluna *número de assinatura*, enquanto os números de assinatura vinculados serão listados em uma nova coluna *assinaturas vinculadas* na guia *assinaturas*. A coluna *assinaturas vinculadas* só estará disponível se você tiver assinaturas vinculadas e poderá ver mensagens de informações notificando você sobre elas.
+
+
+
+== 11 de janeiro de 2024
+
+
+
+=== Dados faturados devolvidos para estouro acumulado
+
+Os rótulos para *Acumulado Burst* agora são modificados para *Faturado Acumulado Burst* na guia *tendência de capacidade*. Selecionar esta opção permite visualizar os gráficos mensais dos dados de pico acumulado faturado. Para obter mais informações, link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Ver sequência acumulada faturada"^]consulte .
+
+
+
+=== Detalhes de consumo acumulados para planos de taxas específicos
+
+Se você tiver uma assinatura que tenha planos de taxa com capacidade comprometida _zero_, poderá visualizar os detalhes do consumo acumulado na guia *tendência de capacidade*. Ao selecionar a opção *consumo acumulado faturado*, você pode visualizar os gráficos mensais para os dados de consumo acumulado faturado.
+
+
+
+== 15 de dezembro de 2023
+
+
+
+=== Capacidade de pesquisar por listas de observação
+
+O suporte para listas de observação no Digital Advisor foi estendido para incluir sistemas Keystone. Agora você pode ver os detalhes das assinaturas de vários clientes pesquisando com listas de observação. Para obter mais informações sobre o uso de listas de observação no Keystone STaaS, link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["PESQUISE por Keystone watchlists"^]consulte .
+
+
+
+=== Data convertida para fuso horário UTC
+
+Os dados retornados nas guias da tela *Keystone Subscriptions* do Digital Advisor são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para obter mais informações, link:../integrations/aiq-keystone-details.html["Painel e geração de relatórios do Keystone Subscription"^]consulte .

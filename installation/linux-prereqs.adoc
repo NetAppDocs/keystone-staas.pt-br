@@ -1,0 +1,238 @@
+---
+sidebar: sidebar 
+permalink: installation/linux-prereqs.html 
+keywords: prerequisites, Linux 
+summary: Prepare seu sistema Linux com o software necessário antes de instalar o Keystone Collector. 
+---
+= Requisitos do sistema Linux
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Preparar seu sistema Linux com o software necessário garante a instalação precisa e a coleta de dados pelo Keystone Collector.
+
+Certifique-se de que a VM do servidor do Keystone Collector Linux e do Keystone tenha essas configurações.
+
+.Servidor Linux:
+* Sistema operacional: CentOS 7, Red Hat Enterprise Linux (RHEL) 8,6 ou versões posteriores da série RHEL 8.x.
+* Cronyd tempo sincronizado
+* Acesso aos repositórios de software padrão do Linux
+
+
+O mesmo servidor também deve ter os seguintes pacotes de terceiros:
+
+* Podman (POD Manager)
+* sos
+* cronologia
+* python 3 (3.6.8 a 3,9.13)
+
+
+.Servidor VM do Keystone Collector:
+* Núcleo: 2 CPUs
+* RAM: 4 GB DE RAM
+* Espaço em disco: 50 GB vDisk
+
+
+
+
+== Outros requisitos
+
+Certifique-se de que os seguintes requisitos genéricos são cumpridos:
+
+
+
+=== Requisitos de rede
+
+Os requisitos de rede do Keystone Collector estão listados na tabela a seguir.
+
+
+NOTE: O Keystone Collector requer conetividade com a Internet. Você pode fornecer conetividade à Internet por roteamento direto através do Gateway padrão (via NAT) ou através do proxy HTTP. Ambas as variantes são descritas aqui.
+
+|===
+
+
+| Fonte | Destino | Serviço | Protocolo e portas | Categoria | Finalidade 
+
+
+ a| 
+Coletor Keystone (para Keystone ONTAP)
+ a| 
+Active IQ Unified Manager (Gerenciador unificado)
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+Obrigatório (se estiver usando o Keystone ONTAP)
+ a| 
+Coleção de métricas de uso do Keystone Collector para ONTAP
+
+
+
+ a| 
+Coletor Keystone (para Keystone StorageGRID)
+ a| 
+Nós de administração do StorageGRID
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+Obrigatório (se estiver usando o Keystone StorageGRID)
+ a| 
+Coleção de métricas de uso do Keystone Collector para StorageGRID
+
+
+
+ a| 
+Keystone Collector (genérico)
+ a| 
+Internet (de acordo com os requisitos de URL fornecidos posteriormente)
+ a| 
+HTTPS
+ a| 
+TCP 80, TCP 443
+ a| 
+Obrigatório (ligação à Internet)
+ a| 
+O software Keystone Collector, atualizações do sistema operacional e upload de métricas
+
+
+
+ a| 
+Keystone Collector (genérico)
+ a| 
+Proxy HTTP do cliente
+ a| 
+Proxy HTTP
+ a| 
+Porta proxy do cliente
+ a| 
+Obrigatório (ligação à Internet)
+ a| 
+O software Keystone Collector, atualizações do sistema operacional e upload de métricas
+
+
+
+ a| 
+Keystone Collector (genérico)
+ a| 
+Servidores DNS do cliente
+ a| 
+DNS
+ a| 
+TCP/UDP 53
+ a| 
+Obrigatório
+ a| 
+Resolução DNS
+
+
+
+ a| 
+Keystone Collector (genérico)
+ a| 
+Servidores NTP do cliente
+ a| 
+NTP
+ a| 
+UDP 123
+ a| 
+Obrigatório
+ a| 
+Sincronização de tempo
+
+
+
+ a| 
+Coletor Keystone (para Keystone ONTAP)
+ a| 
+Unified Manager
+ a| 
+MYSQL
+ a| 
+TCP 3306
+ a| 
+Funcionalidade opcional
+ a| 
+Coleção de métricas de desempenho para o Keystone Collector
+
+
+
+ a| 
+Keystone Collector (genérico)
+ a| 
+Sistema de monitorização de clientes
+ a| 
+HTTPS
+ a| 
+TCP 7777
+ a| 
+Funcionalidade opcional
+ a| 
+Relatório de integridade do Keystone Collector
+
+
+
+ a| 
+Estações de trabalho de operações do cliente
+ a| 
+Keystone Collector
+ a| 
+SSH
+ a| 
+TCP 22
+ a| 
+Gerenciamento
+ a| 
+Acesso ao gerenciamento do Keystone Collector
+
+
+
+ a| 
+Endereços de gerenciamento de nós e clusters do NetApp ONTAP
+ a| 
+Keystone Collector
+ a| 
+HTTP_8000, PING
+ a| 
+TCP 8000, ICMP Echo Request/Reply
+ a| 
+Funcionalidade opcional
+ a| 
+Servidor Web para atualizações de firmware do ONTAP
+
+|===
+
+NOTE: A porta padrão para MySQL, 3306, é restrita apenas ao localhost durante uma nova instalação do Unified Manager, o que impede a coleção de métricas de desempenho para o Keystone Collector. Para obter mais informações, link:addl-req.html["Requisitos da ONTAP"]consulte .
+
+
+
+=== Acesso a URL
+
+O Keystone Collector precisa de acesso aos seguintes hosts de internet:
+
+|===
+
+
+| Endereço | Motivo 
+
+
+ a| 
+https://keystone.netapp.com[]
+ a| 
+Atualizações do software Keystone Collector e relatórios de uso
+
+
+
+ a| 
+https://support.netapp.com[]
+ a| 
+Sede da NetApp para informações de faturamento e entrega do AutoSupport
+
+|===

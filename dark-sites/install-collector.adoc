@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/install-collector.html 
+keywords: install, keystone, collector, private, mode, vmware vsphere, linux, deploy, debian, rpm file 
+summary: Conclua algumas etapas para instalar o Keystone Collector em um ambiente que não tenha acesso à Internet, também conhecido como _dark site_ ou _private mode_. 
+---
+= Instale o Keystone Collector no modo privado
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Conclua algumas etapas para instalar o Keystone Collector em um ambiente que não tenha acesso à Internet, também conhecido como _dark site_ ou _private mode_. Este tipo de instalação é perfeito para seus sites seguros.
+
+Você pode implantar o Keystone Collector em sistemas VMware vSphere ou instalá-lo em sistemas Linux, dependendo dos seus requisitos. Siga as etapas de instalação que correspondem à opção selecionada.
+
+
+
+== Implante no VMware vSphere
+
+Siga estes passos:
+
+. Transfira o ficheiro de modelo OVA a partir de https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova["Portal web da NetApp Keystone"].
+. Para obter instruções sobre como implantar o Keystone Collector com arquivo OVA, consulte a link:../installation/vapp-installation.html#deploying-the-ova-template["Implantando o modelo OVA"]seção .
+
+
+
+
+== Instale no Linux
+
+O software Keystone Collector é instalado no servidor Linux usando os arquivos .deb ou .rpm fornecidos, com base na distribuição Linux.
+
+Siga estes passos para instalar o software no seu servidor Linux:
+
+. Baixe ou transfira o arquivo de instalação do Keystone Collector para o servidor Linux:
++
+`keystone-collector-<version>.noarch.rpm`
+
+. Abra um terminal no servidor e execute os seguintes comandos para iniciar a instalação.
++
+** *Usando o pacote Debian*
++
+`dpkg -i keystone-collector_<version>_all.deb`
+
+** *Usando arquivo RPM*
++
+`yum install keystone-collector-<version>.noarch.rpm`
+
++
+ou
+
++
+`rpm -i keystone-collector-<version>.noarch.rpm`
+
+
+
+. Digite `y` quando solicitado a instalar o pacote.
+

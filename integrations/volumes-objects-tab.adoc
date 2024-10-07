@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: integrations/volumes-objects-tab.html 
+keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
+summary: Exibir detalhes de capacidade no nível de storage de volume ou objeto. 
+---
+= Exibir detalhes sobre o ONTAP volumes e o storage de objetos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se quiser ver os detalhes da capacidade no nível de armazenamento de volume ou objetos, pode navegar para *volumes e objetos*. Para o StorageGRID, use essa guia para ler o uso pelos nós individuais em seu ambiente de storage de objetos.
+
+
+NOTE: O título desta guia varia de acordo com a natureza da implantação em seu site. Se você tiver armazenamento de objetos e ONTAP, o título da guia será exibido como *volumes e objetos*. Apenas para ONTAP, o nome aparece *volumes*. Para armazenamento de objetos StorageGRID, você pode ver a guia *Objects*.
+
+
+
+== Visualizar os detalhes do ONTAP volumes e do storage de objetos
+
+A guia *volumes e objetos* oferece informações sobre os volumes do sistema ONTAP e o armazenamento de objetos em diferentes níveis de detalhe. Para volumes ONTAP, existem duas subguias: *Resumo de volume*, que fornece uma contagem geral dos volumes mapeados para os níveis de serviço subscritos, e *Detalhes de volume*, que lista esses volumes novamente com seus dados específicos. A subguia *Objects* fornece detalhes sobre o armazenamento de objetos para assinaturas que incluem níveis de serviço para armazenamento de arquivos e objetos.
+
+
+NOTE: A subguia *Objects* não está disponível na guia *volumes* e, dentro da guia *Objects*, as subguias *volume Summary* e *volume Details* não contêm dados.
+
+[role="tabbed-block"]
+====
+.Resumo do volume
+--
+. Clique em *GENERAL > Keystone Subscriptions > volumes & Objects > volume Summary*.
+. Selecione o número da subscrição.
++
+Para a subscrição do Keystone STaaS selecionada, você pode ver o número total de volumes, o status de conformidade de QoS, a contagem de volumes protegidos e a capacidade total de compromisso, consumo e disponível em todos esses volumes. Se você clicar no número de volumes não compatíveis ou protegidos, ele o levará para a guia *Detalhes do volume*, onde você pode exibir uma lista filtrada mostrando os volumes não compatíveis ou os volumes protegidos, com base em sua seleção.
+
++
+image:volume-summary-2.png["Separador Resumo do volume"]
+
+
+
+--
+.Detalhes do volume
+--
+. Clique em *GENERAL > Keystone Subscriptions > volumes > volume Details*.
+. Selecione o número da subscrição.
++
+Você pode ver a lista tabular dos volumes, como uso da capacidade, tipo de volume, cluster, agregado e os níveis de serviço do Keystone atribuídos. Você pode rolar pelas colunas e aprender mais sobre elas passando o Mouse sobre os ícones de informações ao lado dos cabeçalhos das colunas. Você pode classificar pelas colunas e filtrar as listas para exibir informações específicas.
+
++
+
+NOTE: Para o serviço complementar de proteção de dados avançada, uma coluna adicional aparece para indicar se o volume é um volume primário ou espelhado na configuração do MetroCluster. Você pode copiar números de série de nós individuais clicando no botão *Copiar Séries de nós*.
+
++
+image:volume-details-3.png["Separador Detalhes volumes"]
+
+
+
+--
+.Objetos
+--
+. Clique em *GENERAL > Keystone Subscriptions > Objects* (GERAL > assinaturas do Keystone > objetos).
+. Selecione o número da subscrição. Por padrão, o primeiro número de assinatura disponível será selecionado se a assinatura selecionada anteriormente não incluir níveis de serviço para armazenamento de arquivos e objetos.
++
+
+NOTE: No StorageGRID, essa guia exibe o uso físico dos nós para storage de objetos.
+
++
+image:objects-details.png["Separador objetos"]
+
+
+
+--
+====
+*Informações relacionadas*
+
+* link:../integrations/aiq-keystone-details.html["Use o painel e a geração de relatórios do Keystone"]
+* link:../integrations/subscriptions-tab.html["Subscrições"]
+* link:../integrations/current-usage-tab.html["Consumo de corrente"]
+* link:../integrations/capacity-trend-tab.html["Tendência de consumo"]
+* link:../integrations/assets-tab.html["Ativos"]
+* link:../integrations/performance-tab.html["Desempenho"]
+

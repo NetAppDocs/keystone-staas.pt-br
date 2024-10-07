@@ -1,0 +1,87 @@
+---
+sidebar: sidebar 
+permalink: integrations/performance-tab.html 
+keywords: keystone-aiq, digital advisor keystone, performance tab 
+summary: Para monitorar a performance dos sistemas, você pode visualizar métricas de performance dos volumes do ONTAP gerenciados pelas assinaturas do Keystone. 
+---
+= Ver métricas de performance
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para monitorar a performance dos sistemas, você pode visualizar métricas de performance dos volumes do ONTAP gerenciados pelas assinaturas do Keystone.
+
+
+TIP: Esta guia está opcionalmente disponível para você. Contacte o suporte para visualizar este separador.
+
+.Passos
+. Clique em *GENERAL > Keystone Subscriptions > Performance*.
+. Selecione o número da subscrição. Por padrão, o primeiro número de assinatura é selecionado.
+. Selecione o nome do volume pretendido na lista.
++
+Como alternativa, você pode clicar no image:aiq-ks-time-icon.png["ícone de gráfico"] ícone contra um volume ONTAP na guia *volumes* para navegar até essa guia.
+
+. Selecione o intervalo de datas para a consulta. O intervalo de datas pode ser o início do mês ou a data de início da assinatura até a data atual ou a data de término da assinatura. Não é possível selecionar uma data futura.
+
+
+Os detalhes recuperados são baseados no objetivo de nível de serviço para cada nível de serviço. Por exemplo, o pico de IOPS, a taxa de transferência máxima, a latência do destino e outras métricas são determinados pelas configurações individuais para o nível de serviço. Para obter mais informações sobre as configurações, link:../concepts/service-levels.html["Níveis de serviço no Keystone"]consulte .
+
+
+NOTE: Se você selecionar a caixa de seleção *linha de Referência SLO*, os gráficos IOPS, throughput e latência serão renderizados com base no objetivo de nível de serviço para o nível de serviço. Caso contrário, eles são exibidos em números reais.
+
+Os dados de desempenho exibidos no gráfico horizontal são uma média a cada intervalo de cinco minutos e organizados de acordo com o intervalo de datas da consulta. Você pode rolar através dos gráficos e passar o Mouse sobre pontos de dados específicos para detalhar os dados coletados.
+
+Você pode exibir e comparar as métricas de desempenho nas seções a seguir com base na combinação do número da assinatura, nome do volume e intervalo de datas selecionado. Os detalhes são exibidos de acordo com o nível de serviço atribuído ao volume. Você pode ver o nome do cluster e o tipo de volume, ou seja, as permissões de leitura e gravação atribuídas ao volume. É também apresentada qualquer mensagem de aviso associada ao volume.
+
+
+
+== IOPS/TIB
+
+Esta seção exibe os gráficos de entrada e saída para as cargas de trabalho no volume com base no intervalo de datas da consulta. O IOPS de pico para o nível de serviço e o IOPS atual (nos últimos cinco minutos, não com base no intervalo de datas da consulta) são exibidos, juntamente com o IOPS mínimo, máximo e médio para o intervalo de tempo, em IOPS/TIB.
+
+image:perf-iops.png["Seção IOPS do gráfico"]
+
+
+
+== Taxa de transferência (Mbps/TIB)
+
+Esta seção exibe os gráficos de taxa de transferência para as cargas de trabalho no volume com base no intervalo de datas da consulta. A taxa de transferência máxima para o nível de serviço (SLO Max) e a taxa de transferência atual (nos últimos cinco minutos, não com base no intervalo de datas da consulta) são exibidas, juntamente com a taxa de transferência mínima, máxima e média para o intervalo de tempo, em Mbps/TIB.
+
+image:perf-thr.png["Gráficos de taxa de transferência"]
+
+
+
+== Latência (ms)
+
+Esta seção exibe os gráficos de latência para as cargas de trabalho no volume com base no intervalo de datas da consulta. A latência máxima para o nível de serviço (SLO Target) e a latência atual (nos últimos cinco minutos, não com base no intervalo de datas da consulta) são exibidas, juntamente com a latência mínima, máxima e média para o intervalo de tempo, em milissegundos.
+
+Este gráfico tem as seguintes cores:
+
+* Azul claro: _Latência_. Essa é a latência real que inclui qualquer latência diferente do serviço do Keystone. Isso pode incluir latência adicional, como a latência que ocorre entre sua rede e o cliente.
+* Azul escuro: _Latência eficaz_. Latência efetiva é a latência aplicável somente ao serviço do Keystone em relação ao seu SLA.
+
+
+image:perf-lat.png["gráficos de desempenho"]
+
+
+
+== Lógica utilizada (TIB)
+
+Esta seção exibe as capacidades provisionadas e lógicas usadas do volume. A capacidade lógica atual usada (nos últimos cinco minutos, não baseada no intervalo de datas da consulta), juntamente com o uso mínimo, máximo e médio para o intervalo de tempo são exibidos em Tibs. Neste gráfico, a área cinza representa a capacidade comprometida e o gráfico amarelo indica o uso lógico.
+
+image:perf-log-usd.png["gráfico de capacidade lógica utilizada"]
+
+*Informações relacionadas*
+
+* link:../integrations/aiq-keystone-details.html["Use o painel e a geração de relatórios do Keystone"]
+* link:../integrations/subscriptions-tab.html["Subscrições"]
+* link:../integrations/current-usage-tab.html["Consumo de corrente"]
+* link:../integrations/capacity-trend-tab.html["Tendência de consumo"]
+* link:../integrations/volumes-objects-tab.html["Objetos  volumes"]
+* link:../integrations/assets-tab.html["Ativos"]
+

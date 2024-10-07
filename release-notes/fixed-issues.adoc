@@ -1,0 +1,184 @@
+---
+sidebar: sidebar 
+permalink: release-notes/fixed-issues.html 
+keywords: fixed issues 
+summary: Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Keystone foram corrigidos em versões posteriores. 
+---
+= Problemas corrigidos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Keystone foram corrigidos em versões posteriores.
+
+[cols="3*"]
+|===
+| Descrição do problema | Após a correção | Corrigido na liberação 
+
+
+ a| 
+O campo *de Data* para selecionar o intervalo de datas exibe uma data futura por padrão ao navegar para a guia *tendência de consumo*.
+ a| 
+Fixo
+ a| 
+4 de setembro de 2024
+
+
+
+ a| 
+Gerenciamento do Keystone Collector TUI torna-se não responsivo ao configurar políticas AQoS.
+ a| 
+Fixo
+ a| 
+7 de agosto de 2024
+
+
+
+ a| 
+Os gráficos de uso exibem dados além do período de um dia especificado quando a data correspondente ao dia atual é selecionada como a data de início e fim do mês anterior na opção *tendência de capacidade* na guia *tendências de capacidade*.
+ a| 
+Os gráficos de uso agora exibem corretamente os dados para o período de um dia especificado.
+ a| 
+27 de junho de 2024
+
+
+
+ a| 
+Os dados históricos de intermitência acumulados não estão disponíveis para os níveis de serviço *CVO Primary* e *CVO Secondary* na guia *Capacity Trend* para assinaturas que não estão configuradas com uma configuração MetroCluster.
+ a| 
+Fixo
+ a| 
+21 de junho de 2024
+
+
+
+ a| 
+Exibição incorreta do valor consumido de armazenamento de objetos listado na guia *Detalhes do volume* para assinaturas do AutoSupport.
+ a| 
+O valor consumido para armazenamento de objetos agora é exibido corretamente.
+ a| 
+21 de junho de 2024
+
+
+
+ a| 
+Não é possível exibir informações no nível do cluster na guia *Assets* para assinaturas do AutoSupport configuradas com uma configuração do MetroCluster.
+ a| 
+Fixo
+ a| 
+21 de junho de 2024
+
+
+
+ a| 
+Mau posicionamento dos dados do Keystone em relatórios CSV se a coluna *Nome da conta* em relatórios CSV, gerada a partir da guia *tendência de capacidade*, incluir um nome de conta com uma `(,)` vírgula .
+ a| 
+Os dados do Keystone estão alinhados corretamente em relatórios CSV.
+ a| 
+29 de maio de 2024
+
+
+
+ a| 
+Exiba o uso acumulado de expansões na guia *tendência de capacidade*, mesmo que o consumo esteja abaixo da capacidade comprometida.
+ a| 
+Fixo
+ a| 
+29 de maio de 2024
+
+
+
+ a| 
+Texto incorreto da dica de ferramenta para o ícone de índice *Current Burst* na guia *Capacity Trend*.
+ a| 
+Exibe o texto correto da dica de ferramenta "_a quantidade de capacidade de explosão atualmente sendo consumida. Nota: Trata-se do período de faturação atual, não do intervalo de datas selecionado._"
+ a| 
+28 de março de 2024
+
+
+
+ a| 
+Informações sobre volumes não compatíveis com AQoS e parceiros da MetroCluster não estarão disponíveis para assinaturas do AutoSupport se os dados do Keystone não estiverem presentes por 24 horas.
+ a| 
+Fixo
+ a| 
+28 de março de 2024
+
+
+
+ a| 
+Incompatibilidade ocasional no número de volumes não compatíveis com AQoS listados nas guias *Resumo de volume* e *Detalhes de volume* se houver dois níveis de serviço atribuídos a um volume que cumpra a conformidade com AQoS para apenas um nível de serviço.
+ a| 
+Fixo
+ a| 
+28 de março de 2024
+
+
+
+ a| 
+Nenhuma informação está disponível na guia *Assets* para assinaturas do AutoSupport.
+ a| 
+Fixo
+ a| 
+14 de março de 2024
+
+
+
+ a| 
+Se o MetroCluster e o FabricPool tiverem sido habilitados em um ambiente onde os planos de taxa para disposição em categorias e storage de objetos fossem aplicáveis, os níveis de serviço poderiam ser derivados incorretamente dos volumes espelhados (volumes constituintes e FabricPool).
+ a| 
+Os níveis de serviço corretos são aplicados aos volumes de espelho.
+ a| 
+29 de fevereiro de 2024
+
+
+
+ a| 
+Para algumas assinaturas com um único nível de serviço ou plano de taxa, a coluna de conformidade AQoS estava ausente na saída CSV dos relatórios de guia *volumes*.
+ a| 
+A coluna Compliance é visível nos relatórios.
+ a| 
+29 de fevereiro de 2024
+
+
+
+ a| 
+Em alguns ambientes MetroCluster, anomalias ocasionais foram detetadas nos gráficos de densidade de IOPS na guia *desempenho*. Isso aconteceu devido ao mapeamento impreciso de volumes para níveis de serviço.
+ a| 
+Os gráficos são exibidos corretamente.
+ a| 
+29 de fevereiro de 2024
+
+
+
+ a| 
+O indicador de utilização de um registo de consumo de explosão estava a ser apresentado a âmbar.
+ a| 
+O indicador aparece a vermelho.
+ a| 
+13 de dezembro de 2023
+
+
+
+ a| 
+O intervalo de datas e os dados nas guias tendência de capacidade, uso atual e desempenho não foram convertidos para fuso horário UTC.
+ a| 
+O intervalo de datas para consulta e dados em todas as guias é exibido em UTC Time (fuso horário do servidor). O fuso horário UTC também é exibido em cada campo de data nas guias.
+ a| 
+13 de dezembro de 2023
+
+
+
+ a| 
+Houve uma incompatibilidade na data de início e data de término entre as guias e os relatórios CSV baixados.
+ a| 
+Fixo.
+ a| 
+13 de dezembro de 2023
+
+|===

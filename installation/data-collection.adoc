@@ -1,0 +1,315 @@
+---
+sidebar: sidebar 
+permalink: installation/data-collection.html 
+keywords: type of data collected by Keystone collector 
+summary: O Keystone coleta informações de configuração, status e uso das assinaturas do ONTAP e do StorageGRID. Ele também pode coletar dados de desempenho do ONTAP. 
+---
+= Tipos de dados de usuário coletados pelo Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Keystone coleta informações de configuração, status e uso das assinaturas do Keystone ONTAP e do Keystone StorageGRID. Ele também pode coletar dados de desempenho somente para ONTAP, se a opção estiver habilitada no Keystone Collector.
+
+
+
+== Coleta de dados do ONTAP
+
+.<strong> dados de uso coletados para ONTAP: Saiba mais</strong>
+[%collapsible]
+====
+A lista a seguir é uma amostra representativa dos dados de consumo de capacidade coletados para o ONTAP:
+
+* Clusters
++
+** ClusterUUID
+** Nome de utilizador
+** SerialNumber
+** Localização (com base na entrada de valor no cluster ONTAP)
+** Contacto
+** Versão
+
+
+* Nós
++
+** SerialNumber
+** Nome do nó
+
+
+* Volumes
++
+** Nome agregado
+** Nome do volume
+** VolumeInstanceUID
+** Bandeira IsClonevolume
+** Bandeira de IsFlexGroupConstituent
+** IsSpaceEnforcementBandeira lógica
+** IsSpaceReportingFlag lógico
+** LogicalSpaceUsedByAfs
+** PercentSnapshotSpace
+** PerformanceTierInactiveUserData
+** PerformanceTierInactiveUserDataPercent
+** QoSAdaptivePolicyGroup Name (Nome do grupo)
+** Nome do Grupo QaSPolicyGroup
+** Tamanho
+** Usado
+** PhysicoUsed (físico)
+** SizeUsedBySnapshots
+** Tipo
+** VolumeStyleExtended
+** Nome do SVM
+** Bandeira IsVsRoot
+
+
+* VServers
++
+** VserverName
+** VserUUID
+** Subtipo
+
+
+* Agregados de storage
++
+** StorageType
+** Nome agregado
+** UUID agregado
+
+
+* Agregar armazenamentos de objetos
++
+** ObjectStoreName
+** ObjectStoreUID
+** Tipo de fornecedor
+** Nome agregado
+
+
+* Clonar volumes
++
+** FlexClone
+** Tamanho
+** Usado
+** SVM
+** Tipo
+** Parentvolume
+** ParentSVM
+** IsConstituinte
+** SplitEstimate
+** Estado
+** FlexCloneUsedPercent
+
+
+* LUNs de storage
++
+** UUID LUN
+** Nome LUN
+** Tamanho
+** Usado
+** Bandeira IsReserved
+** Bandeira IsRequested
+** Nome da unidade de registo
+** QosPolicyUID
+** QoSPolicyName
+** VolumeUID
+** Nome do volume
+** SVMUUID
+** Nome SVM
+
+
+* Volumes de storage
++
+** VolumeInstanceUID
+** Nome do volume
+** Nome do SVM
+** SVMUUID
+** QosPolicyUID
+** QoSPolicyName
+** CapacityTierFootprint
+** PerformanceTierFootprint
+** TotalFootprint
+** TieringPolicy
+** Bandeira IsProtected
+** Bandeira IsDestination
+** Usado
+** PhysicoUsed (físico)
+** CloneParentUID
+** LogicalSpaceUsedByAfs
+
+
+* Grupos de políticas de QoS
++
+** PolicyGroup
+** QosPolicyUID
+** MaxThroughput
+** MinThroughput
+** MaxThroughputIOPS
+** MaxThroughputMBps
+** MinThroughputIOPS
+** MinThroughputMBps
+** Bandeira IsShared
+
+
+* Grupos de políticas de QoS adaptáveis ONTAP
++
+** QoSPolicyName
+** QosPolicyUID
+** PeakIOPS
+** PeakIOPSAllocation
+** AbsoluteMinIOPS
+** ExpectedIOPS
+** ExpectedIOPSAllocation
+** Tamanho do bloco
+
+
+* Pegadas
++
+** SVM
+** Volume
+** TotalFootprint
+** VolumeBlocksFootprintBin0
+** VolumeBlocksFootprintBin1
+
+
+* Clusters de MetroCluster
++
+** ClusterUUID
+** Nome de utilizador
+** RemoteClusterUID
+** RemoteCluserName
+** Estado Configuração local
+** Estado de configuração remota
+** Modo
+
+
+* Métricas de Observablility do coletor
++
+** Tempo de recolha
+** Active IQ Unified Manager API endpoint consultado
+** Tempo de resposta
+** Número de registos
+** AIQUMInstance IP
+** Código de instância de coleção
+
+
+
+
+====
+.<strong> dados de desempenho coletados para o ONTAP: Saiba mais</strong>
+[%collapsible]
+====
+A lista a seguir é uma amostra representativa dos dados de desempenho coletados para o ONTAP:
+
+* Nome do cluster
+* UUID do cluster
+* ID do objeto
+* Nome do volume
+* UUUID da instância de volume
+* SVM
+* VserUUID
+* Série nó
+* ONTAPVersion
+* Versão AIQUM
+* Agregado
+* AggregateUUID
+* ResourceKey
+* Timestamp
+* IOPSPerTb
+* Latência
+* ReadLatency
+* WriteMBps
+* QosMinThroughputLatency
+* Qualidade de vida
+* UsedHeadRoom
+* CacheMissRatio
+* OtherLatency
+* Qualidade de vida
+* IOPS
+* QaSNetworkLeviedade
+* AvailableOps
+* WriteLatency
+* QoSCloudLatency
+* QoSClusterInterconnectLatência
+* OtherMBps
+* Qualidade de vida
+* QoSDBladeLatency
+* Utilização
+* ReadIOPS
+* Mbps
+* OtherIOPS
+* QoSPolicyGroupLatency
+* ReadMBps
+* QoSSyncSnapmirrorLatency
+* Capacidade de IOPS
+
+
+====
+.<strong> Lista de itens removidos ao limitar o acesso a dados privados: Saiba mais</strong>
+[%collapsible]
+====
+Quando a opção *Remover dados privados* está ativada no Keystone Collector, as seguintes informações de uso são eliminadas para o ONTAP. Esta opção está ativada por predefinição.
+
+* Nome do cluster
+* Localização do cluster
+* Contacto de cluster
+* Nome do nó
+* Nome agregado
+* Nome do volume
+* QoSAdaptivePolicyGroup Name (Nome do grupo)
+* Nome do Grupo QaSPolicyGroup
+* Nome do SVM
+* Nome da LUN de storage
+* Nome agregado
+* Nome da unidade de registo
+* Nome SVM
+* AIQUMInstance IP
+* FlexClone
+* RemoteClusterName
+
+
+====
+
+
+== Coleta de dados do StorageGRID
+
+.<strong> dados de uso coletados para StorageGRID: Saiba mais</strong>
+[%collapsible]
+====
+A lista a seguir é uma amostra representativa dos `Logical Data` coletados para StorageGRID:
+
+* StorageGRID ID
+* ID da conta
+* Nome da conta
+* Bytes de quota de conta
+* Nome do balde
+* Contagem de objetos do balde
+* Bytes de dados do bucket
+
+
+A lista a seguir é uma amostra representativa dos `Physical Data` coletados para StorageGRID:
+
+* StorageGRID ID
+* ID de nó
+* ID do local
+* Nome do local
+* Instância
+* Bytes de utilização do storage StorageGRID
+* Bytes dos metadados da utilização do storage do StorageGRID
+
+
+====
+.<strong> Lista de itens removidos ao limitar o acesso a dados privados: Saiba mais</strong>
+[%collapsible]
+====
+Quando a opção *Remover dados privados* está ativada no Keystone Collector, as seguintes informações de uso são eliminadas para o StorageGRID. Esta opção está ativada por predefinição.
+
+* AccountName
+* Nome do BucketName
+* SiteName
+* Instância/nome-nonodename
+
+
+====

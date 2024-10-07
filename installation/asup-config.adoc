@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: installation/asup-config.html 
+keywords: ASUP, AutoSupport configuration 
+summary: Configure o AutoSupport para incorporar os dados do Keystone nos pacotes de suporte diários enviados pelos clusters do ONTAP. 
+---
+= Configurar o AutoSupport para Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ao usar o mecanismo de telemetria AutoSupport, o Keystone calcula o uso com base nos dados de telemetria do AutoSupport. Para obter o nível de granularidade necessário, configure o AutoSupport para incorporar dados do Keystone nos pacotes diários de suporte enviados pelos clusters do ONTAP.
+
+.Sobre esta tarefa
+Observe o seguinte antes de configurar o AutoSupport para incluir dados do Keystone.
+
+* Você edita as opções de telemetria do AutoSupport usando a CLI do ONTAP. Para obter informações sobre como gerenciar os serviços do AutoSupport e a função de administrador do sistema (cluster), https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["Visão geral do Manage AutoSupport"^] consulte e https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["Administradores de clusters e SVM"^].
+* Você inclui os subsistemas nos pacotes AutoSupport diário e semanal para garantir a coleta precisa de dados para o Keystone. Para obter informações sobre subsistemas AutoSupport, https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html["Quais são os subsistemas AutoSupport"^] consulte .
+
+
+.Passos
+. Como usuário administrador de sistema, faça login no cluster Keystone ONTAP usando SSH. Para obter informações, https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["Aceda ao cluster utilizando o SSH"^]consulte .
+. Modifique o conteúdo do log.
++
+** Execute este comando para modificar o conteúdo diário do log:
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
+** Execute este comando para modificar o conteúdo do log semanal:
++
+[source]
+----
+autosupport trigger modify -autosupport-message weekly -troubleshooting-additional wafl -node *
+----
++
+Para obter mais informações sobre esse comando, https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["modificação do acionador do AutoSupport do nó do sistema"^]consulte .
+
+
+
+

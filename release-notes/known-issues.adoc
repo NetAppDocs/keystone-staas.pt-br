@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: release-notes/known-issues.html 
+keywords: netapp, keystone, release notes, known issues 
+summary: Identificar problemas conhecidos que podem impedir que você use os serviços de assinatura do Keystone de forma eficaz. 
+---
+= Problemas conhecidos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Identificar problemas conhecidos que podem impedir que você use os serviços de assinatura do Keystone de forma eficaz.
+
+Neste momento, não há problemas conhecidos.
