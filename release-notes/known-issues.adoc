@@ -16,4 +16,27 @@ summary: Identificar problemas conhecidos que podem impedir que você use os ser
 [role="lead"]
 Identificar problemas conhecidos que podem impedir que você use os serviços de assinatura do Keystone de forma eficaz.
 
-Neste momento, não há problemas conhecidos.
+Os seguintes problemas conhecidos são relatados no NetApp Keystone STaaS:
+
+[cols="3*"]
+|===
+| Problema conhecido | Descrição | Solução alternativa 
+
+
+ a| 
+Detalhes do volume indisponíveis para subscrições primárias e vinculadas
+ a| 
+A guia *Resumo de volume* mostra zero para o número total de volumes, status de conformidade de QoS, contagem de volumes protegidos e capacidade total consumida para assinaturas secundárias primárias e vinculadas.
+ a| 
+Nenhum
+
+
+
+ a| 
+*Resumo de volume* subguia não carregada para assinaturas do StorageGRID
+ a| 
+A subguia *Resumo de volume* na guia *volumes e objetos* não é carregada para assinaturas do StorageGRID.
+ a| 
+Nenhum
+
+|===

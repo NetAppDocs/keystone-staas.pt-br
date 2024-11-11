@@ -1742,7 +1742,6 @@
   <block id="c541801f858c73a65cd1e378b6680e60" category="paragraph">Fixo.</block>
   <block id="b7539220d8497299938ec75ae391ea23" category="summary">Identificar problemas conhecidos que podem impedir que você use os serviços de assinatura do Keystone de forma eficaz.</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">Problemas conhecidos</block>
-  <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">Neste momento, não há problemas conhecidos.</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">As limitações conhecidas identificam plataformas, dispositivos ou funções que não são suportadas por esta versão do produto ou que não interoperam corretamente com ele. Revise essas limitações com cuidado.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">Limitações conhecidas</block>
   <block id="747c6db0ede286805c21b0b78f4ce14f" category="paragraph">Identifique plataformas, dispositivos ou funções que não são compatíveis com os serviços ou componentes do Keystone STaaS, ou que não interoperam corretamente. Revise essas limitações com cuidado.</block>
@@ -1990,4 +1989,12 @@
   <block id="67f289221dc2b8315be57c85a28e0619" category="sidebar">Prepare-se para a instalação</block>
   <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Acesse o Keystone a partir da API REST do Digital Advisor</block>
   <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">Faturamento</block>
+  <block id="6bd41c7ebef51543eb0a67b1eb2cabc1" category="paragraph">Os seguintes problemas conhecidos são relatados no NetApp Keystone STaaS:</block>
+  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">Problema conhecido</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descrição</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">Solução alternativa</block>
+  <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">Detalhes do volume indisponíveis para subscrições primárias e vinculadas</block>
+  <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">A guia *Resumo de volume* mostra zero para o número total de volumes, status de conformidade de QoS, contagem de volumes protegidos e capacidade total consumida para assinaturas secundárias primárias e vinculadas.</block>
+  <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">*Resumo de volume* subguia não carregada para assinaturas do StorageGRID</block>
+  <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">A subguia *Resumo de volume* na guia *volumes e objetos* não é carregada para assinaturas do StorageGRID.</block>
 </blocks>
