@@ -59,6 +59,22 @@ image:report_1.png["csv de relatório"]
 
 
 
+== Gerar relatório consolidado
+
+Você pode gerar e exibir um relatório consolidado para suas assinaturas, uso histórico, uso de sobrecarga, performance, ativos e volumes e objetos. Para fazer isso, selecione *Keystone Subscriptions* como o tipo de relatório no recurso Relatório no Digital Advisor. Você pode gerar esses relatórios no nível de cliente, cluster, lista de observação ou assinatura.
+
+image:report-generation.png["Criar relatório"]
+
+O relatório é gerado no formato Excel, com cada tipo de informação, como detalhes da subscrição ou histórico de utilização, apresentada em folhas separadas. Essas folhas são nomeadas de acordo com as guias na página *Keystone Subscriptions* para facilitar a visualização. Você pode salvar o relatório para uso futuro.
+
+Um exemplo de relatório consolidado com detalhes de assinaturas em uma folha:
+
+image:report-consolidated.png["Relatório gerado no formato Excel exibindo folhas separadas"]
+
+Para saber mais sobre como gerar relatórios, link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Gerar relatórios personalizados"^]consulte .
+
+
+
 == Ver alertas
 
 O painel fornece notificações de alerta que permitem que você entenda os problemas que ocorrem no ambiente de storage. Essas notificações podem aparecer como alertas informativos ou avisos. Por exemplo, se houver volumes nos clusters gerenciados que não tenham políticas de QoS adaptável (AQoS) anexadas, você poderá ver uma mensagem de aviso. Você pode clicar no link na mensagem de aviso para ver a lista de volumes não compatíveis na guia *volumes & objetos*.

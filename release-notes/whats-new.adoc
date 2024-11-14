@@ -20,6 +20,16 @@ Os seguintes aprimoramentos são introduzidos na tela *assinaturas do Keystone* 
 
 
 
+== 11 de novembro de 2024
+
+
+
+=== Geração de relatórios aprimorada
+
+Agora você pode gerar um relatório consolidado para exibir os detalhes dos dados do Keystone usando o recurso Relatório no Digital Advisor. Para saber mais, link:../integrations/aiq-keystone-details.html#generate-consolidated-report["Gerar relatório consolidado"^]consulte .
+
+
+
 == 10 de julho de 2024
 
 

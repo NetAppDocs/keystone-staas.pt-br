@@ -525,19 +525,12 @@
   <block id="547c4738072689a91e04dc9c9c8f6c84" category="section-title">Configurações para nível de serviço extremo</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Configurações e comandos para o nível de serviço Extreme:</block>
   <block id="5fd300737b7909532dc522634d75def5" category="list-text">Exemplo de comando:</block>
-  <block id="eec649d0629c0d4daca55ba4f12c8e0d" category="list-text">Tamanho mínimo do volume: 100GiB, 0,1TiB</block>
-  <block id="92583c0936263d9a68a3fd624b7b24db" category="list-text">Tamanho máximo do volume: 10TiB</block>
   <block id="25720426b4f9400d825effad9cc98cf4" category="section-title">Configurações para nível de serviço Premium</block>
   <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">Configurações e comandos para o nível de serviço Premium:</block>
-  <block id="1e8543e81fe8622a8aa785a23448ce74" category="list-text">Tamanho mínimo do volume: 500GiB, 0,5TiB</block>
-  <block id="f59d8a930f65f82d8f21450de71784f2" category="list-text">Tamanho máximo do volume: 50TiB</block>
   <block id="c335b79291cf3c370f0819292ea37103" category="section-title">Definições para nível de serviço de desempenho</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">Configurações e comandos para o nível de serviço desempenho:</block>
-  <block id="647b2fc1150676057fa08112aa455c76" category="list-text">Tamanho máximo do volume: 80TiB</block>
   <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">Definições para nível de serviço padrão</block>
   <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">Configurações e comandos para o nível de serviço padrão:</block>
-  <block id="c5dd4ef3a979aa464f4d87ea8ac7b398" category="list-text">Tamanho mínimo do volume: 1TiB</block>
-  <block id="d80459bf7c52b9b618a3832a91b72964" category="list-text">Tamanho máximo do volume: 100TiB</block>
   <block id="43384bba14e9ac0e1e3604da457dacd3" category="section-title">Definições para o nível de serviço de valor</block>
   <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">Configurações e comandos para o nível de serviço de valor:</block>
   <block id="e8cf569a737f3c6ca0de02023bb45074" category="section-title">Cálculo do tamanho do bloco</block>
@@ -1997,4 +1990,24 @@
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">A guia *Resumo de volume* mostra zero para o número total de volumes, status de conformidade de QoS, contagem de volumes protegidos e capacidade total consumida para assinaturas secundárias primárias e vinculadas.</block>
   <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">*Resumo de volume* subguia não carregada para assinaturas do StorageGRID</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">A subguia *Resumo de volume* na guia *volumes e objetos* não é carregada para assinaturas do StorageGRID.</block>
+  <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">Tamanho mínimo recomendado do volume: 100GiB, 0,1TiB</block>
+  <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">Tamanho máximo recomendado do volume: 10TiB</block>
+  <block id="15338332b8fcdeeb5cf2e61fbed1f587" category="list-text">Tamanho mínimo recomendado do volume: 500GiB, 0,5TiB</block>
+  <block id="b153328fc34aa79250fe1cd04b633016" category="list-text">Tamanho máximo recomendado do volume: 50TiB</block>
+  <block id="1fd6dacdb284abe9cc20a2bbb9c6a535" category="list-text">Tamanho máximo recomendado do volume: 80TiB</block>
+  <block id="cf94268a733259e784ff458e2880c445" category="list-text">Tamanho mínimo recomendado do volume: 1TiB</block>
+  <block id="b28606b9957df145a655531d978d4f7a" category="list-text">Tamanho máximo recomendado do volume: 100TiB</block>
+  <block id="13c09ed2290110fb23f7ef738098a6ce" category="section-title">Gerar relatório consolidado</block>
+  <block id="b5c31f8fc651c0b6091927bd1388396c" category="paragraph">Você pode gerar e exibir um relatório consolidado para suas assinaturas, uso histórico, uso de sobrecarga, performance, ativos e volumes e objetos. Para fazer isso, selecione *Keystone Subscriptions* como o tipo de relatório no recurso Relatório no Digital Advisor. Você pode gerar esses relatórios no nível de cliente, cluster, lista de observação ou assinatura.</block>
+  <block id="d9c75c79440b3db3ac3e86ae04bc9f19" category="inline-image-macro">Criar relatório</block>
+  <block id="ad127b553d070e603bcca75c99aa0aa4" category="paragraph"><block ref="ad127b553d070e603bcca75c99aa0aa4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1ac17aa812b21fe2bbdc58cbe5d6efa" category="paragraph">O relatório é gerado no formato Excel, com cada tipo de informação, como detalhes da subscrição ou histórico de utilização, apresentada em folhas separadas. Essas folhas são nomeadas de acordo com as guias na página *Keystone Subscriptions* para facilitar a visualização. Você pode salvar o relatório para uso futuro.</block>
+  <block id="9fe5e0c0b5051c9c5712e923a00cc8c1" category="paragraph">Um exemplo de relatório consolidado com detalhes de assinaturas em uma folha:</block>
+  <block id="2badbe4f31c12aae368f255a571f80b1" category="inline-image-macro">Relatório gerado no formato Excel exibindo folhas separadas</block>
+  <block id="a273e12df0b06489ccec9e5faa39deae" category="paragraph"><block ref="a273e12df0b06489ccec9e5faa39deae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b00815fc5298212e3dc28a279ed4a10" category="inline-link-macro">Gerar relatórios personalizados</block>
+  <block id="05ae21f139b4223ee2536ce651cf54b9" category="paragraph">Para saber mais sobre como gerar relatórios, <block ref="5ee515b7098121299290c8d9ddbc9e18" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="8a1116f55c6659c55d506df698030041" category="section-title">11 de novembro de 2024</block>
+  <block id="1503d912784bec55335f32e3c747c9df" category="section-title">Geração de relatórios aprimorada</block>
+  <block id="bab5e70b8fca6215bd90bf396708d647" category="paragraph">Agora você pode gerar um relatório consolidado para exibir os detalhes dos dados do Keystone usando o recurso Relatório no Digital Advisor. Para saber mais, <block ref="f3fd429c1c2a13f9f8f5c8d4ec2129e6" category="inline-link-macro-rx"></block>consulte .</block>
 </blocks>
