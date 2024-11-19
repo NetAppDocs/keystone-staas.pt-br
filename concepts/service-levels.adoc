@@ -55,6 +55,9 @@ Os níveis de serviço básicos para os tipos de storage compatíveis, arquivo, 
 
 
 | * Tamanho do bloco* 5+| 32K 
+
+
+| * Tipo de capacidade comprometida e mensurada* 5+| Lógico 
 |===
 
 
@@ -101,6 +104,9 @@ As métricas de nível de serviço básico dependem das seguintes condições:
 
 
 | *Latência média* | N/A. 
+
+
+| * Tipo de capacidade comprometida e mensurada* | Físico 
 |===
 
 NOTE: A latência não inclui overheads associados à transferência de dados para o armazenamento de objetos no caso de armazenamento FabricPool.
