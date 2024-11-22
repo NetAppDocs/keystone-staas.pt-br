@@ -92,18 +92,24 @@ A explosão é a diferença entre a capacidade consumida e a capacidade comprome
 
 == Ver sequência acumulada faturada
 
-Se você selecionou a opção *Faturado Acumulado Burst*, por padrão, você poderá ver os dados mensais de uso de burst acumulado nos últimos 12 meses que foram cobrados. Você pode consultar pelo intervalo de datas de até 30 meses passados. Gráficos de barras são exibidos para dados faturados e, se o uso ainda não tiver sido cobrado, você verá _pendente_ para esse mês.
+Se você tiver selecionado a opção *Faturado Acumulado Burst*, poderá ver os dados de uso de burst acumulados mensalmente ou trimestralmente, dependendo do período de faturamento selecionado. Esses dados estão disponíveis para os últimos 12 meses que foram cobrados e você pode consultar pelo intervalo de datas para até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, eles serão marcados como _pendente_ para esse período.
 
 
 TIP: O uso de estouro acumulado faturado é calculado por período de faturamento, com base na capacidade comprometida e consumida de um nível de serviço.
 
 image:accr-burst-1.png["gráficos de utilização de expansões sazonais acumuladas"]
 
+Para um período de faturação trimestral, se a subscrição começar numa data diferente da 1 o do mês, a fatura trimestral cobrirá o período subsequente de 90 dias. Por exemplo, se a sua assinatura começar em 15 de agosto, a fatura será gerada para o período de 15 de agosto a 14 de outubro.
+
+Se você mudar de faturamento trimestral para mensal, a fatura trimestral ainda cobrirá o período de 90 dias, com duas faturas geradas no último mês do trimestre: Uma para o período de faturamento trimestral e outra para os dias restantes desse mês. Esta transição permite que o período de faturação mensal comece no dia 1 do mês seguinte. Por exemplo, se sua assinatura começar em 15 de outubro, você receberá duas faturas em janeiro, uma de 15 de outubro a 14 de janeiro e outra de 15 a 31 de janeiro, antes do início do período de faturamento mensal em 1 de fevereiro.
+
+image:accr-burst-2.png["utilização de expansões sazonais acumuladas trimestralmente"]
+
 Esta funcionalidade está disponível no modo apenas pré-visualização. Contacte o seu KSM para saber mais sobre esta funcionalidade.
 
 
 
-== Gráficos de referência para proteção avançada de dados
+== Gráficos de referência para proteção de dados avançada para MetroCluster
 
 Se você se inscreveu no serviço complementar avançado de proteção de dados, poderá visualizar a quebra dos dados de consumo dos sites parceiros da MetroCluster na guia *tendência de consumo*.
 

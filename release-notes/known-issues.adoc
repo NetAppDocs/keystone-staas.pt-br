@@ -33,9 +33,9 @@ Nenhum
 
 
  a| 
-*Resumo de volume* subguia não carregada para assinaturas do StorageGRID
+Não é possível gerar relatórios para assinaturas
  a| 
-A subguia *Resumo de volume* na guia *volumes e objetos* não é carregada para assinaturas do StorageGRID.
+Quando mais de 10-12 assinaturas são selecionadas na guia *assinaturas* na página *assinaturas do Keystone*, o relatório não consegue gerar ao clicar no botão *Download CSV* com a opção *incluir dados para cada nível de serviço*.
  a| 
 Nenhum
 

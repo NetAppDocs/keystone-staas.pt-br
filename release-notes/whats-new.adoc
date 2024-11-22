@@ -20,6 +20,28 @@ Os seguintes aprimoramentos são introduzidos na tela *assinaturas do Keystone* 
 
 
 
+== 21 de novembro de 2024
+
+
+
+=== Explosão acumulada faturada melhorada
+
+Agora, você pode visualizar os dados de uso de expansões sazonais acumuladas trimestralmente por meio da opção *Invoed Acumulado Burst* se tiver optado por um período de faturamento trimestral. Para saber mais, link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Ver sequência acumulada faturada"^]consulte .
+
+
+
+=== Novas colunas na guia Detalhes de volumes
+
+Para melhorar a clareza no cálculo do uso lógico, duas novas colunas foram adicionadas à guia *Detalhes do volume* na guia *volumes & objetos*:
+
+* *Logical AFS*: Apresenta a capacidade lógica utilizada pelo sistema de ficheiros ativo do volume.
+* *Snapshot físico*: Exibe o espaço físico usado pelos snapshots.
+
+
+Essas colunas fornecem melhor clareza na coluna *Logical Used*, que mostra a capacidade lógica combinada usada pelo sistema de arquivos ativo do volume e o espaço físico usado pelos snapshots.
+
+
+
 == 11 de novembro de 2024
 
 

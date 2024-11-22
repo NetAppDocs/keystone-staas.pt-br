@@ -48,7 +48,7 @@ TIP: Clique no link *assinaturas* para exibir a lista de assinaturas filtradas n
 
 
 
-image:new-db-3.png["novo painel de instrumentos"]
+image:new-db-4.png["novo painel de instrumentos"]
 
 Para obter mais informações sobre o widget do painel do Digital Advisor para o Keystone, https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentação do Digital Advisor"^] consulte .
 

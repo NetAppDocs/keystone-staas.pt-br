@@ -22,6 +22,15 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+A subguia *Resumo de volume* na guia *volumes e objetos* não é carregada para assinaturas do StorageGRID.
+ a| 
+Fixo
+ a| 
+21 de novembro de 2024
+
+
+
+ a| 
 O campo *de Data* para selecionar o intervalo de datas exibe uma data futura por padrão ao navegar para a guia *tendência de consumo*.
  a| 
 Fixo
