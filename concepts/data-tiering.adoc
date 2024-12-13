@@ -34,3 +34,7 @@ As cobranças por serviços de disposição em camadas complementares se aplicam
 
 
 NOTE: Os serviços de computação, storage e rede baseados em Hyperscalar exigidos pelo Cloud Volumes ONTAP não são fornecidos pelo NetApp como parte das assinaturas do Keystone STaaS. Esses serviços precisam ser adquiridos diretamente com fornecedores de serviços de nuvem em hyperscalar.
+
+*Informações relacionadas*
+
+link:https://kb.netapp.com/hybrid/Keystone/AIQ_Dashboard/How_to_approximate_Keystone_Consumption_with_Data_Tiering_(FabricPool)_through_the_ONTAP_cli["Como aproximado o consumo do Keystone com a disposição de dados em categorias (FabricPool) usando a CLI do ONTAP"^]

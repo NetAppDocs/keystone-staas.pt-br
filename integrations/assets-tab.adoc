@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
-summary: Use a guia ativos para exibir detalhes sobre os clusters e nós gerenciados pelas assinaturas do Keystone. 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone. 
 ---
-= Visualize os detalhes do cluster e do nó gerenciados pelo Keystone
+= Visualize os detalhes do cluster e da grade gerenciados pelo Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,20 +14,41 @@ summary: Use a guia ativos para exibir detalhes sobre os clusters e nós gerenci
 
 
 [role="lead"]
-Use a guia *Assets* para exibir detalhes sobre os clusters e nós gerenciados pelas assinaturas do Keystone.
+Use a guia *Assets* para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone.
 
-O Digital Advisor fornece informações abrangentes em nível de inventário de suas implantações. A aba *Assets* do painel do Keystone, por outro lado, acumula as informações no nível do cluster com base em suas assinaturas e separa-as e apresenta o nível preciso de detalhes.
+A guia *Assets* do painel do Keystone inclui duas subguias: *ONTAP* e *StorageGRID*. Esta guia acumula informações em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas, segregando e apresentando os dados com detalhes precisos. Você pode visualizar essas informações clicando nas respetivas subguias.
 
+[role="tabbed-block"]
+====
+.ONTAP
+--
 .Passos
-. Clique em *GENERAL > Keystone Subscriptions > Assets*.
+. Clique em *geral > assinaturas do Keystone > ativos > ONTAP*.
 . Selecione o número da assinatura para o qual você deseja exibir os clusters.
 +
-Você vê os detalhes do cluster, discriminados por configurações de eficiência de storage, tipo de plataforma e detalhes de capacidade. Clicar em um dos clusters leva você ao widget *clusters* na tela Digital Advisor, onde você obtém informações adicionais para esse cluster.
+Você vê os detalhes do cluster, discriminados por configurações de eficiência de storage, tipo de plataforma e detalhes de capacidade. Clicar em um dos clusters leva você ao widget *clusters* na tela Digital Advisor, onde você obtém informações adicionais para esse cluster. O Digital Advisor fornece informações abrangentes em nível de inventário de suas implantações.
+
++
+image:assets-tab-3.png["Captura de tela para mostrar informações em nível de cluster para o ONTAP"]
 
 
 
-image:assets-tab-3.png["Separador ativos"]
+--
+.StorageGRID
+--
+.Passos
+. Clique em *geral > assinaturas do Keystone > ativos > StorageGRID*.
+. Selecione o número da subscrição.
++
+Você vê os detalhes da grade, categorizados por identificadores de grade e nó, informações do site, especificações de hardware e detalhes de capacidade, que ajudam no monitoramento e gerenciamento de nós em sua infraestrutura StorageGRID.
 
++
+image:assets-tab-storagegrid.png["Captura de tela para mostrar informações de nível de grade para o StorageGRID"]
+
+
+
+--
+====
 *Informações relacionadas*
 
 * link:../integrations/aiq-keystone-details.html["Use o painel e a geração de relatórios do Keystone"]

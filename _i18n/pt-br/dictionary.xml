@@ -1414,15 +1414,8 @@
   <block id="382fd8723ebdcd2f39cbf2ac2a288ee4" category="paragraph"><block ref="382fd8723ebdcd2f39cbf2ac2a288ee4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">Para obter informações sobre as políticas AQoS, <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="264fb3d7b56249895b2f79c596d4c41d" category="paragraph">Entre em Contato com o suporte da NetApp para obter mais informações sobre essas mensagens. Para obter informações sobre como levantar solicitações de serviço, <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="88ba1a903782e6e9fa15c49759c77002" category="summary">Use a guia ativos para exibir detalhes sobre os clusters e nós gerenciados pelas assinaturas do Keystone.</block>
-  <block id="c9d3977801acf4ccae129ec84792bff6" category="doc">Visualize os detalhes do cluster e do nó gerenciados pelo Keystone</block>
-  <block id="bd40bda8c4e7d21d9b37e2630b5d3847" category="paragraph">Use a guia *Assets* para exibir detalhes sobre os clusters e nós gerenciados pelas assinaturas do Keystone.</block>
-  <block id="c14158742caa91eb4e1b6152329dc0fb" category="paragraph">O Digital Advisor fornece informações abrangentes em nível de inventário de suas implantações. A aba *Assets* do painel do Keystone, por outro lado, acumula as informações no nível do cluster com base em suas assinaturas e separa-as e apresenta o nível preciso de detalhes.</block>
-  <block id="e2a2270c486beacf71e6bd4a48314991" category="list-text">Clique em *GENERAL &gt; Keystone Subscriptions &gt; Assets*.</block>
   <block id="89c9ef7132e6fac6325de01d876fc5aa" category="list-text">Selecione o número da assinatura para o qual você deseja exibir os clusters.</block>
-  <block id="1014f28a098809635129e3768d88c841" category="paragraph">Você vê os detalhes do cluster, discriminados por configurações de eficiência de storage, tipo de plataforma e detalhes de capacidade. Clicar em um dos clusters leva você ao widget *clusters* na tela Digital Advisor, onde você obtém informações adicionais para esse cluster.</block>
   <block id="2c2277efed09502321b33f1286580b04" category="inline-image-macro">Separador ativos</block>
-  <block id="0a012b7cc2f110abb0e9e4de50825e19" category="paragraph"><block ref="0a012b7cc2f110abb0e9e4de50825e19" category="inline-image-macro-rx" type="image"></block></block>
   <block id="73bdca79152c85ff52cb0e979b3a5fab" category="inline-link-macro">Use o painel e a geração de relatórios do Keystone</block>
   <block id="e046132bda73f8acb7aad7dc51b6db31" category="list-text"><block ref="e046132bda73f8acb7aad7dc51b6db31" category="inline-link-macro-rx"></block></block>
   <block id="9bc1b954ed18e282db9621503d1ab732" category="summary">Para ajudar você a monitorar o uso da assinatura, consulte os dados históricos das assinaturas do Keystone por um período específico.</block>
@@ -1885,8 +1878,6 @@
   <block id="ed6736a84f4c19935077bc72bc043890" category="sidebar">O NetApp Keystone é uma oferta de storage como serviço com pagamento conforme o uso para serviços de storage de dados no local e em nuvem em uma única subscrição, com a capacidade de realocar os gastos de storage em nuvens.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">O que é o NetApp Keystone?</block>
-  <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">Instale o Keystone Collector no VMware vSphere</block>
-  <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">Instale o Keystone Collector no Linux</block>
   <block id="3269606fef80bba2d9e8f69108e0e4a6" category="sidebar">Veja seu uso no Digital Advisor</block>
   <block id="3149c3d9b5fcd4691d16b1b31ce2a5ed" category="sidebar">Gere relatórios de seu consumo</block>
   <block id="bf871fbeda66c457eaf1656d09ea34de" category="sidebar">Serviços compatíveis no Keystone</block>
@@ -1899,8 +1890,6 @@
   <block id="60c2efc3e4aa54d923286d4b7554d471" category="sidebar">Saiba mais sobre os preços do Keystone</block>
   <block id="7fb6ecbfc2c7172d977f1ac481edef36" category="sidebar">As minhas agendas de faturação</block>
   <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">O que acontece se eu tiver consumido mais do que a minha capacidade comprometida?</block>
-  <block id="c4068cabe0040e62a0f9e5c030ce1b50" category="sidebar">Faça mais com o Keystone Services</block>
-  <block id="a7c5201b644834daf4816d3080e93837" category="sidebar">Conheça sua equipe de suporte (Keystone GSSC)</block>
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">O que posso fazer com meus dados inativos ou menos usados?</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Como posso proteger meus dados do Keystone?</block>
   <block id="d98e1323795a96bdb4ab923442544f4f" category="sidebar">Keystone e BlueXP </block>
@@ -2150,4 +2139,29 @@
   <block id="fee7b996a8ab0bee47684563d23b4926" category="sidebar">Instale o ITOM Collector</block>
   <block id="8869eeb557230a1ee1c042d1156e4eef" category="sidebar">Instale no Windows</block>
   <block id="fbb165d9f99339f62e1190730a20d297" category="sidebar">U.S. Protected Support (USPS)</block>
+  <block id="3158f806d725e1ec78b0701704e3095e" category="inline-link-macro">Como aproximado o consumo do Keystone com a disposição de dados em categorias (FabricPool) usando a CLI do ONTAP</block>
+  <block id="a61155b6c29c4a67dcebc112d4f1a0e6" category="paragraph"><block ref="a61155b6c29c4a67dcebc112d4f1a0e6" category="inline-link-macro-rx"></block></block>
+  <block id="383808601885ff3e8a9a0d874893b2f1" category="summary">Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone.</block>
+  <block id="f6b2ecd1814849b78e41e3e2b4e0fca3" category="doc">Visualize os detalhes do cluster e da grade gerenciados pelo Keystone</block>
+  <block id="4af983dc8b38330ebf279dac7575b6af" category="paragraph">Use a guia *Assets* para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone.</block>
+  <block id="ccb59ed71491ec34ae61a4a3e64b1fd7" category="paragraph">A guia *Assets* do painel do Keystone inclui duas subguias: *ONTAP* e *StorageGRID*. Esta guia acumula informações em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas, segregando e apresentando os dados com detalhes precisos. Você pode visualizar essas informações clicando nas respetivas subguias.</block>
+  <block id="61458f2c1b18b9bcbc537de740c9e1e0" category="list-text">Clique em *geral &gt; assinaturas do Keystone &gt; ativos &gt; ONTAP*.</block>
+  <block id="25e1d9e56c0d85d8f80b0bbb2ab7e58e" category="paragraph">Você vê os detalhes do cluster, discriminados por configurações de eficiência de storage, tipo de plataforma e detalhes de capacidade. Clicar em um dos clusters leva você ao widget *clusters* na tela Digital Advisor, onde você obtém informações adicionais para esse cluster. O Digital Advisor fornece informações abrangentes em nível de inventário de suas implantações.</block>
+  <block id="3dea7e0612816c330ed28a23513ff990" category="inline-image-macro">Captura de tela para mostrar informações em nível de cluster para o ONTAP</block>
+  <block id="4a3681d6237f5e015ad5ede6e3821946" category="paragraph"><block ref="4a3681d6237f5e015ad5ede6e3821946" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0c99c647c90765307c7881aeb82d4b0a" category="list-text">Clique em *geral &gt; assinaturas do Keystone &gt; ativos &gt; StorageGRID*.</block>
+  <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">Você vê os detalhes da grade, categorizados por identificadores de grade e nó, informações do site, especificações de hardware e detalhes de capacidade, que ajudam no monitoramento e gerenciamento de nós em sua infraestrutura StorageGRID.</block>
+  <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">Captura de tela para mostrar informações de nível de grade para o StorageGRID</block>
+  <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">Você pode usar *Ocultar/Mostrar colunas* para adicionar ou remover colunas exibidas na tabela. Por padrão, todas as colunas são selecionadas, exceto a coluna *Departamento*. Você pode selecionar ou desmarcar qualquer coluna, incluindo a coluna *Departamento*, e suas preferências serão salvas para uso posterior. Ao fazer o download do relatório CSV, os detalhes da coluna *Departamento* serão incluídos se selecionados, enquanto outras colunas aparecerão independentemente do status de seleção na tabela.</block>
+  <block id="bc6d0fec5ccd5f580ac081a7231e72de" category="section-title">12 de dezembro de 2024</block>
+  <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">Coluna lógica utilizada renomeada</block>
+  <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">A coluna *Logical Used* na guia *volume Details* dentro de *volumes &amp; Objects* agora é renomeada para *Keystone Logical Used*.</block>
+  <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Separador ativos melhorados</block>
+  <block id="b37b0904549353aadf47641a5b0575b8" category="paragraph">A guia *Assets* na tela *assinaturas do Keystone* agora tem duas novas subguias: *ONTAP* e *StorageGRID*. Essas subguias oferecem insights detalhados em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas. Para saber mais, <block ref="188c8c355e0f1b0eb880092ea81f5051" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="d7dc6f5447fca23324df2672bac7c802" category="section-title">Nova opção Ocultar/Mostrar colunas</block>
+  <block id="498f6fe433bcf5b2aeb742aa58e012a5" category="paragraph">A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opção *Ocultar/Mostrar colunas*. Esta opção permite selecionar ou desmarcar colunas para personalizar a lista tabular de volumes de acordo com a sua preferência. Para saber mais, <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Faça mais com os serviços do Keystone</block>
+  <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">Conheça sua equipe de suporte</block>
+  <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">Monitore, solucione problemas e melhore o storage</block>
 </blocks>

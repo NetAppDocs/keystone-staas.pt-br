@@ -20,6 +20,28 @@ Os seguintes aprimoramentos são introduzidos na tela *assinaturas do Keystone* 
 
 
 
+== 12 de dezembro de 2024
+
+
+
+=== Coluna lógica utilizada renomeada
+
+A coluna *Logical Used* na guia *volume Details* dentro de *volumes & Objects* agora é renomeada para *Keystone Logical Used*.
+
+
+
+=== Separador ativos melhorados
+
+A guia *Assets* na tela *assinaturas do Keystone* agora tem duas novas subguias: *ONTAP* e *StorageGRID*. Essas subguias oferecem insights detalhados em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas. Para saber mais, link:../integrations/assets-tab.html["Separador ativos"^]consulte .
+
+
+
+=== Nova opção Ocultar/Mostrar colunas
+
+A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opção *Ocultar/Mostrar colunas*. Esta opção permite selecionar ou desmarcar colunas para personalizar a lista tabular de volumes de acordo com a sua preferência. Para saber mais, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+
+
+
 == 21 de novembro de 2024
 
 
