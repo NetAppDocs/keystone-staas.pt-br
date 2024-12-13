@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: concepts/uscs.html 
-keywords: netapp, keystone, US citizen support, USCS GSSC, Keystone Success Manager, USCS support 
-summary: O apoio ao Cidadão dos Estados Unidos é um serviço complementar que fornece a entrega e o apoio de serviços contínuos do Keystone de cidadãos dos EUA em solo dos EUA. 
+permalink: concepts/usps.html 
+keywords: netapp, keystone, US citizen support, USPS, Keystone Success Manager, USPS support 
+summary: O United States Protected Support é um serviço complementar que fornece fornecimento e suporte de serviços Keystone contínuos de cidadãos dos EUA em solo norte-americano. 
 ---
-= Saiba mais sobre USCS
+= Saiba mais sobre USPS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,15 @@ summary: O apoio ao Cidadão dos Estados Unidos é um serviço complementar que 
 
 
 [role="lead"]
-O suporte ao Cidadão dos Estados Unidos (USCS) é uma oferta adicional para assinaturas do NetApp Keystone. Ele permite que você receba entrega e suporte de serviços Keystone contínuos de cidadãos dos EUA em solo dos EUA.
+O suporte protegido dos Estados Unidos (USPS) é uma oferta complementar para assinaturas do NetApp Keystone. Ele permite que você receba entrega e suporte de serviços Keystone contínuos de cidadãos dos EUA em solo dos EUA.
 
 Leia as seções a seguir para entender quais elementos de suas assinaturas estão vinculados a esse serviço complementar e são fornecidos sob os termos do Contrato NetApp Keystone.nota de rodapé:disclaimer1[os serviços e ofertas descritos aqui estão sujeitos a, e limitados e regidos por um Contrato Keystone totalmente executado.]
 
 
 
-== Monitoramento do Centro de suporte de Serviços globais da NetApp
+== Monitoramento NetApp USPS
 
-O Centro Global de Serviços e suporte (GSSC) da NetApp monitora a integridade dos seus produtos e serviços inscritos, fornece suporte remoto e colabora com o seu gerente de sucesso do Keystone. Todos os funcionários que monitoram os produtos associados aos pedidos de assinatura relevantes do Keystone são cidadãos dos EUA que operam em solo dos EUA.
+A equipe de suporte do Keystone, USPS NetApp monitora a integridade dos seus produtos e serviços inscritos, fornece suporte remoto e colabora com o seu Gerenciador de sucesso do Keystone. Todos os funcionários que monitoram os produtos associados aos pedidos de assinatura relevantes do Keystone são cidadãos dos EUA que operam em solo dos EUA.
 
 
 

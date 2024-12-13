@@ -27,7 +27,7 @@ A NetApp reserva-se o direito de tomar as seguintes medidas:
 A infraestrutura do Keystone inclui vários componentes, como os seguintes, entre outros:
 
 * A infraestrutura do Keystone, incluindo controladores de storage.
-* Ferramentas para gerenciar e operar o serviço, como solução AIOps, Active IQ e Active IQ Unified Manager.
+* Ferramentas para gerenciar e operar o serviço, como solução de monitoramento ITOM, Active IQ e Active IQ Unified Manager.
 
 
 
@@ -44,10 +44,10 @@ Em um serviço operado pelo cliente do Keystone, a infraestrutura de storage e a
 
 Além do equipamento de storage, duas ferramentas de monitoramento são provisionadas para monitoramento de armazenamento e consumo.
 
-* Solução AIOps gateway local: Um aplicativo baseado em nuvem usado para monitorar sua rede. Ele tem integrações incorporadas com plataformas de storage NetApp para coletar dados ambientais e monitorar a rede. Este serviço é ativado com a ajuda de usar um gateway local instalado em seu site que se comunica com o portal da nuvem.
+* Solução de monitoramento Keystone IT Operations Management (ITOM): Uma aplicação SaaS baseada na nuvem usada para monitorar o ambiente do Keystone. Ele tem integrações incorporadas com plataformas de storage da NetApp para coletar dados ambientais e monitorar os componentes de computação, rede e storage da infraestrutura do Keystone. Essa capacidade de monitoramento se estende a configurações locais, data centers, ambientes em nuvem ou qualquer combinação desses. O serviço é ativado com a ajuda de usar um ITOM Collector local instalado em seu site que se comunica com o portal da nuvem.
 * Keystone Data Collector: O Keystone Collector fornece serviços de cobrança para os clientes do Keystone. Esta aplicação é fornecida com o Active IQ Unified Manager. Ele coleta dados de controladores ONTAP e StorageGRID em um intervalo de cinco minutos. Os dados são processados e os metadados são enviados para o data Lake Active IQ centralizado por meio do mecanismo AutoSupport, que é usado para geração de dados de cobrança. O data Lake do Active IQ processa os dados de faturamento e os envia para o Zuora para faturamento.
 
 
-image:mgmt-stack.png["pilha de gestão"]
+image:mgmt-stack-2.png["pilha de gestão"]
 
 O Digital Advisor permite fazer login e visualizar os detalhes da assinatura e do consumo das assinaturas do Keystone. Para obter mais informações sobre os relatórios do Keystone no painel do Digital Advisor, link:../integrations/keystone-aiq.html["Keystone e consultor digital"]consulte .

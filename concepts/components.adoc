@@ -54,9 +54,9 @@ O NetApp pode fornecer as especificações de requisitos de refrigeração (BTU 
 
 
 
-=== Armazenamento de máquinas virtuais
+=== Máquinas virtuais
 
-Uma máquina virtual de storage (VM de storage) é necessária para a implantação do Keystone Collector e do gateway de solução AIOps. Os pré-requisitos para instalar o Keystone Collector estão disponíveis aqui: link:../installation/installation-overview.html["Guia de instalação para o Keystone Collector"]. Os outros requisitos são compartilhados durante a implantação.
+As máquinas virtuais são necessárias para a implantação do Keystone Collector e do ITOM Collector. Para obter os pré-requisitos de instalação, link:../installation/installation-overview.html["Guia de instalação para o Keystone Collector"]consulte e link:../installation/itom-prereqs.html["Requisitos de instalação para ITOM Collector"]. Os outros requisitos são compartilhados durante a implantação.
 
 
 
@@ -68,15 +68,13 @@ O Keystone Collector pode ser implantado através dos seguintes métodos:
 * O cliente fornece um servidor Linux em execução no Red Hat Enterprise Linux 8,6 ou versões posteriores 8.x ou CentOS 7. O software Keystone é instalado por meio `.rpm` do processo de instalação.
 
 
-O gateway de solução AIOps é implantado na seguinte configuração:
+O ITOM Collector pode ser implantado através dos seguintes métodos:
 
-* Modelo VMware OVA (é necessário o VMware vCenter Server 6,7 ou posterior)
-* Instalador .iso inicializável para
+* O cliente fornece um servidor Linux em execução em Debian 12, Ubuntu 20,04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023 ou versões mais recentes.
+* O Cliente fornece um servidor Windows que executa o Windows Server 2016 ou versões mais recentes.
 +
-** Citrix XenServer
-** Microsoft Hyper-V
-** Máquina virtual baseada em kernel (Linux KVM)
 
+TIP: Os sistemas operacionais recomendados são Debian 12, Windows Server 2016 ou versões mais recentes.
 
 
 
@@ -94,6 +92,6 @@ A NetApp fornece os transcetores necessários apenas para dispositivos de infrae
 
 == Requisito de acesso remoto
 
-A conectividade de rede é necessária entre a infraestrutura de storage instalada no data center do cliente ou os serviços co-localizados de propriedade do cliente e o centro de operações do Keystone. O cliente é responsável por fornecer as máquinas de computação e virtual, e os serviços de internet. O projeto de rede deve ser feito através de um protocolo seguro e as políticas de firewall serão aprovadas pela NetApp e pelos clientes.
+A conectividade de rede é necessária entre a infraestrutura de storage instalada no data center do cliente ou os serviços co-localizados de propriedade do cliente e o centro de operações do Keystone. O cliente é responsável por fornecer as máquinas de computação e virtual, e os serviços de internet. O cliente também é responsável por patches de SO (implantações não baseadas em OVA) e fortalecimento da segurança com base em políticas de segurança internas. O projeto de rede deve ser feito através de um protocolo seguro e as políticas de firewall serão aprovadas pela NetApp e pelos clientes.
 
-A NetApp precisa acessar os componentes de hardware e software instalados para monitoramento e gerenciamento, a fim de fornecer serviços como monitoramento e cobrança aos clientes do Keystone. O método mais comum é estabelecer uma conexão de rede privada virtual (VPN) à rede do cliente e acessar os dados necessários. Para superar qualquer complexidade operacional percebida pelos clientes a partir da abertura de portas de firewall para novos serviços, as ferramentas de monitoramento iniciam uma conexão externa. Os aplicativos de nuvem da NetApp, como a solução AIOps e o Zuora, usam essa conexão para executar seus respetivos serviços. Esse método atende aos requisitos do cliente de não abrir portas de firewall, fornecendo acesso aos componentes de monitoramento que fazem parte desse serviço.
+A NetApp precisa acessar os componentes de hardware e software instalados para monitoramento e gerenciamento, a fim de fornecer serviços como monitoramento e cobrança aos clientes do Keystone. O método mais comum é estabelecer uma conexão de rede privada virtual (VPN) à rede do cliente e acessar os dados necessários. Para superar qualquer complexidade operacional percebida pelos clientes a partir da abertura de portas de firewall para novos serviços, as ferramentas de monitoramento iniciam uma conexão externa. Os aplicativos de nuvem da NetApp, como a solução de monitoramento ITOM e o Zuora, usam essa conexão para executar seus respetivos serviços. Esse método atende aos requisitos do cliente de não abrir portas de firewall, fornecendo acesso aos componentes de monitoramento que fazem parte desse serviço.

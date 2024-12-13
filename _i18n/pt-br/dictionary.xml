@@ -179,25 +179,16 @@
   <block id="39eeade2e73eb4823932331e5a459f8c" category="paragraph">Você deve fornecer a energia necessária. O NetApp fornecerá as especificações de requisitos de energia com base na classificação 200V (típica A, máx. A, W típico, máx. W, tipo de cabo de alimentação e quantidade), com base na configuração final. Todos os componentes têm fontes de alimentação redundantes. A NetApp fornecerá os cabos de alimentação no gabinete.</block>
   <block id="8c880fe54cae171fa97132f8c5e82297" category="section-title">Arrefecimento</block>
   <block id="e49c1cb86b679c35d94b37728ee6dfb6" category="paragraph">O NetApp pode fornecer as especificações de requisitos de refrigeração (BTU típico, BTU máximo), com base na configuração e no requisito finais.</block>
-  <block id="4d2caccc34711835f6ff99da411ac04e" category="section-title">Armazenamento de máquinas virtuais</block>
   <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Guia de instalação para o Keystone Collector</block>
-  <block id="147c46cde84c281f55a6c47d275ff845" category="paragraph">Uma máquina virtual de storage (VM de storage) é necessária para a implantação do Keystone Collector e do gateway de solução AIOps. Os pré-requisitos para instalar o Keystone Collector estão disponíveis aqui: <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>. Os outros requisitos são compartilhados durante a implantação.</block>
   <block id="b81687f75b28f9a0cfb73649c9cca458" category="section-title">Opções de implantação</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">O Keystone Collector pode ser implantado através dos seguintes métodos:</block>
   <block id="a100eabbc0de64e817f5268550f98e40" category="list-text">Modelo VMware OVA (é necessário o VMware vCenter Server 6,7 ou posterior)</block>
   <block id="aef0601039f80516fbc2cefd134a7b42" category="list-text">O cliente fornece um servidor Linux em execução no Red Hat Enterprise Linux 8,6 ou versões posteriores 8.x ou CentOS 7. O software Keystone é instalado por meio<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> do processo de instalação.</block>
-  <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">O gateway de solução AIOps é implantado na seguinte configuração:</block>
-  <block id="982460f46a9c865b5659aba58b2214e3" category="list-text">Instalador .iso inicializável para</block>
-  <block id="12d3f37fc10bb62fe3297b7457e90417" category="list-text">Citrix XenServer</block>
-  <block id="bbc2d665b02dc421c5c756db4b973610" category="list-text">Microsoft Hyper-V</block>
-  <block id="e05386baa04fdb8086234b221371bac1" category="list-text">Máquina virtual baseada em kernel (Linux KVM)</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">Rede</block>
   <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">O acesso de saída ao _keystone.NetApp.com_ é necessário para atualizações de software e uploads de dados de uso, que são essenciais para a operação e manutenção do gateway da solução Keystone Collector e AIOps.</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">Dependendo dos requisitos do cliente e dos controladores de armazenamento utilizados, o NetApp pode fornecer conetividade de 10 GB, 40 GB e 100 GB no local do cliente.</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">A NetApp fornece os transcetores necessários apenas para dispositivos de infraestrutura fornecidos pela NetApp. Você deve fornecer transcetores necessários para dispositivos do cliente e cabeamento para os dispositivos de infraestrutura Keystone fornecidos pela NetApp.</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">Requisito de acesso remoto</block>
-  <block id="9e5608e7c0a5ea33b2dac7e4f4da76e0" category="paragraph">A conectividade de rede é necessária entre a infraestrutura de storage instalada no data center do cliente ou os serviços co-localizados de propriedade do cliente e o centro de operações do Keystone. O cliente é responsável por fornecer as máquinas de computação e virtual, e os serviços de internet. O projeto de rede deve ser feito através de um protocolo seguro e as políticas de firewall serão aprovadas pela NetApp e pelos clientes.</block>
-  <block id="91aa968d50f3d2ecebe3ba524c542adc" category="paragraph">A NetApp precisa acessar os componentes de hardware e software instalados para monitoramento e gerenciamento, a fim de fornecer serviços como monitoramento e cobrança aos clientes do Keystone. O método mais comum é estabelecer uma conexão de rede privada virtual (VPN) à rede do cliente e acessar os dados necessários. Para superar qualquer complexidade operacional percebida pelos clientes a partir da abertura de portas de firewall para novos serviços, as ferramentas de monitoramento iniciam uma conexão externa. Os aplicativos de nuvem da NetApp, como a solução AIOps e o Zuora, usam essa conexão para executar seus respetivos serviços. Esse método atende aos requisitos do cliente de não abrir portas de firewall, fornecendo acesso aos componentes de monitoramento que fazem parte desse serviço.</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">A capacidade consumida é a capacidade que seus workloads realmente usam durante o uso do serviço.</block>
   <block id="4f0b4700902f5cec62b2b3a60c2d65b9" category="doc">Medição baseada na capacidade consumida</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">O Keystone STaaS tem medição com base na capacidade consumida por você durante o uso do serviço. A capacidade consumida é a capacidade que seus workloads realmente usam.</block>
@@ -207,20 +198,13 @@
   <block id="0476a04360a8efd6e70433fd2939cef7" category="section-title">Fluxo de dados do Keystone Collector</block>
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">O Keystone Collector inicia chamadas de API REST para os controladores de storage e obtém detalhes de uso dos controladores periodicamente, como indicado neste diagrama de fluxo:</block>
   <block id="30b2358cb02ac28dab20e543f65090a3" category="inline-image-macro">mostra o fluxo de dados dentro dos componentes do coletor</block>
-  <block id="0eacfc824aac3b0caf281a91b0150a47" category="paragraph"><block ref="0eacfc824aac3b0caf281a91b0150a47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b27e12d584b3438e811533b32e026e8" category="list-title">Legenda</block>
   <block id="ce200ab0b7646380f2bbefd2970ed633" category="list-text">O NetApp Collector inicia uma sessão HTTPS para o portal de nuvem do active IQ.</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">O firewall operado pelo cliente permite a conexão.</block>
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">O portal da nuvem do Active IQ aceita a conexão e estabelece um túnel para o Coletor de NetApp.</block>
   <block id="eb1ece97f0d4f33c42fe8c1270d9f97f" category="list-text">O coletor NetApp estabelece uma sessão de API REST para a conexão de gerenciamento do controlador de storage, obtém dados ambientais e os envia para o portal Active IQ.</block>
   <block id="4cf8f8268c14ee43943d5216b5df21a8" category="section-title">Monitoramento de fluxos de dados</block>
-  <block id="9bd6f9bd3f316579290de54613357644" category="paragraph">O monitoramento contínuo da integridade da infraestrutura de storage é um dos recursos mais importantes do serviço do Keystone. Para monitoramento e geração de relatórios, o Keystone usa a solução AIOps, que precisa de acesso remoto à rede do cliente. A imagem a seguir descreve como o acesso remoto à localização do cliente é protegido pela ferramenta de solução AIOps.</block>
   <block id="cd7ff698af2c2f69b7a1e0b0f9bd6fc0" category="inline-image-macro">fluxo de dados</block>
-  <block id="70d6d93b80cc0f0a782725d14559b395" category="paragraph"><block ref="70d6d93b80cc0f0a782725d14559b395" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="250f7d64786be93dcfc476bdd51bca8f" category="list-text">O gateway da solução AIOps inicia uma sessão TLS para o portal da nuvem.</block>
-  <block id="243cf07b27b6811f47ef7011b0f2fcd7" category="list-text">O servidor da solução AIOps na nuvem aceita a conexão.</block>
-  <block id="322f1e98181b58ca0f54061626b2d948" category="list-text">Um túnel TLS é estabelecido entre o portal da nuvem e o gateway local.</block>
-  <block id="450997fb0074b4d084ffcc7c81c8194e" category="list-text">Os controladores NetApp enviam alertas usando o protocolo SNMP ou respondem a solicitações de API para o gateway local.</block>
   <block id="67b0e91889520881c5ec5d57fab5f89c" category="list-text">O gateway local envia esses alertas para seu portal de nuvem usando a sessão TLS, que foi estabelecida anteriormente.</block>
   <block id="fd730f411ecf3d749480ce42fb6b5281" category="summary">O serviço complementar de categorização de dados identifica os dados usados com menos frequência e categoriza-os em storage com suporte.</block>
   <block id="1ef28d15d6a0ac03d072691320e9c61b" category="doc">Saiba mais sobre categorização de dados</block>
@@ -280,28 +264,18 @@
   <block id="3ad08396dc5afa78f34f548eea3c1d64" category="cell">Suíça</block>
   <block id="baec7a90ff5a6d18f6dd7ef76c3e4998" category="summary">Se precisar de ajuda, entre em Contato com o Centro Global de Serviços e suporte da NetApp.</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">Obtenha ajuda com o Keystone</block>
-  <block id="4ddf6c6712971dd15c713fad57953735" category="paragraph">Os serviços globais e o centro de suporte (GSSC) da NetApp e o gerente de sucesso do NetApp Keystone (KSM) são responsáveis por fornecer serviço para suas assinaturas do Keystone. Se precisar de ajuda, entre em Contato com a equipe de suporte.</block>
-  <block id="31ff08d41c8cc35bada27e791db4e753" category="section-title">Centro Global de Serviços e suporte da NetApp</block>
   <block id="8a559914d26628167b5f08a9373076e9" category="paragraph">A NetApp fornece serviços operacionais remotamente aos clientes da NetApp Keystone. Esses serviços abrangem uma variedade de disciplinas operacionais nas atividades de gerenciamento de storage. Esses serviços incluem gerenciamento de ativos e configurações, gerenciamento de capacidade e desempenho, gerenciamento de alterações, gerenciamento de eventos, incidentes e problemas, atendimento de solicitações de serviço e relatórios. O NetApp demonstra um estado de controlo e provas de apoio, conforme necessário.</block>
-  <block id="0a01a33e5f29d399207cdf2d0bedd8e4" category="section-title">Informações adicionais e Contato de suporte</block>
-  <block id="a38771031bc7d08419a9e331d277bafd" category="paragraph">A equipe do Centro de suporte e Serviços globais da NetApp dá suporte principalmente aos serviços para clientes da NetApp Keystone. Você pode usar as seguintes informações para entrar em Contato com a equipe de suporte.</block>
-  <block id="ff3ee75715261a301448444dad2f844d" category="list-text">Contactos do serviço global : <block ref="983f8b40dae4baa1de985ce6d2ebbb0c" category="inline-link-rx"></block></block>
   <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">Se você tiver um caso/ticket aberto que precisa ser encaminhado, envie um e-mail para um dos seguintes endereços: keystone.services@NetApp.com keystone.escalations@NetApp.com</block>
-  <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">A NetApp usa a solução AIOps para monitorar e se conectar proativamente ao ambiente NetApp Keystone para solucionar problemas.</block>
-  <block id="f117a997c71ee803b4f42cc859317819" category="admonition">Em um modelo operado por parceiro, as solicitações de serviço do locatário e do sublocatário são atribuídas ao Service desk do parceiro. A ferramenta de suporte do parceiro pode ter integração com a solução AIOps e aplicativos GSSC. Apenas L3 problemas são escalados para o NetApp por meio do GSSC.</block>
   <block id="5e3fca9227064d2d04c47a0f13b4fffe" category="paragraph">Para obter mais informações sobre os serviços do Keystone, consulte:</block>
   <block id="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link"><block ref="f0c94d09bc7d41e3ed09416fd1ed8a12" category="inline-link-rx"></block></block>
   <block id="1c6d9d150de7c9865ab3839ec9e99e4b" category="list-text">NetApp Keystone <block ref="4b675bc45aec5ce1523a19f69a2ff928" category="inline-link-rx"></block></block>
   <block id="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link"><block ref="fa4af55c3fdbce23e96d2cf73261fa5b" category="inline-link-rx"></block></block>
   <block id="0f185ccd88416daec4eee0a846d110b8" category="list-text">Documentação do produto NetApp <block ref="2e85fc867cab94d246e0bf6043b361cd" category="inline-link-rx"></block></block>
-  <block id="8ed38172f401cd08c379f8397810fe02" category="section-title">Monitoramento GSSC</block>
-  <block id="add73d271d7391eeb698cf556eed70ac" category="paragraph">A Central de suporte e serviços globais da NetApp monitora a integridade dos seus produtos e serviços inscritos, fornece suporte remoto e colabora com o seu gerente de sucesso do Keystone. Todos os funcionários que monitoram os produtos associados aos pedidos de assinatura relevantes do Keystone são cidadãos dos EUA que operam em solo dos EUA.</block>
   <block id="b47b3a710484adb2c8cfacd64043b550" category="paragraph-title">Gerenciador de sucesso do Keystone</block>
   <block id="380091ff4f618bba4a7e7e4aa88a1ec1" category="paragraph">O Keystone Success Manager (KSM) trabalha junto com você nos serviços do Keystone e atualiza você com relatórios operacionais e de cobrança semanais ou mensais. As responsabilidades são especificadas no seu contrato NetApp Keystone.</block>
   <block id="2d0539451bff9f553647efc300f001de" category="section-title">Gerando solicitações de serviço</block>
   <block id="ec48441169568deaa659297bc5ea9f6c" category="paragraph">Durante a integração, se você recebeu credenciais para acessar e usar o NetApp Keystone ServiceNow, poderá usar o portal para gerar solicitações de serviço para problemas relacionados às suas assinaturas do Keystone:</block>
   <block id="b2a258e6f0a0dc74fded47cb9cc5413c" category="paragraph"><block ref="b2a258e6f0a0dc74fded47cb9cc5413c" category="inline-link-rx"></block></block>
-  <block id="215f812eba5abfc5c6f2c8dd59899a86" category="paragraph">Certifique-se de que tem os detalhes do sistema, registos e informações relacionadas prontos antes de levantar a solicitação de serviço. Quando você envia uma solicitação de serviço, a equipe do GSSC recebe o ticket de suporte e acessa as informações para solução de problemas. Você pode seguir seu ticket ServiceNow para saber o status e a resolução.</block>
   <block id="ce79b37185c18b2eba95931a0b15de7a" category="inline-link-macro">Gerar e coletar pacote de suporte</block>
   <block id="d5bd195454f7264ad483f3ee67bec884" category="paragraph">Para obter informações sobre como adicionar pacotes de suporte, <block ref="bc06f0ccbc4013c0e8a3b640622ac4cb" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">Infraestrutura, design, opções de tecnologia e produtos de componentes do Keystone residem exclusivamente no NetApp.</block>
@@ -314,16 +288,13 @@
   <block id="c922e260c91e9dfb9972aed0ec4df400" category="list-text">Modifique a arquitetura, a tecnologia e/ou os produtos para atender aos requisitos de serviço.</block>
   <block id="63960c1414ae7aedf0bb17dff5c6759d" category="paragraph">A infraestrutura do Keystone inclui vários componentes, como os seguintes, entre outros:</block>
   <block id="da20082463112c8970df057a21a7f47d" category="list-text">A infraestrutura do Keystone, incluindo controladores de storage.</block>
-  <block id="0f1b5cef30787606dcebbe2aad12f047" category="list-text">Ferramentas para gerenciar e operar o serviço, como solução AIOps, Active IQ e Active IQ Unified Manager.</block>
   <block id="1e5c40b1bf2557793e21f12b8450b6d8" category="section-title">Plataformas de storage</block>
   <block id="414aed93a577927f0e7911bc9b07e11e" category="paragraph">As aplicações empresariais precisam de plataformas de storage para dar suporte a fluxos de trabalho de provisionamento rápidos, manter disponibilidade contínua, sustentar workloads altos com baixa latência, oferecer maior desempenho e oferecer suporte à integração com os principais fornecedores de nuvem. A NetApp tem vários produtos e tecnologias para dar suporte a esses requisitos. Para o serviço Keystone, a NetApp usa as plataformas AFF e StorageGRID.</block>
   <block id="2e36da56dea864a88d8bfe77e37ce8ce" category="section-title">Ferramentas de monitoramento</block>
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">Em um serviço operado pelo cliente do Keystone, a infraestrutura de storage e as ferramentas de monitoramento são instaladas no seu local. A infraestrutura de storage consiste no hardware de storage necessário para dar suporte ao seu pedido inicial, com o provisionamento para solicitar mais storage posteriormente.</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">Além do equipamento de storage, duas ferramentas de monitoramento são provisionadas para monitoramento de armazenamento e consumo.</block>
-  <block id="fe69a54042d9eff356aefd4641754a9d" category="list-text">Solução AIOps gateway local: Um aplicativo baseado em nuvem usado para monitorar sua rede. Ele tem integrações incorporadas com plataformas de storage NetApp para coletar dados ambientais e monitorar a rede. Este serviço é ativado com a ajuda de usar um gateway local instalado em seu site que se comunica com o portal da nuvem.</block>
   <block id="370f5a2dcf3c761999eec9796ac7cb95" category="list-text">Keystone Data Collector: O Keystone Collector fornece serviços de cobrança para os clientes do Keystone. Esta aplicação é fornecida com o Active IQ Unified Manager. Ele coleta dados de controladores ONTAP e StorageGRID em um intervalo de cinco minutos. Os dados são processados e os metadados são enviados para o data Lake Active IQ centralizado por meio do mecanismo AutoSupport, que é usado para geração de dados de cobrança. O data Lake do Active IQ processa os dados de faturamento e os envia para o Zuora para faturamento.</block>
   <block id="e6329950dc4e8e2123e22d6e9b5d6db8" category="inline-image-macro">pilha de gestão</block>
-  <block id="385cf44e2725480b6b1fff1e85799b05" category="paragraph"><block ref="385cf44e2725480b6b1fff1e85799b05" category="inline-image-macro-rx" type="image"></block></block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone e consultor digital</block>
   <block id="c22963609c9e56e13092c57fd8e1a2c5" category="paragraph">O Digital Advisor permite fazer login e visualizar os detalhes da assinatura e do consumo das assinaturas do Keystone. Para obter mais informações sobre os relatórios do Keystone no painel do Digital Advisor, <block ref="b7b6a2338cb0518cc39a6d3713bb6e47" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="96528977c8366dbda111370e25501602" category="summary">O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira saber mais sobre esses termos ao usar o Keystone.</block>
@@ -797,12 +768,7 @@
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">Serviços para armazenamento em nuvem</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">O Keystone STaaS fornece serviços de storage de nuvem. O Keystone STaaS oferece suporte aos recursos de gerenciamento de dados do Cloud Volumes ONTAP no Amazon Web Services (AWS), no Microsoft Azure e no Google Cloud Platform.</block>
   <block id="2a947eac17f71a99037966f44ce8252d" category="admonition">Os serviços de computação, storage e rede baseados em Hyperscalar exigidos pelo Cloud Volumes ONTAP não são fornecidos pelo NetApp como parte das assinaturas do Keystone STaaS. Essas assinaturas precisam ser obtidas diretamente de fornecedores de serviços de nuvem em hyperscalar.</block>
-  <block id="b04b9612a34a45ebf4b2053eb712e1de" category="summary">O apoio ao Cidadão dos Estados Unidos é um serviço complementar que fornece a entrega e o apoio de serviços contínuos do Keystone de cidadãos dos EUA em solo dos EUA.</block>
-  <block id="efb798aa1e5f26018339774ed88a11c6" category="doc">Saiba mais sobre USCS</block>
-  <block id="90770185e7f0d93f4befd67871a81092" category="paragraph">O suporte ao Cidadão dos Estados Unidos (USCS) é uma oferta adicional para assinaturas do NetApp Keystone. Ele permite que você receba entrega e suporte de serviços Keystone contínuos de cidadãos dos EUA em solo dos EUA.</block>
   <block id="8816d718cde960556e2d767cd7bc6a24" category="paragraph">Leia as seções a seguir para entender quais elementos de suas assinaturas estão vinculados a esse serviço complementar e são fornecidos sob os termos do Contrato NetApp Keystone.nota de rodapé:disclaimer1[os serviços e ofertas descritos aqui estão sujeitos a, e limitados e regidos por um Contrato Keystone totalmente executado.]</block>
-  <block id="616e342ef98270057c5d3a2f3e3e7338" category="section-title">Monitoramento do Centro de suporte de Serviços globais da NetApp</block>
-  <block id="c779911684ebe3ceed4035306e2997c3" category="paragraph">O Centro Global de Serviços e suporte (GSSC) da NetApp monitora a integridade dos seus produtos e serviços inscritos, fornece suporte remoto e colabora com o seu gerente de sucesso do Keystone. Todos os funcionários que monitoram os produtos associados aos pedidos de assinatura relevantes do Keystone são cidadãos dos EUA que operam em solo dos EUA.</block>
   <block id="c553b9ccdf9dbcac0e340f4775dc3b5a" category="paragraph">O Keystone Success Manager (KSM) é um cidadão dos EUA que opera em solo americano. Suas responsabilidades são especificadas no seu Contrato NetApp Keystone.</block>
   <block id="e8483ac20b1990d2362dd45e18cfb1d2" category="section-title">Atividades de implantação</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">Quando disponíveis, as atividades de implantação e instalação no local e remota são conduzidas por cidadãos dos EUA em solo dos EUA. Nota de rodapé:isenção de responsabilidade[a disponibilidade de pessoal apropriado para atividades no local depende da localização geográfica em que os sistemas Keystone são implantados.]</block>
@@ -952,7 +918,6 @@
   <block id="f9017eb4d160c5625e2911de7136c2fe" category="list-text">O servidor do Unified Manager deve estar acessível pelo servidor Keystone Collector na porta 443 (HTTPS).</block>
   <block id="c55d18e0937cb0a3844d2da3ecbc7e82" category="list-text">Uma conta de serviço com permissões de usuário do aplicativo deve ser configurada para o Keystone Collector no servidor do Unified Manager.</block>
   <block id="4be679fb0c05782454656e48556dab1d" category="list-text">Não é necessária conetividade externa à Internet.</block>
-  <block id="9fc9a5ce8278ada254052c62e048d22b" category="list-text">Todos os meses, exporte um arquivo do Keystone Collector e envie-o por e-mail para a equipe de suporte da NetApp. Para obter mais informações sobre como entrar em Contato com a equipe de suporte, <block ref="77e2a4ca04ba16c3bb0a4c8df0385121" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="9bb097552337391bef04a8384c5c2779" category="summary">Antes de começar a usar o Keystone, você precisa garantir que os clusters do ONTAP e os sistemas StorageGRID atendam a alguns requisitos.</block>
   <block id="9f06d116e9e0b83604b7fd60a2234a51" category="doc">Requisitos para ONTAP e StorageGRID</block>
   <block id="6d29d2542a6a2e3e81746082b1d99b07" category="list-title">Versões de software</block>
@@ -1971,7 +1936,6 @@
   <block id="087e52621b1299752b891e4115749950" category="sidebar">Serviços de subscrição Keystone versão 1</block>
   <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">Serviços complementares</block>
   <block id="2bd211076b668ce560dbd1fb33cce8cb" category="sidebar">Serviços com tecnologia Equinix</block>
-  <block id="3b4d5a194534074e4e26b153c90a2ef6" category="sidebar">Suporte ao Cidadão dos EUA (USCS)</block>
   <block id="9cda68e54ae42ad7708b87ba7d09426f" category="sidebar">SLA do Keystone STaaS</block>
   <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">Disponibilidade</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">Sustentabilidade</block>
@@ -2072,4 +2036,118 @@
   <block id="749c79ba020f9d0aaf1b465f6dd56db8" category="inline-image-macro">Captura de tela mostrando a opção de adicionar usuário</block>
   <block id="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="paragraph"><block ref="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9406fb3af0e8e2bf8446823785c0e069" category="sidebar">Insights da infraestrutura de dados</block>
+  <block id="137f19e6e2dc1219f33553b812627bc2" category="section-title">Máquinas virtuais</block>
+  <block id="7f76b7c3d58c94507679ec4e89236f5b" category="inline-link-macro">Requisitos de instalação para ITOM Collector</block>
+  <block id="edf9f0e23de8308b9cbd2cee93fc5ce2" category="paragraph">As máquinas virtuais são necessárias para a implantação do Keystone Collector e do ITOM Collector. Para obter os pré-requisitos de instalação, <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>consulte e <block ref="9bc3880c82515bce110d54618fdd016a" category="inline-link-macro-rx"></block>. Os outros requisitos são compartilhados durante a implantação.</block>
+  <block id="e928ba962ab987ce8326c040dd6a7083" category="paragraph">O ITOM Collector pode ser implantado através dos seguintes métodos:</block>
+  <block id="96791c51d091db61be7d6912c6675765" category="list-text">O cliente fornece um servidor Linux em execução em Debian 12, Ubuntu 20,04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023 ou versões mais recentes.</block>
+  <block id="1c6db71abb5563b4658fbc63f51e8b24" category="list-text">O Cliente fornece um servidor Windows que executa o Windows Server 2016 ou versões mais recentes.</block>
+  <block id="1364c79d952bcd4745981c580d2edc5a" category="admonition">Os sistemas operacionais recomendados são Debian 12, Windows Server 2016 ou versões mais recentes.</block>
+  <block id="43eefb573a809ff61e1c8d3d07813ee3" category="paragraph">A conectividade de rede é necessária entre a infraestrutura de storage instalada no data center do cliente ou os serviços co-localizados de propriedade do cliente e o centro de operações do Keystone. O cliente é responsável por fornecer as máquinas de computação e virtual, e os serviços de internet. O cliente também é responsável por patches de SO (implantações não baseadas em OVA) e fortalecimento da segurança com base em políticas de segurança internas. O projeto de rede deve ser feito através de um protocolo seguro e as políticas de firewall serão aprovadas pela NetApp e pelos clientes.</block>
+  <block id="3bd97f0b75ad0b75e89607ca3389444d" category="paragraph">A NetApp precisa acessar os componentes de hardware e software instalados para monitoramento e gerenciamento, a fim de fornecer serviços como monitoramento e cobrança aos clientes do Keystone. O método mais comum é estabelecer uma conexão de rede privada virtual (VPN) à rede do cliente e acessar os dados necessários. Para superar qualquer complexidade operacional percebida pelos clientes a partir da abertura de portas de firewall para novos serviços, as ferramentas de monitoramento iniciam uma conexão externa. Os aplicativos de nuvem da NetApp, como a solução de monitoramento ITOM e o Zuora, usam essa conexão para executar seus respetivos serviços. Esse método atende aos requisitos do cliente de não abrir portas de firewall, fornecendo acesso aos componentes de monitoramento que fazem parte desse serviço.</block>
+  <block id="daaeac371cb5600a69ff928296058e7c" category="paragraph">Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e pela solução de monitoramento ITOM, que é o sistema de monitoramento associado.</block>
+  <block id="137a100b0d612b21a3e5cf73f112b6ad" category="paragraph"><block ref="137a100b0d612b21a3e5cf73f112b6ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="179406659d7fde9a1cfbcd5d2e57830c" category="paragraph">O monitoramento contínuo da integridade da infraestrutura de storage é um dos recursos mais importantes do serviço do Keystone. Para monitoramento e geração de relatórios, o Keystone usa a solução de monitoramento ITOM. A imagem a seguir descreve como o acesso remoto à localização do cliente é protegido pela solução de monitoramento ITOM. Os clientes podem optar por ativar o recurso de sessão remota, o que permite que a equipe de suporte do Keystone se conete a dispositivos monitorados para solução de problemas.</block>
+  <block id="d28beba29b63444d6424d03c5390b388" category="paragraph"><block ref="d28beba29b63444d6424d03c5390b388" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16866b1071bb4f12cb7915045075b519" category="list-text">O gateway da solução de monitoramento ITOM inicia uma sessão TLS para o portal da nuvem.</block>
+  <block id="451930752182f50216eef4cb75f0d96e" category="list-text">O servidor da solução de monitoramento ITOM na nuvem aceita a conexão.</block>
+  <block id="66b4b72a98576d6a82927d721f9082ce" category="list-text">Uma sessão TLS é estabelecida entre o portal da nuvem e o gateway local.</block>
+  <block id="6727d943adce470174c18dc949a30ae0" category="list-text">Os controladores NetApp enviam alertas usando o protocolo SNMP/Syslog ou respondem a solicitações de API para o gateway local.</block>
+  <block id="c41ce7fe395738925814b2d06467e3ec" category="section-title">Normas de conformidade</block>
+  <block id="03242372ae5b03ca7f547f3cb7dab64f" category="inline-link-macro">Adendo de proteção de dados (DPA)</block>
+  <block id="a58e8ea096956351960d74a5b466e9e0" category="paragraph">A solução de monitoramento Keystone ITOM está em conformidade com o Regulamento Geral de proteção de dados da União Europeia (GDPR) e a Lei de Privacidade do Consumidor da Califórnia (CCPA). Prevê igualmente um <block ref="12861122e9a15898b646770ef3c2b260" category="inline-link-macro-rx"></block>documento para documentar estes compromissos. A solução de monitoramento ITOM não coleta nem armazena dados pessoais.</block>
+  <block id="9271c91f15a89ae66145641e94752632" category="paragraph">A equipe de suporte da NetApp Keystone e o gerente de sucesso do Keystone (KSM) são responsáveis por fornecer serviço para suas assinaturas do Keystone. Se precisar de ajuda, entre em Contato com a equipe de suporte do Keystone.</block>
+  <block id="1d15537f2746347dfa1ac4acd53c9adb" category="section-title">Suporte à NetApp Keystone</block>
+  <block id="0f68b904e33d9ac04605aecc958bcf52" category="section-title">Informações adicionais</block>
+  <block id="49b12603d90b8d1e26781b4c49aa661a" category="paragraph">A NetApp usa a solução de monitoramento ITOM para monitorar e se conetar proativamente ao ambiente NetApp Keystone para solucionar problemas.</block>
+  <block id="aee6a3bc19432c3c01a246f89d46a987" category="admonition">Em um modelo operado por parceiro, as solicitações de serviço do locatário e do sublocatário são atribuídas ao Service desk do parceiro. A ferramenta de suporte do parceiro pode ter integração com a solução ITOM.</block>
+  <block id="01a2b3dbd173b41f042686cdc48ed6d5" category="section-title">Monitoramento do suporte do Keystone</block>
+  <block id="9c63af51824784bfae9cd146a00bdd21" category="paragraph">O suporte da NetApp Keystone monitora a integridade dos produtos e dos serviços inscritos, fornece suporte remoto e colabora com o seu Gerenciador de sucesso do Keystone.</block>
+  <block id="4bb1ec7470540bdb0d6aeee19ef42670" category="paragraph">Certifique-se de que tem os detalhes do sistema, registos e informações relacionadas prontos antes de levantar a solicitação de serviço. Quando você envia uma solicitação de serviço, a equipe de suporte do Keystone recebe o ticket de suporte e acessa as informações para solução de problemas. Você pode seguir seu ticket ServiceNow para saber o status e a resolução.</block>
+  <block id="d0b8f9213f7c1943447dc74174b7005a" category="list-text">Ferramentas para gerenciar e operar o serviço, como solução de monitoramento ITOM, Active IQ e Active IQ Unified Manager.</block>
+  <block id="8851c6fe19bf967cca1a7747c9a0b08e" category="list-text">Solução de monitoramento Keystone IT Operations Management (ITOM): Uma aplicação SaaS baseada na nuvem usada para monitorar o ambiente do Keystone. Ele tem integrações incorporadas com plataformas de storage da NetApp para coletar dados ambientais e monitorar os componentes de computação, rede e storage da infraestrutura do Keystone. Essa capacidade de monitoramento se estende a configurações locais, data centers, ambientes em nuvem ou qualquer combinação desses. O serviço é ativado com a ajuda de usar um ITOM Collector local instalado em seu site que se comunica com o portal da nuvem.</block>
+  <block id="1ff9ceb23d392b2e0eb7fcd6c3f61c34" category="paragraph"><block ref="1ff9ceb23d392b2e0eb7fcd6c3f61c34" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b9582a9d01a3bb00c5c7df318f3cd4ed" category="summary">O United States Protected Support é um serviço complementar que fornece fornecimento e suporte de serviços Keystone contínuos de cidadãos dos EUA em solo norte-americano.</block>
+  <block id="3ed89ff08462e73f47156395fd0c75ac" category="doc">Saiba mais sobre USPS</block>
+  <block id="21fe13388dd575bae131356d62eb3d04" category="paragraph">O suporte protegido dos Estados Unidos (USPS) é uma oferta complementar para assinaturas do NetApp Keystone. Ele permite que você receba entrega e suporte de serviços Keystone contínuos de cidadãos dos EUA em solo dos EUA.</block>
+  <block id="10d701676d6c78ebafad1c0adf816cc7" category="section-title">Monitoramento NetApp USPS</block>
+  <block id="75d0ff56559c8650dad12b15a71e6950" category="paragraph">A equipe de suporte do Keystone, USPS NetApp monitora a integridade dos seus produtos e serviços inscritos, fornece suporte remoto e colabora com o seu Gerenciador de sucesso do Keystone. Todos os funcionários que monitoram os produtos associados aos pedidos de assinatura relevantes do Keystone são cidadãos dos EUA que operam em solo dos EUA.</block>
+  <block id="70a7925bd880e8632a66c41a83d2a2e9" category="list-text">Todos os meses, exporte um arquivo do Keystone Collector e envie-o por e-mail para a equipe de suporte da NetApp. Para obter mais informações sobre como entrar em Contato com a equipe de suporte, <block ref="2dd3cb549793fb90ba3abaee885c98ff" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="9c62788e882432afb4a67231a8793b98" category="summary">Instale o software ITOM Collector em sistemas baseados em Linux.</block>
+  <block id="76c87a002b2f377e07b664132c3a197e" category="doc">Instale o ITOM Collector em sistemas Linux</block>
+  <block id="473f0144f9eff452e654f0b15b23fab1" category="paragraph">Conclua algumas etapas para instalar o ITOM Collector, que coletará dados de métricas em seu ambiente de armazenamento. Você pode instalá-lo em sistemas Windows ou Linux, dependendo de suas necessidades.</block>
+  <block id="ed5f434c9fb860090390831cf62c2cda" category="admonition">A equipe de suporte do Keystone fornece um link dinâmico para baixar o arquivo de configuração ITOM Collector, que expira em duas horas.</block>
+  <block id="15e54aabc31e95c20bd5b9e9534cb8f3" category="inline-link-macro">Instale o ITOM Collector em sistemas Windows</block>
+  <block id="78c894c65eab257836a2fa2a880d28b4" category="paragraph">Para instalar o ITOM Collector em sistemas Windows, <block ref="d04ab87c73184a2a7be46f1ebca8138a" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="0469628de5f4d496f41adb03905fd222" category="paragraph">Siga estas etapas para instalar o software em seu servidor Linux:</block>
+  <block id="8dfe1a76c7708340f1a9c5c2da042672" category="list-text">Verifique se o shell Bourne está disponível para o script de instalação do Linux.</block>
+  <block id="21a7f021975f9926da34a1c18c2d1781" category="list-text">Instale o<block ref="a5b39ca919b44c4b20de11533d426fd3" prefix=" " category="inline-code"></block> pacote para obter o binário *xxd* necessário para o arquivo de configuração ITOM Collector.</block>
+  <block id="0ec0c41988a7979f58ae73234195ffed" category="list-text">Verifique se o<block ref="2974b76bb8b6b3ad0840b451721d13f3" prefix=" " category="inline-code"></block> está instalado se estiver planejando executar o ITOM Collector como um usuário não-root.</block>
+  <block id="1eab632bbcbedc9b6dd199a778338044" category="list-text">Baixe o arquivo de configuração do coletor ITOM para o servidor Linux.</block>
+  <block id="af81ca81473ba340a8e57bfa13f48e41" category="list-text">Abra um terminal no servidor e execute o seguinte comando para alterar as permissões e tornar os binários executáveis:<block ref="4c1bdb3b42b686e644525cc5ebc20903" prefix=" " category="inline-code"></block></block>
+  <block id="103a1b6f97b780d9d5d4e2dd5fd11876" category="list-text">Execute o comando para iniciar o arquivo de configuração do coletor ITOM:<block ref="48ccf91210e9cc3f76224127818295e1" prefix=" " category="inline-code"></block></block>
+  <block id="987f69a9c64fc75031a80018493523ee" category="list-text">Executar o arquivo de configuração solicita que você:</block>
+  <block id="d287a2c00d5fc479ec02c44e15915feb" category="list-text">Aceite o contrato de licença do utilizador final (EULA).</block>
+  <block id="e4581ea781ff41558849658bc2396372" category="list-text">Introduza os detalhes do utilizador para a instalação.</block>
+  <block id="764b4dd654d82af9df435bc3342b38b3" category="list-text">Especifique o diretório pai de instalação.</block>
+  <block id="a9f6d20bce0781102f878dc6d5929e12" category="list-text">Selecione o tamanho do coletor.</block>
+  <block id="e244fb07ad95ea6115c9f9fb0773e98b" category="list-text">Forneça detalhes do proxy, se aplicável.</block>
+  <block id="ef679c97f76c37ed8d59368b6f534a42" category="paragraph">Para cada prompt, uma opção padrão é exibida. É recomendável selecionar a opção padrão, a menos que você tenha requisitos específicos. Pressione a tecla *Enter* para escolher a opção padrão. Quando a instalação for concluída, uma mensagem confirma que o ITOM Collector foi instalado com sucesso.</block>
+  <block id="e745f331db61ec53e80cf6dc50cce124" category="list-text">O arquivo de configuração ITOM Collector faz adições<block ref="6c109d6e94c97fb519007c1f06880582" prefix=" " category="inline-code"></block> para lidar com reinicializações de serviço e despejos de memória.</block>
+  <block id="091667f5525be41b118e74bea7f11636" category="list-text">Instalar o ITOM Collector no servidor Linux cria um usuário padrão chamado *ITOM* para executar o ITOM Collector sem root Privileges. Você pode escolher um usuário diferente ou executá-lo como root, mas é recomendável usar o usuário ITOM criado pelo script de instalação do Linux.</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">O que se segue?</block>
+  <block id="6a2b2a3198f14986193621fc68f7d1b0" category="paragraph">Na instalação bem-sucedida, entre em Contato com a equipe de suporte do Keystone para validar a instalação bem-sucedida do ITOM Collector por meio do portal de suporte do ITOM. Após a verificação, a equipe de suporte do Keystone configurará o ITOM Collector remotamente, incluindo descoberta de dispositivo adicional e configuração de monitoramento, e enviará uma confirmação assim que a configuração for concluída. Para quaisquer dúvidas ou informações adicionais, entre em Contato com keystone.services@NetApp.com.</block>
+  <block id="c8c33002525e3af8118ac88b999e0a36" category="summary">Instale o ITOM Collector em sistemas baseados no Windows.</block>
+  <block id="9a1aca3d0a5022aa5c935121f269f5da" category="paragraph">Instale o ITOM Collector em um sistema Windows baixando o arquivo de configuração ITOM Collector, executando o assistente InstallShield e inserindo as credenciais de monitoramento necessárias.</block>
+  <block id="cc466e787bcb3bcc61f4d18911009dd3" category="paragraph">Você pode instalá-lo em sistemas Linux com base em suas necessidades. Para instalar o ITOM Collector em sistemas Linux, <block ref="27b59bee15cd9541248108e38df9589e" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="78b7c5e4378b650d67d668c8aae60c6d" category="paragraph">Siga estas etapas para instalar o software ITOM Collector em seu servidor Windows:</block>
+  <block id="a13a5fc563489a1109d5d87f428f77b9" category="paragraph">Certifique-se de que o serviço ITOM Collector é concedido *Faça logon como um serviço* sob Política local/atribuição de direitos de usuário nas configurações de diretiva de segurança local do servidor Windows.</block>
+  <block id="1778106db6e3aca4579c648608f40eb8" category="list-text">Baixe o arquivo de configuração do coletor ITOM para o servidor Windows.</block>
+  <block id="1ec09dc4e6db38b1f452962c210006b6" category="list-text">Abra o arquivo de configuração para iniciar o assistente InstallShield.</block>
+  <block id="5f9e970fd1f32ef2b46ec34c48880830" category="list-text">Aceite o contrato de licença do utilizador final (EULA). O assistente InstallShield extrai os binários necessários e solicita que você insira credenciais.</block>
+  <block id="c03cade745ec5543fe1bd8588393bafd" category="list-text">Insira as credenciais para a conta em que o ITOM Collector será executado em:</block>
+  <block id="8afb8b7b6e5ba46146a989919c02a849" category="list-text">Se o ITOM Collector não estiver monitorando outros servidores Windows, use o sistema local.</block>
+  <block id="316b1f7d821d723eb574667b6cb9302b" category="list-text">Se o ITOM Collector estiver monitorando outros servidores Windows no mesmo domínio, use uma conta de domínio com permissões de administrador local.</block>
+  <block id="12b899c7f1e72badef82e030788edfc8" category="list-text">Se o ITOM Collector estiver monitorando outros servidores do Windows que não fazem parte do mesmo domínio, use uma conta de administrador local e conete-se a cada recurso com credenciais de administrador local. Você pode optar por definir a senha para que ela não expire, para reduzir os problemas de autenticação entre o ITOM Collector e seus recursos monitorados.</block>
+  <block id="004bff76ec6e0eda1b94e3ffc3ba1ad7" category="list-text">Selecione o tamanho do coletor. O padrão é o tamanho recomendado com base no arquivo de configuração. Prossiga com o tamanho sugerido, a menos que você tenha requisitos específicos.</block>
+  <block id="e97143745b175c3b72479889956c6a2b" category="list-text">Selecione _Next_ para iniciar a instalação. Você pode usar a pasta preenchida ou escolher outra. Uma caixa de status exibe o andamento da instalação, seguida da caixa de diálogo Assistente InstallShield concluído.</block>
+  <block id="6cf5a787f8e9babecd7e3e62b472c0f1" category="summary">Seus sistemas devem atender a vários requisitos antes de instalar o ITOM Collector.</block>
+  <block id="067857c91d7e95767cebced037df51fc" category="paragraph">Antes de instalar o ITOM Collector, certifique-se de que seus sistemas estão preparados com o software necessário e atendam a todos os pré-requisitos necessários.</block>
+  <block id="382c090cdf20988adebc3da3af734475" category="list-title">Pré-requisitos para a VM do servidor ITOM Collector:</block>
+  <block id="f086ae2281105a95b9f676071bb5da54" category="list-text">Sistema operativo suportado: Debian 12, Windows Server 2016, Ubuntu 20,04 LTS, Red Hat Enterprise Linux (RHEL) 8.x, Amazon Linux 2023 ou versões mais recentes destes sistemas operativos.</block>
+  <block id="756e04f777f1ed6cee954325099dfc00" category="list-text">Requisito de recurso: Os requisitos de recurso da VM com base no número de nós NetApp monitorados são os seguintes:</block>
+  <block id="a008248e3966fc8b2c95be03552c4466" category="list-text">2-10 nós: 4 CPUs, 8 GB de RAM, 40 GB de disco</block>
+  <block id="ab3a29aba303bfd353ff5e6fb0b2db96" category="list-text">12-20 nós: 8 CPUs, 16 GB de RAM, 40 GB de disco</block>
+  <block id="a2257f11d613296885301983ffe6776d" category="list-text">Requisito de configuração: Certifique-se de que uma conta somente leitura e SNMP estejam configurados nos dispositivos monitorados. A VM do servidor de Coletor ITOM também precisa ser configurada como um host de trap SNMP e servidor Syslog no cluster NetApp e switches de cluster, se aplicável.</block>
+  <block id="e4c91d77f6e08017c82c7fdd34476249" category="paragraph">Os requisitos de rede do ITOM Collector estão listados na tabela a seguir.</block>
+  <block id="888a77f5ac0748b6c8001822417df8b6" category="cell">Protocolo</block>
+  <block id="407c4e9fac86b98147da49acd4fa0d01" category="cell">Portas</block>
+  <block id="859944346c3dd9a26e3d2b955b505719" category="cell">ITOM Collector</block>
+  <block id="ee5ece347c0f7881a3c0fc86f9fdcffa" category="cell">IPs de gerenciamento de clusters NetApp ONTAP</block>
+  <block id="3ac5095d5929679753e1ca6589d594ce" category="cell">HTTPS, SNMP</block>
+  <block id="008117d5243d637d0f718d44531d6195" category="cell">TCP 443, UDP 161</block>
+  <block id="401590a5f8ea5fcc8af254e7154db96a" category="cell">Monitoramento dos controladores ONTAP</block>
+  <block id="cfad39dcf092a0e70fbecdad147efce3" category="cell">IPs de gerenciamento de clusters e nós do NetApp ONTAP</block>
+  <block id="ad064e6c7842af70fa17d071f3d73376" category="cell">SNMP, Syslog</block>
+  <block id="0631e975432229862b992ba6076ff584" category="cell">UDP 162, UDP 514</block>
+  <block id="3cb8f57e4b0f5634e015d61f58d5a285" category="cell">Traps SNMP e Syslogs de controladores</block>
+  <block id="f267a68fd1c8bddcc992701898021398" category="cell">Interrutores do cluster</block>
+  <block id="305af65222ed3fff91f5c8bcdfe17162" category="cell">SNMP</block>
+  <block id="d6bf88c792de5d84a555c4437037d09c" category="cell">UDP 161</block>
+  <block id="3e0245f7e867ca454b47cb5cebcebed8" category="cell">Monitorização dos interrutores</block>
+  <block id="101456c198283ec795d2c8241d55e9b7" category="cell">Traps SNMP e Syslogs a partir de switches</block>
+  <block id="791a8f03040c18a43dcbd68302786ae7" category="cell">IPs de nós de StorageGRID</block>
+  <block id="e73f9940bf39eca2e6c94f83f892d044" category="cell">Monitorização SNMP do StorageGRID</block>
+  <block id="0230fd83cc5847de0511e75c4a9bc734" category="cell">Traps SNMP do StorageGRID</block>
+  <block id="3a7a184ceb1bfebf10c52fb898098871" category="cell">SSH, HTTPS, SNMP</block>
+  <block id="04bb5e2ca7fa6728ad7244e65be06704" category="cell">TCP 22, TCP 443, UDP 161</block>
+  <block id="979f40d640a4eef558bbb55c64add9a1" category="cell">Monitoramento e gerenciamento remoto do Keystone Collector</block>
+  <block id="2e9c43ef7b6bd474b0531e7ee01ed0da" category="cell">DNS local</block>
+  <block id="a9382e24532861463ad8c02646d03ec7" category="cell">UDP 53</block>
+  <block id="604e16aef35dcff33260b6091ac4de5b" category="cell">Serviços DNS públicos ou privados</block>
+  <block id="b8238d20e6d90959c58ff56a063bce2c" category="cell">Servidor(es) NTP de escolha</block>
+  <block id="e6b92e04e8bdad7c1346f8024d1fca8d" category="cell">Manutenção do tempo</block>
+  <block id="fee7b996a8ab0bee47684563d23b4926" category="sidebar">Instale o ITOM Collector</block>
+  <block id="8869eeb557230a1ee1c042d1156e4eef" category="sidebar">Instale no Windows</block>
+  <block id="fbb165d9f99339f62e1190730a20d297" category="sidebar">U.S. Protected Support (USPS)</block>
 </blocks>

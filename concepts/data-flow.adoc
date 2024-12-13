@@ -14,7 +14,7 @@ summary: Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e p
 
 
 [role="lead"]
-Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e pela ferramenta de solução AIOps, que é o sistema de monitoramento associado.
+Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e pela solução de monitoramento ITOM, que é o sistema de monitoramento associado.
 
 
 
@@ -22,7 +22,7 @@ Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e pela ferra
 
 O Keystone Collector inicia chamadas de API REST para os controladores de storage e obtém detalhes de uso dos controladores periodicamente, como indicado neste diagrama de fluxo:
 
-image:collector-data-flow.png["mostra o fluxo de dados dentro dos componentes do coletor"]
+image:collector-data-flow-2.png["mostra o fluxo de dados dentro dos componentes do coletor"]
 
 .Legenda
 . O NetApp Collector inicia uma sessão HTTPS para o portal de nuvem do active IQ.
@@ -35,15 +35,21 @@ image:collector-data-flow.png["mostra o fluxo de dados dentro dos componentes do
 
 == Monitoramento de fluxos de dados
 
-O monitoramento contínuo da integridade da infraestrutura de storage é um dos recursos mais importantes do serviço do Keystone. Para monitoramento e geração de relatórios, o Keystone usa a solução AIOps, que precisa de acesso remoto à rede do cliente. A imagem a seguir descreve como o acesso remoto à localização do cliente é protegido pela ferramenta de solução AIOps.
+O monitoramento contínuo da integridade da infraestrutura de storage é um dos recursos mais importantes do serviço do Keystone. Para monitoramento e geração de relatórios, o Keystone usa a solução de monitoramento ITOM. A imagem a seguir descreve como o acesso remoto à localização do cliente é protegido pela solução de monitoramento ITOM. Os clientes podem optar por ativar o recurso de sessão remota, o que permite que a equipe de suporte do Keystone se conete a dispositivos monitorados para solução de problemas.
 
-image:monitoring-flow.png["fluxo de dados"]
+image:monitoring-flow-1.png["fluxo de dados"]
 
 .Legenda
-. O gateway da solução AIOps inicia uma sessão TLS para o portal da nuvem.
+. O gateway da solução de monitoramento ITOM inicia uma sessão TLS para o portal da nuvem.
 . O firewall operado pelo cliente permite a conexão.
-. O servidor da solução AIOps na nuvem aceita a conexão.
-. Um túnel TLS é estabelecido entre o portal da nuvem e o gateway local.
-. Os controladores NetApp enviam alertas usando o protocolo SNMP ou respondem a solicitações de API para o gateway local.
+. O servidor da solução de monitoramento ITOM na nuvem aceita a conexão.
+. Uma sessão TLS é estabelecida entre o portal da nuvem e o gateway local.
+. Os controladores NetApp enviam alertas usando o protocolo SNMP/Syslog ou respondem a solicitações de API para o gateway local.
 . O gateway local envia esses alertas para seu portal de nuvem usando a sessão TLS, que foi estabelecida anteriormente.
 
+
+
+
+== Normas de conformidade
+
+A solução de monitoramento Keystone ITOM está em conformidade com o Regulamento Geral de proteção de dados da União Europeia (GDPR) e a Lei de Privacidade do Consumidor da Califórnia (CCPA). Prevê igualmente um link:https://www.logicmonitor.com/legal/data-processing-addendum["Adendo de proteção de dados (DPA)"^]documento para documentar estes compromissos. A solução de monitoramento ITOM não coleta nem armazena dados pessoais.
