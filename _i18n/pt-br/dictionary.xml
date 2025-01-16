@@ -183,7 +183,6 @@
   <block id="b81687f75b28f9a0cfb73649c9cca458" category="section-title">Opções de implantação</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">O Keystone Collector pode ser implantado através dos seguintes métodos:</block>
   <block id="a100eabbc0de64e817f5268550f98e40" category="list-text">Modelo VMware OVA (é necessário o VMware vCenter Server 6,7 ou posterior)</block>
-  <block id="aef0601039f80516fbc2cefd134a7b42" category="list-text">O cliente fornece um servidor Linux em execução no Red Hat Enterprise Linux 8,6 ou versões posteriores 8.x ou CentOS 7. O software Keystone é instalado por meio<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> do processo de instalação.</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">Rede</block>
   <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">O acesso de saída ao _keystone.NetApp.com_ é necessário para atualizações de software e uploads de dados de uso, que são essenciais para a operação e manutenção do gateway da solução Keystone Collector e AIOps.</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">Dependendo dos requisitos do cliente e dos controladores de armazenamento utilizados, o NetApp pode fornecer conetividade de 10 GB, 40 GB e 100 GB no local do cliente.</block>
@@ -896,7 +895,6 @@
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM: 2 GB</block>
   <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">Espaço em disco: 20 GB vDisk</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Requisitos para Linux</block>
-  <block id="f9d3d3159cdb3dcf297f1a90d133e474" category="list-text">Sistema operacional: Debian v12, ou Red Hat Enterprise Linux (RHEL) 8,6, ou versões posteriores dentro da série RHEL 8.x.</block>
   <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">Núcleo: 2 CPU</block>
   <block id="9b254436141f0faf599283567283dff9" category="list-text">RAM: 4 GB</block>
   <block id="6689c36f38716c4f3b09772966e38e5d" category="list-text">Espaço em disco: 50 GB vDisk</block>
@@ -1254,7 +1252,6 @@
   <block id="009d77d3b79ee4c7df16ef0658dd3bc3" category="paragraph"><block ref="009d77d3b79ee4c7df16ef0658dd3bc3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b004e452ab1681faf969a405195763d4" category="summary">Instale o software Keystone Collector a partir do repositório de software YUM.</block>
   <block id="3d2e59b74f3974b65e8370dbb27389dc" category="doc">Instale o Keystone Collector em sistemas Linux</block>
-  <block id="1fb4cbb275f095e6c7e8f914d27ed735" category="paragraph">O software Keystone Collector é distribuído por um repositório de software YUM on-line. Você precisa importar e instalar o arquivo em um servidor Linux.</block>
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">SSH para o servidor Keystone Collector e elevar-se a<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> privilégios.</block>
   <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">Importar a assinatura de assinatura pública do Keystone:<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
   <block id="81f184376266ed69a659d0030be070fc" category="list-text">Verifique se o certificado público correto foi importado verificando a impressão digital do Keystone Billing Platform no banco de dados RPM:<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block> A impressão digital correta é semelhante a esta:<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
@@ -1269,7 +1266,6 @@
   <block id="9293791c9b2058fcd60b469bdf61dddc" category="paragraph">Preparar seu sistema Linux com o software necessário garante a instalação precisa e a coleta de dados pelo Keystone Collector.</block>
   <block id="463649c18ef31362109100aff9b56298" category="paragraph">Certifique-se de que a VM do servidor do Keystone Collector Linux e do Keystone tenha essas configurações.</block>
   <block id="35307f57a5a3d5fba69141c7640ae906" category="list-title">Servidor Linux:</block>
-  <block id="2604f9447676294c730c1410115fcdc0" category="list-text">Sistema operacional: CentOS 7, Red Hat Enterprise Linux (RHEL) 8,6 ou versões posteriores da série RHEL 8.x.</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">Cronyd tempo sincronizado</block>
   <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">Acesso aos repositórios de software padrão do Linux</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">O mesmo servidor também deve ter os seguintes pacotes de terceiros:</block>
@@ -2164,4 +2160,18 @@
   <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Faça mais com os serviços do Keystone</block>
   <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">Conheça sua equipe de suporte</block>
   <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">Monitore, solucione problemas e melhore o storage</block>
+  <block id="7fe1234c016df317c9bb2796b94c80c3" category="list-text">Customer fornece um servidor Linux em execução em um dos seguintes sistemas operacionais: Debian 12, Red Hat Enterprise Linux 8,6 ou versões 8.x posteriores, ou CentOS 7 (apenas para ambientes existentes). O software Keystone é instalado usando o<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> pacote ou<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block>, dependendo da distribuição Linux.</block>
+  <block id="af1726e663445fca1780939dd8437580" category="list-text">Sistema operacional: Debian 12, ou Red Hat Enterprise Linux (RHEL) 8,6, ou versões posteriores dentro da série RHEL 8.x.</block>
+  <block id="4082fa09d81cb2bcef02087304b3c30e" category="paragraph">Você pode instalar o software Keystone Collector em um servidor Linux usando um RPM ou um pacote Debian. Siga as etapas de instalação, dependendo da sua distribuição Linux.</block>
+  <block id="3fc1f45d72a49b590c944fab8aac1e82" category="open-title">Usando RPM</block>
+  <block id="162a9e33a865943694a11b0031d84b66" category="open-title">Usando Debian</block>
+  <block id="a98e37707079fc949c91ca051e0dcead" category="list-text">SSH para o servidor Keystone Collector e elevar-se a<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> privilégios.<block ref="e73620038e8b54deb176b2581c7558a7" prefix=" " category="inline-code"></block></block>
+  <block id="5d4cb7a4cf862260849df5175a34c215" category="list-text">Transfira o<block ref="f86119adbf6f60ddd66d8af50a026122" prefix=" " category="inline-code"></block> ficheiro:<block ref="4228c57e26dcb7e788f67e6f9e02ceb5" prefix=" " category="inline-code"></block></block>
+  <block id="6ff4e4466ce735d11d88c1194817f0d7" category="list-text">Instale o arquivo de repositório de software do Keystone:<block ref="071fc003590c05068b84e2edffcea01e" prefix=" " category="inline-code"></block></block>
+  <block id="1f55f1a8efb6267e6c92c68a37d05869" category="list-text">Atualize a lista de pacotes:<block ref="e4d1bfabfe93077d65c8642e0205cfbf" prefix=" " category="inline-code"></block></block>
+  <block id="f3c8438664647f9d220cbfd1625a0edd" category="list-text">Quando o Keystone repo estiver instalado, instale o pacote keystone-Collector:<block ref="29b04259d51ea73a795fc3c2452196f4" prefix=" " category="inline-code"></block></block>
+  <block id="d830024e9ce7615651460580909fdc44" category="list-text">Sistema operacional: Qualquer um dos seguintes:</block>
+  <block id="653181dc830ebbf1153310c93a009c52" category="list-text">Debian 12</block>
+  <block id="015c84a3348885955ce882f1beed478e" category="list-text">Red Hat Enterprise Linux 8,6 ou versões posteriores 8.x</block>
+  <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 (somente para ambientes existentes)</block>
 </blocks>

@@ -19,7 +19,13 @@ Preparar seu sistema Linux com o software necessário garante a instalação pre
 Certifique-se de que a VM do servidor do Keystone Collector Linux e do Keystone tenha essas configurações.
 
 .Servidor Linux:
-* Sistema operacional: CentOS 7, Red Hat Enterprise Linux (RHEL) 8,6 ou versões posteriores da série RHEL 8.x.
+* Sistema operacional: Qualquer um dos seguintes:
++
+** Debian 12
+** Red Hat Enterprise Linux 8,6 ou versões posteriores 8.x
+** CentOS 7 (somente para ambientes existentes)
+
+
 * Cronyd tempo sincronizado
 * Acesso aos repositórios de software padrão do Linux
 
