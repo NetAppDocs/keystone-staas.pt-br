@@ -81,7 +81,7 @@ Internet (de acordo com os requisitos de URL fornecidos posteriormente)
  a| 
 HTTPS
  a| 
-TCP 80, TCP 443
+TCP 443
  a| 
 Obrigatório (ligação à Internet)
  a| 

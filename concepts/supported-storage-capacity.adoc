@@ -40,7 +40,7 @@ Durante o período de vigência de uma assinatura, você pode alterar as capacid
 
 * A capacidade comprometida pode ser reduzida com base em certas condições. Para obter informações, link:../concepts/capacity-requirements.html["Redução de capacidade"]consulte .
 * A capacidade comprometida não pode ser aumentada 90 dias antes do término da assinatura, a menos que a assinatura seja renovada por um período adicional de 12 meses.
-* Você pode solicitar alterações na capacidade comprometida por meio da interface do BlueXP  ou do Gerenciador de sucesso do Keystone (KSM). Para obter informações sobre como solicitar alterações, link:../concepts/gssc.html["Centro de suporte a Serviços globais da NetApp"]consulte .
+* Você pode solicitar alterações na capacidade comprometida por meio da interface do BlueXP  ou do Gerenciador de sucesso do Keystone (KSM). Para obter informações sobre como solicitar alterações, link:../concepts/gssc.html["Suporte à NetApp Keystone"]consulte .
 
 
 

@@ -97,14 +97,14 @@ Se o consumo de W/TIB durante um período de faturamento não atender aos crité
 
 == Pedido de crédito de serviço
 
-Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com o Keystone Global Services and Support Center (GSSC) e forneça os detalhes conforme solicitado na Planilha do excel, conforme mostrado abaixo:
+Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com suporte à NetApp Keystone e forneça os detalhes conforme solicitado na Planilha do excel, conforme mostrado abaixo:
 
 image:sla-breach.png["modelo de folha do excel"]
 
 [NOTE]
 ====
-* Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o GSSC ter validado uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.
-* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas expiradas do Keystone. Para saber mais, link:../concepts/gssc.html["Centro de suporte a Serviços globais da NetApp"]consulte .
+* Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o suporte da NetApp Keystone validar uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.
+* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas expiradas do Keystone. Para saber mais, link:../concepts/gssc.html["Suporte à NetApp Keystone"]consulte .
 
 
 ====

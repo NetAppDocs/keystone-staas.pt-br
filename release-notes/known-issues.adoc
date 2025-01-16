@@ -24,18 +24,18 @@ Os seguintes problemas conhecidos são relatados no NetApp Keystone STaaS:
 
 
  a| 
-Detalhes do volume indisponíveis para subscrições primárias e vinculadas
+Exibição incorreta do tipo de política de QoS
  a| 
-A guia *Resumo de volume* mostra zero para o número total de volumes, status de conformidade de QoS, contagem de volumes protegidos e capacidade total consumida para assinaturas secundárias primárias e vinculadas.
+Na guia *Detalhes do volume*, a coluna *tipo de política de QoS* exibe _QoS_ quando nenhuma política de QoS é aplicada e a coluna compatível mostra _não definido_, causando uma inconsistência no status da política de QoS exibida.
  a| 
 Nenhum
 
 
 
  a| 
-Não é possível gerar relatórios para assinaturas
+Detalhes do volume indisponíveis para subscrições primárias e vinculadas
  a| 
-Quando mais de 10-12 assinaturas são selecionadas na guia *assinaturas* na página *assinaturas do Keystone*, o relatório não consegue gerar ao clicar no botão *Download CSV* com a opção *incluir dados para cada nível de serviço*.
+A guia *Resumo de volume* mostra zero para o número total de volumes, status de conformidade de QoS, contagem de volumes protegidos e capacidade total consumida para assinaturas secundárias primárias e vinculadas.
  a| 
 Nenhum
 

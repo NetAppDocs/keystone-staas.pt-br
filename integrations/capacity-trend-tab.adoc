@@ -92,7 +92,7 @@ A explosão é a diferença entre a capacidade consumida e a capacidade comprome
 
 == Ver sequência acumulada faturada
 
-Se você tiver selecionado a opção *Faturado Acumulado Burst*, poderá ver os dados de uso de burst acumulados mensalmente ou trimestralmente, dependendo do período de faturamento selecionado. Esses dados estão disponíveis para os últimos 12 meses que foram cobrados e você pode consultar pelo intervalo de datas para até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, eles serão marcados como _pendente_ para esse período.
+Se você tiver selecionado a opção *Faturado Acumulado Burst*, poderá ver o uso de dados acumulados de burst mensal ou trimestral, dependendo do período de faturamento selecionado. Esses dados estão disponíveis para os últimos 12 meses que foram cobrados e você pode consultar pelo intervalo de datas para até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, eles serão marcados como _pendente_ para esse período.
 
 
 TIP: O uso de estouro acumulado faturado é calculado por período de faturamento, com base na capacidade comprometida e consumida de um nível de serviço.
@@ -106,6 +106,22 @@ Se você mudar de faturamento trimestral para mensal, a fatura trimestral ainda 
 image:accr-burst-2.png["utilização de expansões sazonais acumuladas trimestralmente"]
 
 Esta funcionalidade está disponível no modo apenas pré-visualização. Contacte o seu KSM para saber mais sobre esta funcionalidade.
+
+
+
+== Veja o uso diário de dados de pico acumulado
+
+Você pode visualizar o uso diário de dados de pico sazonal acumulados por um período de cobrança mensal ou trimestral. Quando você clica na barra que exibe os dados faturados, a seção capacidade provisionada faturável aparecerá abaixo do gráfico de barras, oferecendo opções de exibição *Gráfico* e *Tabela*. A exibição de gráfico padrão exibe o uso diário de dados acumulados em um formato de gráfico de linha, mostrando alterações no uso ao longo do tempo.
+
+image:invoiced-daily-accr-burst-1.png["captura de tela mostrando o gráfico de barras"]
+
+Uma imagem de exemplo que mostra a utilização diária de dados de sequência acumulada num gráfico de linhas:
+
+image:invoiced-daily-accr-burst-2.png["captura de tela mostrando dados de uso de explosão em um formato de gráfico de linha"]
+
+Você pode alternar para uma exibição de tabela clicando na opção *Tabela* no canto superior direito do gráfico. A exibição de tabela fornece métricas diárias detalhadas de uso, incluindo nível de serviço, carimbo de data/hora, capacidade comprometida, capacidade consumida e capacidade provisionada faturável. Você também pode gerar um relatório desses detalhes em formato CSV para uso futuro e comparação.
+
+image:invoiced-daily-accr-burst-3.png["captura de tela mostrando dados de uso de estouro em um formato de tabela"]
 
 
 

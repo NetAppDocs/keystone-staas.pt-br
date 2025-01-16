@@ -24,7 +24,6 @@
   <block id="d5afaa3fa8ab0daf63847efd0d324dda" category="paragraph">Coleção de métricas de uso do Keystone Collector para StorageGRID</block>
   <block id="3a9be63d84e9a8b01937ad5727618ebd" category="paragraph">Keystone Collector (genérico)</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">Internet (de acordo com os requisitos de URL fornecidos posteriormente)</block>
-  <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80, TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">Obrigatório (ligação à Internet)</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">O software Keystone Collector, atualizações do sistema operacional e upload de métricas</block>
   <block id="18cc1486462950320ca2ccc7310af46b" category="paragraph">Proxy HTTP do cliente</block>
@@ -261,7 +260,6 @@
   <block id="af2d21b994ceb580773abb07a8691b58" category="paragraph">Washington DC</block>
   <block id="2b29c5739ec4158573c66d2124e2c7e9" category="paragraph">Zurique</block>
   <block id="3ad08396dc5afa78f34f548eea3c1d64" category="cell">Suíça</block>
-  <block id="baec7a90ff5a6d18f6dd7ef76c3e4998" category="summary">Se precisar de ajuda, entre em Contato com o Centro Global de Serviços e suporte da NetApp.</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">Obtenha ajuda com o Keystone</block>
   <block id="8a559914d26628167b5f08a9373076e9" category="paragraph">A NetApp fornece serviços operacionais remotamente aos clientes da NetApp Keystone. Esses serviços abrangem uma variedade de disciplinas operacionais nas atividades de gerenciamento de storage. Esses serviços incluem gerenciamento de ativos e configurações, gerenciamento de capacidade e desempenho, gerenciamento de alterações, gerenciamento de eventos, incidentes e problemas, atendimento de solicitações de serviço e relatórios. O NetApp demonstra um estado de controlo e provas de apoio, conforme necessário.</block>
   <block id="11cc259f3fbff7a9b169739c7cd9d613" category="list-text">Se você tiver um caso/ticket aberto que precisa ser encaminhado, envie um e-mail para um dos seguintes endereços: keystone.services@NetApp.com keystone.escalations@NetApp.com</block>
@@ -624,7 +622,6 @@
   <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">Usando a fórmula: Créditos de serviço ( 10 / 100 ) X 1000 x 0,05</block>
   <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">Com base no cálculo, os créditos de serviço serão de 5 dólares.</block>
   <block id="182bf07a2845568515ca20b4e4654296" category="section-title">Pedido de crédito de serviço</block>
-  <block id="d914d7b4a96bed82ab1c41c97e6c5742" category="paragraph">Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com o Keystone Global Services and Support Center (GSSC).</block>
   <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">São necessários os seguintes detalhes:</block>
   <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Número de assinatura do Keystone</block>
   <block id="5e27e36d07d4a7286d88cd834cfbd611" category="list-text">Detalhes do controlador de volumes e armazenamento</block>
@@ -632,12 +629,8 @@
   <block id="de0480c0f5c929948100ece899e9724e" category="list-text">Duração calculada da deteção de latência</block>
   <block id="f657fc20931370f67393f5612ec70ffe" category="list-text">Ferramentas e métodos de medição</block>
   <block id="2ecd994c3d59e0ce0211ab40d4167837" category="list-text">Qualquer outro documento aplicável</block>
-  <block id="dc33a5089714f6579a5ab21118922cef" category="list-text">Forneça os detalhes na Planilha do excel, conforme mostrado abaixo, para um ticket P3 aberto com o Keystone GSSC.</block>
   <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">modelo de folha do excel</block>
   <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eb0abc09e7b5678911ee2656102c8868" category="list-text">Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o GSSC ter validado uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.</block>
-  <block id="1df0745e84cded8b1998d4aaf3fce411" category="inline-link-macro">Centro de suporte a Serviços globais da NetApp</block>
-  <block id="45a3835755fcd6b1bf728c884bcc8d34" category="list-text">Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas expiradas do Keystone. Para saber mais, <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">sustentabilidade, sla, acordo de nível de serviço</block>
   <block id="4bcbaed6ba1519c1f0036c82537ffc1f" category="doc">SLA de performance</block>
   <block id="8c9a4601149bbf6f607b6419227dc5e3" category="paragraph">A NetApp Keystone oferece SLA baseado em latência por nível de serviço, conforme descrito no pedido do Keystone para capacidade consumida, até o limite de sobrecarga, de acordo com os termos e condições listados a seguir.</block>
@@ -706,7 +699,6 @@
   <block id="1190761e382695cb9416b27ee7eed4d3" category="paragraph">3 a 7</block>
   <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
-  <block id="87b656ee6c82131afa7ac0871d8168e8" category="paragraph">Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com o Keystone Global Services and Support Center (GSSC) e forneça os detalhes conforme solicitado na Planilha do excel, conforme mostrado abaixo:</block>
   <block id="bd339dbfb05a24b918fbc9459eac1e21" category="summary">Saiba mais sobre os tipos de capacidades de armazenamento suportados pelo serviço STaaS da NetApp Keystone.</block>
   <block id="e561d7dfcd6620325c8edbb7b2c1d749" category="paragraph">O serviço STaaS da NetApp Keystone dá suporte a vários tipos de capacidades de storage. Entender esses diferentes termos de capacidade pode ajudar à medida que você usa o Keystone.</block>
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">Capacidade lógica</block>
@@ -719,7 +711,6 @@
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">Durante o período de vigência de uma assinatura, você pode alterar as capacidades comprometidas. No entanto, existem certas condições prévias:</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">A capacidade comprometida pode ser reduzida com base em certas condições. Para obter informações, <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">A capacidade comprometida não pode ser aumentada 90 dias antes do término da assinatura, a menos que a assinatura seja renovada por um período adicional de 12 meses.</block>
-  <block id="5979b85a79f05c1c731acd749343d5ff" category="list-text">Você pode solicitar alterações na capacidade comprometida por meio da interface do BlueXP  ou do Gerenciador de sucesso do Keystone (KSM). Para obter informações sobre como solicitar alterações, <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Capacidade consumida</block>
   <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. O serviço Keystone considera a soma dos tamanhos lógicos usados (não a capacidade física usada) de todos os volumes em um nível de serviço específico para calcular a capacidade consumida para esse nível de serviço.</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">Capacidade de pico sazonal</block>
@@ -1254,7 +1245,6 @@
   <block id="3d2e59b74f3974b65e8370dbb27389dc" category="doc">Instale o Keystone Collector em sistemas Linux</block>
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">SSH para o servidor Keystone Collector e elevar-se a<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> privilégios.</block>
   <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">Importar a assinatura de assinatura pública do Keystone:<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
-  <block id="81f184376266ed69a659d0030be070fc" category="list-text">Verifique se o certificado público correto foi importado verificando a impressão digital do Keystone Billing Platform no banco de dados RPM:<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block> A impressão digital correta é semelhante a esta:<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
   <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">Transfira o<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> ficheiro:<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
   <block id="5000c92898e0e1c2f66f175bc48765b6" category="list-text">Verifique a autenticidade do arquivo:<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block> Uma assinatura para um arquivo autêntico é assim:<block ref="4fc602b120696aeae5ab8b4ebd2a36e8" prefix=" " category="inline-code"></block></block>
   <block id="eb1f328dadd504e03e367eafd0c1e18c" category="list-text">Instale o arquivo do repositório de software DO YUM:<block ref="90fdbfbbba2139b53a74cc0098f4e51e" prefix=" " category="inline-code"></block></block>
@@ -1958,7 +1948,6 @@
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">Lógico</block>
   <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">Físico</block>
   <block id="77755c419ef346c65225a7d2709520ab" category="paragraph">Para obter informações sobre como exibir o consumo em uma configuração do MetroCluster, <block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="138155ee615aaf4d4e698be7c61a12c0" category="paragraph">Se você tiver selecionado a opção *Faturado Acumulado Burst*, poderá ver os dados de uso de burst acumulados mensalmente ou trimestralmente, dependendo do período de faturamento selecionado. Esses dados estão disponíveis para os últimos 12 meses que foram cobrados e você pode consultar pelo intervalo de datas para até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, eles serão marcados como _pendente_ para esse período.</block>
   <block id="df54e0aa337c00aed9738ce50d6f7d40" category="paragraph">Para um período de faturação trimestral, se a subscrição começar numa data diferente da 1 o do mês, a fatura trimestral cobrirá o período subsequente de 90 dias. Por exemplo, se a sua assinatura começar em 15 de agosto, a fatura será gerada para o período de 15 de agosto a 14 de outubro.</block>
   <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">Se você mudar de faturamento trimestral para mensal, a fatura trimestral ainda cobrirá o período de 90 dias, com duas faturas geradas no último mês do trimestre: Uma para o período de faturamento trimestral e outra para os dias restantes desse mês. Esta transição permite que o período de faturação mensal comece no dia 1 do mês seguinte. Por exemplo, se sua assinatura começar em 15 de outubro, você receberá duas faturas em janeiro, uma de 15 de outubro a 14 de janeiro e outra de 15 a 31 de janeiro, antes do início do período de faturamento mensal em 1 de fevereiro.</block>
   <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">utilização de expansões sazonais acumuladas trimestralmente</block>
@@ -1967,8 +1956,6 @@
   <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0bf27b930a0841a9485431dd01de3f4" category="admonition">Se você se inscreveu no serviço complementar avançado de proteção de dados, então você pode clicar na dica de ferramenta em relação ao seu número de assinatura para exibir o ID de rastreamento da assinatura do parceiro em uma configuração do MetroCluster. Para saber como exibir o consumo detalhado por assinaturas de parceiros em uma configuração do MetroCluster, <block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="24685db79ee3df152404bc24333590fd" category="paragraph">21 de novembro de 2024</block>
-  <block id="2531cde1a4803cc2a1ae862eb5d81705" category="paragraph">Não é possível gerar relatórios para assinaturas</block>
-  <block id="4b22f859addb0f523b4eb20c8a3de953" category="paragraph">Quando mais de 10-12 assinaturas são selecionadas na guia *assinaturas* na página *assinaturas do Keystone*, o relatório não consegue gerar ao clicar no botão *Download CSV* com a opção *incluir dados para cada nível de serviço*.</block>
   <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">Explosão acumulada faturada melhorada</block>
   <block id="68282426b20517fa5a804475f31878a9" category="paragraph">Agora, você pode visualizar os dados de uso de expansões sazonais acumuladas trimestralmente por meio da opção *Invoed Acumulado Burst* se tiver optado por um período de faturamento trimestral. Para saber mais, <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="f916fd7c91361d368cb72a24d8c89422" category="section-title">Novas colunas na guia Detalhes de volumes</block>
@@ -2174,4 +2161,29 @@
   <block id="653181dc830ebbf1153310c93a009c52" category="list-text">Debian 12</block>
   <block id="015c84a3348885955ce882f1beed478e" category="list-text">Red Hat Enterprise Linux 8,6 ou versões posteriores 8.x</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7 (somente para ambientes existentes)</block>
+  <block id="265561b81e51364d306e58144832b7a8" category="summary">Se precisar de ajuda, entre em Contato com a equipe de suporte da NetApp Keystone.</block>
+  <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com suporte à NetApp Keystone.</block>
+  <block id="5ece80a8e6fc51ca90ea8b795dbe7f83" category="list-text">Forneça os detalhes na Planilha do excel, como mostrado abaixo, para um ticket P3 aberto com suporte ao NetApp Keystone.</block>
+  <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o suporte da NetApp Keystone validar uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.</block>
+  <block id="193dec405e65293a13ce97bb2c01440c" category="list-text">Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas expiradas do Keystone. Para saber mais, <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com suporte à NetApp Keystone e forneça os detalhes conforme solicitado na Planilha do excel, conforme mostrado abaixo:</block>
+  <block id="87b542a75a4c78cc8d36c595c7c05de1" category="list-text">Você pode solicitar alterações na capacidade comprometida por meio da interface do BlueXP  ou do Gerenciador de sucesso do Keystone (KSM). Para obter informações sobre como solicitar alterações, <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="b22fed8db0bb580ac39be331b010b1cd" category="list-text">Verifique se o certificado público correto foi importado verificando a impressão digital do Keystone Billing Platform no banco de dados RPM:<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block> A impressão digital correta é semelhante a esta:<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
+  <block id="46c3e6e27fbc70afa310c1553eb52893" category="paragraph">Se você tiver selecionado a opção *Faturado Acumulado Burst*, poderá ver o uso de dados acumulados de burst mensal ou trimestral, dependendo do período de faturamento selecionado. Esses dados estão disponíveis para os últimos 12 meses que foram cobrados e você pode consultar pelo intervalo de datas para até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, eles serão marcados como _pendente_ para esse período.</block>
+  <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">Veja o uso diário de dados de pico acumulado</block>
+  <block id="5f79c46e242a47bee55e1f47143a24eb" category="paragraph">Você pode visualizar o uso diário de dados de pico sazonal acumulados por um período de cobrança mensal ou trimestral. Quando você clica na barra que exibe os dados faturados, a seção capacidade provisionada faturável aparecerá abaixo do gráfico de barras, oferecendo opções de exibição *Gráfico* e *Tabela*. A exibição de gráfico padrão exibe o uso diário de dados acumulados em um formato de gráfico de linha, mostrando alterações no uso ao longo do tempo.</block>
+  <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">captura de tela mostrando o gráfico de barras</block>
+  <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">Uma imagem de exemplo que mostra a utilização diária de dados de sequência acumulada num gráfico de linhas:</block>
+  <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">captura de tela mostrando dados de uso de explosão em um formato de gráfico de linha</block>
+  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">Você pode alternar para uma exibição de tabela clicando na opção *Tabela* no canto superior direito do gráfico. A exibição de tabela fornece métricas diárias detalhadas de uso, incluindo nível de serviço, carimbo de data/hora, capacidade comprometida, capacidade consumida e capacidade provisionada faturável. Você também pode gerar um relatório desses detalhes em formato CSV para uso futuro e comparação.</block>
+  <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">captura de tela mostrando dados de uso de estouro em um formato de tabela</block>
+  <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c47baa61c22503bd11f03c33a6eb4733" category="paragraph">Não é possível gerar relatórios para assinaturas ao selecionar mais de 10-12 assinaturas na guia *assinaturas* na página *assinaturas do Keystone*.</block>
+  <block id="823d73fac48b123a5c54fb36b35fa946" category="paragraph">8 de janeiro de 2025</block>
+  <block id="0210cb3765fda3047d9297b0f453ca44" category="paragraph">Exibição incorreta do tipo de política de QoS</block>
+  <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">Na guia *Detalhes do volume*, a coluna *tipo de política de QoS* exibe _QoS_ quando nenhuma política de QoS é aplicada e a coluna compatível mostra _não definido_, causando uma inconsistência no status da política de QoS exibida.</block>
+  <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">Adição de opções de visualização de utilização de dados acumulados diariamente</block>
+  <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>consulte .</block>
 </blocks>

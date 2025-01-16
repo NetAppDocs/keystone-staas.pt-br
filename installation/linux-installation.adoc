@@ -24,7 +24,7 @@ Você pode instalar o software Keystone Collector em um servidor Linux usando um
 . Importar a assinatura de assinatura pública do Keystone:
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
 . Verifique se o certificado público correto foi importado verificando a impressão digital do Keystone Billing Platform no banco de dados RPM:
-`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint` A impressão digital correta é semelhante a esta:
+`# rpm -qa gpg-pubkey --qf '%{Description}'|gpg --show-keys --fingerprint` A impressão digital correta é semelhante a esta:
 `90B3 83AF E07B 658A 6058 5B4E 76C2 45E4 33B6 C17D`
 . Transfira o `keystonerepo.rpm` ficheiro:
 `curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`

@@ -20,6 +20,16 @@ Os seguintes aprimoramentos são introduzidos na tela *assinaturas do Keystone* 
 
 
 
+== 8 de janeiro de 2025
+
+
+
+=== Adição de opções de visualização de utilização de dados acumulados diariamente
+
+Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"]consulte .
+
+
+
 == 12 de dezembro de 2024
 
 

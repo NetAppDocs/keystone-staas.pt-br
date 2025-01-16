@@ -22,6 +22,15 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+Não é possível gerar relatórios para assinaturas ao selecionar mais de 10-12 assinaturas na guia *assinaturas* na página *assinaturas do Keystone*.
+ a| 
+Fixo
+ a| 
+8 de janeiro de 2025
+
+
+
+ a| 
 A subguia *Resumo de volume* na guia *volumes e objetos* não é carregada para assinaturas do StorageGRID.
  a| 
 Fixo
