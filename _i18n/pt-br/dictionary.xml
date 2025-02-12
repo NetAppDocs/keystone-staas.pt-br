@@ -2186,4 +2186,9 @@
   <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">Na guia *Detalhes do volume*, a coluna *tipo de política de QoS* exibe _QoS_ quando nenhuma política de QoS é aplicada e a coluna compatível mostra _não definido_, causando uma inconsistência no status da política de QoS exibida.</block>
   <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">Adição de opções de visualização de utilização de dados acumulados diariamente</block>
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="0488df5729275bc610c775109a5e97ed" category="doc">Problemas corrigidos no Keystone STaaS</block>
+  <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Problemas conhecidos no Keystone STaaS</block>
+  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">Não é possível visualizar dados históricos</block>
+  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">Na guia *tendência de consumo*, os níveis de serviço associados à assinatura anterior não são exibidos quando a assinatura expirar e se renovar com o mesmo ID de rastreamento, mas com níveis de serviço diferentes. Isso resulta na perda de acesso aos dados históricos de consumo.</block>
+  <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Limitações conhecidas no Keystone STaaS</block>
 </blocks>
