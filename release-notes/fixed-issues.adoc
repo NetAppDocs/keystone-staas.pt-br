@@ -22,6 +22,33 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+Opção *Keystone Subscription* ausente de *Watchlist* e *Subscription Number* de *Reports* no painel do Digital Advisor.
+ a| 
+Fixo
+ a| 
+19 de março de 2025
+
+
+
+ a| 
+Faltam algumas assinaturas do Keystone da *Lista de observação* depois de criar ou modificar a lista de observação a partir do painel do Digital Advisor.
+ a| 
+Fixo
+ a| 
+19 de março de 2025
+
+
+
+ a| 
+Não é possível exibir dados históricos na guia *tendência de consumo* para níveis de serviço associados a uma assinatura que expirou e foi renovada com o mesmo ID de rastreamento, mas com níveis de serviço diferentes.
+ a| 
+Fixo
+ a| 
+19 de março de 2025
+
+
+
+ a| 
 Não é possível gerar relatórios para assinaturas ao selecionar mais de 10-12 assinaturas na guia *assinaturas* na página *assinaturas do Keystone*.
  a| 
 Fixo

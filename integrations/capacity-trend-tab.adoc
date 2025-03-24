@@ -117,7 +117,7 @@ image:invoiced-daily-accr-burst-1.png["captura de tela mostrando o gráfico de b
 
 Uma imagem de exemplo que mostra a utilização diária de dados de sequência acumulada num gráfico de linhas:
 
-image:invoiced-daily-accr-burst-2.png["captura de tela mostrando dados de uso de explosão em um formato de gráfico de linha"]
+image:invoiced-daily-accr-burst-date.png["captura de tela mostrando dados de uso de explosão em um formato de gráfico de linha"]
 
 Você pode alternar para uma exibição de tabela clicando na opção *Tabela* no canto superior direito do gráfico. A exibição de tabela fornece métricas diárias detalhadas de uso, incluindo nível de serviço, carimbo de data/hora, capacidade comprometida, capacidade consumida e capacidade provisionada faturável. Você também pode gerar um relatório desses detalhes em formato CSV para uso futuro e comparação.
 
