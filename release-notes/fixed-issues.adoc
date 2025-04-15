@@ -22,6 +22,24 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+Os valores de consumo para assinaturas vinculadas mostram números negativos incorretos, fazendo com que o uso total comprometido seja exibido com precisão alta.
+ a| 
+Fixo
+ a| 
+14 de abril de 2025
+
+
+
+ a| 
+Não é possível exibir dados históricos na guia *tendência de consumo* para níveis de serviço para algumas assinaturas.
+ a| 
+Fixo
+ a| 
+14 de abril de 2025
+
+
+
+ a| 
 Opção *Keystone Subscription* ausente de *Watchlist* e *Subscription Number* de *Reports* no painel do Digital Advisor.
  a| 
 Fixo

@@ -24,6 +24,15 @@ Os seguintes problemas conhecidos são relatados no NetApp Keystone STaaS:
 
 
  a| 
+Fatura incorreta devido a incompatibilidade de dados
+ a| 
+Uma incompatibilidade nos dados de consumo das assinaturas do AutoSupport leva à geração de faturas incorretas, causando imprecisões de faturamento.
+ a| 
+Nenhum
+
+
+
+ a| 
 Exibição incorreta do tipo de política de QoS
  a| 
 Na guia *Detalhes do volume*, a coluna *tipo de política de QoS* exibe _QoS_ quando nenhuma política de QoS é aplicada e a coluna compatível mostra _não definido_, causando uma inconsistência no status da política de QoS exibida.
