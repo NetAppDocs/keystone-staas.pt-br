@@ -712,7 +712,6 @@
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">A capacidade comprometida pode ser reduzida com base em certas condições. Para obter informações, <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">A capacidade comprometida não pode ser aumentada 90 dias antes do término da assinatura, a menos que a assinatura seja renovada por um período adicional de 12 meses.</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Capacidade consumida</block>
-  <block id="9cd5acb8fb327acbb895954f39411c04" category="paragraph">A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. O serviço Keystone considera a soma dos tamanhos lógicos usados (não a capacidade física usada) de todos os volumes em um nível de serviço específico para calcular a capacidade consumida para esse nível de serviço.</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">Capacidade de pico sazonal</block>
   <block id="cc3265dfeccaee5313f6c701aeabcbef" category="paragraph">O serviço Keystone permite que você use capacidade adicional sobre a capacidade comprometida em um nível de serviço. Este é o uso de capacidade de pico sazonal. Observe estes pontos:</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">Capacidade de pico sazonal é acordada no contrato do Keystone. Normalmente, está configurado até 20% acima da capacidade comprometida e é cobrado à mesma taxa que a capacidade comprometida.</block>
@@ -2218,4 +2217,9 @@
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">Uma incompatibilidade nos dados de consumo das assinaturas do AutoSupport leva à geração de faturas incorretas, causando imprecisões de faturamento.</block>
   <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">O Keystone Collector não coleta dados de uso para clusters do ONTAP com versões inferiores a 9,11.</block>
   <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">30 de abril de 2025</block>
+  <block id="95ff7c62926d2ecbfa68d2cb55e84679" category="paragraph">A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. É a soma de:</block>
+  <block id="bc1fb831529945409538850faa16026e" category="list-text">A capacidade lógica usada para armazenar todas as instâncias e tipos de dados de usuário (como cópias, cópias espelhadas e versões).</block>
+  <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">A capacidade lógica utilizada para armazenar volumes de clones que são mais de 10% do tamanho do volume original.</block>
+  <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">Capacidade física usada para armazenar dados diferenciais de cópias Snapshot.</block>
+  <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">A capacidade física alocada.</block>
 </blocks>

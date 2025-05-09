@@ -47,7 +47,13 @@ Durante o período de vigência de uma assinatura, você pode alterar as capacid
 
 == Capacidade consumida
 
-A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. O serviço Keystone considera a soma dos tamanhos lógicos usados (não a capacidade física usada) de todos os volumes em um nível de serviço específico para calcular a capacidade consumida para esse nível de serviço.
+A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. É a soma de:
+
+* A capacidade lógica usada para armazenar todas as instâncias e tipos de dados de usuário (como cópias, cópias espelhadas e versões).
+* A capacidade lógica utilizada para armazenar volumes de clones que são mais de 10% do tamanho do volume original.
+* Capacidade física usada para armazenar dados diferenciais de cópias Snapshot.
+* A capacidade física alocada.
+
 
 
 
