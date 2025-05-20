@@ -2224,4 +2224,6 @@
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">A capacidade física alocada.</block>
   <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">O Keystone Collector para StorageGRID não consegue configurar corretamente devido às configurações comuns ausentes.</block>
   <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">12 de maio de 2025</block>
+  <block id="e52daa0a0f5a4268d3b3cd4835eb59fa" category="paragraph">Quando o Keystone Collector existente instalado usando um pacote Debian tenta configurar um Proxy HTTP ou ativar o Unified Manager através da TUI de gerenciamento do Keystone Collector, o TUI fica sem resposta.</block>
+  <block id="2d8e5cb76ecb9ff05fdec5e05251eb14" category="paragraph">19 de maio de 2025</block>
 </blocks>
