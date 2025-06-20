@@ -22,6 +22,24 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+Na aba *Ativos*, os ativos do StorageGRID não são visíveis.
+ a| 
+Fixo
+ a| 
+19 de junho de 2025
+
+
+
+ a| 
+Para o nível de serviço Advance Data-Protect, na guia *Tendência de consumo*, o gráfico mostra uma divisão para sites primários e espelhos.
+ a| 
+O gráfico não mostra mais uma divisão entre sites primários e espelhos.
+ a| 
+19 de junho de 2025
+
+
+
+ a| 
 Quando o Keystone Collector existente instalado usando um pacote Debian tenta configurar um Proxy HTTP ou ativar o Unified Manager através da TUI de gerenciamento do Keystone Collector, o TUI fica sem resposta.
  a| 
 Fixo

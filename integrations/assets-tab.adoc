@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters 
 summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone. 
 ---
-= Visualize os detalhes do cluster e da grade gerenciados pelo Keystone
+= Ver ativos associados a uma assinatura Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,109 @@ summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e d
 
 
 [role="lead"]
-Use a guia *Assets* para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone.
+Você pode visualizar informações detalhadas sobre clusters e nós do ONTAP, bem como as grades, sites e nós do StorageGRID, gerenciados por uma única assinatura do Keystone. Essa visualização dos ativos da sua assinatura está disponível nas visualizações do painel do Keystone, tanto do BlueXP quanto do Digital Advisor.
 
-A guia *Assets* do painel do Keystone inclui duas subguias: *ONTAP* e *StorageGRID*. Esta guia acumula informações em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas, segregando e apresentando os dados com detalhes precisos. Você pode visualizar essas informações clicando nas respetivas subguias.
+
+
+== Ver ativos de assinatura Keystone da BlueXP
+
+A guia *Ativos* dentro da guia *Assinaturas* no BlueXP fornece informações detalhadas sobre volumes em clusters, nós StorageGRID e nós ONTAP associados à assinatura, incluindo vários detalhes e status de capacidade.
+
+
+NOTE: Esta visualização é limitada a uma assinatura Keystone por vez. Você também pode ver os ativos de outras assinaturas selecionando *ID de Rastreamento* na lista suspensa. O painel Keystone no BlueXP permite visualizar ativos de várias assinaturas Keystone. Para saber mais, link:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"]consulte .
+
+Você pode visualizar essas informações seguindo estas etapas:
+
+[role="tabbed-block"]
+====
+.Volumes em clusters
+--
+.Passos
+. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. Selecione o número da assinatura na coluna *Número da assinatura* da tabela.
++
+Você será redirecionado para a aba *Consumo atual*.
+
+. Selecione a aba *Ativos*.
+. Selecione *Volumes no cluster* no menu suspenso *Exibir*.
++
+image:bxp-volumes-clusters-single-subscription.png["Uma captura de tela de volumes em clusters para uma assinatura"]
+
++
+Você verá informações detalhadas sobre os volumes nos clusters, incluindo nome do volume, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você também pode monitorar a capacidade provisionada, a utilização lógica e física, e dados inativos.
+
++
+
+TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-selector.png["ícone do seletor de coluna"] ícone e use a barra de pesquisa na parte superior para pesquisar e filtrar dados da tabela com base nos parâmetros da coluna.
+
+
+
+--
+.Nós em clusters
+--
+.Passos
+. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
++
+Por padrão, a guia *Assinaturas* exibe a subguia *Assinaturas*.
+
+. Selecione o número da assinatura na coluna *Número da assinatura* da tabela.
++
+Você será redirecionado para a aba *Consumo atual*.
+
+. Selecione a aba *Ativos*.
+. Selecione *Nós em clusters* no menu suspenso *Exibir*.
++
+image:bxp-nodes-cluster-single-subscription.png["Uma captura de tela de nós em clusters para uma assinatura"]
+
++
+Você vê detalhes do cluster ONTAP, divididos por configurações de eficiência de armazenamento, tipo de plataforma e detalhes de capacidade.
+
++
+
+TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-selector.png["ícone do seletor de coluna"] ícone e use a barra de pesquisa na parte superior para pesquisar e filtrar dados da tabela com base nos parâmetros da coluna.
+
+
+
+--
+.Nós em grades
+--
+.Passos
+. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
++
+Por padrão, a guia *Assinaturas* exibe a subguia *Assinaturas*.
+
+. Selecione o número da assinatura na coluna *Número da assinatura* da tabela.
++
+Você será redirecionado para a aba *Consumo atual*.
+
+. Selecione a aba *Ativos*.
+. Selecione *Nós em grades* no menu suspenso *Exibir*.
++
+image:bxp-nodes-grids-single-subscription.png["Uma captura de tela de nós em grades para uma assinatura"]
+
++
+Você pode visualizar informações detalhadas sobre os nós nas grades, incluindo nome do nó, status do nó, nome da grade, tipo de nó e cliente. Você também pode monitorar a capacidade de dados consumida e disponível, o uso da CPU e a capacidade de dados utilizável.
+
++
+
+TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-selector.png["ícone do seletor de coluna"] ícone e use a barra de pesquisa na parte superior para pesquisar e filtrar dados da tabela com base nos parâmetros da coluna.
+
+
+
+--
+====
+
+
+== Ver ativos de assinatura Keystone do Digital Advisor
+
+A aba *Ativos* do painel do Keystone no Digital Advisor inclui duas subabas: *ONTAP* e *StorageGRID*. Esta guia acumula informações em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas, segregando e apresentando os dados com detalhes precisos. Você pode visualizar essas informações clicando nas respectivas subabas.
 
 [role="tabbed-block"]
 ====
 .ONTAP
 --
 .Passos
-. Clique em *geral > assinaturas do Keystone > ativos > ONTAP*.
+. Clique em *Geral > Assinaturas Keystone > Ativos > ONTAP*.
 . Selecione o número da assinatura para o qual você deseja exibir os clusters.
 +
 Você vê os detalhes do cluster, discriminados por configurações de eficiência de storage, tipo de plataforma e detalhes de capacidade. Clicar em um dos clusters leva você ao widget *clusters* na tela Digital Advisor, onde você obtém informações adicionais para esse cluster. O Digital Advisor fornece informações abrangentes em nível de inventário de suas implantações.
@@ -37,7 +130,7 @@ image:assets-tab-3.png["Captura de tela para mostrar informações em nível de 
 .StorageGRID
 --
 .Passos
-. Clique em *geral > assinaturas do Keystone > ativos > StorageGRID*.
+. Clique em *Geral > Assinaturas Keystone > Ativos > StorageGRID*.
 . Selecione o número da subscrição.
 +
 Você vê os detalhes da grade, categorizados por identificadores de grade e nó, informações do site, especificações de hardware e detalhes de capacidade, que ajudam no monitoramento e gerenciamento de nós em sua infraestrutura StorageGRID.
@@ -51,10 +144,11 @@ image:assets-tab-storagegrid.png["Captura de tela para mostrar informações de 
 ====
 *Informações relacionadas*
 
-* link:../integrations/aiq-keystone-details.html["Use o painel e a geração de relatórios do Keystone"]
-* link:../integrations/subscriptions-tab.html["Subscrições"]
-* link:../integrations/current-usage-tab.html["Consumo de corrente"]
-* link:../integrations/volumes-objects-tab.html["Objetos  volumes"]
-* link:../integrations/capacity-trend-tab.html["Tendência de consumo"]
-* link:../integrations/performance-tab.html["Desempenho"]
+* link:../integrations/dashboard-overview.html["Entenda o painel do Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
+* link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
+* link:../integrations/consumption-tab.html["Veja as tendências de consumo"]
+* link:../integrations/subscription-timeline.html["Veja o cronograma da sua assinatura"]
+* link:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"]
+* link:../integrations/volumes-objects-tab.html["Ver detalhes de volumes e objetos"]
 

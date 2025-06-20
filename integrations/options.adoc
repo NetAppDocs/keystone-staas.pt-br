@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: integrations/options.html 
+keywords: Keystone, BlueXP, Keystone dashboard, search and filter, Keystone data, generate reports, view alerts, digital advisor 
+summary: Como assinante do NetApp Keystone STaaS, você pode pesquisar e filtrar seus dados, gerar relatórios de assinaturas e uso, verificar registros de data e hora e visualizar alertas. 
+---
+= Pesquise dados do Keystone, gere relatórios e visualize alertas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode pesquisar e filtrar seus dados, gerar relatórios de assinaturas e uso e visualizar alertas para se manter informado sobre seu ambiente de armazenamento.
+
+
+
+== Pesquisar e filtrar dados do BlueXP
+
+No BlueXP, você pode pesquisar e filtrar dados do Keystone com base nos parâmetros de coluna disponíveis na tabela dentro de uma aba. Por exemplo, na subaba *Assinaturas*, na aba *Assinaturas*, você pode filtrar os dados inserindo a versão do Keystone na caixa de pesquisa. Da mesma forma, na aba *Volumes em clusters*, na aba *Ativos*, você pode filtrar volumes inserindo o nome do volume na caixa de pesquisa.
+
+Você pode refinar suas pesquisas usando a opção de filtro avançado, quando disponível. Por exemplo, na subguia *Assinaturas*, você pode filtrar dados por versão do Keystone, período de cobrança, capacidade máxima e dias até o vencimento da assinatura. Já na aba *Volumes em clusters*, você pode filtrar por nome do volume, nome do cluster, conformidade com QoS, tipo de volume e muito mais. Vários filtros podem ser aplicados simultaneamente para refinar seus resultados com precisão. image:bxp-filter-search.png["opção de filtro avançado"]
+
+
+
+== Gere relatórios do BlueXP ou do Digital Advisor
+
+Você pode gerar e visualizar relatórios para seus dados do Keystone usando o botão de download disponível nas abas do BlueXP ou do Digital Advisor. Essas abas permitem gerar relatórios para suas assinaturas, histórico de uso, picos de uso, desempenho, ativos, volumes e objetos.
+
+[cols="1,1"]
+|===
+| Botão de download no BlueXP | Botão de download no Digital Advisor 
+
+
+| image:bluexp-download-report-1.png["ícone de download de relatório 1 no BlueXP"] ou image:bluexp-download-report-2.png["ícone de download de relatório 2 no BlueXP"] | image:download-report-da.png["ícone de download do relatório"] 
+|===
+Os detalhes são gerados em formato CSV que você pode salvar para uso futuro e comparação.
+
+
+
+== Gerar relatório consolidado do Digital Advisor
+
+No Digital Advisor, você pode gerar e visualizar um relatório consolidado para suas assinaturas, uso histórico, uso intermitente, desempenho, ativos, volumes e objetos. Para fazer isso, selecione *Keystone Subscriptions* como o tipo de relatório no recurso Relatório no Digital Advisor. Você pode gerar esses relatórios no nível de cliente, cluster, lista de observação ou assinatura.
+
+image:report-generation.png["Criar relatório"]
+
+O relatório é gerado no formato Excel, com cada tipo de informação, como detalhes da subscrição ou histórico de utilização, apresentada em folhas separadas. Essas folhas são nomeadas de acordo com as guias na página *Keystone Subscriptions* para facilitar a visualização. Você pode salvar o relatório para uso futuro.
+
+Para saber mais sobre como gerar relatórios, link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Gerar relatórios personalizados"^]consulte .
+
+
+
+== Ver alertas do Digital Advisor
+
+No Digital Advisor, o painel do Keystone fornece notificações de alerta que permitem entender os problemas que ocorrem no seu ambiente de armazenamento. Essas notificações podem aparecer como alertas informativos ou avisos. Por exemplo, se houver volumes nos clusters gerenciados que não tenham políticas de QoS adaptável (AQoS) anexadas, você poderá ver uma mensagem de aviso. Selecione a mensagem de aviso para ver a lista de volumes não compatíveis na aba *Volumes e Objetos*.
+
+
+NOTE: Se você tiver assinado um único nível de serviço de desempenho ou plano de tarifas, não poderá ver o alerta para volumes não compatíveis.
+
+image:alert-aiq-3.png["alerta"]
+
+Para obter informações sobre as políticas AQoS, link:../concepts/qos.html["QoS adaptável"]consulte .
+
+Entre em contato com o suporte do NetApp Keystone para obter mais informações sobre essas mensagens. Para obter informações sobre como levantar solicitações de serviço, link:../concepts/gssc.html#generating-service-requests["Gerando solicitações de serviço"]consulte .

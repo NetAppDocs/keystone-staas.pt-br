@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/keystone-aiq.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, dashboard overview, manage subscriptions, monitor 
 summary: Como assinante STaaS do NetApp Keystone, você pode obter uma visão geral de suas assinaturas no painel do consultor digital. 
 ---
-= Visão geral do painel do Keystone
+= Painel Keystone no Digital Advisor
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,28 +14,21 @@ summary: Como assinante STaaS do NetApp Keystone, você pode obter uma visão ge
 
 
 [role="lead"]
-Como assinante STaaS da NetApp Keystone, você pode obter uma visão geral de suas assinaturas no widget *assinaturas do Keystone* do painel de consultoria digital da Active IQ (também conhecido como consultor digital).
+Como assinante do NetApp Keystone STaaS, você pode obter uma visão geral de suas assinaturas no widget *Assinaturas Keystone* do painel do Digital Advisor.
 
-Você pode pesquisar a assinatura do Keystone inserindo os três primeiros carateres do nome de um cliente ou da lista de observação ou do número de assinatura do Keystone. Para obter informações sobre como pesquisar assinaturas do Keystone STaaS por listas de observação, link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["PESQUISE usando as listas de observação do Keystone"]consulte .
+Você pode pesquisar uma assinatura específica do Keystone inserindo os três primeiros caracteres do nome do cliente ou da lista de observação, ou o número da assinatura do Keystone. Para obter informações sobre como pesquisar assinaturas do Keystone STaaS por listas de observação, link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["PESQUISE usando as listas de observação do Keystone"]consulte .
 
 O Digital Advisor oferece um painel unificado que fornece informações sobre vários níveis de dados de sua assinatura e informações de uso por meio do botão *mudar para o painel antigo/novo*.
 
 .Painel de instrumentos predefinido (antigo)
-Você pode ver o nome do cliente e o número da assinatura, o nome da conta, as datas de início e término da assinatura e os gráficos de uso da capacidade de acordo com os níveis de serviço inscritos. Você pode ver o carimbo de data/hora da coleta dos dados de consumo na hora UTC.
+Você pode ver o nome do cliente e o número da assinatura, o nome da conta, as datas de início e término da assinatura e os gráficos de uso da capacidade de acordo com os níveis de serviço de desempenho assinados. Você pode ver o carimbo de data/hora da coleta dos dados de consumo na hora UTC.
 
 image:old-db-2.png["painel de instrumentos antigo"]
 
 .Painel de instrumentos alternativo (novo)
 Você pode ver a quebra do uso de capacidade de acordo com suas assinaturas, e avisos e alertas que exigem atenção ou ação imediata. As informações são exibidas seletivamente, dependendo de suas assinaturas e do status de seu uso. Você pode visualizar essas informações:
 
-* * Uso da capacidade*: Dados de consumo tais como:
-+
-** Sem utilização.
-** Consumo superior a 80% da capacidade comprometida.
-** Utilização de picos sazonais.
-** Consumos acima da capacidade de explosão.
-
-
+* *Uso da capacidade*: Dados de consumo como ausência de uso, consumo superior a 80% da capacidade comprometida, uso excessivo e consumo acima da capacidade máxima.
 * *Alertas*: Você vê alertas para vários cenários se eles forem aplicáveis a você.
 +
 ** *Expirando em breve*: Caso suas assinaturas expirem dentro de 90 dias.
@@ -50,19 +43,31 @@ TIP: Clique no link *assinaturas* para exibir a lista de assinaturas filtradas n
 
 image:new-db-4.png["novo painel de instrumentos"]
 
-Para obter mais informações sobre o widget do painel do Digital Advisor para o Keystone, https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Documentação do Digital Advisor"^] consulte .
+Você pode clicar em *Exibir todas as assinaturas* para visualizar os detalhes de uso e alertas sobre seus volumes na página *Assinaturas Keystone*.
 
-Para obter mais informações sobre o painel e os relatórios do Keystone, link:../integrations/aiq-keystone-details.html["Painel e geração de relatórios do Keystone Subscription"]consulte .
+Os detalhes das assinaturas, gráficos de uso para cada nível de serviço de desempenho e detalhes de volume são exibidos nas diferentes guias na tela *Assinaturas Keystone*.
+
+
+NOTE: O consumo de capacidade nas assinaturas do Keystone é exibido no Tibs nos painéis e relatórios e é arredondado para duas casas decimais. Se o uso for menor que 0,01 TiB, o valor será mostrado como 0 ou Nenhum Uso. Os dados nessas telas são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para saber mais sobre métricas de utilização, link:../concepts/metrics.html#metrics-measurement["Medição de métricas"]consulte . Para obter informações sobre diferentes capacidades usadas no Keystone, link:../concepts/supported-storage-capacity.html["Capacidades de armazenamento suportadas"]consulte .
 
 
 
 == PESQUISE por Keystone watchlists
 
-Watchlist é um recurso Digital Advisor. Para obter informações, https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Entenda a lista de observação"^]consulte . Para obter informações sobre como criar listas de observação, https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Crie uma lista de observação"^] consulte .
+A lista de observação é um recurso disponível no Digital Advisor. Para obter informações, https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Entenda a lista de observação"^]consulte . Para obter informações sobre como criar listas de observação, https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Crie uma lista de observação"^] consulte .
 
-Para o Keystone STaaS, você pode criar listas de observação para clientes ou números de assinatura. Você pode pesquisar pelo nome da lista de observação na tela do Digital Advisor. Ao pesquisar por uma lista de observação, você pode visualizar os clientes e suas assinaturas na lista suspensa *assinatura* no widget *assinaturas Keystone*.
+Você pode criar listas de observação para clientes ou números de assinatura e pesquisar uma assinatura Keystone usando os três primeiros caracteres do número da assinatura ou do nome da lista de observação na tela do Digital Advisor. Ao pesquisar pelo nome da lista de observação, você pode visualizar os clientes e suas assinaturas na lista suspensa *Assinatura* no widget *Assinaturas Keystone*.
 
 
 NOTE: Uma pesquisa por listas de observação recupera a lista de assinaturas no painel antigo. Se uma lista de observação consistir em números de assinatura, somente o widget *Keystone Subscriptions* será exibido no painel do Digital Advisor.
 
 image:watchlist.png["ecrã da lista de observação"]
+
+*Informações relacionadas*
+
+* link:../integrations/dashboard-access.html["Comece a usar o painel Keystone"]
+* link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]
+* link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
+* link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
+* link:../integrations/consumption-tab.html["Veja as tendências de consumo"]
+

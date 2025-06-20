@@ -30,9 +30,9 @@ NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
 
 
 
-== Níveis de serviço
+== Níveis de serviço de desempenho
 
-Todos os níveis de serviço compatíveis com storage arrays flash ONTAP estão qualificados para SLA de disponibilidade. Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Níveis de serviço no Keystone"]consulte .
+Todos os níveis de serviço de desempenho suportados pelos arrays de armazenamento flash ONTAP são elegíveis para o SLA de disponibilidade. Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Níveis de serviço de desempenho em Keystone"]consulte .
 
 
 
@@ -82,8 +82,8 @@ Créditos de serviço (capacidade impactada / capacidade total comprometida) X t
 Local:
 
 * *Capacidade impactada*: A quantidade de capacidade armazenada afetada.
-* *Capacidade comprometida total*: A capacidade comprometida para o nível de serviço do pedido do Keystone.
-* * Taxas de capacidade*: As taxas para o nível de serviço afetado para o mês.
+* *capacidade total comprometida*: A capacidade comprometida para o nível de serviço de desempenho do pedido Keystone.
+* *taxas de capacidade*: As taxas para o nível de serviço de desempenho afetado no mês.
 * *Porcentagem de crédito*: A porcentagem predeterminada para crédito de serviço.
 
 

@@ -18,9 +18,9 @@ O NetApp Data Infrastructure Insights (DII, anteriormente conhecido como Cloud I
 
 Para saber mais sobre o Data Infrastructure Insights, link:https://docs.netapp.com/us-en/data-infrastructure-insights/["Documentação do Data Infrastructure Insights"^]consulte .
 
-O DII está disponível para assinaturas novas e existentes. Ele pode ser integrado a uma subscrição do Keystone como complemento para a capacidade comprometida. Quando o DII é integrado a uma subscrição do Keystone, ele terá um nível de serviço correspondente para cada nível de serviço básico na subscrição. Por exemplo, mapas extremos para DII Extreme, mapas Premium para DII Premium e mapas de desempenho para DII Performance. Esses mapeamentos garantem que o nível de serviço DII esteja alinhado com o nível de serviço básico da assinatura do Keystone.
+O DII está disponível para assinaturas novas e existentes. Ele pode ser integrado a uma subscrição do Keystone como complemento para a capacidade comprometida. Quando o DII é integrado a uma assinatura Keystone, ele terá um nível de serviço de desempenho correspondente para cada nível de serviço de desempenho base da assinatura. Por exemplo, mapas extremos para DII Extreme, mapas Premium para DII Premium e mapas de desempenho para DII Performance. Esses mapeamentos garantem que o nível de serviço de desempenho do DII esteja alinhado com o nível de serviço de desempenho base da sua assinatura Keystone.
 
-Uma visualização dos níveis de serviço DII dentro de um widget *Keystone Subscriptions* no painel do Digital Advisor:
+Uma visão dos níveis de serviço de desempenho DII em um widget *Assinaturas Keystone* no painel do Digital Advisor:
 
 image:keystone-widget-dii.png["Captura de tela do widget Keystone Subscriptions que mostra os níveis de serviço DII"]
 
@@ -51,9 +51,12 @@ Observe o seguinte:
 | Cloud Volumes ONTAP | NetApp Cloud Volumes ONTAP 
 |===
 +
-Uma vez configurada, a instância DII começará a monitorar o storage do Keystone.
+Uma vez configurada, a instância DII começará a monitorar os recursos de armazenamento do NetApp implantados como parte do Keystone.
 
 
+
+
+NOTE: Embora o DII ofereça amplos recursos de monitoramento para o hardware implantado, ele não fornece insights sobre sua assinatura Keystone, como o uso da assinatura ou detalhes sobre os níveis de serviço de desempenho. Para obter insights sobre a assinatura, consulte link:../integrations/keystone-aiq.html["Painel e relatórios do Keystone"] .
 
 
 
@@ -66,7 +69,7 @@ O seguinte descreve os detalhes de faturação e medição do serviço complemen
 image:current-consumption-dii.png["Captura de tela da guia consumo atual exibindo a medição dos níveis de serviço"]
 
 * Esse serviço é mensurado e faturado junto com sua assinatura do Keystone na mesma fatura. Se você configurar o DII para Keystone antes de ativar a assinatura do Keystone, o faturamento ainda começará a partir da data de ativação da assinatura do Keystone ou da data de modificação das assinaturas existentes.
-* Esse serviço é medido e faturado com base na capacidade comprometida e no uso de sobrecarga para níveis de serviço DII, além da fatura padrão do Keystone. A medição desse serviço complementar segue a mesma metodologia que o nível de serviço de assinatura subjacente do Keystone, que pode ser lógico, provisionado ou físico.
+* Este serviço é medido e faturado com base na capacidade comprometida e no uso contínuo para os níveis de serviço de desempenho DII, além da fatura padrão do Keystone. A medição deste serviço complementar segue a mesma metodologia do nível de serviço de desempenho da assinatura Keystone subjacente, que pode ser lógico, provisionado ou físico.
 * Esse serviço termina com a assinatura do Keystone à qual ele está vinculado. Na renovação, você pode escolher se deseja renovar o serviço complementar. Se você não renovar a assinatura do Keystone, o hardware monitorado será desativado e o serviço complementar será automaticamente encerrado.
 
 

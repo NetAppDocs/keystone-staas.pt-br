@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
-keywords: keystone-aiq, digital advisor keystone, current consumption tab 
+keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions 
 summary: Para entender o uso da assinatura, você pode visualizar a capacidade comprometida, a capacidade consumida, a capacidade disponível e muito mais. 
 ---
-= Veja o consumo atual de suas assinaturas
+= Veja o consumo atual de suas assinaturas Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,27 +14,62 @@ summary: Para entender o uso da assinatura, você pode visualizar a capacidade c
 
 
 [role="lead"]
-Para entender o uso da assinatura, você pode visualizar os detalhes de uso, como capacidade comprometida, capacidade consumida, capacidade disponível e muito mais.
+Você pode obter insights sobre o uso da sua assinatura visualizando informações detalhadas, como capacidade comprometida, capacidade consumida e capacidade disponível, com o status de consumo atual exibido e segregado por níveis de serviço de desempenho.
 
-Para visualizar esta guia, no painel de navegação esquerdo, vá para *GENERAL > Keystone Subscriptions > Current Consumption* e selecione o número de assinatura necessário.
+Para visualizar o status atual de consumo de suas assinaturas pelo BlueXP ou Digital Advisor, siga estes passos:
 
+[role="tabbed-block"]
+====
+.BlueXP
+--
+.Passos
+. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. Selecione o número da assinatura na coluna *Número da assinatura* da tabela para visualizar o consumo atual.
++
+Você será redirecionado para a aba *Consumo atual*.
+
++
+image:bxp-current-consumption-graph.png["detalhes do consumo atual no formato gráfico"]
+
++
+Para a assinatura selecionada, você pode visualizar os detalhes do consumo em formato de tabela ou gráfico usando a opção *Tabela* ou *Gráfico* no menu suspenso *Exibir como*. Na visualização gráfica, você pode ver o consumo atual por nível de serviço de desempenho, incluindo capacidade utilizada, capacidade provisionada, limite de capacidade comprometida e limite de capacidade de pico.
+
++
+Na visualização de tabela, você pode ver detalhes como a capacidade máxima consumida e os dias restantes até o vencimento. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o status do consumo, as capacidades comprometidas e utilizadas, as capacidades provisionadas e em pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunas. image:column-selector.png["ícone do seletor de coluna"] ícone.
+
++
+image:bxp-current-consumption-table.png["detalhes do consumo atual em formato de tabela"]
+
+
+
+--
+.Consultor digital
+--
+.Passos
+. No painel de navegação esquerdo do Digital Advisor, acesse *Geral > Assinaturas Keystone > Consumo atual*.
+. Selecione ou pesquise o número de assinatura necessário na lista suspensa *Assinatura*.
++
 image:aiq-ks-dtls-3.png["Separador consumo de corrente"]
 
-Para a assinatura selecionada, você pode exibir detalhes, como as datas de início e término da assinatura e o período de faturamento, como mensal ou anual. Como parte do uso da assinatura, você pode visualizar o nome do nível de serviço, comprometido, consumido, as capacidades disponíveis e o uso de estouro atual e acumulado (no TIB).
++
+Para a assinatura selecionada, você pode exibir detalhes, como as datas de início e término da assinatura e o período de faturamento, como mensal ou anual. Como parte do uso da assinatura, você pode visualizar o nome do nível de serviço de desempenho, as capacidades comprometidas, consumidas e disponíveis, além do uso atual e acumulado em picos (em TiB). Os níveis de serviço de desempenho específicos que registram maior consumo são destacados. Também pode ver avisos e alertas gerados para os seus volumes.
 
-
-TIP: O image:icon-info.png["ícone de informação"] ícone ao lado de cada coluna fornece informações abrangentes sobre essa coluna. Níveis de serviço específicos que Registram maior consumo são destacados. Também pode ver avisos e alertas gerados para os seus volumes.
-
-Para obter informações sobre os serviços de storage do Keystone e os níveis de serviço relevantes, link:../concepts/service-levels.html["Níveis de serviço no Keystone"]consulte .
-
++
 Juntamente com o consumo atual, você pode querer ver os dados de uso do histórico para comparação. Clique no botão *Exibir dados históricos* para navegar até a guia *tendência de consumo* para exibir os dados históricos da mesma assinatura.
+
+
+
+--
+====
+Para obter informações sobre seus serviços de armazenamento Keystone e os níveis de serviço de desempenho relevantes, consulte link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"] .
 
 *Informações relacionadas*
 
-* link:../integrations/aiq-keystone-details.html["Use o painel e a geração de relatórios do Keystone"]
-* link:../integrations/subscriptions-tab.html["Subscrições"]
-* link:../integrations/capacity-trend-tab.html["Tendência de consumo"]
-* link:../integrations/volumes-objects-tab.html["Objetos  volumes"]
-* link:../integrations/assets-tab.html["Separador ativos"]
-* link:../integrations/performance-tab.html["Desempenho"]
+* link:../integrations/dashboard-overview.html["Entenda o painel do Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
+* link:../integrations/consumption-tab.html["Veja as tendências de consumo"]
+* link:../integrations/subscription-timeline.html["Veja o cronograma da sua assinatura"]
+* link:../integrations/assets-tab.html["Veja seus ativos de assinatura Keystone"]
+* link:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"]
+* link:../integrations/volumes-objects-tab.html["Ver detalhes de volumes e objetos"]
 

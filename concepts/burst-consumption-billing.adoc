@@ -18,10 +18,10 @@ A cobrança do Keystone STaaS é baseada em _capacidade de expansão sazonal_, q
 
 Seu limite de explosão é determinado e especificado no contrato do Keystone. Normalmente, está 20% acima da capacidade comprometida.
 
-Capacidade comprometida é a capacidade comprometida com você durante a compra da assinatura. A capacidade comprometida e a capacidade de sobrecarga são medidas por nível de serviço. A capacidade consumida é a capacidade que seus workloads realmente usam.
+Capacidade comprometida é a capacidade comprometida com você durante a compra da assinatura. A capacidade comprometida e a capacidade de pico são medidas por nível de serviço de desempenho. A capacidade consumida é a capacidade que seus workloads realmente usam.
 
-Quando a capacidade consumida é maior que a capacidade comprometida de um nível de serviço, o consumo de expansões sazonais é registrado e cobrado de acordo. Normalmente, está 20% acima da capacidade comprometida. O uso acima da capacidade de explosão é indicado como "acima do limite de explosão".
+Quando a capacidade consumida é maior que a capacidade comprometida para um nível de serviço de desempenho, o consumo de pico é registrado e cobrado adequadamente. Normalmente, está 20% acima da capacidade comprometida. O uso acima da capacidade de explosão é indicado como "acima do limite de explosão".
 
-Este processo ocorre para cada Registro de consumo gerado. O consumo de expansões sazonais, portanto, é um reflexo da quantidade e da posse de suas capacidades sobreconsumidas, além de suas capacidades comprometidas. Para saber mais, link:../integrations/capacity-trend-tab.html["Separador tendência de consumo"]consulte .
+Este processo ocorre para cada Registro de consumo gerado. O consumo de expansões sazonais, portanto, é um reflexo da quantidade e da posse de suas capacidades sobreconsumidas, além de suas capacidades comprometidas. Para saber mais, link:../integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"]consulte .
 
 Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .

@@ -14,7 +14,7 @@ summary: sustentabilidade, sla, acordo de nível de serviço
 
 
 [role="lead"]
-A NetApp Keystone oferece SLA baseado em latência por nível de serviço, conforme descrito no pedido do Keystone para capacidade consumida, até o limite de sobrecarga, de acordo com os termos e condições listados a seguir.
+O NetApp Keystone oferece SLA baseado em latência por nível de serviço de desempenho, conforme descrito no pedido do Keystone para capacidade consumida até o limite de pico, de acordo com os termos e condições listados a seguir.
 
 
 NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
@@ -42,9 +42,9 @@ NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
 
 
 
-== Níveis de serviço
+== Níveis de serviço de desempenho
 
-Todos os níveis de serviço compatíveis com storage arrays flash ONTAP estão qualificados para SLA de desempenho e garantem que você atenda à seguinte latência de destino:
+Todos os níveis de serviço de desempenho suportados pelos arrays de armazenamento flash ONTAP são elegíveis para o SLA de desempenho e garantem o cumprimento da seguinte latência alvo:
 
 |===
 
@@ -56,7 +56,7 @@ Todos os níveis de serviço compatíveis com storage arrays flash ONTAP estão 
 * Target 90.o percentil latência*
 | 1ms | 2ms | 4ms | 4ms 
 |===
-Para saber mais sobre os requisitos de latência dos níveis de serviço, link:../concepts/service-levels.html["Níveis de serviço no Keystone"]consulte .
+Para saber mais sobre os requisitos de latência dos níveis de serviço de desempenho, consulte link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"] .
 
 
 
@@ -85,7 +85,7 @@ Créditos de serviço (capacidade impactada / capacidade total comprometida) X t
 Local:
 
 * *Capacidade impactada*: A quantidade de capacidade armazenada afetada.
-* *Capacidade comprometida total*: A capacidade comprometida para o nível de serviço do pedido do Keystone.
+* *capacidade total comprometida*: A capacidade comprometida para o nível de serviço de desempenho do pedido Keystone.
 * *Taxas de capacidade*: As taxas para o nível de desempenho afetado de acordo com o pedido do Keystone.
 * *Dias afetados*: O número de dias corridos afetados.
 * *Porcentagem de crédito*: A porcentagem predeterminada para crédito de serviço.

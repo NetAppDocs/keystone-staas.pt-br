@@ -1,0 +1,206 @@
+---
+sidebar: sidebar 
+permalink: integrations/consumption-tab.html 
+keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp 
+summary: Para entender o uso da assinatura, você pode visualizar a capacidade comprometida, a capacidade consumida, a capacidade disponível e muito mais. 
+---
+= Veja as tendências de consumo das suas assinaturas Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode monitorar o uso da sua assinatura visualizando dados históricos das suas assinaturas Keystone por um período específico. Isso permite que você obtenha insights valiosos sobre seus padrões de uso.
+
+Você pode visualizar dados históricos de suas assinaturas Keystone por meio do BlueXP ou do Digital Advisor:
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+.Passos
+. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. Selecione o número da assinatura na coluna *Número da assinatura*.
++
+Você será redirecionado para a aba *Consumo atual*.
+
+. Selecione a aba *Tendência de consumo*.
+. Selecione *Consumo histórico* no menu suspenso *Exibir* e escolha o intervalo de tempo usando o ícone de calendário no campo *Período* para analisar tendências de uso da capacidade.
++
+Os dados históricos de consumo para cada nível de serviço de desempenho são exibidos em um gráfico de linhas com base no intervalo de tempo selecionado.
+
++
+
+NOTE: Você pode selecionar *Explosão acumulada* no menu suspenso *Exibir* se quiser visualizar os dados históricos de uso da explosão para os quais as faturas foram geradas. Você pode usar esses dados para analisar o uso faturado refletido na sua fatura. Para saber mais, link:../integrations/consumption-tab.html#view-accrued-burst["Ver explosão acumulada"]consulte .
+
++
+image:bxp-consumption-trend.png["captura de tela exibindo o consumo histórico"]
+
++
+O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como dados (capacidade de armazenamento utilizada pelos dados do usuário), snapshot (capacidade de armazenamento utilizada pelos dados do snapshot) e capacidade utilizada (capacidade total de armazenamento, incluindo dados e snapshots), além de capacidade comprometida e de pico. A data e a hora de cada ponto de dados são exibidas na parte inferior do gráfico. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode passar o cursor do mouse sobre o gráfico para visualizar o detalhamento do uso em cada ponto de coleta de dados.
+
++
+Você também pode visualizar um resumo do consumo atual juntamente com o consumo histórico para ter uma compreensão clara do seu uso.
+
+
+
+--
+.Consultor digital
+--
+.Passos
+. Clique em *Geral > Assinaturas Keystone > Tendência de consumo*.
+. Selecione a subscrição necessária para a qual pretende ver os detalhes. A primeira assinatura no nome da sua conta é selecionada por padrão.
+. Selecione *tendência de consumo* se quiser visualizar os dados históricos e analisar a tendência de uso da capacidade.
++
+
+NOTE: Você pode selecionar *Faturado Acumulado Explosivo* se desejar visualizar os dados históricos de uso de pico para os quais as faturas foram geradas. Você pode usar esses dados para analisar o uso faturado refletido na sua fatura. Para saber mais, link:../integrations/consumption-tab.html#view-accrued-burst["Ver explosão acumulada"]consulte .
+
+. Selecione o intervalo de tempo a partir dos ícones do calendário nos campos *de Data* e *até Data*. Selecione o intervalo de datas para a consulta. O intervalo de datas pode ser o início do mês ou a data de início da assinatura até a data atual ou a data de término da assinatura. Não é possível selecionar uma data futura.
++
+
+TIP: Para obter o melhor desempenho e experiência do usuário, limite o intervalo de datas da sua consulta para três meses.
+
+. Clique em *Ver detalhes*. Os dados históricos de consumo da assinatura para cada nível de serviço de desempenho são exibidos com base no intervalo de tempo selecionado.
++
+Os gráficos de barras exibem o nome do nível de serviço de desempenho e a capacidade consumida em relação a esse nível de serviço de desempenho para o intervalo de datas. A data e a hora da coleção são exibidas na parte inferior do gráfico. Com base no intervalo de datas de sua consulta, os gráficos de uso são exibidos em um intervalo de 30 pontos de coleta de dados. Você pode passar o cursor do Mouse sobre os gráficos para ver a divisão de uso em termos de committed, consumed, burst e acima dos dados do limite de burst nesse ponto de coleta de dados.
+
++
+Os gráficos de barras exibem rajadas de curto prazo e você pode visualizar essas rajadas usando o recurso de zoom. Quando uma explosão de curto prazo está presente, ela é indicada por um ponto azul na barra correspondente ou diretamente no eixo x se nenhum dado for consumido. Para ver os detalhes, clique e mantenha premido na barra ou no eixo x onde o ponto azul aparece e, em seguida, arraste o cursor através do gráfico para selecionar o intervalo de tempo pretendido e solte para confirmar a sua seleção. Esta ação amplia os dados, fornecendo uma visão mais granular da capacidade usada naquele nível de serviço de desempenho para o intervalo selecionado. Você pode clicar no botão *Redefinir Zoom* para retornar à exibição de gráfico original.
+
++
+image:aiq-ks-subtime-7.png["Guia tendências de consumo com detalhes"]
+
++
+As cores a seguir nos gráficos de barras indicam a capacidade consumida, conforme definido no nível de serviço de desempenho. Os dados mensais nos gráficos são separados por uma linha vertical.
+
++
+** Verde: Dentro de 80%.
+** Âmbar: 80% - 100%.
+** Vermelho: Uso de expansões sazonais (100% da capacidade comprometida com o limite de expansões sazonais acordado)
+** Roxo: Acima do limite de explosão ou `Above Limit`.
++
+
+NOTE: Um gráfico em branco indica que não havia dados disponíveis no seu ambiente nesse ponto de coleta de dados.
+
++
+Você pode clicar no botão de alternância *Mostrar uso atual* para exibir os dados de consumo, uso de expansões sazonais e picos acumulados para o período de faturamento atual. Esses detalhes não são baseados no intervalo de datas da consulta.
+
++
+*** *Consumo Atual*: Indicador da capacidade consumida (em TiB) definida para o nível de serviço de desempenho. Este campo usa cores específicas:
++
+**** Nenhuma cor: Burst ou acima do uso da explosão.
+**** Cinzento: Nenhum uso.
+**** Verde: Dentro de 80% da capacidade comprometida.
+**** Âmbar: 80% do comprometido com a capacidade de explosão.
+
+
+*** *Current Burst*: Indicador para a capacidade consumida dentro ou acima do limite de burst definido. Qualquer uso dentro do limite de pico sazonal da sua assinatura, por exemplo, 20% acima da capacidade comprometida está dentro do limite de pico sazonal. O uso adicional é considerado como uso acima do limite de explosão. Este campo apresenta cores específicas:
++
+**** Nenhuma cor: Nenhum uso da explosão.
+**** Vermelho: Uso de explosão.
+**** Roxo: Acima do limite de explosão.
+
+
+*** *Acumulado Burst*: Indicador da capacidade total de burst (em TIB) acumulada durante cada intervalo de 2 minutos dentro de um mês para o ciclo de faturamento atual.
+
+
+
+
+
+
+--
+====
+
+
+== Cálculo de burst acumulado
+
+O uso acumulado de estouro para um mês inteiro é calculado como este:
+
+[soma de explosões no mês / ((dias no mês) x 24 x 60)] x duração do intervalo
+
+Você pode calcular a explosão acumulada por períodos curtos, como a cada dois minutos, usando o seguinte:
+
+[burst / ((dias no mês) x 24 x 60)] x duração do intervalo
+
+A explosão é a diferença entre a capacidade consumida e a capacidade comprometida. Por exemplo, com 30 dias no mês, se a capacidade consumida atingir 120 TIB e a capacidade comprometida for de 100 TIB por um intervalo de 2 minutos, isso resulta em uma capacidade de explosão de 20 TIB, o que equivale a um uso acumulado de 0,000925926 TIB para esse intervalo.
+
+
+
+== Ver explosão acumulada
+
+Você pode visualizar o uso acumulado de dados em pico pelo BlueXP ou pelo Digital Advisor. Se você selecionou "Explosão acumulada" no menu suspenso "Exibir" na aba "Tendência de consumo" no BlueXP, ou a opção "Explosão acumulada faturada" na aba "Tendência de consumo" no Digital Advisor, poderá visualizar o uso acumulado de dados em pico mensal ou trimestralmente, dependendo do período de cobrança selecionado. Esses dados estão disponíveis para os últimos 12 meses que foram cobrados e você pode consultar pelo intervalo de datas para até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, eles serão marcados como _pendente_ para esse período.
+
+
+TIP: O uso acumulado faturado é calculado por período de cobrança, com base na capacidade comprometida e consumida para um nível de serviço de desempenho.
+
+Para um período de faturação trimestral, se a subscrição começar numa data diferente da 1 o do mês, a fatura trimestral cobrirá o período subsequente de 90 dias. Por exemplo, se a sua assinatura começar em 15 de agosto, a fatura será gerada para o período de 15 de agosto a 14 de outubro.
+
+Se você mudar de faturamento trimestral para mensal, a fatura trimestral ainda cobrirá o período de 90 dias, com duas faturas geradas no último mês do trimestre: Uma para o período de faturamento trimestral e outra para os dias restantes desse mês. Esta transição permite que o período de faturação mensal comece no dia 1 do mês seguinte. Por exemplo, se sua assinatura começar em 15 de outubro, você receberá duas faturas em janeiro, uma de 15 de outubro a 14 de janeiro e outra de 15 a 31 de janeiro, antes do início do período de faturamento mensal em 1 de fevereiro.
+
+image:accr-burst-2.png["utilização de expansões sazonais acumuladas trimestralmente"]
+
+Esta funcionalidade está disponível no modo apenas pré-visualização. Contacte o seu KSM para saber mais sobre esta funcionalidade.
+
+
+
+== Veja o uso diário de dados de pico acumulado
+
+Você pode visualizar o uso diário de dados em pico acumulado para um período de cobrança mensal ou trimestral pelo BlueXP ou pelo Digital Advisor. No BlueXP, a tabela "Pico acumulado por dias" fornece dados detalhados, incluindo registro de data e hora, capacidade comprometida, consumida e pico acumulado, se você selecionar "Pico acumulado" no menu suspenso "Exibir" na aba "Tendência de consumo".
+
+image:bxp-accrued-burst-days.png["captura de tela mostrando a tabela de estouro acumulado por dias"]
+
+No Digital Advisor, ao clicar na barra que exibe os dados faturados da opção *Explosão acumulada faturada*, você vê a seção Capacidade provisionada faturável abaixo do gráfico de barras, oferecendo opções de visualização em gráfico e tabela. A exibição de gráfico padrão exibe o uso diário de dados acumulados em um formato de gráfico de linha, mostrando alterações no uso ao longo do tempo.
+
+image:invoiced-daily-accr-burst-1.png["captura de tela mostrando o gráfico de barras"]
+
+Uma imagem de exemplo que mostra a utilização diária de dados de sequência acumulada num gráfico de linhas:
+
+image:invoiced-daily-accr-burst-date.png["captura de tela mostrando dados de uso de explosão em um formato de gráfico de linha"]
+
+Você pode alternar para uma exibição de tabela clicando na opção *Tabela* no canto superior direito do gráfico. A exibição de tabela fornece métricas detalhadas de uso diário, incluindo nível de serviço de desempenho, registro de data e hora, capacidade comprometida, capacidade consumida e capacidade provisionada faturável. Você também pode gerar um relatório desses detalhes em formato CSV para uso futuro e comparação.
+
+
+
+== Gráficos de referência para proteção de dados avançada para MetroCluster
+
+Se você assinou o serviço complementar de proteção avançada de dados, pode visualizar o detalhamento dos dados de consumo dos sites parceiros do MetroCluster na aba *Tendência de consumo* no Digital Advisor.
+
+Para obter informações sobre o serviço complementar avançado de proteção de dados, link:../concepts/adp.html["Proteção de dados avançada"]consulte .
+
+Se os clusters no seu ambiente de armazenamento ONTAP estiverem configurados em uma configuração MetroCluster, os dados de consumo da sua assinatura Keystone serão divididos no mesmo gráfico de dados históricos para exibir o consumo nos sites primário e espelho para os níveis de serviço de desempenho base.
+
+
+NOTE: Os gráficos de barras de consumo são divididos apenas para os níveis de serviço de desempenho básicos. Para o serviço complementar de proteção de dados avançada, ou seja, o nível de serviço de desempenho _Advanced Data-Protect_, essa demarcação não aparece.
+
+.Nível de serviço de desempenho de proteção de dados avançado
+Para o nível de serviço de desempenho _Advanced Data-Protect_, o consumo total é dividido entre os sites parceiros, e o uso em cada site parceiro é refletido e cobrado em uma assinatura separada; uma assinatura para o site principal e outra para o site espelho. Essa é a razão pela qual, quando você seleciona o número de assinatura do site principal na guia *tendência de consumo*, os gráficos de consumo do serviço complementar avançado de proteção de dados exibem os detalhes de consumo discretos apenas do site principal. Como cada local de parceiro em uma configuração do MetroCluster atua como fonte e espelho, o consumo total em cada local inclui os volumes de origem e espelho criados nesse local.
+
+
+TIP: A dica de ferramenta ao lado do ID de rastreamento da sua assinatura na guia *consumo atual* ajuda você a identificar a assinatura do parceiro na configuração do MetroCluster.
+
+.Níveis de serviço de desempenho base
+Para os níveis de serviço de desempenho básico, cada volume é cobrado conforme provisionado nos sites primário e espelho e, portanto, o mesmo gráfico de barras é dividido de acordo com o consumo nos sites primário e espelho.
+
+.O que você pode ver para a assinatura principal
+A imagem a seguir exibe os gráficos para o nível de serviço de desempenho _Extreme_ (nível de serviço de desempenho base) e um número de assinatura principal. O mesmo gráfico de dados históricos também indica o consumo do local do espelho em um tom mais claro do mesmo código de cor usado para o local principal. A dica de ferramenta no Mouse hover exibe a quebra de consumo (em TIB) para os locais primários e espelhados, 22,24 TIB e 14,86 TIB respetivamente.
+
+image:mcc-chart-1.png["mcc primário"]
+
+Para o nível de serviço de desempenho _Advanced Data-Protect_, os gráficos aparecem assim:
+
+image:adp-src-1.png["base primária de mcc"]
+
+.O que você pode ver para a assinatura secundária (site espelho)
+Ao verificar a assinatura secundária, você pode ver que o gráfico de barras para o nível de serviço de desempenho _Extreme_ (nível de serviço de desempenho base) no mesmo ponto de coleta de dados que o site parceiro é invertido, e a divisão do consumo nos sites primário e espelho é de 14,86 TiB e 22,24 TiB, respectivamente.
+
+image:mcc-chart-mirror-1.png["espelho mcc"]
+
+Para o nível de serviço de desempenho _Advanced Data-Protect_, o gráfico aparece assim para o mesmo ponto de coleta do site do parceiro:
+
+image:adp-mir-1.png["base do espelho mcc"]
+
+Para obter informações sobre como o MetroCluster protege seus dados, https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Compreender a proteção de dados e a recuperação de desastres da MetroCluster"^] consulte .

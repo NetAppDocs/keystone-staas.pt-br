@@ -16,7 +16,24 @@ summary: A NetApp oferece recursos novos e aprimorados em todas as versões dos 
 [role="lead"]
 A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços do Keystone STaaS.
 
-Os seguintes aprimoramentos são introduzidos na tela *assinaturas do Keystone* do consultor digital da Active IQ (também conhecido como consultor digital):
+
+
+== 19 de junho de 2025
+
+
+
+=== Painel Keystone no BlueXP
+
+Agora você pode acessar o painel do Keystone diretamente do BlueXP. Essa integração oferece um único local para monitorar, gerenciar e acompanhar todas as suas assinaturas do Keystone, além dos seus outros serviços da NetApp.
+
+Com o painel Keystone no BlueXP, você pode:
+
+* Visualize todos os detalhes da sua assinatura, uso da capacidade e ativos em um só lugar.
+* Gerencie assinaturas facilmente e solicite alterações conforme suas necessidades evoluem.
+* Mantenha-se atualizado com as informações mais recentes sobre seu ambiente de armazenamento.
+
+
+Para começar, vá para *Armazenamento > Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, link:../integrations/dashboard-overview.html["Visão geral do painel do Keystone"^]consulte .
 
 
 
@@ -26,7 +43,7 @@ Os seguintes aprimoramentos são introduzidos na tela *assinaturas do Keystone* 
 
 === Adição de opções de visualização de utilização de dados acumulados diariamente
 
-Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"]consulte .
+Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"]consulte .
 
 
 
@@ -58,7 +75,7 @@ A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opç�
 
 === Explosão acumulada faturada melhorada
 
-Agora, você pode visualizar os dados de uso de expansões sazonais acumuladas trimestralmente por meio da opção *Invoed Acumulado Burst* se tiver optado por um período de faturamento trimestral. Para saber mais, link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Ver sequência acumulada faturada"^]consulte .
+Agora, você pode visualizar os dados de uso de expansões sazonais acumuladas trimestralmente por meio da opção *Invoed Acumulado Burst* se tiver optado por um período de faturamento trimestral. Para saber mais, link:../integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
 
 
 
@@ -80,7 +97,7 @@ Essas colunas fornecem melhor clareza na coluna *Logical Used*, que mostra a cap
 
 === Geração de relatórios aprimorada
 
-Agora você pode gerar um relatório consolidado para exibir os detalhes dos dados do Keystone usando o recurso Relatório no Digital Advisor. Para saber mais, link:../integrations/aiq-keystone-details.html#generate-consolidated-report["Gerar relatório consolidado"^]consulte .
+Agora você pode gerar um relatório consolidado para exibir os detalhes dos dados do Keystone usando o recurso Relatório no Digital Advisor. Para saber mais, consulte link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["Gerar relatório consolidado"^] .
 
 
 
@@ -136,7 +153,7 @@ Os níveis de serviço *CVO Primary* e *CVO Secondary* estão incluídos para of
 
 === Funcionalidade de ampliação para rajadas de curto prazo
 
-A guia *tendência de capacidade* agora inclui um recurso de zoom para exibir os detalhes de picos de curto prazo nos gráficos de uso. Para obter mais informações, link:../integrations/capacity-trend-tab.html["Separador tendência capacidade"^]consulte .
+A guia *tendência de capacidade* agora inclui um recurso de zoom para exibir os detalhes de picos de curto prazo nos gráficos de uso. Para obter mais informações, link:../integrations/consumption-tab.html["Separador tendência capacidade"^]consulte .
 
 
 
@@ -254,7 +271,7 @@ Algumas de suas assinaturas principais podem ter assinaturas secundárias vincul
 
 === Dados faturados devolvidos para estouro acumulado
 
-Os rótulos para *Acumulado Burst* agora são modificados para *Faturado Acumulado Burst* na guia *tendência de capacidade*. Selecionar esta opção permite visualizar os gráficos mensais dos dados de pico acumulado faturado. Para obter mais informações, link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["Ver sequência acumulada faturada"^]consulte .
+Os rótulos para *Acumulado Burst* agora são modificados para *Faturado Acumulado Burst* na guia *tendência de capacidade*. Selecionar esta opção permite visualizar os gráficos mensais dos dados de pico acumulado faturado. Para obter mais informações, link:../integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
 
 
 
@@ -276,4 +293,4 @@ O suporte para listas de observação no Digital Advisor foi estendido para incl
 
 === Data convertida para fuso horário UTC
 
-Os dados retornados nas guias da tela *Keystone Subscriptions* do Digital Advisor são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para obter mais informações, link:../integrations/aiq-keystone-details.html["Painel e geração de relatórios do Keystone Subscription"^]consulte .
+Os dados retornados nas guias da tela *Keystone Subscriptions* do Digital Advisor são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para obter mais informações, link:../integrations/keystone-aiq.html["Painel e geração de relatórios do Keystone Subscription"^]consulte .

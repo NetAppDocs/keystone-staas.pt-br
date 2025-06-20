@@ -21,9 +21,9 @@ sidebar:
       url: "/release-notes/known-issues.html"
     - title: Limitações conhecidas
       url: "/release-notes/known-limitations.html"
-  - title: Saiba mais sobre o Keystone
+  - title: Comece agora
     entries:
-    - title: Visão geral
+    - title: Saiba mais sobre o Keystone STaaS
       url: "/concepts/overview.html"
     - title: Infraestrutura do Keystone
       url: "/concepts/infra.html"
@@ -65,52 +65,82 @@ sidebar:
         url: "/installation/install-itom-windows.html"
     - title: Configurar o AutoSupport
       url: "/installation/asup-config.html"
+    - title: Monitorar e atualizar
+      entries:
+      - title: Monitore a integridade do Keystone Collector
+        url: "/installation/monitor-health.html"
+      - title: Atualize o Keystone Collector
+        url: "/installation/upgrade.html"
     - title: Segurança do Keystone Collector
       url: "/installation/security.html"
     - title: Dados coletados para faturamento
       url: "/installation/data-collection.html"
-  - title: Monitorar e atualizar
+    - title: Keystone em modo privado
+      entries:
+      - title: Visão geral
+        url: "/dark-sites/overview.html"
+      - title: Prepare-se para a instalação
+        url: "/dark-sites/requirements.html"
+      - title: Instale o Keystone Collector
+        url: "/dark-sites/install-collector.html"
+      - title: Configure o Keystone Collector
+        url: "/dark-sites/configure-collector.html"
+      - title: Monitore a integridade do Keystone Collector
+        url: "/dark-sites/monitor.html"
+  - title: Gerenciar e monitorar assinaturas do Keystone
     entries:
-    - title: Monitore a integridade do Keystone Collector
-      url: "/installation/monitor-health.html"
-    - title: Atualize o Keystone Collector
-      url: "/installation/upgrade.html"
-  - title: Painel do Keystone
-    entries:
-    - title: Visão geral do painel do Keystone
-      url: "/integrations/keystone-aiq.html"
-    - title: Veja detalhes de uso e gere relatórios
-      url: "/integrations/aiq-keystone-details.html"
-    - title: Guia assinaturas
-      url: "/integrations/subscriptions-tab.html"
-    - title: Separador consumo de corrente
-      url: "/integrations/current-usage-tab.html"
-    - title: Separador tendência de consumo
-      url: "/integrations/capacity-trend-tab.html"
-    - title: Separador volumes e objetos
+    - title: Entenda o painel do Keystone
+      entries:
+      - title: Saiba mais sobre o painel Keystone
+        url: "/integrations/dashboard-overview.html"
+      - title: Comece a usar o painel Keystone
+        url: "/integrations/dashboard-access.html"
+      - title: Painel Keystone no BlueXP
+        url: "/integrations/keystone-bluexp.html"
+      - title: Painel Keystone no Digital Advisor
+        url: "/integrations/keystone-aiq.html"
+      - title: Pesquise dados, gere relatórios e visualize alertas
+        url: "/integrations/options.html"
+    - title: Ver insights de assinatura
+      entries:
+      - title: Ver detalhes da sua assinatura
+        url: "/integrations/subscriptions-tab.html"
+      - title: Veja os detalhes do seu consumo atual
+        url: "/integrations/current-usage-tab.html"
+      - title: Veja as tendências de consumo
+        url: "/integrations/consumption-tab.html"
+      - title: Veja o cronograma da sua assinatura
+        url: "/integrations/subscription-timeline.html"
+    - title: Ver ativos
+      entries:
+      - title: Exibir ativos associados a uma assinatura
+        url: "/integrations/assets-tab.html"
+      - title: Visualizar ativos em várias assinaturas
+        url: "/integrations/assets.html"
+    - title: Modifique suas assinaturas
+      url: "/integrations/modify-subscription.html"
+    - title: Visualize sua solicitação de serviço
+      url: "/integrations/administration-tab.html"
+    - title: Exibir volumes e detalhes de armazenamento de objetos
       url: "/integrations/volumes-objects-tab.html"
-    - title: Separador ativos
-      url: "/integrations/assets-tab.html"
-    - title: Separador desempenho
+    - title: Ver métricas de performance
       url: "/integrations/performance-tab.html"
-    - title: Saiba mais sobre o Keystone e o BlueXP 
-      url: "/integrations/keystone-cm.html"
-  - title: Serviços Keystone STaaS
+  - title: Conceitos
     entries:
-    - title: Métricas e definições
-      url: "/concepts/metrics.html"
-    - title: Qualidade do serviço de storage
-      url: "/concepts/qos.html"
-    - title: Armazenamento suportado
-      url: "/concepts/supported-storage-services.html"
-    - title: Capacidade suportada
-      url: "/concepts/supported-storage-capacity.html"
-    - title: Níveis de serviço
-      url: "/concepts/service-levels.html"
-    - title: Requisitos de capacidade para níveis de serviço
-      url: "/concepts/capacity-requirements.html"
-    - title: Serviços de subscrição Keystone versão 1
-      url: "/subscription-services-v1.html"
+    - title: Serviços Keystone STaaS
+      entries:
+      - title: Métricas e definições
+        url: "/concepts/metrics.html"
+      - title: Qualidade do serviço de storage
+        url: "/concepts/qos.html"
+      - title: Armazenamento suportado
+        url: "/concepts/supported-storage-services.html"
+      - title: Capacidade suportada
+        url: "/concepts/supported-storage-capacity.html"
+      - title: Níveis de serviço de desempenho
+        url: "/concepts/service-levels.html"
+      - title: Requisitos de capacidade para níveis de serviço de desempenho
+        url: "/concepts/capacity-requirements.html"
     - title: Serviços complementares
       entries:
       - title: Proteção de dados avançada
@@ -125,28 +155,30 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: U.S. Protected Support (USPS)
         url: "/concepts/usps.html"
-  - title: SLA do Keystone STaaS
-    entries:
-    - title: Disponibilidade
-      url: "/concepts/sla-availability.html"
-    - title: Desempenho
-      url: "/concepts/sla-performance.html"
-    - title: Sustentabilidade
-      url: "/concepts/sla-sustainability.html"
-    - title: Garantia de recuperação de ransomware
-      url: "/concepts/sla-ransomware.html"
-  - title: Keystone em modo privado
-    entries:
-    - title: Visão geral
-      url: "/dark-sites/overview.html"
-    - title: Prepare-se para a instalação
-      url: "/dark-sites/requirements.html"
-    - title: Instale o Keystone Collector
-      url: "/dark-sites/install-collector.html"
-    - title: Configure o Keystone Collector
-      url: "/dark-sites/configure-collector.html"
-    - title: Monitore a integridade do Keystone Collector
-      url: "/dark-sites/monitor.html"
+    - title: SLA do Keystone STaaS
+      entries:
+      - title: Disponibilidade
+        url: "/concepts/sla-availability.html"
+      - title: Desempenho
+        url: "/concepts/sla-performance.html"
+      - title: Sustentabilidade
+        url: "/concepts/sla-sustainability.html"
+      - title: Garantia de recuperação de ransomware
+        url: "/concepts/sla-ransomware.html"
+    - title: Faturamento
+      entries:
+      - title: Preços do Keystone
+        url: "/concepts/pricing.html"
+      - title: Cobrança baseada na capacidade comprometida
+        url: "/concepts/committed-capacity-billing.html"
+      - title: Medição baseada na capacidade consumida
+        url: "/concepts/consumed-capacity-billing.html"
+      - title: Cobrança baseada no consumo de expansões sazonais
+        url: "/concepts/burst-consumption-billing.html"
+      - title: Cenários diversos para faturamento do Keystone
+        url: "/concepts/misc-volume-billing.html"
+      - title: Horários de faturamento
+        url: "/concepts/billing-schedules.html"
   - title: Acesse o Keystone a partir da API REST do Digital Advisor
     entries:
     - title: Comece a usar a API REST do Digital Advisor para recuperar dados do Keystone
@@ -159,20 +191,8 @@ sidebar:
       url: "/rest-api/get-customer-subscriptions.html"
     - title: Obtenha detalhes do consumo do cliente usando a API REST do Digital Advisor
       url: "/rest-api/get-customer-consumption.html"
-  - title: Faturamento
-    entries:
-    - title: Preços do Keystone
-      url: "/concepts/pricing.html"
-    - title: Cobrança baseada na capacidade comprometida
-      url: "/concepts/committed-capacity-billing.html"
-    - title: Medição baseada na capacidade consumida
-      url: "/concepts/consumed-capacity-billing.html"
-    - title: Cobrança baseada no consumo de expansões sazonais
-      url: "/concepts/burst-consumption-billing.html"
-    - title: Cenários diversos para faturamento do Keystone
-      url: "/concepts/misc-volume-billing.html"
-    - title: Horários de faturamento
-      url: "/concepts/billing-schedules.html"
+  - title: Serviços de subscrição Keystone versão 1
+    url: "/subscription-services-v1.html"
   - title: Obtenha ajuda com o Keystone
     url: "/concepts/gssc.html"
   - title: Avisos legais

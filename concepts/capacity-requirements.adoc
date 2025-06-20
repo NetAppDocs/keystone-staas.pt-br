@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: Os requisitos de capacidade para níveis de serviço são diferentes do storage de arquivo, bloco, objeto ou nuvem com suporte da assinatura do Keystone STaaS. 
 ---
-= Requisitos de capacidade para níveis de serviço
+= Requisitos de capacidade para níveis de serviço de desempenho
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Os requisitos de capacidade para níveis de serviço são diferentes do
 
 
 [role="lead"]
-Os requisitos de capacidade para os níveis de serviço do Keystone STaaS diferem em relação ao storage de arquivo, bloco, objeto ou nuvem suportado pela subscrição do Keystone STaaS.
+Os requisitos de capacidade para os níveis de serviço de desempenho do Keystone STaaS diferem de acordo com o arquivo, bloco, objeto ou armazenamento em nuvem suportado pela assinatura do Keystone STaaS.
 
 
 
 == Requisitos mínimos de capacidade para serviços de arquivo e bloco
 
-A capacidade mínima e a capacidade incremental permitidas por assinatura são descritas na tabela a seguir. A capacidade mínima por nível de serviço é definida para ser a mesma nos processos de vendas do Keystone. A capacidade acima da capacidade mínima no início da assinatura, ou como um serviço complementar da assinatura, ou após a realocação durante a assinatura também está estruturada na tabela.
+A capacidade mínima e a capacidade incremental permitidas por assinatura são descritas na tabela a seguir. A capacidade mínima por nível de serviço de desempenho é definida para ser a mesma em todos os movimentos de vendas da Keystone. A capacidade acima da capacidade mínima no início da assinatura, ou como um serviço complementar da assinatura, ou após a realocação durante a assinatura também está estruturada na tabela.
 
 |===
 
@@ -98,10 +98,10 @@ Não aplicável
 
 Observe as seguintes cláusulas para ajustes de capacidade:
 
-* A capacidade pode ser adicionada a qualquer momento durante o prazo, exceto nos últimos 90 dias do prazo do contrato, nos incrementos por nível de serviço, conforme descrito nas tabelas da seção anterior. A adição de capacidade e/ou serviços é permitida nos últimos 90 dias a partir do prazo do contrato, desde que haja um consentimento de renovação do serviço. Qualquer adição de capacidade, novo serviço no local ou na nuvem pode cooperar com o termo existente. A fatura enviada a você após a ativação dos novos serviços reflete a cobrança revisada. A capacidade comprometida dos serviços de nuvem não pode ser reduzida em nenhum momento durante o período da assinatura. Enquanto isso, a capacidade comprometida e o gasto comprometido nos serviços locais durante a vigência do contrato podem ser reduzidos com base em determinados critérios, conforme definido na seção a seguir _redução de capacidade_.
-* Uma capacidade de pico sazonal está disponível em cada local, com base no contrato do Keystone. Normalmente, está 20% acima da capacidade comprometida para um nível de serviço. Qualquer uso de expansões sazonais é cobrado apenas por esse período de cobrança. Se você tiver um requisito adicional de explosão maior do que a capacidade acordada, entre em Contato com o suporte.
+* A capacidade pode ser adicionada a qualquer momento durante o prazo, exceto nos últimos 90 dias do prazo do contrato, em incrementos por nível de serviço de desempenho, conforme descrito nas tabelas da seção anterior. A adição de capacidade e/ou serviços é permitida nos últimos 90 dias a partir do prazo do contrato, desde que haja um consentimento de renovação do serviço. Qualquer adição de capacidade, novo serviço no local ou na nuvem pode cooperar com o termo existente. A fatura enviada a você após a ativação dos novos serviços reflete a cobrança revisada. A capacidade comprometida dos serviços de nuvem não pode ser reduzida em nenhum momento durante o período da assinatura. Enquanto isso, a capacidade comprometida e o gasto comprometido nos serviços locais durante a vigência do contrato podem ser reduzidos com base em determinados critérios, conforme definido na seção a seguir _redução de capacidade_.
+* Uma capacidade de pico sazonal está disponível em cada local, com base no contrato do Keystone. Normalmente, é 20% acima da capacidade comprometida para um nível de serviço de desempenho. Qualquer uso de expansões sazonais é cobrado apenas por esse período de cobrança. Se você tiver um requisito adicional de explosão maior do que a capacidade acordada, entre em Contato com o suporte.
 * A capacidade comprometida pode ser alterada durante um contrato, apenas sob certas condições, conforme descrito na seção a seguir _redução de capacidade_.
-* É permitido aumentar a capacidade ou mudar para um nível de serviço mais alto durante um período de assinatura. No entanto, não é permitido passar de um nível de serviço mais elevado para um nível de serviço mais baixo.
+* É permitido aumentar a capacidade ou mudar para um nível de serviço de desempenho superior durante o período de assinatura. No entanto, não é permitido mudar de um nível de serviço de desempenho superior para um nível de serviço de desempenho inferior.
 * Qualquer solicitação de alteração nos últimos 90 dias do prazo de serviço exige a renovação do serviço por um período mínimo de um ano.
 
 
@@ -131,7 +131,7 @@ Requisitos e condições em um nível de assinatura:
 * As novas solicitações entram em vigor somente a partir do ciclo de faturamento consecutivo.
 
 
-Você pode alocar uma parte das despesas para os níveis de serviço de storage de objetos, blocos ou arquivos inscritos nos serviços de storage de nuvem híbrida. Até 25% do valor do contrato anual (ACV) pode ser realocado trimestralmente para Cloud Volumes ONTAP os serviços primários e secundários da Cloud Volumes ONTAP:
+Você pode alocar uma parte de suas despesas para os níveis de serviço de desempenho de armazenamento de arquivos, blocos ou objetos assinados para serviços de armazenamento em nuvem híbrida. Até 25% do valor do contrato anual (ACV) pode ser realocado trimestralmente para Cloud Volumes ONTAP os serviços primários e secundários da Cloud Volumes ONTAP:
 
 image:reallocation.png["lógica de realocação explicada"]
 
@@ -157,6 +157,6 @@ Esta tabela fornece um conjunto de valores de amostra para demonstrar como funci
 
 |  |  | 37.376 
 |===
-A redução é de (125-108), ou seja, 17 TIB da capacidade alocada para o nível de serviço Extreme. Na realocação de gastos, o storage de nuvem híbrida alocado não é de 17 TIB, mas uma capacidade equivalente que o $5000 pode comprar. Neste exemplo, por 5000 USD, você pode obter capacidade de storage no local de 17 TIB para nível de serviço Extremo e capacidade de nuvem híbrida de 47 TIB para nível de serviço Cloud Volumes ONTAP. Portanto, a realocação é no que diz respeito ao gasto, não à capacidade.
+A redução é de (125-108) = 17 TiB da capacidade alocada para o nível de serviço de desempenho Extremo. Na realocação de gastos, o storage de nuvem híbrida alocado não é de 17 TIB, mas uma capacidade equivalente que o $5000 pode comprar. Neste exemplo, por US$ 5.000, você pode obter 17 TiB de capacidade de armazenamento local para o nível de serviço de desempenho Extremo e 47 TiB de capacidade de nuvem híbrida para o nível de serviço de desempenho Cloud Volumes ONTAP. Portanto, a realocação é no que diz respeito ao gasto, não à capacidade.
 
 Entre em Contato com seu Keystone Success Manager (KSM) se quiser realocar despesas de serviços no local para serviços de nuvem.

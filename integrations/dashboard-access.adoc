@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-access.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions 
+summary: Como assinante do NetApp Keystone STaaS, você pode obter acesso ao painel do Keystone por meio do NetApp BlueXP ou do Digital Advisor 
+---
+= Comece a usar o painel Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode acessar o painel do Keystone por meio do NetApp BlueXP ou do Digital Advisor após assinar os serviços do NetApp Keystone.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Para fazer login no BlueXP, você pode usar suas credenciais do site de suporte da NetApp ou se inscrever no BlueXP usando seu e-mail e uma senha. Saiba mais link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Iniciar sessão no BlueXP"^]sobre o .
+
+.Passos
+. Inicie sessão no BlueXP .
+. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone*.
++
+O painel do Keystone é exibido.
+
++
+image:discover-subscriptions-1.png["a página do painel do Keystone"]
+
++
+
+NOTE: Entre em contato com o suporte do NetApp Keystone se suas credenciais de login não estiverem vinculadas a nenhuma assinatura do Keystone.
+
+
+
+--
+.Consultor digital
+--
+O painel do Digital Advisor permite que você visualize os detalhes de suas assinaturas do Keystone. Para fazer login no consultor digital, você pode usar as credenciais do site de suporte da NetApp.
+
+.Passos
+. Abra um navegador da Web e vá para a link:https://activeiq.netapp.com/?source=onlinedocs["Consultor digital"^]página de login.
+. Forneça seu nome de usuário e senha e clique em *entrar*.
++
+Você pode visualizar os detalhes da sua assinatura e uso, além de um resumo do uso da capacidade em relação aos serviços Keystone adquiridos, no widget *Assinaturas Keystone* no painel do Digital Advisor. Para saber mais sobre o widget *Assinaturas Keystone*, consulte link:../integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"] .
+
+
+
+--
+====
+*Informações relacionadas*
+
+* link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]
+* link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
+* link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
+

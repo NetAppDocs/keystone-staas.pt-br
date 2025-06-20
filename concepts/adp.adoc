@@ -21,9 +21,9 @@ NOTE: Os serviços padrão do Keystone STaaS para storage de arquivo e de bloco 
 
 Para obter informações sobre o padrão e o serviço de nuvem, link:../concepts/supported-storage-services.html["Serviços Keystone STaaS"]consulte .
 
-O serviço avançado de proteção de dados do Keystone pode espelhar dados em um local secundário de forma síncrona. Em caso de desastre no local principal, o local secundário pode assumir o controle, sem perda de dados. Esse recurso utiliza a configuração do MetroCluster entre dois locais para permitir a proteção de dados. Você pode aproveitar os serviços adicionais avançados de proteção de dados apenas para seus serviços de storage de arquivos e blocos. Como parte desse serviço complementar, o `Advanced Data-Protect` nível de serviço é atribuído à sua assinatura. Para obter informações sobre o ONTAP MetroCluster, link:https://docs.netapp.com/us-en/ontap-metrocluster["Documentação do MetroCluster"^]consulte .
+O serviço avançado de proteção de dados do Keystone pode espelhar dados em um local secundário de forma síncrona. Em caso de desastre no local principal, o local secundário pode assumir o controle, sem perda de dados. Esse recurso utiliza a configuração do MetroCluster entre dois locais para permitir a proteção de dados. Você pode aproveitar os serviços adicionais avançados de proteção de dados apenas para seus serviços de storage de arquivos e blocos. Como parte deste serviço complementar, o  `Advanced Data-Protect` o nível de serviço de desempenho é atribuído à sua assinatura. Para obter informações sobre o ONTAP MetroCluster, link:https://docs.netapp.com/us-en/ontap-metrocluster["Documentação do MetroCluster"^]consulte .
 
-Para obter informações sobre como exibir o consumo em uma configuração do MetroCluster, link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["Gráficos de referência para proteção avançada de dados"]consulte .
+Para obter informações sobre como exibir o consumo em uma configuração do MetroCluster, link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["Gráficos de referência para proteção avançada de dados"]consulte .
 
 As cobranças adicionais são aplicáveis a todas as capacidades da assinatura: A origem, a cópia espelhada e os dados sem espelhamento.
 

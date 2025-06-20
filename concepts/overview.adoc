@@ -20,7 +20,7 @@ O Keystone permite que os clientes acelerem o retorno do investimento reduzindo 
 
 image:nkfsosm_image2.png["keystone"]
 
-O Keystone oferece capacidade de storage em níveis de serviço predefinidos para tipos de dados de bloco, arquivo e objeto que podem ser implantados no local e operados pela NetApp, um parceiro ou cliente. O Keystone pode ser usado em associação com os serviços de nuvem da NetApp, como o Cloud Volumes ONTAP, que pode ser implantado em um ambiente hyperscalar de sua preferência.
+O Keystone fornece capacidade de armazenamento em níveis de serviço de desempenho predefinidos para tipos de dados de bloco, arquivo e objeto que podem ser implantados no local e operados pela NetApp, um parceiro ou o cliente. O Keystone pode ser usado em associação com os serviços de nuvem da NetApp, como o Cloud Volumes ONTAP, que pode ser implantado em um ambiente hyperscalar de sua preferência.
 
 Uma subscrição do Keystone está associada a planos de tarifas. Pode haver vários planos de taxa anexados a uma única assinatura.
 
@@ -34,7 +34,7 @@ As ofertas de storage como serviço (STaaS) visam fornecer um modelo semelhante 
 
 * link:../concepts/pricing.html["Preços do Keystone"]
 * link:../concepts/add-on.html["Serviços complementares no Keystone STaaS"]
-* link:../concepts/service-levels.html["Níveis de serviço no Keystone"]
+* link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"]
 * link:../concepts/infra.html["Infraestrutura do Keystone"]
 * link:../concepts/operational-models.html["Modelos operacionais em Keystone"]
 

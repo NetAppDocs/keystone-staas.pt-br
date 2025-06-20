@@ -28,7 +28,7 @@ Você pode assinar esse serviço complementar como parte da sua assinatura do Ke
 
 Para obter informações sobre os serviços padrão e de nuvem, link:supported-storage-services.html["Serviços Keystone STaaS"]consulte .
 
-Para obter informações sobre os níveis de serviço, link:../concepts/service-levels.html["Níveis de serviço no Keystone"]consulte .
+Para obter informações sobre os níveis de serviço de desempenho, consulte link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"] .
 
 
 

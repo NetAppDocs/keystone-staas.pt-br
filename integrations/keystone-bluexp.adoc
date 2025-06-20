@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: integrations/keystone-bluexp.html 
+keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor 
+summary: Como assinante do NetApp Keystone STaaS, você pode obter uma visão geral de suas assinaturas do NetApp BlueXP. 
+---
+= Painel Keystone no BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar a aba *Visão Geral* para determinar rapidamente as cargas de trabalho em risco, visualizar a capacidade e o status de expiração das assinaturas, identificar os alertas não resolvidos e visualizar as assinaturas com maior utilização de capacidade. Você também pode visualizar o status das suas assinaturas em diferentes versões do Keystone, destacando quaisquer problemas que precisem da sua atenção.
+
+Para visualizar a aba *Visão geral*, no menu de navegação esquerdo do BlueXP, acesse *Armazenamento > Keystone > Visão geral*.
+
+image:bxp-dashboard-overview.png["uma captura de tela da guia Visão geral"]
+
+A aba *Visão geral* oferece os seguintes insights:
+
+* *Resumo*: Exibe o número total de assinaturas, clusters ONTAP, nós StorageGRID e nós ONTAP. Cada categoria possui um botão *Exibir* para navegar facilmente até as seções detalhadas na aba *Assinaturas* ou *Ativos*.
+* *Solicitações abertas*: O número total de solicitações de serviço abertas.
+* *Status da capacidade da assinatura*: O status de consumo de capacidade para assinaturas acima do pico, usando pico e subutilizadas. Cada categoria inclui um botão *Visualizar* para navegar até a aba *Assinaturas* com os filtros relevantes aplicados.
+* *Status de expiração da assinatura*: O número de assinaturas expiradas e aquelas prestes a expirar em 90 dias. Cada categoria inclui um botão *Visualizar* para navegar até a aba *Assinaturas* com os filtros relevantes aplicados.
+* *Versão do Keystone em todas as assinaturas*: Uma análise das suas assinaturas do Keystone por versão. As regras do plano de tarifas para níveis de serviço de desempenho podem variar entre as versões de assinatura. Você pode filtrar as assinaturas por versão usando o botão *Visualizar*, que o leva à aba *Assinaturas* com os filtros relevantes aplicados. Para saber mais sobre a versão v1, consulte  https://docs.netapp.com/us-en/keystone/index.html["Serviços de assinatura Keystone | Documentação da versão 1"^] .
++
+image:version-across-subscriptions.png["Um gráfico de pizza das assinaturas do Keystone nas versões v1, v2 e v3."]
+
+* *As 5 principais assinaturas com maior utilização da capacidade*: Exibe uma tabela com as cinco principais assinaturas Keystone com a maior porcentagem de utilização da capacidade. Você pode clicar no número da assinatura na coluna *Assinatura* para obter informações detalhadas.
+
+
+*Informações relacionadas*
+
+* link:../integrations/dashboard-overview.html["Saiba mais sobre o painel Keystone"]
+* link:../integrations/dashboard-access.html["Comece a usar o painel Keystone"]
+* link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
+* link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
+* link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
+* link:../integrations/consumption-tab.html["Veja as tendências de consumo"]
+

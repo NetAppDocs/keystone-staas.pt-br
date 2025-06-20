@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-overview.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
+summary: Como assinante do NetApp Keystone STaaS, você pode obter uma visão geral de suas assinaturas do NetApp BlueXP ou do Digital Advisor. 
+---
+= Saiba mais sobre o painel Keystone
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O painel do Keystone é a sua solução ideal para monitorar, analisar e gerenciar suas assinaturas do Keystone com eficiência. Por meio dele, você pode atingir os seguintes objetivos:
+
+* *Monitorar detalhes da assinatura*: visualize informações detalhadas sobre suas assinaturas do Keystone, incluindo níveis de serviço de desempenho, uso de capacidade, ativos e alertas.
+* *Acompanhe o uso da capacidade e gere relatórios*: acompanhe o uso atual e histórico da capacidade e gere relatórios para analisar dados de assinatura e tomar decisões informadas.
+* *Ver cronograma de assinaturas*: Mantenha-se informado sobre datas e eventos importantes monitorando o cronograma de suas assinaturas.
+* *Gerenciar assinaturas*: envie solicitações para modificar níveis de serviço de desempenho ou outros parâmetros de assinatura conforme suas necessidades mudam.
+* *Analise volumes e objetos*: obtenha insights detalhados sobre os volumes e objetos de suas assinaturas, incluindo sua capacidade nos níveis de volume e objeto.
+
+
+
+
+== Acesse o painel do Keystone
+
+Você pode acessar o painel do Keystone através de:
+
+* *BlueXP*: Acesse o painel em *Armazenamento > Keystone > Visão geral* no BlueXP. Para saber mais, link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"^]consulte .
+* *Active IQ Digital Advisor* (também conhecido como Digital Advisor): Acesse o painel em *Geral > Assinaturas Keystone* no Digital Advisor. Para saber mais, link:../integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"^]consulte .
+
+
+Observe o seguinte:
+
+* Enquanto o BlueXP e o Digital Advisor oferecem alguns recursos exclusivos, o BlueXP fornece funcionalidade administrativa para o Keystone, permitindo que você gerencie assinaturas e faça os ajustes necessários.
+* Você deve ter a função *administrador do Keystone* atribuída para modificar assinaturas. Para saber mais, link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções do BlueXP  Access"^]consulte .
+* O Digital Advisor é integrado ao BlueXP, permitindo que você acesse todos os recursos do Digital Advisor, incluindo o painel do Keystone, diretamente do BlueXP. Para saber mais, link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["Integração do consultor digital com o BlueXP"^]consulte .
+
+
+
+
+== Recursos Keystone no BlueXP e no Digital Advisor
+
+A tabela a seguir mostra a disponibilidade de recursos no BlueXP e no Digital Advisor, ajudando você a identificar rapidamente a plataforma certa para suas necessidades:
+
+|===
+
+
+| *Recurso* | *Azul XP* | *Consultor Digital* 
+
+
+ a| 
+link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
+| Sim | Sim 
+
+
+ a| 
+link:../integrations/current-usage-tab.html["Monitore o uso atual e histórico da capacidade"]
+| Sim | Sim 
+
+
+ a| 
+link:../integrations/subscription-timeline.html["Acompanhe o cronograma de assinatura"]
+| Sim | Não 
+
+
+ a| 
+link:../integrations/assets-tab.html["Ver ativos associados a uma assinatura Keystone"]
+| Sim | Sim 
+
+
+| link:../integrations/assets.html["Visualizar ativos em várias assinaturas do Keystone"] | Sim | Não 
+
+
+ a| 
+link:../integrations/modify-subscription.html["Modifique suas assinaturas"] (somente para administradores do Keystone)
+| Sim | Não 
+
+
+ a| 
+link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["Gerar relatórios"]
+| Sim | Sim 
+
+
+ a| 
+link:../integrations/volumes-objects-tab.html["Ver detalhes de volumes e objetos"]
+| Sim | Sim 
+
+
+ a| 
+link:../integrations/performance-tab.html["Ver métricas de performance"]
+| Não | Sim 
+|===
+*Informações relacionadas*
+
+* link:../integrations/dashboard-access.html["Comece a usar o painel Keystone"]
+* link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]
+* link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
+

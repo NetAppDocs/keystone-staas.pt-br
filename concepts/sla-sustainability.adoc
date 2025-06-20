@@ -14,7 +14,7 @@ summary: sustentabilidade, sla, acordo de nível de serviço
 
 
 [role="lead"]
-A NetApp Keystone oferece uma medição garantida do número máximo de watts reais por byte (W/TIB) para serviços de storage baseados em arrays de storage flash ONTAP com SLA de Sustentabilidade. O SLA de sustentabilidade define o consumo máximo de W/TIB para cada nível de serviço elegível, ajudando as organizações a cumprir suas metas de sustentabilidade.
+A NetApp Keystone oferece uma medição garantida do número máximo de watts reais por byte (W/TIB) para serviços de storage baseados em arrays de storage flash ONTAP com SLA de Sustentabilidade. O SLA de sustentabilidade define o consumo máximo de W/TiB para cada nível de serviço de desempenho elegível, ajudando as organizações a atingir suas metas de sustentabilidade.
 
 
 NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
@@ -26,7 +26,7 @@ NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
 * * Watts*: O consumo de energia relatado pelo AutoSupport diário, incluindo o uso pelo controlador e pelas gavetas de disco conetadas.
 * *Tebibyte*: O máximo de:
 +
-** capacidade comprometida e capacidade de sobrecarga alocada para o nível de serviço, or
+** a capacidade comprometida + capacidade de pico alocada para o nível de serviço de desempenho, ou
 ** a capacidade efetiva implantada, assumindo um fator de eficiência de storage `2:1` de .
 
 
@@ -37,7 +37,7 @@ Para saber mais sobre a taxa de eficiência de storage, https://docs.netapp.com/
 
 
 
-== Níveis de serviço
+== Níveis de serviço de desempenho
 
 O SLA de sustentabilidade baseia-se nos seguintes critérios de consumo:
 
@@ -61,7 +61,7 @@ Premium
 Desempenho
 | 4 W/TIB | 300 TIB | AFF A800 e AFF A900 
 |===
-Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Níveis de serviço no Keystone"]consulte .
+Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Níveis de serviço de desempenho em Keystone"]consulte .
 
 
 
