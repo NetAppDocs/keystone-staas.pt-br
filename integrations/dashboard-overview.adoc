@@ -96,7 +96,7 @@ link:../integrations/performance-tab.html["Ver métricas de performance"]
 |===
 *Informações relacionadas*
 
-* link:../integrations/dashboard-access.html["Comece a usar o painel Keystone"]
+* link:../integrations/dashboard-access.html["Comece a usar o painel do Keystone"]
 * link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]
 * link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
 

@@ -93,7 +93,7 @@ sidebar:
       entries:
       - title: Saiba mais sobre o painel Keystone
         url: "/integrations/dashboard-overview.html"
-      - title: Comece a usar o painel Keystone
+      - title: Comece a usar o painel do Keystone
         url: "/integrations/dashboard-access.html"
       - title: Painel Keystone no BlueXP
         url: "/integrations/keystone-bluexp.html"

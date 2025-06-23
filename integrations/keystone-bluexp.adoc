@@ -36,7 +36,7 @@ image:version-across-subscriptions.png["Um gráfico de pizza das assinaturas do 
 *Informações relacionadas*
 
 * link:../integrations/dashboard-overview.html["Saiba mais sobre o painel Keystone"]
-* link:../integrations/dashboard-access.html["Comece a usar o painel Keystone"]
+* link:../integrations/dashboard-access.html["Comece a usar o painel do Keystone"]
 * link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
 * link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
