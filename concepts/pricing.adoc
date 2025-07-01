@@ -14,14 +14,14 @@ summary: O Keystone oferece um modelo de pagamento conforme o uso para suas nece
 
 
 [role="lead"]
-Se você preferir o modelo de consumo de despesas operacionais (OpEx) em despesas de capital (CapEx) ou leasing, pode optar pelo modelo de pagamento conforme o uso do NetApp Keystone STaaS, que oferece consumo flexível e dimensionável com preços previsíveis e iniciais para a sua subscrição de storage.
+O serviço de assinatura pré-pago do NetApp Keystone STaaS oferece consumo flexível e escalável com preços previsíveis e antecipados para suas necessidades de armazenamento.
 
-O Keystone oferece as seguintes instalações de cobrança:
+O Keystone para a versão 3 (v3) oferece os seguintes recursos de cobrança:
 
-* Você pode pagar com base em IOPS e latência da capacidade comprometida para atender a várias necessidades de workload. As diferentes categorias de serviço de performance: Extreme, Premium, Performance, Standard, Value e Object permitem que você gerencie seu storage com base no nível de serviço adquirido.
+* Você pode pagar com base em IOPS e latência da capacidade comprometida para atender a várias necessidades de workload. Os diferentes níveis de serviço de desempenho — Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP — permitem que você gerencie seu armazenamento com base no nível de serviço adquirido.
 * Ele apresenta cobrança previsível para a capacidade comprometida e pagamento por uso para uso de capacidade variável (sobrecarga).
-* Você pode selecionar um preço de pacote para hardware, sistema operacional central e suporte por um preço por TIB. Você tem uma única fatura para cada tipo de storage, arquivo, bloco, objeto ou serviços de storage de nuvem.
-* Selecione um prazo flexível para os serviços e pagamento: Você pode optar por 12 meses, 25TiB ou mais por site. Depois disso, você pode renovar automaticamente por 12 meses.
+* Você pode selecionar um preço de pacote para hardware, sistema operacional central e suporte por um preço por TIB. Você tem uma única fatura para cada tipo de armazenamento: unificado, em bloco, otimizado, de objeto ou serviços de armazenamento em nuvem.
+* Você pode selecionar um prazo flexível para os serviços e opções de pagamento, como mensal, trimestral, semestral ou anual.
 
 
 A cobrança do Keystone é baseada na capacidade comprometida e no consumo de sobrecarga variável.

@@ -37,6 +37,10 @@ A guia *volumes e objetos* oferece informações sobre os volumes do sistema ONT
 Para a subscrição do Keystone STaaS selecionada, você pode ver o número total de volumes, o status de conformidade de QoS, a contagem de volumes protegidos e a capacidade total de compromisso, consumo e disponível em todos esses volumes. Se você clicar no número de volumes não compatíveis ou protegidos, ele o levará para a guia *Detalhes do volume*, onde você pode exibir uma lista filtrada mostrando os volumes não compatíveis ou os volumes protegidos, com base em sua seleção.
 
 +
+
+NOTE: As políticas de QoS não são aplicáveis na versão 3 (v3) do Keystone.
+
++
 image:volume-summary-2.png["Separador Resumo do volume"]
 
 
@@ -48,6 +52,10 @@ image:volume-summary-2.png["Separador Resumo do volume"]
 . Selecione o número da subscrição.
 +
 Você pode ver a listagem tabular dos volumes, como uso de capacidade, tipo de volume, cluster, agregado e os níveis de serviço de desempenho do Keystone atribuídos. Você pode rolar pelas colunas e aprender mais sobre elas passando o Mouse sobre os ícones de informações ao lado dos cabeçalhos das colunas. Você pode classificar pelas colunas e filtrar as listas para exibir informações específicas.
+
++
+
+NOTE: As políticas de QoS não são aplicáveis na versão 3 do Keystone.
 
 +
 Você pode usar *Ocultar/Mostrar colunas* para adicionar ou remover colunas exibidas na tabela. Por padrão, todas as colunas são selecionadas, exceto a coluna *Departamento*. Você pode selecionar ou desmarcar qualquer coluna, incluindo a coluna *Departamento*, e suas preferências serão salvas para uso posterior. Ao fazer o download do relatório CSV, os detalhes da coluna *Departamento* serão incluídos se selecionados, enquanto outras colunas aparecerão independentemente do status de seleção na tabela.

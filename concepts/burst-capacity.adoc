@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-capacity.html 
+keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
+summary: Permite que os clientes usem capacidade de armazenamento adicional além da capacidade comprometida. 
+---
+= Opções de capacidade de burst
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode optar pelo serviço adicional de capacidade de pico como parte da sua assinatura do NetApp Keystone. Este serviço permite aumentar seus limites de capacidade de pico para 40% ou 60% acima da capacidade comprometida, proporcionando flexibilidade para lidar com picos inesperados na demanda de carga de trabalho.
+
+Capacidade de pico refere-se à capacidade de armazenamento adicional que pode ser utilizada além da capacidade comprometida da sua assinatura. Ela é medida e cobrada por nível de serviço de desempenho. Por padrão, seu limite de pico é definido em 20% acima da capacidade comprometida. No entanto, com este serviço adicional, você pode aumentar o limite para 40% ou 60%.
+
+Para alterar seu limite de burst para 40% ou 60%, entre em contato com a equipe de suporte do NetApp Keystone.
+
+Para saber mais sobre como a capacidade de pico é cobrada, consulte link:../concepts/burst-consumption-billing.html["Cobrança baseada no consumo de expansões sazonais"] .

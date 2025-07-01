@@ -18,6 +18,12 @@ A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços
 
 
 
+== 30 de junho de 2025
+
+Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta diversas melhorias, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, link:../concepts/metrics.html["Serviços Keystone STaaS para v3"]consulte .
+
+
+
 == 19 de junho de 2025
 
 
@@ -219,11 +225,11 @@ A dica de ferramenta que aparece ao passar o Mouse sobre o gráfico de barra de 
 
 Agora você pode exibir os dados históricos se uma assinatura do Keystone for modificada ou renovada. Pode definir a data de início de uma subscrição para uma data anterior para visualizar :
 
-* Consumo e dados de uso de expansões acumuladas na guia *tendência de capacidade*,
-* Métricas de desempenho de volumes ONTAP na guia *desempenho*,
+* Dados de consumo e uso acumulado de pico da aba *Tendência de Capacidade*.
+* Métricas de desempenho de volumes ONTAP na guia *Desempenho*.
 
 
-todos os quais mostram os dados com base na data selecionada da assinatura.
+Os dados são exibidos com base na data de início selecionada da assinatura.
 
 
 

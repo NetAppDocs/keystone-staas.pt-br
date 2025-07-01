@@ -28,15 +28,8 @@ Você pode refinar suas pesquisas usando a opção de filtro avançado, quando d
 
 == Gere relatórios do BlueXP ou do Digital Advisor
 
-Você pode gerar e visualizar relatórios para seus dados do Keystone usando o botão de download disponível nas abas do BlueXP ou do Digital Advisor. Essas abas permitem gerar relatórios para suas assinaturas, histórico de uso, picos de uso, desempenho, ativos, volumes e objetos.
+Você pode gerar e visualizar relatórios para seus dados Keystone usando o botão de download image:bluexp-download-report-2.png["ícone de download de relatório 2 no BlueXP"] disponível em abas no BlueXP ou Digital Advisor. Essas abas permitem gerar relatórios para suas assinaturas, histórico de uso, picos de uso, desempenho, ativos, volumes e objetos.
 
-[cols="1,1"]
-|===
-| Botão de download no BlueXP | Botão de download no Digital Advisor 
-
-
-| image:bluexp-download-report-1.png["ícone de download de relatório 1 no BlueXP"] ou image:bluexp-download-report-2.png["ícone de download de relatório 2 no BlueXP"] | image:download-report-da.png["ícone de download do relatório"] 
-|===
 Os detalhes são gerados em formato CSV que você pode salvar para uso futuro e comparação.
 
 
@@ -55,7 +48,7 @@ Para saber mais sobre como gerar relatórios, link:https://docs.netapp.com/us-en
 
 == Ver alertas do Digital Advisor
 
-No Digital Advisor, o painel do Keystone fornece notificações de alerta que permitem entender os problemas que ocorrem no seu ambiente de armazenamento. Essas notificações podem aparecer como alertas informativos ou avisos. Por exemplo, se houver volumes nos clusters gerenciados que não tenham políticas de QoS adaptável (AQoS) anexadas, você poderá ver uma mensagem de aviso. Selecione a mensagem de aviso para ver a lista de volumes não compatíveis na aba *Volumes e Objetos*.
+No Digital Advisor, o painel do Keystone fornece notificações de alerta que permitem entender os problemas que ocorrem no seu ambiente de armazenamento. Essas notificações podem aparecer como alertas informativos ou avisos. Por exemplo, com o Keystone versão 2 (v2), se houver volumes em seus clusters gerenciados que não tenham políticas de QoS adaptáveis (AQoS) anexadas, você poderá ver uma mensagem de aviso. Selecione a mensagem de aviso para ver a lista de volumes não compatíveis na aba *Volumes e Objetos*.
 
 
 NOTE: Se você tiver assinado um único nível de serviço de desempenho ou plano de tarifas, não poderá ver o alerta para volumes não compatíveis.

@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-infra-insights-v2.html 
+keywords: add-on services, add-on, data infrastructure insights, DII, deployment of DII 
+summary: O Data Infrastructure Insights aprimora a eficiência do Keystone STaaS com o monitoramento, a solução de problemas e a otimização do storage em nuvens públicas e data centers privados. 
+---
+= Saiba mais sobre o Data Infrastructure Insights
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O NetApp Data Infrastructure Insights (DII, anteriormente conhecido como Cloud Insights) é uma oferta complementar para o Keystone STaaS. A integração desse serviço com o Keystone STaaS aprimora as funcionalidades de monitoramento, solução de problemas e otimização dos recursos de storage fornecidos pelo Keystone em nuvens públicas e data centers privados.
+
+Para saber mais sobre o Data Infrastructure Insights, link:https://docs.netapp.com/us-en/data-infrastructure-insights/["Documentação do Data Infrastructure Insights"^]consulte .
+
+O DII está disponível para assinaturas novas e existentes. Ele pode ser integrado a uma subscrição do Keystone como complemento para a capacidade comprometida. Quando o DII é integrado a uma assinatura Keystone, ele terá um nível de serviço de desempenho correspondente para cada nível de serviço de desempenho base da assinatura. Por exemplo, mapas extremos para DII Extreme, mapas Premium para DII Premium e mapas de desempenho para DII Performance. Esses mapeamentos garantem que o nível de serviço de desempenho do DII esteja alinhado com o nível de serviço de desempenho base da sua assinatura Keystone.
+
+Uma visão dos níveis de serviço de desempenho DII em um widget *Assinaturas Keystone* no painel do Digital Advisor:
+
+image:keystone-widget-dii.png["Captura de tela do widget Keystone Subscriptions que mostra os níveis de serviço DII"]
+
+
+
+== Implantação do DII para Keystone
+
+Os clientes podem integrar o DII para Keystone de duas maneiras: Como parte de uma instância existente que monitora outros ambientes que não são do Keystone ou como parte de uma nova instância. É da responsabilidade do cliente configurar o DII. Se for necessária ajuda para configurar o DII em um ambiente complexo, a equipe de conta pode se envolver link:https://www.netapp.com/services/["Serviços profissionais da NetApp"^]com o .
+
+Para configurar o DII, link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html["Integração do Data Infrastructure Insights"^]consulte a .
+
+Observe o seguinte:
+
+* Se o cliente estiver iniciando uma nova instância do DII, recomenda-se começar com um link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html#starting-your-data-infrastructure-insights-free-trial["Avaliação gratuita do DII"^]. Para saber mais sobre esse recurso e a lista de verificação de inicialização necessária, link:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html["Tutoriais de recursos"^]consulte .
+* Para cada local, é necessária uma Unidade de aquisição. Para instalar uma unidade de aquisição, link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html#install-an-acquisition-unit["Instale uma unidade de aquisição"^]consulte a . Se o cliente já tiver uma instância DII e uma unidade de aquisição configuradas, pode prosseguir com a configuração do coletor de dados.
+* Para cada hardware de armazenamento implantado, o cliente deve configurar um coletor de dados na Unidade de aquisição. Para configurar coletores de dados, link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_configure_data_collectors.html["Configurar coletores de dados"^]consulte . Os coletores de dados necessários para o storage do Keystone, com base no hardware subjacente, são os seguintes:
++
+|===
+| Hardware de storage | Coletor de dados 
+
+
+| Sistemas ONTAP | Software de gerenciamento de dados NetApp ONTAP 
+
+
+| StorageGRID | NetApp StorageGRID 
+
+
+| Cloud Volumes ONTAP | NetApp Cloud Volumes ONTAP 
+|===
++
+Uma vez configurada, a instância DII começará a monitorar os recursos de armazenamento do NetApp implantados como parte do Keystone.
+
+
+
+
+NOTE: Embora o DII ofereça amplos recursos de monitoramento para o hardware implantado, ele não fornece insights sobre sua assinatura Keystone, como o uso da assinatura ou detalhes sobre os níveis de serviço de desempenho. Para obter insights sobre a assinatura, consulte link:../integrations/keystone-aiq.html["Painel e relatórios do Keystone"] .
+
+
+
+== Faturamento e medição
+
+O seguinte descreve os detalhes de faturação e medição do serviço complementar DII:
+
+* Este serviço é medido da mesma forma que a sua subscrição principal. Por exemplo, se sua assinatura principal incluir 100 TIB de serviço Extreme e 100 TIB de serviço Premium, ambos medidos em uma base de uso lógico, os serviços adicionais, DII Extreme 100 TIB e DII Premium 100 TIB, também são medidos em uma base de uso lógico. Se a sua subscrição principal for medida de forma provisionada, o serviço complementar será medido da mesma forma para a mesma capacidade. O serviço complementar seguirá o mesmo método de medição que sua assinatura principal.
++
+image:current-consumption-dii.png["Captura de tela da guia consumo atual exibindo a medição dos níveis de serviço"]
+
+* Esse serviço é mensurado e faturado junto com sua assinatura do Keystone na mesma fatura. Se você configurar o DII para Keystone antes de ativar a assinatura do Keystone, o faturamento ainda começará a partir da data de ativação da assinatura do Keystone ou da data de modificação das assinaturas existentes.
+* Este serviço é medido e faturado com base na capacidade comprometida e no uso contínuo para os níveis de serviço de desempenho DII, além da fatura padrão do Keystone. A medição deste serviço complementar segue a mesma metodologia do nível de serviço de desempenho da assinatura Keystone subjacente, que pode ser lógico, provisionado ou físico.
+* Esse serviço termina com a assinatura do Keystone à qual ele está vinculado. Na renovação, você pode escolher se deseja renovar o serviço complementar. Se você não renovar a assinatura do Keystone, o hardware monitorado será desativado e o serviço complementar será automaticamente encerrado.
+
+
+
+
+== Suporte e acesso do usuário
+
+Os membros da equipe de suporte aprovado da NetApp podem acessar a instância DII do cliente se o cliente ativar a opção *permitir acesso à NetApp ao ambiente de informações da infraestrutura de dados*. Para tal, aceda a *Ajuda > suporte* e ative a opção.
+
+image:dii-support-permission.png["Captura de tela demonstrando como o cliente pode ativar a opção"]
+
+Os clientes podem fornecer acesso a usuários internos ou externos a partir da tela *Gerenciamento de usuários* usando a image:dii-user-option.png["botão do utilizador"] opção.
+
+image:dii-user-access.png["Captura de tela mostrando a opção de adicionar usuário"]

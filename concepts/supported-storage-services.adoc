@@ -14,7 +14,14 @@ summary: Os serviços Keystone STaaS são compatíveis com ONTAP e StorageGRID.
 
 
 [role="lead"]
-Os serviços Keystone STaaS oferecem suporte a storage de bloco e arquivo do ONTAP, storage de objetos da plataforma StorageGRID e recursos de gerenciamento de dados do Cloud Volumes ONTAP.
+Os serviços Keystone STaaS para a versão 3 (v3) oferecem suporte ao armazenamento unificado, otimizado por bloco e de objetos do NetApp e do Cloud Volumes ONTAP.
+
+Cada tipo de armazenamento inclui:
+
+* *Armazenamento unificado*: Inclui armazenamento de arquivos, blocos e objetos S3, disponível nos sistemas NetApp ONTAP AFF e FAS.
+* *Armazenamento otimizado em bloco*: Inclui armazenamento em bloco disponível em sistemas NetApp ONTAP ASA.
+* *Armazenamento de objetos*: Inclui armazenamento de objetos disponível em sistemas NetApp StorageGRID.
+
 
 O Keystone STaaS fornece serviços padrão e opcionais para o seu storage.
 
@@ -22,62 +29,37 @@ O Keystone STaaS fornece serviços padrão e opcionais para o seu storage.
 
 *Serviços complementares do Keystone STaaS*: São serviços opcionais e cobráveis que fornecem utilitários e benefícios adicionais além dos serviços de assinatura padrão do Keystone STaaS.
 
-Os serviços Keystone STaaS podem coexistir uns com os outros. Por exemplo, uma assinatura de storage em nuvem pode ser coterizada com assinaturas de storage de arquivos, blocos e objetos. Um serviço de nuvem pode ser incluído a qualquer momento durante o período de serviço de uma subscrição de storage existente. No entanto, se você não planeja renovar uma assinatura de arquivo, bloco e objeto existente, não será possível adicionar uma assinatura de armazenamento em nuvem durante os últimos 90 dias da assinatura.
+Os serviços Keystone STaaS podem ser usados simultaneamente. Por exemplo, uma assinatura de armazenamento em nuvem pode ter o mesmo prazo que as assinaturas unificadas, otimizadas para blocos e de armazenamento de objetos. Um serviço de nuvem pode ser incluído a qualquer momento durante o período de serviço de uma subscrição de storage existente. No entanto, se você não planeja renovar uma assinatura unificada, otimizada para blocos ou de armazenamento de objetos existente, uma assinatura de armazenamento em nuvem não poderá ser adicionada durante os últimos 90 dias da assinatura.
 
 
 
-== Serviços para storage de arquivos, blocos e objetos
+== Serviços para armazenamento unificado, otimizado por bloco e de objetos
 
-Os serviços Keystone STaaS para storage de arquivos e blocos do ONTAP e storage de objetos StorageGRID, oferecem suporte a vários recursos e protocolos, além de serem descritos na tabela a seguir:
+Os serviços Keystone STaaS para armazenamento unificado, otimizado por blocos e de objetos oferecem suporte a vários recursos e protocolos e são descritos na tabela a seguir:
 
 |===
 | Armazenamento | Plataforma | Protocolos | Recursos suportados 
 
 
  a| 
-Armazenamento de ficheiros
+Storage unificado
  a| 
 ONTAP
  a| 
 NFS e CIFS
  a| 
-Recursos suportados do ONTAP:
-
-* FlexVol
-* FlexGroup
-* Cópias Snapshot
-* SnapMirror (assíncrono)
-* SnapVault
-* SnapLock Enterprise
-* FabricPool/Cloud Tiering
-* SnapRestore
-* FlexClone
-* SnapCenter (a licença está incluída, mas não faz parte dos serviços do Keystone, e o gerenciamento não é garantido)
-* 1
-
+Suporta todos os recursos do ONTAP One
 
 
 
  a| 
-Storage de bloco
+Armazenamento otimizado em bloco
  a| 
 ONTAP
  a| 
 FC e iSCSI
  a| 
-Recursos suportados do ONTAP:
-
-* FlexVol
-* FlexGroup
-* Cópias Snapshot
-* SnapMirror (assíncrono)
-* SnapVault
-* SnapLock Enterprise
-* FabricPool/Cloud Tiering
-* SnapRestore
-* FlexClone
-* SnapCenter (a licença está incluída, mas não faz parte dos serviços do Keystone, e o gerenciamento não é garantido)
-
+Suporta todos os recursos do ONTAP One
 
 
 
@@ -88,11 +70,10 @@ StorageGRID
  a| 
 S3
  a| 
-Suporta várias políticas de gerenciamento de ciclo de vida de informações (ILM) em vários sites 2
+Suporta todos os recursos do ONTAP One
 
 |===
-
-NOTE: 1 para obter informações sobre a proteção contra ransomware no ONTAP, https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Proteção autônoma contra ransomware"^] consulte . 2 cada site requer uma assinatura separada.
+Para saber mais sobre o ONTAP One, consulte link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one["Visão geral do licenciamento do ONTAP"^] e link:https://www.netapp.com/blog/ontap-one/["ONTAP One: todo o poder do ONTAP, agora tudo em um"^] .
 
 
 

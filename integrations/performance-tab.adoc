@@ -42,15 +42,15 @@ Você pode exibir e comparar as métricas de desempenho nas seções a seguir co
 
 
 
-== IOPS/TIB
+== IOPS
 
-Esta seção exibe os gráficos de entrada e saída para as cargas de trabalho no volume com base no intervalo de datas da consulta. O pico de IOPS para o nível de serviço de desempenho e o IOPS atual (nos últimos cinco minutos, não com base no intervalo de datas da consulta) são exibidos, juntamente com os IOPS mínimo, máximo e médio para o intervalo de tempo, em IOPS/TiB.
+Esta seção exibe os gráficos de entrada e saída para as cargas de trabalho no volume com base no intervalo de datas da consulta. O pico de IOPS para o nível de serviço de desempenho e o IOPS atual (nos últimos cinco minutos, não com base no intervalo de datas da consulta) são exibidos, juntamente com os IOPS mínimo, máximo e médio para o intervalo de tempo, em IOPS/Tib.
 
 image:perf-iops.png["Seção IOPS do gráfico"]
 
 
 
-== Taxa de transferência (Mbps/TIB)
+== Taxa de transferência
 
 Esta seção exibe os gráficos de taxa de transferência para as cargas de trabalho no volume com base no intervalo de datas da consulta. A taxa de transferência máxima para o nível de serviço de desempenho (SLO Max) e a taxa de transferência atual (nos últimos cinco minutos, não com base no intervalo de datas da consulta) são exibidas, juntamente com a taxa de transferência mínima, máxima e média para o intervalo de tempo, em MBps/TiB.
 

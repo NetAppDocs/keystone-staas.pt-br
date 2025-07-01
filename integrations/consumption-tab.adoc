@@ -75,13 +75,8 @@ Os gráficos de barras exibem rajadas de curto prazo e você pode visualizar ess
 image:aiq-ks-subtime-7.png["Guia tendências de consumo com detalhes"]
 
 +
-As cores a seguir nos gráficos de barras indicam a capacidade consumida, conforme definido no nível de serviço de desempenho. Os dados mensais nos gráficos são separados por uma linha vertical.
+Os dados mensais nos gráficos são separados por uma linha vertical.
 
-+
-** Verde: Dentro de 80%.
-** Âmbar: 80% - 100%.
-** Vermelho: Uso de expansões sazonais (100% da capacidade comprometida com o limite de expansões sazonais acordado)
-** Roxo: Acima do limite de explosão ou `Above Limit`.
 +
 
 NOTE: Um gráfico em branco indica que não havia dados disponíveis no seu ambiente nesse ponto de coleta de dados.
@@ -90,24 +85,22 @@ NOTE: Um gráfico em branco indica que não havia dados disponíveis no seu ambi
 Você pode clicar no botão de alternância *Mostrar uso atual* para exibir os dados de consumo, uso de expansões sazonais e picos acumulados para o período de faturamento atual. Esses detalhes não são baseados no intervalo de datas da consulta.
 
 +
-*** *Consumo Atual*: Indicador da capacidade consumida (em TiB) definida para o nível de serviço de desempenho. Este campo usa cores específicas:
+** *Consumo Atual*: Indicador da capacidade consumida (em TiB) definida para o nível de serviço de desempenho. Este campo usa cores específicas:
 +
-**** Nenhuma cor: Burst ou acima do uso da explosão.
-**** Cinzento: Nenhum uso.
-**** Verde: Dentro de 80% da capacidade comprometida.
-**** Âmbar: 80% do comprometido com a capacidade de explosão.
+*** Nenhuma cor: Burst ou acima do uso da explosão.
+*** Cinzento: Nenhum uso.
+*** Verde: Dentro de 80% da capacidade comprometida.
+*** Âmbar: 80% do comprometido com a capacidade de explosão.
 
 
-*** *Current Burst*: Indicador para a capacidade consumida dentro ou acima do limite de burst definido. Qualquer uso dentro do limite de pico sazonal da sua assinatura, por exemplo, 20% acima da capacidade comprometida está dentro do limite de pico sazonal. O uso adicional é considerado como uso acima do limite de explosão. Este campo apresenta cores específicas:
+** *Current Burst*: Indicador para a capacidade consumida dentro ou acima do limite de burst definido. Qualquer uso dentro do limite de pico sazonal da sua assinatura, por exemplo, 20% acima da capacidade comprometida está dentro do limite de pico sazonal. O uso adicional é considerado como uso acima do limite de explosão. Este campo apresenta cores específicas:
 +
-**** Nenhuma cor: Nenhum uso da explosão.
-**** Vermelho: Uso de explosão.
-**** Roxo: Acima do limite de explosão.
+*** Nenhuma cor: Nenhum uso da explosão.
+*** Vermelho: Uso de explosão.
+*** Roxo: Acima do limite de explosão.
 
 
-*** *Acumulado Burst*: Indicador da capacidade total de burst (em TIB) acumulada durante cada intervalo de 2 minutos dentro de um mês para o ciclo de faturamento atual.
-
-
+** *Acumulado Burst*: Indicador da capacidade total de burst (em TIB) acumulada durante cada intervalo de 2 minutos dentro de um mês para o ciclo de faturamento atual.
 
 
 

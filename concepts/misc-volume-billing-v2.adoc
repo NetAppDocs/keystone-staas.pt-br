@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/misc-volume-billing.html 
+permalink: concepts/misc-volume-billing-v2.html 
 keywords: Billing and miscellaneous scenarios 
 summary: Saiba mais sobre a cobrança do Keystone para configurações específicas, incluindo volumes clonados, proteção de dados avançada e muito mais. 
 ---
@@ -14,7 +14,7 @@ summary: Saiba mais sobre a cobrança do Keystone para configurações específi
 
 
 [role="lead"]
-Entender o faturamento do Keystone para configurações específicas na versão 3 (v3) pode ajudar você a otimizar o uso do serviço e gerenciar custos. As configurações incluem volumes clonados, proteção avançada de dados, volumes temporários, destinos SnapMirror, LUNs e volumes de sistema/raiz.
+Entender o faturamento do Keystone para configurações específicas na versão 2 (v2) pode ajudar você a otimizar o uso do serviço e gerenciar custos. As configurações incluem volumes clonados, proteção avançada de dados, volumes temporários, políticas de QoS, destinos SnapMirror, LUNs e volumes de sistema/raiz.
 
 
 
@@ -50,21 +50,9 @@ Ocasionalmente, volumes temporários (TMP) são criados pelo ONTAP ao mover volu
 
 
 
-== Faturamento para destinos SnapMirror
+== Políticas de faturamento e QoS adaptáveis
 
-O preço dos volumes de destino do SnapMirror, sejam eles usados para recuperação de desastres ou retenção de longo prazo, é baseado no nível de serviço de desempenho atribuído ao destino. Não há taxa extra para proteção de dados.
-
-
-
-== Cobrança de LUNs
-
-Para LUNs, a cobrança é baseada nos níveis de serviço de desempenho do volume.
-
-
-
-== Volumes de sistema e raiz
-
-Os volumes de sistema e raiz são monitorados como parte do monitoramento geral do serviço Keystone, mas não são contados ou faturados. O consumo destes volumes está isento para faturação.
+O Keystone mede o consumo com base nos níveis de serviço. Cada nível de serviço está associado a uma política específica de qualidade do serviço (QoS) adaptável. Durante a implantação, você será informado sobre os detalhes de cada política de QoS adaptável para os serviços do Keystone que você subscrição. Durante as operações de gerenciamento de storage, verifique se os volumes têm as políticas de QoS adaptáveis apropriadas atribuídas de acordo com os níveis de serviço inscritos, para evitar cobranças inesperadas. Para obter mais informações sobre políticas de QoS adaptáveis no ONTAP, link:https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["Garanta a taxa de transferência com uma visão geral de QoS"^]consulte .
 
 
 

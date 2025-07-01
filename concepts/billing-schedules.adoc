@@ -14,7 +14,7 @@ summary: As assinaturas do Keystone STaaS são cobradas mensalmente e anualmente
 
 
 [role="lead"]
-As assinaturas do Keystone STaaS são cobradas mensalmente e anualmente.
+As assinaturas do Keystone STaaS na versão 3 (v3) são cobradas mensalmente, trimestralmente, semestralmente ou anualmente.
 
 
 
@@ -24,6 +24,13 @@ As faturas são enviadas mensalmente. Para o mês em que os serviços estão dis
 
 
 
-== Faturamento anual
+== Faturamento trimestral, semestral e anual
 
-Uma fatura é gerada no início de cada ano de assinatura para o pagamento mínimo da capacidade comprometida. Ele é gerado na data de início da assinatura. Outra fatura é enviada no final de um trimestre de subscrição, somando as taxas aplicáveis de qualquer utilização de expansões sazonais acumuladas nesse trimestre. Se a capacidade comprometida for alterada durante uma assinatura, uma fatura será enviada no mesmo dia para os pagamentos mínimos pré-pagos para o resto do ano de assinatura. A cobrança é calculada a partir do dia em que a alteração na capacidade comprometida é efetiva.
+Para faturamento trimestral, semestral e anual, o processo é semelhante, com pequenas variações no tempo:
+
+* *Faturamento trimestral*: Uma fatura é gerada no início de cada trimestre de assinatura para o pagamento mínimo da capacidade comprometida. Outra fatura é enviada no final do trimestre para qualquer uso excessivo acumulado.
+* *Faturamento semestral*: Uma fatura é gerada no início de cada semestre para o pagamento mínimo da capacidade comprometida. Outra fatura é enviada ao final de cada trimestre para qualquer uso excessivo acumulado.
+* *Faturamento anual*: Uma fatura é gerada no início de cada ano de assinatura para o pagamento mínimo da capacidade comprometida. Outra fatura é enviada ao final de cada trimestre para qualquer uso excessivo acumulado.
+
+
+Para cobranças trimestrais, semestrais e anuais, se a capacidade comprometida for alterada durante uma assinatura, uma fatura será enviada no mesmo dia para os pagamentos mínimos proporcionais ao restante do ano de assinatura. A cobrança é calculada a partir do dia em que a alteração na capacidade comprometida é efetiva.

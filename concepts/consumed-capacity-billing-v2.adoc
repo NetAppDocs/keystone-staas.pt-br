@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concepts/consumed-capacity-billing-v2.html 
+keywords: consumed capacity billing, billing and consumed capacity 
+summary: A capacidade consumida é a capacidade que seus workloads realmente usam durante o uso do serviço. 
+---
+= Medição baseada na capacidade consumida
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Keystone STaaS tem medição com base na capacidade consumida por você durante o uso do serviço. A capacidade consumida é a capacidade que seus workloads realmente usam.
+
+Como parte da implantação do serviço do Keystone, o NetApp monitora e mede continuamente o consumo do serviço. Pelo menos uma vez em cada cinco minutos, um Registro de consumo é gerado pelo sistema, detalhando a capacidade consumida atual para sua assinatura. Esses Registros são agregados durante o período de faturamento para gerar faturas e relatórios de uso.
+
+Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity-v2.html["Funcionalidades de storage compatíveis no Keystone"]consulte .

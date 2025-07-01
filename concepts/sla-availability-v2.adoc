@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/sla-availability.html 
+permalink: concepts/sla-availability-v2.html 
 keywords: availability, sla, service level agreement, slo, service level objectives 
 summary: 'O SLO de disponibilidade tem como objetivo um tempo de atividade de 99,999% durante um período de cobrança para todos os storage arrays flash NetApp ONTAP implantados para entregar o pedido do Keystone.' 
 ---

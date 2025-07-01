@@ -16,15 +16,20 @@ summary: O NetApp Keystone STaaS oferece dois modelos operacionais para o fornec
 [role="lead"]
 O STaaS da NetApp Keystone oferece dois modelos operacionais para o fornecimento de serviços: Modelo operado por parceiros e modelo operado pelo cliente. Você deve entender essas opções antes de começar a usar o Keystone.
 
-* *Modelo operado por parceiros*: Um parceiro ou provedor de serviços opera os serviços para seus clientes finais. Para a NetApp, o parceiro é o contratado referenciado. Os locatários são clientes de parceiros e não têm relação de cobrança com a NetApp. Um modelo operado por parceiro tem um ambiente de alocação a vários clientes no qual os locatários e clientes finais/subtenentes têm suas próprias assinaturas cobradas pelo parceiro. O administrador do parceiro executa as tarefas administrativas para todos os locatários.
-* *Modelo operado pelo cliente*: Como cliente, você pode assinar os serviços do Keystone de acordo com os níveis de serviço e o armazenamento selecionados. A NetApp define a arquitetura e os produtos e implanta o Keystone no seu local. Você precisa gerenciar a infraestrutura por meio de seus recursos de storage e TI. Como cliente, você é o locatário ou subinquilino da NetApp ou um parceiro/fornecedor de serviços. Com base no seu contrato, você pode levantar solicitações de serviço a serem atendidas pela NetApp ou pelo seu provedor de serviços. Um administrador do seu final pode executar as tarefas administrativas em seu site (ambiente). Essas tarefas estão vinculadas aos usuários do seu ambiente.
+* *Modelo operado por parceiros*: Este modelo oferece duas opções:
++
+** *Provedor de serviços*: Um provedor de serviços opera os serviços para seus clientes finais. Como parte contratada pela NetApp, o provedor de serviços gerencia um ambiente multilocatário, onde cada locatário, que é cliente do provedor de serviços, tem sua própria assinatura, cobrada pelo provedor de serviços. O administrador do provedor de serviços é responsável por executar todas as tarefas administrativas para os locatários.
+** *Revendedor*: Como revendedor, o parceiro atua como uma ponte entre a NetApp e o cliente. O parceiro vende os serviços da Keystone ao cliente final e gerencia o faturamento. Enquanto o parceiro cuida do faturamento, a NetApp fornece suporte direto ao cliente. O suporte da Keystone interage com o cliente e cuida de todas as tarefas administrativas para os locatários.
+
+
+* *Modelo operado pelo cliente*: Como cliente, você pode assinar os serviços Keystone de acordo com os níveis de serviço de desempenho e armazenamento selecionados. A NetApp define a arquitetura e os produtos e implanta o Keystone no seu local. Você precisa gerenciar a infraestrutura por meio de seus recursos de storage e TI. Com base no seu contrato, você pode levantar solicitações de serviço a serem atendidas pela NetApp ou pelo seu provedor de serviços. Um administrador da sua organização pode executar as tarefas administrativas no seu site (ambiente). Essas tarefas são associadas aos usuários do seu ambiente.
 
 
 
 
 == Funções e responsabilidades em todo o ciclo de vida do serviço
 
-* *Modelo operado por parceiros*: A participação de funções e responsabilidades depende do SLA entre você e o provedor de serviços ou parceiro. Contacte o seu fornecedor de serviços para obter informações.
+* *Modelo operado por parceiro*: O compartilhamento de funções e responsabilidades depende do acordo entre você e o provedor de serviços ou parceiro. Contacte o seu fornecedor de serviços para obter informações.
 * *Modelo operado pelo cliente*: A tabela a seguir resume o modelo geral de ciclo de vida do serviço e as funções e responsabilidades associadas a eles em um ambiente operado pelo cliente.
 
 

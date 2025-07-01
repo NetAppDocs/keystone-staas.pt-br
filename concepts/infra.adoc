@@ -26,15 +26,15 @@ A NetApp reserva-se o direito de tomar as seguintes medidas:
 
 A infraestrutura do Keystone inclui vários componentes, como os seguintes, entre outros:
 
-* A infraestrutura do Keystone, incluindo controladores de storage.
-* Ferramentas para gerenciar e operar o serviço, como solução de monitoramento ITOM, Active IQ e Active IQ Unified Manager.
+* A infraestrutura Keystone, incluindo sistemas de armazenamento NetApp.
+* Ferramentas para gerenciar e operar o serviço, como a solução de monitoramento ITOM, BlueXP, Active IQ e Active IQ Unified Manager.
 
 
 
 
 == Plataformas de storage
 
-As aplicações empresariais precisam de plataformas de storage para dar suporte a fluxos de trabalho de provisionamento rápidos, manter disponibilidade contínua, sustentar workloads altos com baixa latência, oferecer maior desempenho e oferecer suporte à integração com os principais fornecedores de nuvem. A NetApp tem vários produtos e tecnologias para dar suporte a esses requisitos. Para o serviço Keystone, a NetApp usa as plataformas AFF e StorageGRID.
+Aplicações corporativas precisam de plataformas de armazenamento para suportar fluxos de trabalho de provisionamento rápidos, manter disponibilidade contínua, sustentar altas cargas de trabalho com baixa latência, oferecer maior desempenho e suportar integração com os principais provedores de nuvem. A NetApp tem vários produtos e tecnologias para dar suporte a esses requisitos. Para o serviço Keystone, a NetApp utiliza sistemas AFF, ASA e FAS, além de StorageGRID.
 
 
 
@@ -45,9 +45,9 @@ Em um serviço operado pelo cliente do Keystone, a infraestrutura de storage e a
 Além do equipamento de storage, duas ferramentas de monitoramento são provisionadas para monitoramento de armazenamento e consumo.
 
 * Solução de monitoramento Keystone IT Operations Management (ITOM): Uma aplicação SaaS baseada na nuvem usada para monitorar o ambiente do Keystone. Ele tem integrações incorporadas com plataformas de storage da NetApp para coletar dados ambientais e monitorar os componentes de computação, rede e storage da infraestrutura do Keystone. Essa capacidade de monitoramento se estende a configurações locais, data centers, ambientes em nuvem ou qualquer combinação desses. O serviço é ativado com a ajuda de usar um ITOM Collector local instalado em seu site que se comunica com o portal da nuvem.
-* Keystone Data Collector: O Keystone Collector fornece serviços de cobrança para os clientes do Keystone. Esta aplicação é fornecida com o Active IQ Unified Manager. Ele coleta dados de controladores ONTAP e StorageGRID em um intervalo de cinco minutos. Os dados são processados e os metadados são enviados para o data Lake Active IQ centralizado por meio do mecanismo AutoSupport, que é usado para geração de dados de cobrança. O data Lake do Active IQ processa os dados de faturamento e os envia para o Zuora para faturamento.
+* Coletor de Dados Keystone: O Coletor de Dados Keystone coleta dados e os fornece à plataforma de faturamento Keystone para processamento posterior. Esta aplicação é fornecida com o Active IQ Unified Manager. Ele coleta dados de controladores ONTAP e StorageGRID em um intervalo de cinco minutos. Os dados são processados e os metadados são enviados para o data Lake Active IQ centralizado por meio do mecanismo AutoSupport, que é usado para geração de dados de cobrança. O data lake do Active IQ processa os dados de faturamento e os envia à Zuora para faturamento.
 
 
-image:mgmt-stack-2.png["pilha de gestão"]
+image:data-collector-flow.png["fluxo de dados do coletor"]
 
-O Digital Advisor permite fazer login e visualizar os detalhes da assinatura e do consumo das assinaturas do Keystone. Para obter mais informações sobre os relatórios do Keystone no painel do Digital Advisor, link:../integrations/keystone-aiq.html["Keystone e consultor digital"]consulte .
+Você pode visualizar os detalhes da assinatura e do consumo das suas assinaturas Keystone por meio do BlueXP ou do Digital Advisor. Para saber mais sobre os relatórios Keystone, consulte link:../integrations/dashboard-overview.html["Visão geral do painel do Keystone"] .

@@ -94,14 +94,10 @@ TIP: Se você se inscreveu no serviço complementar avançado de proteção de d
 ** image:subs-dtls-icon.png["ícone"]: Clicar neste ícone para uma subscrição abre a guia *consumo atual* com os detalhes de utilização dessa subscrição.
 ** image:aiq-ks-time-icon.png["ícone"] : Clicar neste ícone abre a aba *Tendência de Consumo*, onde você pode ver os dados históricos de uso para cada nível de serviço de desempenho incluído nesta assinatura.
 +
-Você pode consultar os seguintes indicadores de uso para verificar o status de uso de cada assinatura:
+Você pode consultar os indicadores de uso para verificar o status de uso de cada assinatura:
 
 +
-image:usage-indicator-2.png["ícone"]
-
-+
-.Índice
-image:icon-grey.png["ícone de ponto cinzento"] : Nenhum uso de capacidade registrado em relação à capacidade comprometida do nível de serviço de desempenho image:icon-green.png["ícone de ponto verde"] : O consumo está normal, dentro de 80% da capacidade comprometida image:icon-amber.png["ícone de ponto âmbar"] : Consumo máximo, ou seja, o uso está prestes a atingir 100% ou mais da capacidade comprometida. A coluna *consumido* exibe este indicador para qualquer consumo acima de 80% da capacidade comprometida image:icon-red.png["ícone de ponto vermelho"]: o consumo está dentro do limite de explosão. O consumo de pico é o consumo que ultrapassa os 100% da capacidade comprometida de um nível de serviço de desempenho e está dentro do limite de uso de pico acordado, como 120%. image:icon-purple.png["ícone de ponto roxo"] : Indica consumo acima do limite de ruptura estipulado
+image:icon-grey.png["ícone de ponto cinzento"] *Sem consumo*: Nenhum uso de capacidade registrado em relação à capacidade comprometida do nível de serviço de desempenho. image:icon-green.png["ícone de ponto verde"] *Normal*: O consumo é normal. image:icon-amber.png["ícone de ponto âmbar"] *Alto*: Consumo máximo, ou seja, o uso está prestes a atingir 100% ou mais da capacidade comprometida. image:icon-red.png["ícone de ponto vermelho"] *Burst*: O consumo está dentro do limite de burst. O consumo de burst é aquele que ultrapassa 100% da capacidade comprometida de um nível de serviço de desempenho e está dentro do limite de uso de burst acordado. image:icon-purple.png["ícone de ponto roxo"] *Acima do limite de estouro*: indica consumo acima do limite de estouro acordado.
 
 
 

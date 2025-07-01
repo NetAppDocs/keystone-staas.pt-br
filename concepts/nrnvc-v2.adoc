@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: concepts/nrnvc-v2.html 
+keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
+summary: Como parte da sua assinatura do NetApp Keystone, o NetApp estende a oferta de NRNVC para seus serviços de arquivos, blocos e objetos. 
+---
+= Componentes não retornáveis, não voláteis e SnapLock Compliance
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Como parte da sua assinatura do NetApp Keystone, o NetApp estende a oferta de componentes não voláteis (NRNVC) não retornáveis para seus serviços de arquivos, blocos e objetos.
+
+A NetApp não recupera a Mídia de storage físico usada durante todo o período do serviço ou no término do serviço quando a NetApp recupera de outra forma todos os seus ativos físicos usados na prestação do serviço.
+
+Você pode assinar esse serviço complementar como parte da sua assinatura do Keystone. Se você comprou este serviço, observe o seguinte:
+
+* Você não precisa devolver nenhuma unidade e memória não volátil no final do período de serviço ou se elas tiverem falha ou tiverem sido encontradas com defeito durante o período de serviço.
+* No entanto, você precisa produzir um certificado de destruição para as unidades e/ou memória não volátil e não pode ser usado para qualquer outro propósito.
+* O custo adicional associado ao NRNVC é cobrado como uma porcentagem do total da fatura mensal dos serviços de assinatura (incluindo serviço padrão, proteção de dados avançada e categorização de dados).
+* Este serviço é aplicável apenas a serviços de arquivo, bloco e objeto.
+
+
+Para obter informações sobre os serviços padrão e de nuvem, link:supported-storage-services.html["Serviços Keystone STaaS"]consulte .
+
+Para obter informações sobre os níveis de serviço de desempenho, consulte link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"] .
+
+
+
+== SnapLock Compliance
+
+A tecnologia SnapLock ativa o recurso NRNVC tornando a unidade inutilizável após a data de expiração definida no volume. Para usar a tecnologia SnapLock em seus volumes, você precisa se inscrever no NRNVC. Isso é aplicável apenas a serviços de arquivo e bloqueio.
+
+Para obter informações sobre a tecnologia SnapLock, https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["O que é SnapLock"^] consulte .

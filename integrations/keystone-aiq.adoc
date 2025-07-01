@@ -23,7 +23,7 @@ O Digital Advisor oferece um painel unificado que fornece informações sobre v�
 .Painel de instrumentos predefinido (antigo)
 Você pode ver o nome do cliente e o número da assinatura, o nome da conta, as datas de início e término da assinatura e os gráficos de uso da capacidade de acordo com os níveis de serviço de desempenho assinados. Você pode ver o carimbo de data/hora da coleta dos dados de consumo na hora UTC.
 
-image:old-db-2.png["painel de instrumentos antigo"]
+image:old-db-3.png["painel de instrumentos antigo"]
 
 .Painel de instrumentos alternativo (novo)
 Você pode ver a quebra do uso de capacidade de acordo com suas assinaturas, e avisos e alertas que exigem atenção ou ação imediata. As informações são exibidas seletivamente, dependendo de suas assinaturas e do status de seu uso. Você pode visualizar essas informações:
@@ -65,7 +65,7 @@ image:watchlist.png["ecrã da lista de observação"]
 
 *Informações relacionadas*
 
-* link:../integrations/dashboard-access.html["Comece a usar o painel do Keystone"]
+* link:../integrations/dashboard-access.html["Comece a usar o painel Keystone"]
 * link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]
 * link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
 * link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]

@@ -22,13 +22,13 @@ Os dados nos sistemas Keystone STaaS passam pelo Keystone Collector e pela solu�
 
 O Keystone Collector inicia chamadas de API REST para os controladores de storage e obtém detalhes de uso dos controladores periodicamente, como indicado neste diagrama de fluxo:
 
-image:collector-data-flow-2.png["mostra o fluxo de dados dentro dos componentes do coletor"]
+image:data-collector-flow.png["mostra o fluxo de dados dentro dos componentes do coletor"]
 
 .Legenda
-. O NetApp Collector inicia uma sessão HTTPS para o portal de nuvem do active IQ.
+. O NetApp Keystone Collector inicia a conexão com a nuvem Keystone.
 . O firewall operado pelo cliente permite a conexão.
-. O portal da nuvem do Active IQ aceita a conexão e estabelece um túnel para o Coletor de NetApp.
-. O coletor NetApp estabelece uma sessão de API REST para a conexão de gerenciamento do controlador de storage, obtém dados ambientais e os envia para o portal Active IQ.
+. O Keystone Collector estabelece uma conexão REST API diretamente com a conexão de gerenciamento do controlador de armazenamento ou túneis por meio do Active IQ Unified Manager para coletar dados de uso e desempenho.
+. Esses dados são enviados com segurança para os componentes da nuvem Keystone via HTTPS.
 
 
 
@@ -37,7 +37,7 @@ image:collector-data-flow-2.png["mostra o fluxo de dados dentro dos componentes 
 
 O monitoramento contínuo da integridade da infraestrutura de storage é um dos recursos mais importantes do serviço do Keystone. Para monitoramento e geração de relatórios, o Keystone usa a solução de monitoramento ITOM. A imagem a seguir descreve como o acesso remoto à localização do cliente é protegido pela solução de monitoramento ITOM. Os clientes podem optar por ativar o recurso de sessão remota, o que permite que a equipe de suporte do Keystone se conete a dispositivos monitorados para solução de problemas.
 
-image:monitoring-flow-1.png["fluxo de dados"]
+image:monitoring-flow-2.png["fluxo de dados"]
 
 .Legenda
 . O gateway da solução de monitoramento ITOM inicia uma sessão TLS para o portal da nuvem.

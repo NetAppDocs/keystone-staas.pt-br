@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/supported-storage-capacity.html 
 keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
-summary: Saiba mais sobre os tipos de capacidades de armazenamento suportados pelo serviço STaaS da NetApp Keystone. 
+summary: Saiba mais sobre os tipos de capacidades de armazenamento suportados pelo serviço NetApp Keystone STaaS para a versão 3. 
 ---
 = Funcionalidades de storage compatíveis no Keystone
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Saiba mais sobre os tipos de capacidades de armazenamento suportados pe
 
 
 [role="lead"]
-O serviço STaaS da NetApp Keystone dá suporte a vários tipos de capacidades de storage. Entender esses diferentes termos de capacidade pode ajudar à medida que você usa o Keystone.
+O serviço NetApp Keystone STaaS para versão 3 (v3) oferece suporte a vários tipos de capacidades de armazenamento. Entender esses diferentes termos de capacidade pode ajudar à medida que você usa o Keystone.
 
 
 
 == Capacidade lógica
 
-Esses são os dados colocados na infraestrutura do Keystone por um cliente. Todas as capacidades do Keystone referem-se a capacidade lógica. Por exemplo, se um arquivo TIB de 1 TB for armazenado na infraestrutura do Keystone, será necessário adquirir um mínimo de 1 TIB de capacidade.
+Esta é a quantidade de capacidade de armazenamento necessária para armazenar dados do usuário antes que qualquer eficiência de dados fornecida pelo conjunto de armazenamento seja aplicada.
 
 
 
@@ -29,7 +29,7 @@ Esses são os dados colocados na infraestrutura do Keystone por um cliente. Toda
 A capacidade lógica mínima cobrada mensalmente durante a assinatura:
 
 * A capacidade está comprometida em cada nível de serviço.
-* Capacidade comprometida e níveis de serviço adicionais podem ser adicionados durante o período.
+* Capacidade comprometida e níveis adicionais de serviço de desempenho podem ser adicionados durante o prazo.
 
 
 
@@ -40,29 +40,48 @@ Durante o período de vigência de uma assinatura, você pode alterar as capacid
 
 * A capacidade comprometida pode ser reduzida com base em certas condições. Para obter informações, link:../concepts/capacity-requirements.html["Redução de capacidade"]consulte .
 * A capacidade comprometida não pode ser aumentada 90 dias antes do término da assinatura, a menos que a assinatura seja renovada por um período adicional de 12 meses.
-* Você pode solicitar alterações na capacidade comprometida por meio da interface do BlueXP  ou do Gerenciador de sucesso do Keystone (KSM). Para obter informações sobre como solicitar alterações, link:../concepts/gssc.html["Suporte à NetApp Keystone"]consulte .
+* Você pode solicitar alterações na capacidade comprometida por meio da interface do BlueXP ou do seu Keystone Success Manager (KSM). Para obter informações sobre como solicitar alterações, link:../concepts/gssc.html["Suporte à NetApp Keystone"]consulte .
 
 
 
 
 == Capacidade consumida
 
-A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. É a soma de:
+A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. Ele é calculado de forma diferente com base no tipo de armazenamento:
 
-* A capacidade lógica usada para armazenar todas as instâncias e tipos de dados de usuário (como cópias, cópias espelhadas e versões).
-* A capacidade lógica utilizada para armazenar volumes de clones que são mais de 10% do tamanho do volume original.
-* Capacidade física usada para armazenar dados diferenciais de cópias Snapshot.
-* A capacidade física alocada.
+* *Armazenamento unificado ou otimizado por bloco*: A capacidade consumida é calculada com base no tipo de capacidade selecionado no pedido, que pode ser capacidade lógica ou física. O cálculo é realizado por instância de nível de serviço de desempenho.
++
+.. *Capacidade lógica*: É a soma de:
++
+*** Capacidade lógica medida, antes da eficiência dos dados do array de armazenamento, para armazenar todas as instâncias e tipos de dados do cliente, como cópias, cópias espelhadas, versões e clones.
+*** Capacidade física usada para armazenar metadados e dados diferenciais de snapshots e certos clones.
+*** Qualquer capacidade física com provisionamento espesso.
+
+
+.. *Capacidade física*: É a soma de:
++
+*** Capacidade física medida, após eficiências de dados do array de armazenamento, para armazenar todas as instâncias e tipos de dados do cliente, como cópias, cópias espelhadas, versões e clones.
+*** Capacidade física usada para armazenar metadados e dados diferenciais de snapshots.
+*** Qualquer capacidade física com provisionamento espesso.
+
+
+
+
+* *Armazenamento de objetos*: A capacidade consumida é calculada como a quantidade de capacidade física medida usada para armazenar todas as instâncias e tipos de dados do cliente em todos os nós. Este cálculo é baseado nas políticas de gerenciamento do ciclo de vida da informação (ILM) configuradas.
+* *Cloud Volumes ONTAP*: A capacidade consumida é calculada como a quantidade de capacidade provisionada medida de todos os volumes Cloud Volumes ONTAP.
 
 
 
 
 == Capacidade de pico sazonal
 
-O serviço Keystone permite que você use capacidade adicional sobre a capacidade comprometida em um nível de serviço. Este é o uso de capacidade de pico sazonal. Observe estes pontos:
+O serviço NetApp Keystone STaaS permite que você use capacidade adicional além da capacidade comprometida para um nível de serviço de desempenho. Isso é conhecido como uso de capacidade máxima.
 
-* Capacidade de pico sazonal é acordada no contrato do Keystone. Normalmente, está configurado até 20% acima da capacidade comprometida e é cobrado à mesma taxa que a capacidade comprometida.
-* A capacidade de explosão pode ser consumida de forma elástica e é carregada diariamente pela média consumida.
+Observe estes pontos:
+
+* Capacidade de pico sazonal é acordada no contrato do Keystone. Geralmente, ele é definido até 20% acima da capacidade comprometida, por instância de nível de serviço de desempenho, com opções adicionais disponíveis para selecionar limites de capacidade de pico de 40% ou 60% da capacidade comprometida.
+* O consumo de capacidade de pico é faturado na mesma taxa que a capacidade comprometida correspondente ao nível de serviço de desempenho selecionado.
+* Os serviços STaaS da Keystone oferecem um período de isenção de 60 dias a partir da data de início.
 
 
 

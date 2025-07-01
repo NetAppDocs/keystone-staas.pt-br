@@ -14,21 +14,27 @@ summary: O Keystone é um modelo de serviço baseado em subscrição com pagamen
 
 
 [role="lead"]
-O NetApp Keystone (Keystone) é um modelo de serviço baseado em subscrição e com pagamento conforme o uso. Ele oferece uma experiência otimizada de nuvem híbrida para empresas que preferem modelos de consumo de despesas operacionais para CapEx adiantado ou aluguel.
+O NetApp Keystone é um modelo de serviço baseado em assinatura e pagamento conforme o uso que fornece uma experiência de nuvem híbrida perfeita para empresas que preferem modelos de consumo de despesas operacionais em vez de despesas de capital iniciais ou leasing para atender às suas necessidades de armazenamento e proteção de dados.
 
-O Keystone permite que os clientes acelerem o retorno do investimento reduzindo os obstáculos no gerenciamento do crescimento imprevisível da capacidade e dos ciclos de aquisição complexos. Com o Keystone, os clientes podem alinhar economia e operações às prioridades de negócios.
+Com a Keystone, você se beneficia de:
 
-image:nkfsosm_image2.png["keystone"]
+* *Custo-benefício*: Pague somente pelo armazenamento necessário, com flexibilidade para lidar com capacidade extra.
+* *Eficiência de capital*: acesse armazenamento de nível empresarial sem investimentos iniciais.
+* *Escalabilidade*: dimensione facilmente sua capacidade de armazenamento conforme seu negócio cresce.
+* *Personalização*: ajuste seus planos de armazenamento e migre para a nuvem conforme necessário, otimizando seus custos gerais.
+* *Integração em nuvem*: combine serviços locais e em nuvem em uma única assinatura.
+* *Segurança*: Proteja seus dados com medidas de segurança avançadas e recuperação garantida contra ameaças.
 
-O Keystone fornece capacidade de armazenamento em níveis de serviço de desempenho predefinidos para tipos de dados de bloco, arquivo e objeto que podem ser implantados no local e operados pela NetApp, um parceiro ou o cliente. O Keystone pode ser usado em associação com os serviços de nuvem da NetApp, como o Cloud Volumes ONTAP, que pode ser implantado em um ambiente hyperscalar de sua preferência.
 
-Uma subscrição do Keystone está associada a planos de tarifas. Pode haver vários planos de taxa anexados a uma única assinatura.
+image:keystone-benefit-1.png["Benefícios do Keystone"]
+
+A Keystone oferece capacidade de armazenamento em níveis de serviço de desempenho predefinidos para tipos de armazenamento de arquivos, blocos e objetos. Esse armazenamento pode ser implantado localmente e operado pela NetApp, um parceiro ou o cliente. O Keystone pode ser usado em associação com os serviços de nuvem da NetApp, como o Cloud Volumes ONTAP, que pode ser implantado em um ambiente hyperscalar de sua preferência.
 
 
 
-== Storage como serviço do Keystone (STaaS)
+== Armazenamento como serviço Keystone (STaaS)
 
-As ofertas de storage como serviço (STaaS) visam fornecer um modelo semelhante à nuvem pública para a aquisição, implantação e gerenciamento da infraestrutura de storage. Embora a maioria das empresas ainda esteja trabalhando em sua estratégia de nuvem híbrida, você, como cliente, pode optar por um modelo de consumo _pay-per-use_ baseado em OpEx. Você pode ter um mandato para mover todas as suas cargas de trabalho para a nuvem em algum momento e ainda não ter um plano ou cronograma claros para migrar partes específicas ou todas as suas cargas de trabalho para a nuvem. O Keystone STaaS oferece a flexibilidade para você começar com serviços no local e decidir, posteriormente, sobre os workloads certos e o tempo de migração para a nuvem. O Keystone STaaS fornece proteção de compromisso em todos os modelos de implantação. Em vez de pagar mais por serviços de nuvem, você, como cliente no local, pode realocar seus gastos no local para adicionar serviços de nuvem e pagar essencialmente a mesma fatura mensal comprometida antes dessa realocação.
+As ofertas de storage como serviço (STaaS) visam fornecer um modelo semelhante à nuvem pública para a aquisição, implantação e gerenciamento da infraestrutura de storage. Enquanto muitas empresas ainda estão trabalhando em sua estratégia para a nuvem híbrida, o Keystone STaaS oferece a flexibilidade para começar com serviços locais e migrar para a nuvem quando for o momento certo. Isso garante que você possa proteger seus compromissos em diferentes modelos de implantação, realocando seus gastos conforme necessário sem aumentar sua fatura mensal.
 
 *Informações relacionadas*
 
