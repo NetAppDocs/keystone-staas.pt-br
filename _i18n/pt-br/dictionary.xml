@@ -1442,7 +1442,6 @@
   <block id="895dbf51a8c3728919b1bbc401f7ac34" category="paragraph">Para obter mais informações e resolução, consulte <block ref="7849962cc27d0a1aaa20692fa384b8e4" category="inline-link-macro-rx"></block> ou o artigo da base de dados de Conhecimento <block ref="d2ca058f13c4e9c0050943815ab2eea4" category="inline-link-macro-rx"></block>.</block>
   <block id="9489be5fe307489eb48f54e4d9e08b90" category="summary">A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços do Keystone STaaS.</block>
   <block id="c39448c44492bce0f20d4135a111f379" category="doc">Novidades do Keystone STaaS</block>
-  <block id="e358ee99bcdc82fedabffa4fe9dda483" category="section-title">10 de julho de 2024</block>
   <block id="fff7af8a2fab8d84dd9f7858aff6d7d9" category="section-title">Modificações na etiqueta</block>
   <block id="6176afc8abbdfc6c0a7c0274a19d9ef8" category="paragraph">O rótulo *uso atual* é alterado para *consumo atual* e *tendência de capacidade* é alterado para *tendência de consumo*.</block>
   <block id="b7e76ab52f2e3b0375203a91e2e782c6" category="section-title">Barra de pesquisa para assinaturas</block>
@@ -1463,7 +1462,6 @@
   <block id="d3c3596ac9bf304c08fc872b3a7c9fa2" category="paragraph">A exibição padrão de assinaturas é aprimorada para classificar por ID de rastreamento. As assinaturas na guia *assinaturas*, inclusive nos relatórios de *assinatura* e CSV, agora serão exibidas com base na sequência alfabética dos IDs de rastreamento, seguindo a ordem de a, A, b, B, e assim por diante.</block>
   <block id="f5bd7be5a51d8e07eec34f2c9ddb662a" category="section-title">Ecrã de sequência acumulada melhorado</block>
   <block id="f42805586acc16ac661193d0d72e676a" category="paragraph">A dica de ferramenta que aparece ao passar o Mouse sobre o gráfico de barra de uso de capacidade na guia *tendência de capacidade* agora exibe o tipo de explosão acumulada com base na capacidade comprometida. Ele diferencia entre o estouro acumulado provisório e faturado, mostrando *consumo acumulado provisório* e *consumo acumulado faturado* para assinaturas com planos de taxa de capacidade comprometida zero e *explosão acumulada provisória* e *explosão acumulada faturada* para aqueles com capacidade não zero comprometida.</block>
-  <block id="c7f25f44be7b366785438d8acef9c492" category="section-title">9 de maio de 2024</block>
   <block id="076f537e3d2e67aaab1a9b174efb492c" category="section-title">Novas colunas nos relatórios CSV</block>
   <block id="1a99820fcdf5bec9f65b98905896adbd" category="paragraph">Os relatórios CSV da guia *tendência de capacidade* agora incluem as colunas *número de assinatura* e *Nome da conta* para detalhes aprimorados.</block>
   <block id="b16e3aa89600afc2309042111403b504" category="section-title">Coluna Enhanced Usage Type</block>
@@ -1487,14 +1485,11 @@
   <block id="ffc90471d60beedeebd1bec70e84713d" category="section-title">Experiência de pesquisa aprimorada no Digital Advisor</block>
   <block id="3b9d95910ae505ff384ac8c7f9b6dcc8" category="section-title">Exibir o carimbo de data/hora dos dados de consumo</block>
   <block id="c150a924cf5d23ea89fef0c5a97a423c" category="paragraph">Você pode ver o carimbo de data/hora dos dados de consumo (em UTC) no painel antigo do widget *Keystone Subscriptions*.</block>
-  <block id="b45b03a249b5f6cfa9e1cc559ba79e40" category="section-title">13 de fevereiro de 2024</block>
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">Capacidade de visualizar subscrições associadas a uma subscrição primária</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">Algumas de suas assinaturas principais podem ter assinaturas secundárias vinculadas. Se for esse o caso, o número de assinatura principal continuará a ser exibido na coluna *número de assinatura*, enquanto os números de assinatura vinculados serão listados em uma nova coluna *assinaturas vinculadas* na guia *assinaturas*. A coluna *assinaturas vinculadas* só estará disponível se você tiver assinaturas vinculadas e poderá ver mensagens de informações notificando você sobre elas.</block>
-  <block id="b06c73c3805ce52954e13f27b28cb072" category="section-title">11 de janeiro de 2024</block>
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">Dados faturados devolvidos para estouro acumulado</block>
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">Detalhes de consumo acumulados para planos de taxas específicos</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">Se você tiver uma assinatura que tenha planos de taxa com capacidade comprometida _zero_, poderá visualizar os detalhes do consumo acumulado na guia *tendência de capacidade*. Ao selecionar a opção *consumo acumulado faturado*, você pode visualizar os gráficos mensais para os dados de consumo acumulado faturado.</block>
-  <block id="6171bdf5841e2bfa70f97036e02d1f44" category="section-title">15 de dezembro de 2023</block>
   <block id="6fec807bd8a0e3b00b3818404fe99ffa" category="section-title">Capacidade de pesquisar por listas de observação</block>
   <block id="322b7c203883b5f1e51c48d947e1cb4d" category="paragraph">O suporte para listas de observação no Digital Advisor foi estendido para incluir sistemas Keystone. Agora você pode ver os detalhes das assinaturas de vários clientes pesquisando com listas de observação. Para obter mais informações sobre o uso de listas de observação no Keystone STaaS, <block ref="bd6c55fabca71f10e9c92f78aa84686b" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="e21135b6ab126eefb31b234c688584d2" category="section-title">Data convertida para fuso horário UTC</block>
@@ -1654,7 +1649,6 @@
   <block id="f1ac17aa812b21fe2bbdc58cbe5d6efa" category="paragraph">O relatório é gerado no formato Excel, com cada tipo de informação, como detalhes da subscrição ou histórico de utilização, apresentada em folhas separadas. Essas folhas são nomeadas de acordo com as guias na página *Keystone Subscriptions* para facilitar a visualização. Você pode salvar o relatório para uso futuro.</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="inline-link-macro">Gerar relatórios personalizados</block>
   <block id="05ae21f139b4223ee2536ce651cf54b9" category="paragraph">Para saber mais sobre como gerar relatórios, <block ref="5ee515b7098121299290c8d9ddbc9e18" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="8a1116f55c6659c55d506df698030041" category="section-title">11 de novembro de 2024</block>
   <block id="1503d912784bec55335f32e3c747c9df" category="section-title">Geração de relatórios aprimorada</block>
   <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">* Tipo de capacidade comprometida e mensurada*</block>
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">Lógico</block>
@@ -1832,7 +1826,6 @@
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">Captura de tela para mostrar informações de nível de grade para o StorageGRID</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">Você pode usar *Ocultar/Mostrar colunas* para adicionar ou remover colunas exibidas na tabela. Por padrão, todas as colunas são selecionadas, exceto a coluna *Departamento*. Você pode selecionar ou desmarcar qualquer coluna, incluindo a coluna *Departamento*, e suas preferências serão salvas para uso posterior. Ao fazer o download do relatório CSV, os detalhes da coluna *Departamento* serão incluídos se selecionados, enquanto outras colunas aparecerão independentemente do status de seleção na tabela.</block>
-  <block id="bc6d0fec5ccd5f580ac081a7231e72de" category="section-title">12 de dezembro de 2024</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">Coluna lógica utilizada renomeada</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">A coluna *Logical Used* na guia *volume Details* dentro de *volumes &amp; Objects* agora é renomeada para *Keystone Logical Used*.</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Separador ativos melhorados</block>
@@ -2289,7 +2282,6 @@
   <block id="5b7c6725d8b710448bbafba8cd2d8b2d" category="sidebar">Visualizar ativos em várias assinaturas</block>
   <block id="2be8bdf6afad72e1374d8e9f15f013b7" category="sidebar">Visualize sua solicitação de serviço</block>
   <block id="3f775298ba0cfa10a0ca4aa35ffb3451" category="sidebar">Exibir volumes e detalhes de armazenamento de objetos</block>
-  <block id="4898fd0a5ee16e30d54e5fbe3aa21539" category="paragraph">Para começar, vá para *Armazenamento &gt; Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, <block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="1ed44c5a16415a7d9d45f3042a5ab4d6" category="inline-link-macro">Entenda o painel do Keystone</block>
   <block id="d8bb10358d95aee9ba36f75f10ee0402" category="list-text"><block ref="d8bb10358d95aee9ba36f75f10ee0402" category="inline-link-macro-rx"></block></block>
   <block id="f9aa2dce9983bf50b4dea33bd009613c" category="doc">Comece a usar o painel do Keystone</block>
@@ -2519,7 +2511,6 @@
   <block id="4b74c9be479e8905d4e8f29ad9f1af7c" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block> *Sem consumo*: Nenhum uso de capacidade registrado em relação à capacidade comprometida do nível de serviço de desempenho. <block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block> *Normal*: O consumo é normal. <block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block> *Alto*: Consumo máximo, ou seja, o uso está prestes a atingir 100% ou mais da capacidade comprometida. <block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block> *Burst*: O consumo está dentro do limite de burst. O consumo de burst é aquele que ultrapassa 100% da capacidade comprometida de um nível de serviço de desempenho e está dentro do limite de uso de burst acordado. <block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block> *Acima do limite de estouro*: indica consumo acima do limite de estouro acordado.</block>
   <block id="b4bfc97b4a6664c07d3cb265b1f77f66" category="admonition">As políticas de QoS não são aplicáveis na versão 3 (v3) do Keystone.</block>
   <block id="288b4e42b32faccce4a2d55e94593bd9" category="admonition">As políticas de QoS não são aplicáveis na versão 3 do Keystone.</block>
-  <block id="456bce9e2eb71173431186ef514e346e" category="section-title">30 de junho de 2025</block>
   <block id="b0ff511b21770d18a844437708e370f3" category="inline-link-macro">Serviços Keystone STaaS para v3</block>
   <block id="cbe56bacc5be238a1afeadbbf1210e9d" category="paragraph">Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta diversas melhorias, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, <block ref="b4f947544b8e7d98521ee012686e2640" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="ee326973c25ecfa958c9bcb665f7c905" category="list-text">Dados de consumo e uso acumulado de pico da aba *Tendência de Capacidade*.</block>
@@ -2532,4 +2523,20 @@
   <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">SLO do Keystone STaaS</block>
   <block id="af7cd0085fe6b7c0200fe4c5a018cbdc" category="sidebar">Conceitos STaaS Keystone para v2</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Lançamento da versão 3 (v3) do Keystone</block>
+  <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">Para começar, vá para *Armazenamento &gt; Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 de junho de 2025</block>
+  <block id="273397c35cb726b0eb4cc33e4cf912da" category="section-title">19 de junho de 2025</block>
+  <block id="71eeb52ffaba4c6613b9365a34bd8e71" category="section-title">08 de janeiro de 2025</block>
+  <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">12 de dezembro de 2024</block>
+  <block id="47ce8cbac679bab0474690083f967486" category="section-title">21 de novembro de 2024</block>
+  <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">11 de novembro de 2024</block>
+  <block id="ea20f074fbafdf3f3dab344dbef51b10" category="section-title">10 de julho de 2024</block>
+  <block id="032f76ed9b6cf8701fd026535eb70ffc" category="section-title">27 de junho de 2024</block>
+  <block id="a0fddfafeaadc4d32eb33ea13f162dd4" category="section-title">29 de maio de 2024</block>
+  <block id="55dbbb1b9d8c3fb56ba5e847c7dd506c" category="section-title">09 de maio de 2024</block>
+  <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">28 de março de 2024</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">29 de fevereiro de 2024</block>
+  <block id="96e33a5d1e2356ba12a5de62a859d567" category="section-title">13 de fevereiro de 2024</block>
+  <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">11 de janeiro de 2024</block>
+  <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">15 de dezembro de 2023</block>
 </blocks>

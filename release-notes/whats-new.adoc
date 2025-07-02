@@ -43,11 +43,11 @@ Com o painel Keystone no BlueXP, você pode:
 * Mantenha-se atualizado com as informações mais recentes sobre seu ambiente de armazenamento.
 
 
-Para começar, vá para *Armazenamento > Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, link:../integrations/dashboard-overview.html["Visão geral do painel do Keystone"]consulte .
+Para começar, vá para *Armazenamento > Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Visão geral do painel do Keystone"]consulte .
 
 
 
-== 8 de janeiro de 2025
+== 08 de janeiro de 2025
 
 
 
@@ -179,7 +179,7 @@ A dica de ferramenta que aparece ao passar o Mouse sobre o gráfico de barra de 
 
 
 
-== 9 de maio de 2024
+== 09 de maio de 2024
 
 
 

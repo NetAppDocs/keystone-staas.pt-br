@@ -15,4 +15,4 @@ Com o painel Keystone no BlueXP, você pode:
 * Mantenha-se atualizado com as informações mais recentes sobre seu ambiente de armazenamento.
 
 
-Para começar, vá para *Armazenamento > Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, link:../integrations/dashboard-overview.html["Visão geral do painel do Keystone"]consulte .
+Para começar, vá para *Armazenamento > Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Visão geral do painel do Keystone"]consulte .
