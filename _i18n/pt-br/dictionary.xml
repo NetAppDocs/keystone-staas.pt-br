@@ -2531,4 +2531,5 @@
   <block id="3bae5d9e115e99cbd9c3f56c7214ff02" category="sidebar">Conceitos Keystone STaaS para v3</block>
   <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">SLO do Keystone STaaS</block>
   <block id="af7cd0085fe6b7c0200fe4c5a018cbdc" category="sidebar">Conceitos STaaS Keystone para v2</block>
+  <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Lançamento da versão 3 (v3) do Keystone</block>
 </blocks>
