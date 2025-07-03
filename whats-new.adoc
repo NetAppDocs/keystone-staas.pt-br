@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: release-notes/whats-new.html 
+permalink: whats-new.html 
 keywords: 'new features, release notes, enhancements, what"s new' 
 summary: A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços do Keystone STaaS. 
 ---
@@ -10,7 +10,7 @@ summary: A NetApp oferece recursos novos e aprimorados em todas as versões dos 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços
 
 === Lançamento da versão 3 (v3) do Keystone
 
-Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta diversas melhorias, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, link:../concepts/metrics.html["Serviços Keystone STaaS para v3"]consulte .
+Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta diversas melhorias, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, link:./concepts/metrics.html["Serviços Keystone STaaS para v3"]consulte .
 
 
 
@@ -53,7 +53,7 @@ Para começar, vá para *Armazenamento > Keystone* no menu de navegação esquer
 
 === Adição de opções de visualização de utilização de dados acumulados diariamente
 
-Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"]consulte .
+Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"]consulte .
 
 
 
@@ -69,13 +69,13 @@ A coluna *Logical Used* na guia *volume Details* dentro de *volumes & Objects* a
 
 === Separador ativos melhorados
 
-A guia *Assets* na tela *assinaturas do Keystone* agora tem duas novas subguias: *ONTAP* e *StorageGRID*. Essas subguias oferecem insights detalhados em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas. Para saber mais, link:../integrations/assets-tab.html["Separador ativos"^]consulte .
+A guia *Assets* na tela *assinaturas do Keystone* agora tem duas novas subguias: *ONTAP* e *StorageGRID*. Essas subguias oferecem insights detalhados em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas. Para saber mais, link:./integrations/assets-tab.html["Separador ativos"^]consulte .
 
 
 
 === Nova opção Ocultar/Mostrar colunas
 
-A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opção *Ocultar/Mostrar colunas*. Esta opção permite selecionar ou desmarcar colunas para personalizar a lista tabular de volumes de acordo com a sua preferência. Para saber mais, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opção *Ocultar/Mostrar colunas*. Esta opção permite selecionar ou desmarcar colunas para personalizar a lista tabular de volumes de acordo com a sua preferência. Para saber mais, link:./integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
 
 
 
@@ -85,7 +85,7 @@ A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opç�
 
 === Explosão acumulada faturada melhorada
 
-Agora, você pode visualizar os dados de uso de expansões sazonais acumuladas trimestralmente por meio da opção *Invoed Acumulado Burst* se tiver optado por um período de faturamento trimestral. Para saber mais, link:../integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
+Agora, você pode visualizar os dados de uso de expansões sazonais acumuladas trimestralmente por meio da opção *Invoed Acumulado Burst* se tiver optado por um período de faturamento trimestral. Para saber mais, link:./integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
 
 
 
@@ -107,7 +107,7 @@ Essas colunas fornecem melhor clareza na coluna *Logical Used*, que mostra a cap
 
 === Geração de relatórios aprimorada
 
-Agora você pode gerar um relatório consolidado para exibir os detalhes dos dados do Keystone usando o recurso Relatório no Digital Advisor. Para saber mais, consulte link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["Gerar relatório consolidado"^] .
+Agora você pode gerar um relatório consolidado para exibir os detalhes dos dados do Keystone usando o recurso Relatório no Digital Advisor. Para saber mais, consulte link:./integrations/options.html#generate-consolidated-report-from-digital-advisor["Gerar relatório consolidado"^] .
 
 
 
@@ -163,7 +163,7 @@ Os níveis de serviço *CVO Primary* e *CVO Secondary* estão incluídos para of
 
 === Funcionalidade de ampliação para rajadas de curto prazo
 
-A guia *tendência de capacidade* agora inclui um recurso de zoom para exibir os detalhes de picos de curto prazo nos gráficos de uso. Para obter mais informações, link:../integrations/consumption-tab.html["Separador tendência capacidade"^]consulte .
+A guia *tendência de capacidade* agora inclui um recurso de zoom para exibir os detalhes de picos de curto prazo nos gráficos de uso. Para obter mais informações, link:./integrations/consumption-tab.html["Separador tendência capacidade"^]consulte .
 
 
 
@@ -207,14 +207,14 @@ A guia *Detalhes do volume* na guia *volumes & objetos* agora fornece detalhes d
 
 === A melhoria da conformidade com a política de QoS é exibida na guia Detalhes do volume
 
-A guia *Detalhes do volume* na guia *volumes & objetos* agora oferece melhor visibilidade da conformidade com a política de qualidade do serviço (QoS). A coluna anteriormente conhecida como *AQM* é renomeada para *compliant*, o que indica se a política de QoS está em conformidade. Além disso, uma nova coluna *QoS Policy Type* é adicionada, que especifica se a política é fixa ou adaptável. Se nenhum dos dois se aplicar, a coluna exibirá _não disponível_. Para obter mais informações, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+A guia *Detalhes do volume* na guia *volumes & objetos* agora oferece melhor visibilidade da conformidade com a política de qualidade do serviço (QoS). A coluna anteriormente conhecida como *AQM* é renomeada para *compliant*, o que indica se a política de QoS está em conformidade. Além disso, uma nova coluna *QoS Policy Type* é adicionada, que especifica se a política é fixa ou adaptável. Se nenhum dos dois se aplicar, a coluna exibirá _não disponível_. Para obter mais informações, link:./integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
 
 
 
 === Nova coluna e assinatura simplificada são exibidos na guia Resumo de volume
 
 * A guia *Resumo do volume* dentro da guia *volumes & objetos* agora inclui uma nova coluna intitulada *protegido*. Esta coluna fornece uma contagem dos volumes protegidos associados aos níveis de serviço subscritos. Se você clicar no número de volumes protegidos, ele o levará para a guia *Detalhes do volume*, onde você pode exibir uma lista filtrada de volumes protegidos.
-* A guia *Resumo de volume* é atualizada para exibir somente assinaturas básicas, excluindo serviços adicionais. Para obter mais informações, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+* A guia *Resumo de volume* é atualizada para exibir somente assinaturas básicas, excluindo serviços adicionais. Para obter mais informações, link:./integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
 
 
 
@@ -243,19 +243,19 @@ Os dados são exibidos com base na data de início selecionada da assinatura.
 
 === Adição da guia ativos
 
-A tela *Keystone Subscriptions* agora inclui a guia *Assets*. Esta nova guia fornece informações no nível do cluster com base em suas assinaturas. Para obter mais informações, link:../integrations/assets-tab.html["Separador ativos"^]consulte .
+A tela *Keystone Subscriptions* agora inclui a guia *Assets*. Esta nova guia fornece informações no nível do cluster com base em suas assinaturas. Para obter mais informações, link:./integrations/assets-tab.html["Separador ativos"^]consulte .
 
 
 
 === Melhorias no separador volumes e objetos
 
-Para proporcionar maior clareza aos volumes do sistema ONTAP, dois novos botões de guia, *Resumo do volume* e *Detalhes do volume*, foram adicionados à guia *volumes*. A guia *Resumo de volume* fornece uma contagem geral dos volumes associados aos níveis de serviço subscritos, incluindo o status de conformidade do AQoS e as informações de capacidade. A guia *Detalhes do volume* lista todos os volumes e suas especificidades. Para obter mais informações, link:../integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
+Para proporcionar maior clareza aos volumes do sistema ONTAP, dois novos botões de guia, *Resumo do volume* e *Detalhes do volume*, foram adicionados à guia *volumes*. A guia *Resumo de volume* fornece uma contagem geral dos volumes associados aos níveis de serviço subscritos, incluindo o status de conformidade do AQoS e as informações de capacidade. A guia *Detalhes do volume* lista todos os volumes e suas especificidades. Para obter mais informações, link:./integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
 
 
 
 === Experiência de pesquisa aprimorada no Digital Advisor
 
-Os parâmetros de pesquisa na tela *Digital Advisor* agora incluem números de assinatura do Keystone e listas de observação criadas para assinaturas do Keystone. Você pode inserir os três primeiros carateres de um número de assinatura ou nome da lista de observação. Para obter mais informações, link:../integrations/keystone-aiq.html["Veja o painel do Keystone no Active IQ Digital Advisor"^]consulte .
+Os parâmetros de pesquisa na tela *Digital Advisor* agora incluem números de assinatura do Keystone e listas de observação criadas para assinaturas do Keystone. Você pode inserir os três primeiros carateres de um número de assinatura ou nome da lista de observação. Para obter mais informações, link:./integrations/keystone-aiq.html["Veja o painel do Keystone no Active IQ Digital Advisor"^]consulte .
 
 
 
@@ -281,7 +281,7 @@ Algumas de suas assinaturas principais podem ter assinaturas secundárias vincul
 
 === Dados faturados devolvidos para estouro acumulado
 
-Os rótulos para *Acumulado Burst* agora são modificados para *Faturado Acumulado Burst* na guia *tendência de capacidade*. Selecionar esta opção permite visualizar os gráficos mensais dos dados de pico acumulado faturado. Para obter mais informações, link:../integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
+Os rótulos para *Acumulado Burst* agora são modificados para *Faturado Acumulado Burst* na guia *tendência de capacidade*. Selecionar esta opção permite visualizar os gráficos mensais dos dados de pico acumulado faturado. Para obter mais informações, link:./integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
 
 
 
@@ -297,10 +297,10 @@ Se você tiver uma assinatura que tenha planos de taxa com capacidade comprometi
 
 === Capacidade de pesquisar por listas de observação
 
-O suporte para listas de observação no Digital Advisor foi estendido para incluir sistemas Keystone. Agora você pode ver os detalhes das assinaturas de vários clientes pesquisando com listas de observação. Para obter mais informações sobre o uso de listas de observação no Keystone STaaS, link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["PESQUISE por Keystone watchlists"^]consulte .
+O suporte para listas de observação no Digital Advisor foi estendido para incluir sistemas Keystone. Agora você pode ver os detalhes das assinaturas de vários clientes pesquisando com listas de observação. Para obter mais informações sobre o uso de listas de observação no Keystone STaaS, link:./integrations/keystone-aiq.html#search-by-keystone-watchlists["PESQUISE por Keystone watchlists"^]consulte .
 
 
 
 === Data convertida para fuso horário UTC
 
-Os dados retornados nas guias da tela *Keystone Subscriptions* do Digital Advisor são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para obter mais informações, link:../integrations/keystone-aiq.html["Painel e geração de relatórios do Keystone Subscription"^]consulte .
+Os dados retornados nas guias da tela *Keystone Subscriptions* do Digital Advisor são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para obter mais informações, link:./integrations/keystone-aiq.html["Painel e geração de relatórios do Keystone Subscription"^]consulte .
