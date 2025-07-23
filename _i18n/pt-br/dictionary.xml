@@ -925,7 +925,6 @@
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">Se um PSL para o nível de serviço selecionado já existir no servidor de Gestor Unificado Active IQ especificado, não será possível criá-lo novamente. Se tentar fazê-lo, receberá uma mensagem de erro. <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c0db94d9ea0b326e31b7d4eba357a6e" category="summary">O Keystone coleta informações de configuração, status e uso das assinaturas do ONTAP e do StorageGRID. Ele também pode coletar dados de desempenho do ONTAP.</block>
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Tipos de dados de usuário coletados pelo Keystone</block>
-  <block id="a55c5d30c0f103bf2686ce0ab6868ff4" category="paragraph">O Keystone coleta informações de configuração, status e uso das assinaturas do Keystone ONTAP e do Keystone StorageGRID. Ele também pode coletar dados de desempenho somente para ONTAP, se a opção estiver habilitada no Keystone Collector.</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">Coleta de dados do ONTAP</block>
   <block id="ee5ca5bbfae8b59d25890e341fb270f9" category="example-title">&lt;strong&gt; dados de uso coletados para ONTAP: Saiba mais&lt;/strong&gt;</block>
   <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">A lista a seguir é uma amostra representativa dos dados de consumo de capacidade coletados para o ONTAP:</block>
@@ -2539,4 +2538,37 @@
   <block id="7faee727fce43e18a5f377b7afb57542" category="paragraph">Os rótulos para *Acumulado Burst* agora são modificados para *Faturado Acumulado Burst* na guia *tendência de capacidade*. Selecionar esta opção permite visualizar os gráficos mensais dos dados de pico acumulado faturado. Para obter mais informações, <block ref="eabab3ebfcc1135a01e03f1ece2ffb1c" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="8c238ecbe1955b491db6b48ea17933c2" category="paragraph">O suporte para listas de observação no Digital Advisor foi estendido para incluir sistemas Keystone. Agora você pode ver os detalhes das assinaturas de vários clientes pesquisando com listas de observação. Para obter mais informações sobre o uso de listas de observação no Keystone STaaS, <block ref="2875e10a779b54ebea1ca23299e1022f" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="e2328d669041a542b4660884da5e30c6" category="paragraph">Os dados retornados nas guias da tela *Keystone Subscriptions* do Digital Advisor são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para obter mais informações, <block ref="111f11f9178fe48f6cc874a0bf33e9ed" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="7c5da8baa0fbbd37b4a692b7125db568" category="paragraph">O Keystone coleta informações de configuração, status e uso das assinaturas do Keystone ONTAP e do Keystone StorageGRID , bem como dados de telemetria da máquina virtual (VM) que hospeda o Keystone Collector. Ele pode coletar dados de desempenho apenas para o ONTAP , se esta opção estiver habilitada no Keystone Collector.</block>
+  <block id="6aa83c82143e174e72f244ecef8dc7ad" category="section-title">Coleta de dados de telemetria</block>
+  <block id="49e2322dae056a2f8739263d880abd73" category="example-title">&lt;strong&gt;Dados de telemetria coletados da VM do Keystone Collector: Saiba mais&lt;/strong&gt;</block>
+  <block id="ce4c85de38de26999e02d0806330175d" category="paragraph">A lista a seguir é uma amostra representativa dos dados de telemetria coletados para sistemas Keystone :</block>
+  <block id="956d4d3bb3fde86f6c2f08cfdc313bdb" category="list-text">Informações do sistema</block>
+  <block id="5b2a04bc80cdb645cbf95048a7e2ac0f" category="list-text">Nome do sistema operacional</block>
+  <block id="170861220308516da165525eb6107a96" category="list-text">Versão do sistema operativo</block>
+  <block id="5043bf7355ddf1dbfaa39f4b69ecadad" category="list-text">ID do sistema operacional</block>
+  <block id="2f09802220af233ac91b13f1c881b435" category="list-text">Nome do host do sistema</block>
+  <block id="59796defd7dd6310215c49cb4e3efb02" category="list-text">Endereço IP padrão do sistema</block>
+  <block id="6735d18e4d3fc0c912fc420cc7538172" category="list-text">Uso de recursos do sistema</block>
+  <block id="cf99a04328c2d7ca48f16b353f06aace" category="list-text">Tempo de atividade do sistema</block>
+  <block id="927c643f69c46e95a8be2c969fd9764a" category="list-text">Contagem de núcleos da CPU</block>
+  <block id="e686d0ecebbbc124e870747bd31576cc" category="list-text">Carga do sistema (1 min, 5 min, 15 min)</block>
+  <block id="173211c78ced72410b48d5df0fba0ec1" category="list-text">Memória total</block>
+  <block id="407d58a596a7de659531b8c04cb51035" category="list-text">Memória livre</block>
+  <block id="88bb1929d3370e0babc9dfad9e196052" category="list-text">Memória disponível</block>
+  <block id="3ad952d787b1273b58745461bb5b2bc0" category="list-text">Memória compartilhada</block>
+  <block id="700da48d6f421367f17be9a45789b873" category="list-text">Memória buffer</block>
+  <block id="61cc47a86dc843e3504f752195ecb91b" category="list-text">Memória em cache</block>
+  <block id="9b3d0c3ca1edf9f890422025970ab9c5" category="list-text">Troca total</block>
+  <block id="5d419d17e6b440a7e251814bbcf8166e" category="list-text">Troca grátis</block>
+  <block id="488c8c2e78a0edfba492bcc8d16f0e9c" category="list-text">Swap em cache</block>
+  <block id="28e91bf96c7a28ba92d540180159f4b7" category="list-text">Nome do sistema de arquivos do disco</block>
+  <block id="f308e6ca453d47a2876df6eae740d8f8" category="list-text">Tamanho do disco</block>
+  <block id="f50c6aae233fa53b969e7b10774363e1" category="list-text">Disco usado</block>
+  <block id="7ef72e0347fdea4ecf7819d56d5c0151" category="list-text">Disco disponível</block>
+  <block id="90dc07e4c191f33e8c23867d64df3500" category="list-text">Porcentagem de uso do disco</block>
+  <block id="04bb4f94fa98b7f9725a89c2b58870fb" category="list-text">Ponto de montagem do disco</block>
+  <block id="35d792af9283dd95d7605999364c786d" category="list-text">Pacotes instalados</block>
+  <block id="c5015af0f3f8bd7ccedb75312dd4eed3" category="list-text">Configuração do coletor</block>
+  <block id="4f41955c42edb315e08aec95ec34acd3" category="list-text">Registros de serviço</block>
+  <block id="494dd216fe759558e1a91f40c35ee621" category="list-text">Registros de serviço dos serviços Keystone</block>
 </blocks>
