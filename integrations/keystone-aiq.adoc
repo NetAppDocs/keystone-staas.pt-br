@@ -31,13 +31,8 @@ Você pode ver a quebra do uso de capacidade de acordo com suas assinaturas, e a
 * *Uso da capacidade*: Dados de consumo como ausência de uso, consumo superior a 80% da capacidade comprometida, uso excessivo e consumo acima da capacidade máxima.
 * *Alertas*: Você vê alertas para vários cenários se eles forem aplicáveis a você.
 +
-** *Expirando em breve*: Caso suas assinaturas expirem dentro de 90 dias.
-** *Avisos QoS*: Você tem volumes sem políticas AQoS atribuídas.
-+
 
 TIP: Clique no link *assinaturas* para exibir a lista de assinaturas filtradas na guia *assinaturas*.
-
-
 
 
 

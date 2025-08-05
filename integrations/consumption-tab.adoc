@@ -38,10 +38,14 @@ Os dados históricos de consumo para cada nível de serviço de desempenho são 
 NOTE: Você pode selecionar *Explosão acumulada* no menu suspenso *Exibir* se quiser visualizar os dados históricos de uso da explosão para os quais as faturas foram geradas. Você pode usar esses dados para analisar o uso faturado refletido na sua fatura. Para saber mais, link:../integrations/consumption-tab.html#view-accrued-burst["Ver explosão acumulada"]consulte .
 
 +
-image:bxp-consumption-trend.png["captura de tela exibindo o consumo histórico"]
+image:bxp-consumption-trend-1.png["captura de tela exibindo o consumo histórico"]
 
 +
-O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como dados (capacidade de armazenamento utilizada pelos dados do usuário), snapshot (capacidade de armazenamento utilizada pelos dados do snapshot) e capacidade utilizada (capacidade total de armazenamento, incluindo dados e snapshots), além de capacidade comprometida e de pico. A data e a hora de cada ponto de dados são exibidas na parte inferior do gráfico. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode passar o cursor do mouse sobre o gráfico para visualizar o detalhamento do uso em cada ponto de coleta de dados.
+O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como capacidade utilizada (capacidade total de armazenamento, incluindo dados e dados de instantâneos), dados (capacidade de armazenamento usada por dados do usuário) e instantâneo (capacidade de armazenamento usada por dados de instantâneos), juntamente com capacidade comprometida e de pico. A data e a hora de cada ponto de dados são exibidas na parte inferior do gráfico. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode passar o cursor do mouse sobre o gráfico para ver o detalhamento do uso em cada ponto de coleta de dados.
+
++
+
+NOTE: Se um nível de serviço de desempenho tiver várias instâncias, você poderá filtrar por instância para visualizar dados históricos de cada uma separadamente.
 
 +
 Você também pode visualizar um resumo do consumo atual juntamente com o consumo histórico para ter uma compreensão clara do seu uso.
@@ -155,45 +159,3 @@ Uma imagem de exemplo que mostra a utilização diária de dados de sequência a
 image:invoiced-daily-accr-burst-date.png["captura de tela mostrando dados de uso de explosão em um formato de gráfico de linha"]
 
 Você pode alternar para uma exibição de tabela clicando na opção *Tabela* no canto superior direito do gráfico. A exibição de tabela fornece métricas detalhadas de uso diário, incluindo nível de serviço de desempenho, registro de data e hora, capacidade comprometida, capacidade consumida e capacidade provisionada faturável. Você também pode gerar um relatório desses detalhes em formato CSV para uso futuro e comparação.
-
-
-
-== Gráficos de referência para proteção de dados avançada para MetroCluster
-
-Se você assinou o serviço complementar de proteção avançada de dados, pode visualizar o detalhamento dos dados de consumo dos sites parceiros do MetroCluster na aba *Tendência de consumo* no Digital Advisor.
-
-Para obter informações sobre o serviço complementar avançado de proteção de dados, link:../concepts/adp.html["Proteção de dados avançada"]consulte .
-
-Se os clusters no seu ambiente de armazenamento ONTAP estiverem configurados em uma configuração MetroCluster, os dados de consumo da sua assinatura Keystone serão divididos no mesmo gráfico de dados históricos para exibir o consumo nos sites primário e espelho para os níveis de serviço de desempenho base.
-
-
-NOTE: Os gráficos de barras de consumo são divididos apenas para os níveis de serviço de desempenho básicos. Para o serviço complementar de proteção de dados avançada, ou seja, o nível de serviço de desempenho _Advanced Data-Protect_, essa demarcação não aparece.
-
-.Nível de serviço de desempenho de proteção de dados avançado
-Para o nível de serviço de desempenho _Advanced Data-Protect_, o consumo total é dividido entre os sites parceiros, e o uso em cada site parceiro é refletido e cobrado em uma assinatura separada; uma assinatura para o site principal e outra para o site espelho. Essa é a razão pela qual, quando você seleciona o número de assinatura do site principal na guia *tendência de consumo*, os gráficos de consumo do serviço complementar avançado de proteção de dados exibem os detalhes de consumo discretos apenas do site principal. Como cada local de parceiro em uma configuração do MetroCluster atua como fonte e espelho, o consumo total em cada local inclui os volumes de origem e espelho criados nesse local.
-
-
-TIP: A dica de ferramenta ao lado do ID de rastreamento da sua assinatura na guia *consumo atual* ajuda você a identificar a assinatura do parceiro na configuração do MetroCluster.
-
-.Níveis de serviço de desempenho base
-Para os níveis de serviço de desempenho básico, cada volume é cobrado conforme provisionado nos sites primário e espelho e, portanto, o mesmo gráfico de barras é dividido de acordo com o consumo nos sites primário e espelho.
-
-.O que você pode ver para a assinatura principal
-A imagem a seguir exibe os gráficos para o nível de serviço de desempenho _Extreme_ (nível de serviço de desempenho base) e um número de assinatura principal. O mesmo gráfico de dados históricos também indica o consumo do local do espelho em um tom mais claro do mesmo código de cor usado para o local principal. A dica de ferramenta no Mouse hover exibe a quebra de consumo (em TIB) para os locais primários e espelhados, 22,24 TIB e 14,86 TIB respetivamente.
-
-image:mcc-chart-1.png["mcc primário"]
-
-Para o nível de serviço de desempenho _Advanced Data-Protect_, os gráficos aparecem assim:
-
-image:adp-src-1.png["base primária de mcc"]
-
-.O que você pode ver para a assinatura secundária (site espelho)
-Ao verificar a assinatura secundária, você pode ver que o gráfico de barras para o nível de serviço de desempenho _Extreme_ (nível de serviço de desempenho base) no mesmo ponto de coleta de dados que o site parceiro é invertido, e a divisão do consumo nos sites primário e espelho é de 14,86 TiB e 22,24 TiB, respectivamente.
-
-image:mcc-chart-mirror-1.png["espelho mcc"]
-
-Para o nível de serviço de desempenho _Advanced Data-Protect_, o gráfico aparece assim para o mesmo ponto de coleta do site do parceiro:
-
-image:adp-mir-1.png["base do espelho mcc"]
-
-Para obter informações sobre como o MetroCluster protege seus dados, https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Compreender a proteção de dados e a recuperação de desastres da MetroCluster"^] consulte .

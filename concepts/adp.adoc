@@ -14,10 +14,10 @@ summary: Use o serviço complementar avançado de proteção de dados para garan
 
 
 [role="lead"]
-Você pode assinar o serviço complementar avançado de proteção de dados como parte da sua assinatura do Keystone STaaS. Esse serviço complementar utiliza a tecnologia NetApp MetroCluster para garantir a proteção de dados eficiente de seus workloads essenciais em um objetivo de ponto de restauração (RPO) de 0.
+Você pode assinar o serviço complementar de proteção avançada de dados com sua assinatura do Keystone STaaS. Este serviço complementar usa a tecnologia NetApp MetroCluster para garantir proteção de dados eficiente de suas cargas de trabalho de missão crítica com um objetivo de ponto de recuperação (RPO) de 0.
 
 
-NOTE: Os serviços padrão do Keystone STaaS para storage de arquivo e de bloco oferecem serviços de proteção de dados padrão, aproveitando as tecnologias NetApp, como SnapMirror, SnapVault e Snapshot.
+NOTE: Os serviços padrão Keystone STaaS para armazenamento de arquivos e blocos oferecem serviços de proteção de dados padrão usando tecnologias NetApp , como SnapMirror, SnapVault e Snapshot.
 
 Para obter informações sobre o padrão e o serviço de nuvem, link:../concepts/supported-storage-services.html["Serviços Keystone STaaS"]consulte .
 

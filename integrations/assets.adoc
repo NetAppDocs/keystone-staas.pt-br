@@ -50,7 +50,7 @@ TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-s
 . No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Ativos*.
 . Selecione a aba *Volumes em clusters*.
 +
-image:bxp-volumes-clusters-multiple-sub.png["Uma captura de tela de volumes em clusters para várias assinaturas"]
+image:bxp-volumes-clusters-multiple-sub-1.png["Uma captura de tela de volumes em clusters para várias assinaturas"]
 
 +
 Você verá informações detalhadas sobre todos os volumes em clusters nas assinaturas do Keystone, incluindo nome do volume, número da assinatura, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você pode monitorar a capacidade provisionada, a utilização lógica e física e os dados inativos. Você também terá uma visão geral de:

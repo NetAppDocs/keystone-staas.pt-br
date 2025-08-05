@@ -1,0 +1,9 @@
+= Exibir dados de consumo em nível de instância
+:allow-uri-read: 
+
+
+
+
+=== Exibir dados de consumo em nível de instância
+
+Você pode visualizar o consumo atual e os dados históricos de cada instância de nível de serviço de desempenho por meio do painel do Keystone no BlueXP. Este recurso está disponível para níveis de serviço de desempenho com múltiplas instâncias, desde que você tenha uma assinatura do Keystone versão 3 (v3). Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["Veja o consumo de suas assinaturas Keystone"] .

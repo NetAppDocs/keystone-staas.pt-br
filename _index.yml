@@ -6,13 +6,13 @@ indexpage:
     uma única assinatura, com a capacidade de realocar os gastos com armazenamento
     entre as nuvens.
   keywords: Keystone STaaS
-  lead: O NetApp Keystone é um serviço flexível, baseado em assinatura, com pagamento
-    conforme o uso, que oferece uma experiência de nuvem híbrida integrada para clientes
-    que preferem despesas operacionais a investimentos de capital ou leasing. Com
-    ele, você acelera o retorno do investimento removendo a sobrecarga DA TI no gerenciamento
-    de recursos e no ciclo de aquisição demorado. Navegue pelos documentos nesta biblioteca
-    para saber mais sobre a oferta de Armazenamento como Serviço (STaaS) do NetApp
-    Keystone em seu ambiente ONTAP ou StorageGRID.
+  lead: O NetApp Keystone é um serviço flexível baseado em assinatura de pagamento
+    conforme o uso que oferece uma experiência de nuvem híbrida perfeita para clientes
+    que preferem despesas operacionais a despesas de capital ou leasing. Ele oferece
+    a capacidade de acelerar o tempo de retorno do investimento ao remover o fardo
+    de TI de gerenciar recursos e evitar o longo ciclo de aquisição. Navegue pelos
+    documentos nesta biblioteca para saber mais sobre a oferta de armazenamento como
+    serviço (STaaS) do NetApp Keystone .
   tiles:
   - title: Comece agora
     links:
@@ -40,8 +40,6 @@ indexpage:
     links:
     - title: Níveis de serviço de desempenho Keystone
       url: "/concepts/service-levels.html"
-    - title: Qualidade do serviço (QoS)
-      url: "/concepts/qos.html"
     - title: Quais são as unidades de medida?
       url: "/concepts/metrics.html"
     - title: O que é o armazenamento base suportado?
@@ -62,7 +60,7 @@ indexpage:
       url: "/concepts/burst-consumption-billing.html"
   - title: Faça mais com os serviços do Keystone
     links:
-    - title: Conheça sua equipe de suporte
+    - title: Saiba mais sobre sua equipe de suporte
       url: "/concepts/gssc.html"
     - title: Aumentar a capacidade de burst
       url: "/concepts/burst-capacity.html"
@@ -74,7 +72,7 @@ indexpage:
       url: "/concepts/data-infra-insights.html"
     - title: Apoio ao Cidadão DOS EUA
       url: "/concepts/usps.html"
-  - title: Saiba mais
+  - title: Saber mais
     links:
     - title: Consultor digital da Active IQ
       url: https://docs.netapp.com/us-en/active-iq/index.html

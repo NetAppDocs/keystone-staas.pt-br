@@ -29,16 +29,20 @@ Para visualizar o status atual de consumo de suas assinaturas pelo BlueXP ou Dig
 Você será redirecionado para a aba *Consumo atual*.
 
 +
-image:bxp-current-consumption-graph.png["detalhes do consumo atual no formato gráfico"]
+image:bxp-current-consumption-graph-1.png["detalhes do consumo atual no formato gráfico"]
 
 +
 Para a assinatura selecionada, você pode visualizar os detalhes do consumo em formato de tabela ou gráfico usando a opção *Tabela* ou *Gráfico* no menu suspenso *Exibir como*. Na visualização gráfica, você pode ver o consumo atual por nível de serviço de desempenho, incluindo capacidade utilizada, capacidade provisionada, limite de capacidade comprometida e limite de capacidade de pico.
 
 +
+
+NOTE: Se um nível de serviço de desempenho tiver várias instâncias, você poderá expandir *Exibir por instâncias* em qualquer uma delas para ver os detalhes de consumo atuais de cada instância separadamente.  Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extremo em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente.
+
++
 Na visualização de tabela, você pode ver detalhes como a capacidade máxima consumida e os dias restantes até o vencimento. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o status do consumo, as capacidades comprometidas e utilizadas, as capacidades provisionadas e em pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunas. image:column-selector.png["ícone do seletor de coluna"] ícone.
 
 +
-image:bxp-current-consumption-table.png["detalhes do consumo atual em formato de tabela"]
+image:bxp-current-consumption-table-1.png["detalhes do consumo atual em formato de tabela"]
 
 
 
@@ -56,7 +60,7 @@ Para a assinatura selecionada, você pode exibir detalhes, como as datas de iní
 
 +
 
-NOTE: Com o Keystone versão 3 (v3), você pode visualizar os detalhes do consumo atual para cada instância de nível de serviço de desempenho. Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extreme em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente. Para saber mais sobre os níveis de serviço de desempenho, consulte link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"] .
+NOTE: Se um nível de serviço de desempenho tiver várias instâncias, você poderá selecionar a guia *Instâncias* para ver os detalhes de consumo atuais de cada instância.  Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extremo em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente.  Para saber mais sobre os níveis de serviço de desempenho, consultelink:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"] .
 
 +
 Juntamente com o consumo atual, você pode querer ver os dados de uso do histórico para comparação. Clique no botão *Exibir dados históricos* para navegar até a guia *tendência de consumo* para exibir os dados históricos da mesma assinatura.

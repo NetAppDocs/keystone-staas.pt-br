@@ -40,10 +40,10 @@ Você será redirecionado para a aba *Consumo atual*.
 . Selecione a aba *Ativos*.
 . Selecione *Volumes no cluster* no menu suspenso *Exibir*.
 +
-image:bxp-volumes-clusters-single-subscription.png["Uma captura de tela de volumes em clusters para uma assinatura"]
+image:bxp-volumes-clusters-single-subscription-1.png["Uma captura de tela de volumes em clusters para uma assinatura"]
 
 +
-Você verá informações detalhadas sobre os volumes nos clusters, incluindo nome do volume, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você também pode monitorar a capacidade provisionada, a utilização lógica e física, e dados inativos.
+Você vê informações detalhadas sobre volumes em clusters, incluindo nome do volume, número de série do nó, nome do cluster, nome do host e níveis de serviço de desempenho. Você também pode monitorar a capacidade provisionada, a utilização lógica e física, e dados frios.
 
 +
 

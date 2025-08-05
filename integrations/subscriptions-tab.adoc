@@ -25,10 +25,10 @@ A aba *Assinaturas* no BlueXP é dividida em duas seções: *Assinaturas* e *Ní
 .Passos
 . No menu de navegação esquerdo do BlueXP, acesse *Armazenamento > Keystone > Assinaturas*.
 +
-image:bxp-subscription- list.png["ver os detalhes da aba de assinatura"]
+image:bxp-subscription-list-1.png["ver os detalhes da aba de assinatura"]
 
 +
-Você vê as principais métricas, como status da capacidade, status de expiração da assinatura e versão do Keystone em todas as assinaturas. Para saber mais, link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]consulte .
+Você vê as principais métricas, como uso da capacidade, status de expiração da assinatura e versão do Keystone em todas as assinaturas. Para saber mais, consultelink:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"] .
 
 +
 Você pode ver os seguintes detalhes na tabela:
@@ -38,7 +38,7 @@ Você pode ver os seguintes detalhes na tabela:
 ** *Tracking ID*: O ID de rastreamento atribuído no momento da ativação da assinatura. Este é um ID exclusivo para cada assinatura e site, usado para rastrear a assinatura.
 ** *Nome do cliente*: O nome do cliente associado à assinatura do Keystone.
 ** *Assinaturas vinculadas*: Se você tiver alguma assinatura secundária vinculada à sua assinatura principal, esta coluna lista os números de assinatura vinculados à assinatura principal. Este número de assinatura pode ser da sua assinatura principal ou secundária (vinculada).
-** *Versão do Keystone*: A versão do serviço Keystone que está sendo usada para a assinatura.
+** * Versão do Keystone *: A versão do serviço Keystone que está sendo usada para a assinatura. As regras do plano de tarifas para níveis de serviço de desempenho podem ser diferentes entre as versões de assinatura. Para saber mais sobre a versão v1, consulte https://docs.netapp.com/us-en/keystone/index.html["Serviços de assinatura Keystone | Documentação da versão 1"^] .
 ** *Período de cobrança*: O período de cobrança da assinatura.
 ** *Níveis de serviço de desempenho*: O número de planos de tarifas associados à assinatura, com cada plano de tarifas correspondendo a um nível de serviço de desempenho específico e capacidade comprometida.
 ** *Capacidade máxima*: Capacidade máxima consumida dentro da assinatura.
@@ -57,7 +57,7 @@ image:bxp-performance-levels.png["visualizar níveis de serviço de desempenho e
 ** *Níveis de serviço de desempenho em todas as assinaturas*: Exibe o número de níveis de serviço de desempenho em todas as assinaturas.
 ** *Consistência de provisionamento entre assinaturas*: mostra as contagens de níveis de serviço de desempenho com provisionamento excessivo e insuficiente.
 +
-Você pode ver a lista de níveis de serviço de desempenho, incluindo detalhes importantes como nome do cliente, número da assinatura, tipo de nível de serviço de desempenho, número total de volumes e seu status de conformidade com a QoS. A tabela também exibe a contagem de volumes protegidos, o total de capacidade comprometida, consumida, provisionada e disponível (com e sem pico) e a capacidade de pico acumulada.
+Você pode ver a lista de níveis de serviço de desempenho, incluindo detalhes importantes, como o nome do cliente, o número da assinatura, o tipo de nível de serviço de desempenho e o número total de volumes. A tabela também exibe a contagem de volumes protegidos, a capacidade total comprometida, consumida, provisionada, disponível (com e sem burst) e a capacidade de burst acumulada.
 
 
 
@@ -74,18 +74,15 @@ Para visualizar suas assinaturas no Digital Advisor, siga estas etapas:
 Você pode visualizar todas as suas assinaturas aqui, com informações detalhadas sobre cada uma delas.
 
 +
-image:all-subs-3.png["Uma imagem do separador Subscrições"]
+image:all-subs-4.png["Uma imagem do separador Subscrições"]
 
 +
 Para determinados campos e colunas, você pode ver informações ou ícones de aviso e dicas de ferramentas que fornecem informações adicionais sobre os dados.
 
 +
 ** *Número da assinatura*: O número da assinatura do Keystone atribuída pela NetApp.
+** *Assinaturas vinculadas*: esta coluna está disponível opcionalmente para você. Se você tiver alguma assinatura secundária vinculada à sua assinatura principal, esta coluna listará os números de assinatura vinculados à assinatura principal. Este número de assinatura pode ser da sua assinatura primária ou secundária (vinculada).
 ** *Tracking ID*: O ID de rastreamento atribuído no momento da ativação da assinatura. Este é um ID exclusivo para cada assinatura e site.
-+
-
-TIP: Se você se inscreveu no serviço complementar avançado de proteção de dados, então você pode clicar na dica de ferramenta em relação ao seu número de assinatura para exibir o ID de rastreamento da assinatura do parceiro em uma configuração do MetroCluster. Para visualizar o consumo detalhado por assinaturas de parceiros em uma configuração do MetroCluster, consulte link:../integrations/consumption-tab.html#reference-charts-for-advanced-data-protection-for-metrocluster["Gráficos de referência para proteção avançada de dados"] .
-
 ** *Tipo de Uso*: Você pode ter assinado várias versões do Keystone. As regras do plano de tarifas para níveis de serviço de desempenho podem ser diferentes entre as versões de assinatura. Ao observar o valor nesta coluna, você sabe se o tipo de uso é cobrado de acordo com o uso provisionado, físico ou lógico. Para saber mais sobre a versão 1, consulte  https://docs.netapp.com/us-en/keystone/index.html["Serviços de assinatura Keystone | Documentação da versão 1"^] .
 ** *Período de cobrança*: O período de cobrança da assinatura.
 ** *Data de início*: A data de início da assinatura.

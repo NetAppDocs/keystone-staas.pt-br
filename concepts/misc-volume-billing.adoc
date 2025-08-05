@@ -14,7 +14,7 @@ summary: Saiba mais sobre a cobrança do Keystone para configurações específi
 
 
 [role="lead"]
-Entender o faturamento do Keystone para configurações específicas na versão 3 (v3) pode ajudar você a otimizar o uso do serviço e gerenciar custos. As configurações incluem volumes clonados, proteção avançada de dados, volumes temporários, destinos SnapMirror, LUNs e volumes de sistema/raiz.
+Entender o faturamento do Keystone para configurações específicas na versão 3 (v3) pode ajudar você a otimizar o uso do serviço e gerenciar custos.  As configurações incluem volumes clonados, volumes temporários, destinos SnapMirror , LUNs e volumes de sistema/raiz.
 
 
 
@@ -28,19 +28,6 @@ Observe o seguinte:
 * Não há período de carência de 24 horas para volumes clonados. Apenas o tamanho do clone é considerado.
 * Uma vez que o volume do clone excede 10% do tamanho físico do pai, o clone é cobrado como um volume padrão (capacidade lógica utilizada).
 
-
-
-
-== Cobrança de proteção de dados avançada
-
-A proteção de dados avançada usa o NetApp MetroCluster para espelhar dados entre dois clusters separados fisicamente. Para agregados espelhados do MetroCluster, os dados são gravados duas vezes, uma em cada cluster. O serviço do Keystone cobra pelo consumo de cada lado de forma independente, resultando em dois Registros de consumo idênticos. Os custos adicionais são aplicados em todas as capacidades da assinatura, independentemente de os dados estarem na origem, ou se forem dados espelhados ou sem espelhamento.
-
-Se você monitorar os clusters por meio ONTAP do Gerenciador de sistemas (System Manager) ou do Active IQ Unified Manager (Unified Manager), poderá ver uma discrepância entre o consumo informado sobre essas ferramentas e o Keystone. O System Manager e o Unified Manager não relatam volumes no cluster espelhado (remoto) e, ao fazê-lo, relatam metade das métricas de consumo relatadas pelo serviço do Keystone.
-
-.Exemplo:
-O local A e o local B são configurados em uma configuração do MetroCluster. Quando um usuário cria um volume de 10TB TB no local A, um volume idêntico de 10TB TB é criado no local B. o Keystone identifica 10TB TB de consumo em cada local, para um aumento total de 20TB TB. O System Manager e o Unified Manager relatam um volume 10TB criado no local A, mas não relatam um volume 10TB no local B..
-
-Além disso, todos os volumes criados em um sistema Keystone com proteção de dados avançada serão contados para o consumo de proteção de dados avançada, independentemente de esses volumes estarem espelhados ou não.
 
 
 

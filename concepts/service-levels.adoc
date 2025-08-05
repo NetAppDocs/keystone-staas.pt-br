@@ -20,7 +20,7 @@ Uma assinatura pode ter vários planos de tarifas, e cada plano corresponde a um
 
 Um nível de serviço de desempenho pode ter várias instâncias, com cada instância representando um array de armazenamento separado atribuído a esse nível de serviço de desempenho no ambiente do cliente. Cada nível de serviço de desempenho é definido por operações de entrada/saída por segundo (IOPS), taxa de transferência (GBps) e latência (ms), sendo essas métricas medidas e aplicadas por instância de nível de serviço de desempenho.
 
-Você seleciona os níveis de serviço de desempenho com base no seu ambiente de armazenamento e nas suas necessidades de armazenamento e consumo. Os níveis de serviço de desempenho básicos estão disponíveis por padrão. Níveis de serviço de desempenho específicos também estão disponíveis, caso você tenha optado por serviços complementares. Por exemplo, para o serviço complementar de proteção de dados avançada, o nível de serviço de desempenho _Advanced Data-Protect_ é atribuído à sua assinatura.
+Você seleciona níveis de serviço de desempenho com base no seu ambiente de armazenamento e nas necessidades de armazenamento e consumo. Os níveis de serviço de desempenho básico estão disponíveis para você por padrão. Níveis de serviço de desempenho específicos também estão disponíveis, caso você tenha optado por serviços adicionais.
 
 
 TIP: Uma descrição detalhada do serviço para os níveis de serviço de desempenho do NetApp Keystone STaaS está disponível  https://www.netapp.com/services/keystone/terms-and-conditions/["aqui"^] .

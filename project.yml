@@ -6,6 +6,11 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
+  versions:
+  - version-number: '3.0'
+    url: "/keystone-staas"
+  - version-number: '2.0'
+    url: "/keystone-staas-2"
   langs: pt-br,us-en,de-de,es-es,fr-fr,it-it,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
@@ -125,7 +130,7 @@ sidebar:
       url: "/integrations/volumes-objects-tab.html"
     - title: Ver métricas de performance
       url: "/integrations/performance-tab.html"
-  - title: Conceitos Keystone STaaS para v3
+  - title: Conceitos
     entries:
     - title: Serviços Keystone STaaS
       entries:
@@ -141,8 +146,6 @@ sidebar:
         url: "/concepts/capacity-requirements.html"
     - title: Serviços complementares
       entries:
-      - title: Proteção de dados avançada
-        url: "/concepts/adp.html"
       - title: Opções de capacidade de burst
         url: "/concepts/burst-capacity.html"
       - title: Insights da infraestrutura de dados
@@ -177,58 +180,6 @@ sidebar:
         url: "/concepts/misc-volume-billing.html"
       - title: Horários de faturamento
         url: "/concepts/billing-schedules.html"
-  - title: Conceitos STaaS Keystone para v2
-    entries:
-    - title: Serviços Keystone STaaS
-      entries:
-      - title: Métricas e definições
-        url: "/concepts/metrics-v2.html"
-      - title: Qualidade do serviço de storage
-        url: "/concepts/qos.html"
-      - title: Armazenamento suportado
-        url: "/concepts/supported-storage-services-v2.html"
-      - title: Capacidade suportada
-        url: "/concepts/supported-storage-capacity-v2.html"
-      - title: Níveis de serviço de desempenho
-        url: "/concepts/service-levels-v2.html"
-      - title: Requisitos de capacidade para níveis de serviço de desempenho
-        url: "/concepts/capacity-requirements-v2.html"
-    - title: Serviços complementares
-      entries:
-      - title: Proteção de dados avançada
-        url: "/concepts/adp-v2.html"
-      - title: Insights da infraestrutura de dados
-        url: "/concepts/data-infra-insights-v2.html"
-      - title: Categorização de dados
-        url: "/concepts/data-tiering-v2.html"
-      - title: Componentes não retornáveis, não voláteis e SnapLock Compliance
-        url: "/concepts/nrnvc-v2.html"
-      - title: U.S. Protected Support (USPS)
-        url: "/concepts/usps-v2.html"
-    - title: SLO do Keystone STaaS
-      entries:
-      - title: Disponibilidade
-        url: "/concepts/sla-availability-v2.html"
-      - title: Desempenho
-        url: "/concepts/sla-performance-v2.html"
-      - title: Sustentabilidade
-        url: "/concepts/sla-sustainability-v2.html"
-      - title: Garantia de recuperação de ransomware
-        url: "/concepts/sla-ransomware-v2.html"
-    - title: Faturamento
-      entries:
-      - title: Preços do Keystone
-        url: "/concepts/pricing-v2.html"
-      - title: Cobrança baseada na capacidade comprometida
-        url: "/concepts/committed-capacity-billing-v2.html"
-      - title: Medição baseada na capacidade consumida
-        url: "/concepts/consumed-capacity-billing-v2.html"
-      - title: Cobrança baseada no consumo de expansões sazonais
-        url: "/concepts/burst-consumption-billing-v2.html"
-      - title: Cenários diversos para faturamento do Keystone
-        url: "/concepts/misc-volume-billing-v2.html"
-      - title: Horários de faturamento
-        url: "/concepts/billing-schedules-v2.html"
   - title: Acesse o Keystone a partir da API REST do Digital Advisor
     entries:
     - title: Comece a usar a API REST do Digital Advisor para recuperar dados do Keystone

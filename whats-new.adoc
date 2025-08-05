@@ -14,7 +14,17 @@ summary: A NetApp oferece recursos novos e aprimorados em todas as versões dos 
 
 
 [role="lead"]
-A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços do Keystone STaaS.
+Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keystone STaaS.
+
+
+
+== 05 de agosto de 2025
+
+
+
+=== Exibir dados de consumo em nível de instância
+
+Você pode visualizar o consumo atual e os dados históricos de cada instância de nível de serviço de desempenho por meio do painel do Keystone no BlueXP. Este recurso está disponível para níveis de serviço de desempenho com múltiplas instâncias, desde que você tenha uma assinatura do Keystone versão 3 (v3). Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["Veja o consumo de suas assinaturas Keystone"] .
 
 
 
@@ -24,7 +34,7 @@ A NetApp oferece recursos novos e aprimorados em todas as versões dos serviços
 
 === Lançamento da versão 3 (v3) do Keystone
 
-Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta diversas melhorias, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, link:./concepts/metrics.html["Serviços Keystone STaaS para v3"]consulte .
+Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta vários aprimoramentos, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["Serviços Keystone STaaS para v3"] .
 
 
 

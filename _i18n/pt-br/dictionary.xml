@@ -68,8 +68,6 @@
   <block id="0dc1066c9360d7e2bbaf4bb6e9c5ebe1" category="paragraph">Sede da NetApp para informações de faturamento e entrega do AutoSupport</block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">Use o serviço complementar avançado de proteção de dados para garantir a proteção de dados eficiente de workloads essenciais.</block>
   <block id="a6b5c7400b59e86e1201f869cdba2c1a" category="doc">Saiba mais sobre proteção de dados avançada</block>
-  <block id="7322651c5a3929e757c7e2a38e363825" category="paragraph">Você pode assinar o serviço complementar avançado de proteção de dados como parte da sua assinatura do Keystone STaaS. Esse serviço complementar utiliza a tecnologia NetApp MetroCluster para garantir a proteção de dados eficiente de seus workloads essenciais em um objetivo de ponto de restauração (RPO) de 0.</block>
-  <block id="a0a3d7ac5998dcdf5286d5aa1997225c" category="admonition">Os serviços padrão do Keystone STaaS para storage de arquivo e de bloco oferecem serviços de proteção de dados padrão, aproveitando as tecnologias NetApp, como SnapMirror, SnapVault e Snapshot.</block>
   <block id="702bdcf3d6f1e35319059ac6ab7ba5c9" category="inline-link-macro">Serviços Keystone STaaS</block>
   <block id="4a313a9affe19522ce794cef41abbe6f" category="paragraph">Para obter informações sobre o padrão e o serviço de nuvem, <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="ad18d1cc4c02be72a25ef833b2c8c734" category="inline-link-macro">Gráficos de referência para proteção avançada de dados</block>
@@ -85,15 +83,12 @@
   <block id="dfd0252d57910ac70c5c31013436bba6" category="doc">Horários de faturamento</block>
   <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="section-title">Cobrança mensal</block>
   <block id="4984e08f464a2069cf4e4d2bc61ffe7e" category="paragraph">As faturas são enviadas mensalmente. Para o mês em que os serviços estão disponíveis, uma fatura é enviada no mês seguinte. Por exemplo, a fatura dos serviços que utilizou em Janeiro é entregue no início de Fevereiro. Esta fatura inclui os encargos para a capacidade comprometida e, se aplicável, qualquer uso de expansões sazonais.</block>
-  <block id="51ebf10290dc90afa947ed3f3696db87" category="section-title">Faturamento anual</block>
-  <block id="e3cdbc99a0d31e7434525d73238dcc2c" category="paragraph">Uma fatura é gerada no início de cada ano de assinatura para o pagamento mínimo da capacidade comprometida. Ele é gerado na data de início da assinatura. Outra fatura é enviada no final de um trimestre de subscrição, somando as taxas aplicáveis de qualquer utilização de expansões sazonais acumuladas nesse trimestre. Se a capacidade comprometida for alterada durante uma assinatura, uma fatura será enviada no mesmo dia para os pagamentos mínimos pré-pagos para o resto do ano de assinatura. A cobrança é calculada a partir do dia em que a alteração na capacidade comprometida é efetiva.</block>
   <block id="c9830eb427c91a86a2ded324ba8b803d" category="summary">A cobrança do Keystone STaaS é baseada na capacidade de expansão sazonal, que é a capacidade consumida por você, além da capacidade comprometida da sua assinatura.</block>
   <block id="8a73a45becb1972a998dc8490856f730" category="doc">Cobrança baseada no consumo de expansões sazonais</block>
   <block id="b1c4c6aab8cd7c824717fc1621d76273" category="paragraph">A cobrança do Keystone STaaS é baseada em _capacidade de expansão sazonal_, que é a capacidade consumida por você, além da capacidade comprometida da sua assinatura.</block>
   <block id="b3f5d2a190d6e7bd7689ffbabbb1e2f2" category="inline-link-macro">Funcionalidades de storage compatíveis no Keystone</block>
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">Para obter informações sobre diferentes capacidades com suporte no Keystone, <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="44356560df15caffd928422c99dc9948" category="summary">Os requisitos de capacidade para níveis de serviço são diferentes do storage de arquivo, bloco, objeto ou nuvem com suporte da assinatura do Keystone STaaS.</block>
-  <block id="f9b23c1d6c500cf58f2bd0f79306c64b" category="section-title">Requisitos mínimos de capacidade para serviços de arquivo e bloco</block>
   <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="cell">Capacidade</block>
   <block id="ba1f6c59525d71aee4c027798d2470fd" category="cell">Extremo</block>
   <block id="8d5e7e72f12067991186cdf3cb7d5d9d" category="cell">Premium</block>
@@ -108,10 +103,7 @@
   <block id="5f35f43a84523349d7512aad7cebc67d" category="section-title">Requisitos mínimos de capacidade para storage de objetos</block>
   <block id="7db88eb4a659597eed51505f20f9ec51" category="paragraph">Você pode ver os requisitos de capacidade mínima para storage de objetos na tabela a seguir:</block>
   <block id="396928510e06818ef017921022cce2af" category="cell">Categorização de dados</block>
-  <block id="497031794414a552435f90151ac3b54b" category="cell">Objeto</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="cell">Cloud Volumes ONTAP</block>
-  <block id="7f3147ea4e9363ef0179f80965b58649" category="cell">Cloud Backup Service</block>
-  <block id="e681a3b45989b468533c4b90ee960bf9" category="paragraph">Não aplicável</block>
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="paragraph">500</block>
   <block id="a87ff679a2f3e71d9181a67b7542122c" category="paragraph">4</block>
   <block id="c4ca4238a0b923820dcc509a6f75849b" category="paragraph">1</block>
@@ -226,54 +218,22 @@
   <block id="e38b5058398d45181914283e348c4f38" category="doc">Métricas e definições usadas no Keystone</block>
   <block id="3a79a2a5d18c98a3e6880bfa3a826f9f" category="paragraph">Os seguintes termos e definições são usados no serviço STaaS do Keystone para medir métricas:</block>
   <block id="083391d447b65d40416f359a5f144c70" category="list-text">Unidades de medida de capacidade: Gib, TIB e PIB</block>
-  <block id="c7c1919c4fd61189792daac01aa326b5" category="list-text">Densidade de e/S: IOPS/TIB: Número de operações de entrada/saída processadas por segundo com base no espaço total que está sendo consumido pela carga de trabalho, em tebibytes.</block>
   <block id="36e9a03898f9ae86972da464b865fd7e" category="list-text">Disponibilidade do serviço</block>
   <block id="f99112a4c6eaa146943fa5e2ddfd9879" category="list-text">Durabilidade no acesso preciso aos dados</block>
   <block id="4e8c569f63eedc90f70f80e1008f201e" category="list-text">Latência e velocidade</block>
   <block id="0719eeba43039e5122ee28a4a45955e4" category="section-title">Medição de métricas</block>
   <block id="6ee89d6c0a15491675b7cc32e34a211d" category="list-text">A capacidade de armazenamento de dados com base de 1024 (1 GiB 1024 4 bytes, 1 TIB 1024 3 bytes e 1PiB 1024 5 bytes).</block>
-  <block id="bb145603bcdc015d5b17c8a464ceb711" category="list-text">*Gráfico de contador de operações em IOPS/TIB*: As operações do protocolo por segundo, solicitadas pelo aplicativo, divididas pelo tamanho do volume utilizado pelas cargas de trabalho.</block>
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">*Disponibilidade*: Medido como uma porcentagem do número de solicitações de e/S respondidas com sucesso pelo serviço, dividido pelo número total de solicitações de e/S feitas ao serviço. Isso é medido na demarcação do serviço em um mês e não inclui o tempo de inatividade programado do serviço ou a indisponibilidade das instalações, da rede ou de outros serviços fornecidos pelo cliente.</block>
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*Durabilidade*: Porcentagem de dados acessados sem perda de fidelidade, excluindo exclusão ou corrupção causada pelo cliente.</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">*Latência*: Tempo para atender uma solicitação de e/S recebida de um cliente, medida na demarcação do serviço (porta de e/S do controlador de armazenamento).</block>
-  <block id="fb0313f9403d2f1c6713354a48e245bd" category="section-title">Métricas de performance de taxa de transferência</block>
-  <block id="c51e1a8d511d7d17bd78e518ec1c554c" category="paragraph">As métricas de performance de taxa de transferência são aplicáveis apenas a serviços de arquivo e bloco com base em:</block>
-  <block id="5048ff69f87c85209021d8c026e01f3c" category="list-text">Tamanhos de bloco de 32 KB</block>
-  <block id="e8fbd9f6f420e483e6c622bb47cd6854" category="list-text">Mistura de e/S de 70% de leitura/30% de gravação</block>
-  <block id="60498bea38bc14433a21075b5c7d0b46" category="section-title">Variações na densidade de IO</block>
-  <block id="3b2bc0696ff8c2bf7f6ea81e28f71fb2" category="paragraph">A densidade de e/S calculada em IOPS/TIB e/ou Mbps/TIB varia de acordo com os seguintes fatores:</block>
-  <block id="ff2ffc71212f10c4ae9ba5e5f77d7464" category="list-text">Características do workload</block>
-  <block id="8ec22227c0b030947bddd2c4d3531d9c" category="list-text">Latência, excluindo o seguinte:</block>
-  <block id="5b8941c55ade7ebbdc315d116077e1cb" category="list-text">Latência do aplicativo</block>
-  <block id="3dc995ca2f3e29ab83828237ddfb6e01" category="list-text">Latência de host</block>
-  <block id="b75777b15e142a11a322b36f867e1049" category="list-text">Latência na rede do cliente durante a transferência de dados de e para as portas do controlador</block>
-  <block id="f8ed1667ffe2b20a5273752af4726faa" category="list-text">Latência de sobrecarga associada à transferência de dados para o armazenamento de objetos no caso do FabricPool</block>
-  <block id="cb5a96c5a4ffa77a49aaa4721d1fdbcf" category="list-text">A latência aplicada automaticamente pelo QoS para manter a e/S dentro dos máximos do nível de serviço</block>
-  <block id="72c371ac4eea814fdca22073c43b5cd2" category="list-text">Os dados de cópia do usuário e do instantâneo que são contados como parte da capacidade usada</block>
-  <block id="891eaaff20ee8e899b87e4592ad45a89" category="list-text">O IOPS mínimo absoluto alocado em cada volume de ONTAP, independentemente da quantidade de dados no volume:</block>
-  <block id="41a82de5cce1f4315d40362417d5400e" category="list-text">Extremo: 1.000 IOPS</block>
-  <block id="87c7ebf0218d3670ce3d2f93a702663e" category="list-text">Premium: 500 IOPS</block>
-  <block id="69cbdfcaaeb853a3a22106281d7479e4" category="list-text">Desempenho, padrão e valor: 75 IOPS</block>
-  <block id="66dda1e1896da52a0c1c47a30b024aa2" category="list-text">Ao usar os serviços adicionais Advanced Data Protection, a latência de destino se aplica somente a solicitações de e/S de serviço do storage local.</block>
-  <block id="6d254a15ba3fea951a58068af61e1688" category="section-title">Volume AQos</block>
-  <block id="8c037b7d81c288bf1b9266d8836d1b4a" category="paragraph">Cada volume de ONTAP deve ter a política de qualidade de serviço adaptável aplicável (AQos) aplicada. Caso contrário, a capacidade dentro de cada volume que não tem uma política AQoS aplicada é cobrada à taxa do nível de Serviço mais alto.</block>
   <block id="23b37b253ca769ce608c60059a855b79" category="summary">Saiba mais sobre a cobrança do Keystone para configurações específicas, incluindo volumes clonados, proteção de dados avançada e muito mais.</block>
   <block id="bb6903e39254cc1a8d4ee2116c8e91e1" category="doc">Cenários diversos para faturamento do Keystone</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">Faturamento de volumes clonados</block>
   <block id="0e3a3dc0c3eeb16df240b7eafc4a840c" category="paragraph">Se os volumes forem clonados no ONTAP e forem usados para fazer backup e restauração de dados, você poderá continuar usando os clones sem pagamentos adicionais. No entanto, são cobrados volumes clonados usados para qualquer outra finalidade no seu negócio por uma duração extensa.</block>
   <block id="308838aa7669887098042a1899ce59bc" category="list-text">Os volumes de clones estão livres do carregamento desde que o seu tamanho seja inferior a 10% do volume pai (a capacidade física usada no volume clone em comparação com a capacidade física usada no volume pai).</block>
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">Uma vez que o volume do clone excede 10% do tamanho físico do pai, o clone é cobrado como um volume padrão (capacidade lógica utilizada).</block>
-  <block id="6a249c25be1113adfd4b390d43270d08" category="section-title">Cobrança de proteção de dados avançada</block>
-  <block id="5db4fbedef3c3fe2cd69fb00f0149f1a" category="paragraph">A proteção de dados avançada usa o NetApp MetroCluster para espelhar dados entre dois clusters separados fisicamente. Para agregados espelhados do MetroCluster, os dados são gravados duas vezes, uma em cada cluster. O serviço do Keystone cobra pelo consumo de cada lado de forma independente, resultando em dois Registros de consumo idênticos. Os custos adicionais são aplicados em todas as capacidades da assinatura, independentemente de os dados estarem na origem, ou se forem dados espelhados ou sem espelhamento.</block>
-  <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">Se você monitorar os clusters por meio ONTAP do Gerenciador de sistemas (System Manager) ou do Active IQ Unified Manager (Unified Manager), poderá ver uma discrepância entre o consumo informado sobre essas ferramentas e o Keystone. O System Manager e o Unified Manager não relatam volumes no cluster espelhado (remoto) e, ao fazê-lo, relatam metade das métricas de consumo relatadas pelo serviço do Keystone.</block>
-  <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph-title">Exemplo:</block>
-  <block id="0c0de0453c5b0de437eb1976c3926361" category="paragraph">O local A e o local B são configurados em uma configuração do MetroCluster. Quando um usuário cria um volume de 10TB TB no local A, um volume idêntico de 10TB TB é criado no local B. o Keystone identifica 10TB TB de consumo em cada local, para um aumento total de 20TB TB. O System Manager e o Unified Manager relatam um volume 10TB criado no local A, mas não relatam um volume 10TB no local B..</block>
-  <block id="a8bfd47f5b9fe7efcabf364ce6b11add" category="paragraph">Além disso, todos os volumes criados em um sistema Keystone com proteção de dados avançada serão contados para o consumo de proteção de dados avançada, independentemente de esses volumes estarem espelhados ou não.</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">Cobrança de volumes temporários</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">Ocasionalmente, volumes temporários (TMP) são criados pelo ONTAP ao mover volumes. Estes volumes temporários têm uma duração curta e o consumo destes volumes não é medido para faturação.</block>
-  <block id="f3fd1171857d8ea7abb7920fd1fd0c55" category="section-title">Políticas de faturamento e QoS adaptáveis</block>
-  <block id="bff19ffadab3b2c0f2336fe90bfd9be9" category="inline-link-macro">Garanta a taxa de transferência com uma visão geral de QoS</block>
-  <block id="5e2de39ee27d191717827ce53298c90c" category="paragraph">O Keystone mede o consumo com base nos níveis de serviço. Cada nível de serviço está associado a uma política específica de qualidade do serviço (QoS) adaptável. Durante a implantação, você será informado sobre os detalhes de cada política de QoS adaptável para os serviços do Keystone que você subscrição. Durante as operações de gerenciamento de storage, verifique se os volumes têm as políticas de QoS adaptáveis apropriadas atribuídas de acordo com os níveis de serviço inscritos, para evitar cobranças inesperadas. Para obter mais informações sobre políticas de QoS adaptáveis no ONTAP, <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="18b8a063bbf57f20dcdbb6f12a9dc0e9" category="section-title">Faturamento para destinos SnapMirror</block>
   <block id="b3f67b6d739086a60e5e83a06fc9385a" category="paragraph">O preço do volume de destino do SnapMirror é regido pela política de QoS adaptável para o nível de serviço atribuído na origem. No entanto, se a origem não tiver uma política de QoS adaptável associada, o destino será cobrado com base no nível de serviço mais baixo disponível.</block>
   <block id="c73be2f2aaeb82cecf852c49f3ea4cce" category="section-title">Cobrança de LUNs</block>
@@ -339,9 +299,7 @@
   <block id="d7e5ccf918d68bf60a6b52690444d5ea" category="list-text"><block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block></block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="f29d51ebfc7a851025b60dc1bcc5560e" category="summary">O Keystone oferece um modelo de pagamento conforme o uso para suas necessidades de consumo flexível e dimensionável.</block>
-  <block id="d3d3ac1aa803d52f00804394fdd5bc1d" category="list-text">Você pode pagar com base em IOPS e latência da capacidade comprometida para atender a várias necessidades de workload. As diferentes categorias de serviço de performance: Extreme, Premium, Performance, Standard, Value e Object permitem que você gerencie seu storage com base no nível de serviço adquirido.</block>
   <block id="5866f5199f36da24870932aa9db6ab49" category="list-text">Ele apresenta cobrança previsível para a capacidade comprometida e pagamento por uso para uso de capacidade variável (sobrecarga).</block>
-  <block id="a40d52252bf8cd6939e9352eeffb837b" category="list-text">Você pode selecionar um preço de pacote para hardware, sistema operacional central e suporte por um preço por TIB. Você tem uma única fatura para cada tipo de storage, arquivo, bloco, objeto ou serviços de storage de nuvem.</block>
   <block id="1506e8c7e13ed05e538e60e10a3477b1" category="paragraph">A cobrança do Keystone é baseada na capacidade comprometida e no consumo de sobrecarga variável.</block>
   <block id="fe53175072711abfe4bc0ec0a1c8feda" category="list-text"><block ref="fe53175072711abfe4bc0ec0a1c8feda" category="inline-link-macro-rx"></block></block>
   <block id="666607765db8e2a230407163fc7ea704" category="list-text"><block ref="666607765db8e2a230407163fc7ea704" category="inline-link-macro-rx"></block></block>
@@ -349,128 +307,29 @@
   <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="inline-link-macro">Faturação baseada em tipos de volume diversos</block>
   <block id="e9fba53fca09f539e7c7027e5b60c861" category="list-text"><block ref="e9fba53fca09f539e7c7027e5b60c861" category="inline-link-macro-rx"></block></block>
   <block id="98bee96ae0c26b26f72606ccdc5c56ce" category="list-text"><block ref="98bee96ae0c26b26f72606ccdc5c56ce" category="inline-link-macro-rx"></block></block>
-  <block id="86744497c7d6e3b8d3acc8300243fcaf" category="summary">O Keystone usa a QoS de storage para garantir que as aplicações obtenham performance consistente e previsível.</block>
-  <block id="bdd1291ab47fc22cd98d4fda125abb50" category="doc">QoS de storage no Keystone</block>
-  <block id="4317435dc55e6c41a5febef83510271a" category="paragraph">O Keystone usa qualidade do serviço (QoS) de storage para garantir que as aplicações obtenham performance consistente e previsível. Sem QoS, certas cargas de trabalho, como aquelas para inicialização de vários sistemas, podem consumir a maioria ou todos os recursos por um período de tempo e afetar outras cargas de trabalho.</block>
-  <block id="313f448514f6d6f8e885dac14ef8a5c6" category="paragraph">Para obter informações sobre QoS,<block ref="3c8d0a20452a1fdd8de7e683059a52bc" category="inline-link-rx"></block> consulte .</block>
-  <block id="acdda1c20fb3985ce840929f7525c803" category="section-title">QoS adaptável</block>
-  <block id="24fe24243f6cf0a0fada99032a85c028" category="inline-link">Sobre a QoS adaptável</block>
-  <block id="3e0c227cab019a94ad107467446bc4a1" category="paragraph">O QoS adaptável (AQoS) é usado pelos serviços do Keystone para manter dinamicamente a taxa de IOPS/TIB com base no tamanho do volume. Para obter informações sobre as políticas AQoS,<block ref="837de1b03a328f464002642d845ea947" category="inline-link-rx"></block> consulte .</block>
-  <block id="b41d880d5f9cddb842b19d183ce73f2e" category="paragraph">A Keystone fornece políticas AQoS que você pode configurar depois que o cluster estiver em produção. Você deve garantir que todos os seus volumes estejam associados às políticas AQoS corretas que já foram criadas e disponíveis em seu sistema.</block>
-  <block id="772f84cc1580c3b2eb870e7f4a05c668" category="paragraph">Um volume ONTAP não é compatível se não tiver uma política AQos aplicada. Um volume sem uma política de QoS é o último na lista de prioridades para que o sistema forneça quaisquer operações de entrada e saída disponíveis. No entanto, se alguma operação de entrada-saída estiver disponível, o volume poderá consumir todos os iOS disponíveis.</block>
-  <block id="8076a815ea253b898f1e1205fc7aa039" category="admonition">Se você não tiver aplicado políticas AQoS aos seus volumes, esses volumes serão medidos e cobrados no nível de serviço mais alto de acordo com sua assinatura. Isso pode resultar em cobranças involuntárias de estouro.</block>
-  <block id="bc26ba2885b2bd7d8c41202e1d58b847" category="section-title">Definições de QoS adaptáveis</block>
-  <block id="d2c88ef05da757a3aeaaf8bc9fe70038" category="paragraph">As configurações de QoS adaptável (AQoS) variam de acordo com os níveis de serviço.</block>
-  <block id="3e1621011a15ff9b858d144dd8b32184" category="cell">*Nome da política*</block>
   <block id="cdf0cc519fabc4c14999e89090d33dc1" category="cell">*Extreme*</block>
   <block id="153a19d482de580ce84c77ac52c6f907" category="cell">*Premium*</block>
-  <block id="64bd5015546813c113a50d1d816a2fce" category="cell">*Desempenho*</block>
   <block id="3ecb63821538cb0fde443d82bdb28861" category="cell">*Standard*</block>
   <block id="4cc402eecdb589b122553e660ac696c4" category="cell">*Valor*</block>
-  <block id="04e5e9b2304d0098895d9985c9a8ea89" category="cell">*IOPS/TIB esperado*</block>
-  <block id="911c903acff40c3f442bbae7f73ea081" category="cell">6.144</block>
-  <block id="4546199e2bcb9ae49a13edef9675fd03" category="cell">2.048</block>
-  <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1.024</block>
-  <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
-  <block id="ea5d2f1c4608232e07d3aa3d998e5135" category="cell">64</block>
-  <block id="8dea0526cd966f1d2b8537ec99d156b6" category="cell">*Alocação esperada de IOPS*</block>
-  <block id="d948b8bd026bed9e90e7989a41fdbb46" category="cell">Espaço alocado</block>
-  <block id="66add2975320c187fa0c68a862f9277b" category="cell">*Peak IOPS/TIB*</block>
-  <block id="d38753fed54aa499bc5e6c27d3945c19" category="cell">12.288</block>
-  <block id="c9ca1ec49e8aac1615059e421cbb4793" category="cell">4.096</block>
-  <block id="10a7cdd970fe135cf4f7bb55c0e3b59f" category="cell">512</block>
-  <block id="76dc611d6ebaafc66cc0879c71b5db5c" category="cell">128</block>
-  <block id="13533e52f2c161b3cad8ec91b2a8bc26" category="cell">*Alocação de IOPS de pico*</block>
-  <block id="aa06850d5c9d77127d7340a724cb89be" category="cell">Espaço utilizado</block>
-  <block id="fd5c2880a704553c642b2e60a6ff5cf2" category="cell">* Tamanho do bloco*</block>
-  <block id="de66b0668daa0803e4322ddd80158d6c" category="cell">32K</block>
-  <block id="e1e6381427a3975fa7597be88e8d2f70" category="section-title">Configuração do grupo de políticas de QoS adaptável</block>
-  <block id="1485819d1bb1109d78f142c11b8e830d" category="paragraph">Você pode configurar políticas de QoS adaptável (AQoS) para dimensionar automaticamente um limite de taxa de transferência ou tamanho do chão ao volume. Nem todos os níveis de serviço do Keystone estão alinhados às políticas padrão de QoS do ONTAP. Você pode criar políticas de QoS personalizadas para elas. Para configurar uma política, você deve estar ciente do seguinte:</block>
-  <block id="783c1c698cfe222ca1a1c69b815e8a3c" category="list-text">*Nome do grupo de políticas*: O nome do grupo de políticas AQoS. Por exemplo,<block ref="e22fe87dc37298f80d1bbd25d59219b8" prefix=" " category="inline-code"></block>.</block>
-  <block id="e88f55d6b9c231a5c6bcae698bdfd7dc" category="list-text">*SVM*: O nome do SVM ou VM de armazenamento (máquina virtual de armazenamento).</block>
-  <block id="44c1604c68364a078a1faa312c3f1fca" category="list-text">*IOPS/TIB* esperados: O número mínimo de IOPS, por TIB alocado por volume, que o sistema tenta fornecer quando houver IOPS do sistema suficientes disponíveis.</block>
-  <block id="a7eb9e3e2db26f418ff1bd33758058b5" category="list-text">*IOPS/TIB* de pico: O número máximo de IOPS, por TIB usado por volume, que o sistema permite que o volume alcance antes de controlar o IOPS por injeção de latência.</block>
-  <block id="be53c8157b32393bccd2e22d0b1536aa" category="list-text">*Alocação esperada de IOPS*: Este parâmetro controla se o IOPS esperado disponível para o volume é baseado no tamanho alocado ou usado do volume. No Keystone, isso é baseado no espaço alocado.</block>
-  <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">*Alocação de IOPS de pico*: Este parâmetro controla se o IOPS de pico disponível para o volume é baseado no tamanho alocado ou usado do volume. No Keystone, isso é baseado no espaço usado.</block>
-  <block id="680fcae2005fb4b11fdcc18c27ddd58b" category="list-text">*IOPS mínimo absoluto*: O menor número de IOPS esperado que será aplicado a um volume se o tamanho do volume for muito pequeno e resultaria em um número inaceitável de IOPS. Esse valor padrão é 1.000 para<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block>, 500 para ,<block ref="8d5e7e72f12067991186cdf3cb7d5d9d" prefix=" " category="inline-code"></block> e 250 para<block ref="9446a98ad14416153cc4d45ab8b531bf" prefix=" " category="inline-code"></block>, e 75 para<block ref="eb6d8ae6f20283755b339c0dc273988b" prefix=" " category="inline-code"></block> os níveis de serviço e.<block ref="689202409e48743b914713f96d93947c" prefix=" " category="inline-code"></block></block>
-  <block id="4db69e448403f877751b701118fb0d6b" category="admonition">Essa não é a densidade de IOPS (por exemplo, 75 IOPS/TIB), mas um número mínimo absoluto de IOPS.</block>
   <block id="5ac36e6be3720d69479533a204a80ef9" category="inline-link-macro">Métricas e definições usadas nos Serviços do Keystone</block>
-  <block id="0dfe1d120dbd110a4d7bb29a9dea1779" category="inline-link">Use grupos de políticas de QoS adaptáveis</block>
-  <block id="83968617de22b9218018ccb02b138d69" category="paragraph">Para obter informações sobre a densidade de e/S, <block ref="3ce2bf0236919e451c90f574367e80ae" category="inline-link-macro-rx"></block>consulte . Para obter mais informações sobre os grupos de políticas AQoS,<block ref="e1f6c27c218a9f9df79e5c49fb7040d6" category="inline-link-rx"></block> consulte .</block>
-  <block id="2da83d8f6744d94e4db3195a4a4edfc0" category="section-title">Definições de políticas de QoS adaptáveis</block>
-  <block id="190dc75f5eac190e46db7ce571587dbc" category="paragraph">As configurações de políticas de QoS adaptável (AQoS) para cada nível de serviço são descritas nas seções a seguir. Os tamanhos de volume mínimo e máximo para cada nível de serviço aqui fornecidos permitem IOPs ideais e valores de latência para um volume. A criação de volumes demais fora dessas diretrizes pode afetar negativamente a performance nesses volumes.</block>
-  <block id="547c4738072689a91e04dc9c9c8f6c84" category="section-title">Configurações para nível de serviço extremo</block>
-  <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Configurações e comandos para o nível de serviço Extreme:</block>
-  <block id="5fd300737b7909532dc522634d75def5" category="list-text">Exemplo de comando:</block>
-  <block id="25720426b4f9400d825effad9cc98cf4" category="section-title">Configurações para nível de serviço Premium</block>
-  <block id="d1dc13c797f457ef0f8af6fba8c638fa" category="paragraph">Configurações e comandos para o nível de serviço Premium:</block>
-  <block id="c335b79291cf3c370f0819292ea37103" category="section-title">Definições para nível de serviço de desempenho</block>
-  <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">Configurações e comandos para o nível de serviço desempenho:</block>
-  <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">Definições para nível de serviço padrão</block>
-  <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">Configurações e comandos para o nível de serviço padrão:</block>
-  <block id="43384bba14e9ac0e1e3604da457dacd3" category="section-title">Definições para o nível de serviço de valor</block>
-  <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">Configurações e comandos para o nível de serviço de valor:</block>
-  <block id="e8cf569a737f3c6ca0de02023bb45074" category="section-title">Cálculo do tamanho do bloco</block>
-  <block id="b77f85f9490573cc674ceb0b9512f811" category="paragraph">Observe estes pontos antes de calcular o tamanho do bloco usando estas configurações:</block>
-  <block id="5cf0d288a8f6413cd5081b042a609034" category="list-text">IOPS/TIB: Mbps/TIB dividido por (tamanho do bloco * 1024)</block>
-  <block id="3054b3eab6506b148b8f255cf6c91456" category="list-text">O tamanho do bloco está em KB/IO</block>
-  <block id="b33667f1f1bd3abb2593a5226cf7aeec" category="list-text">TIB: 1024GiB; GiB: 1024MiB; MIB: 1024KiB; KiB: 1024Bytes; conforme a base 2</block>
-  <block id="3f2e7c232425cd76862bc1b0de689d36" category="list-text">TB: 1000GB; GB: 1000Mb; MB: 1000KB; KB: 1000Bytes; de acordo com a base 10</block>
-  <block id="f6ea502258d48432c7bda8b0eeca5dbe" category="paragraph-title">Cálculo do tamanho do bloco de amostra</block>
-  <block id="e6493c4efe3fa5e48bce86284ff1aa5f" category="paragraph">Para calcular a taxa de transferência para um nível de serviço, por exemplo,<block ref="ba1f6c59525d71aee4c027798d2470fd" prefix=" " category="inline-code"></block> nível de serviço:</block>
-  <block id="5823839bc893623342447999dd558444" category="list-text">Máximo de IOPS: 12.288K.</block>
-  <block id="d578d491479765feb511ce998c751bcc" category="list-text">Tamanho do bloco por e/S: 32KB</block>
-  <block id="99bd16c85cd1ef64c6ea102f25b33359" category="list-text">Rendimento máximo: (12288 * 32 * 1024) / (1024 * 1024) 384MBps/TIB</block>
-  <block id="237499763b358b8ef0c6dc69fde2706a" category="paragraph">Se um volume tiver 700GiB GB de dados lógicos usados, a taxa de transferência disponível será:</block>
-  <block id="02a49e3ec5c5ab57dc26bbd217365bc3" category="paragraph"><block ref="aa1ec52fdaaee3031df5d6a8e8b00f44" prefix="" category="inline-code"></block></block>
-  <block id="71b75e7482eec980a2ea5869f64cbf9c" category="summary">O Keystone STaaS oferece capacidade de storage em níveis de serviço predefinidos. Cada volume gerenciado pelo Keystone está associado a um nível de serviço.</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">aqui</block>
-  <block id="73cf2790a3f92d26764722174d70cf34" category="paragraph">*Protocolos compatíveis*: NFS, CIFS, iSCSI e FC</block>
   <block id="079bbc110741f438dfb37f32218c4c21" category="cell">*Nível de serviço*</block>
   <block id="9b25613e0d8ca22f20fe93edf63407f1" category="cell">*Tipos de carga de trabalho de amostra*</block>
-  <block id="9b00e85f3de98b33a5dc104b3336a02c" category="cell">Análises, bancos de dados, aplicativos de missão crítica</block>
-  <block id="bb606d4181e97fbe036b3b9ea110f0cd" category="cell">VDI, VSI, desenvolvimento de software</block>
-  <block id="b1082bbe755cf28c4bb0924c487eeb62" category="cell">OLTP, OLAP, contêineres, desenvolvimento de software</block>
-  <block id="ff1c70afac4394fd1bdfad3ce8d0fbe9" category="cell">Compartilhamentos de arquivo, servidores da Web</block>
-  <block id="3500ba09d0538297440ca620c9dd46bf" category="cell">Backup</block>
-  <block id="548dcac52aca7f6902fd2de4648c5e9e" category="cell">*Máximo de IOPS/Tibs lógicos armazenados por volume*</block>
-  <block id="55b9320c8c3c184ea9542aa4a82ecd70" category="cell">*Máximo de IOPS/Tibs lógicos alocados por volume*</block>
-  <block id="2951c92ac7129eb5950ee23f07140f99" category="cell">* Máximo de Mbps/Tibs lógicos armazenados por volume a 32K B/S*</block>
-  <block id="0584ce565c824b7b7f50282d9a19945b" category="cell">384</block>
-  <block id="c74d97b01eae257e44aa9d5bade97baf" category="cell">16</block>
   <block id="2ecbbb6413b4f26bda9319a043adc2e2" category="cell">* Target 90.o percentil latência*</block>
-  <block id="99f8d77b50f8491531357b2d907d59d1" category="cell">menos de 1 ms</block>
-  <block id="6fad0b609a57af2ae4dbbf92ff728673" category="cell">menos de 2 ms</block>
-  <block id="71d46f269394e963a516a1cc98340c17" category="cell">menos de 4 ms</block>
-  <block id="342e06f2c04b016459176bdbbd984dfe" category="cell">menos de 17 ms</block>
-  <block id="d6b228a8ed209a51c109dc08e1f357ce" category="cell">* Tamanho do bloco*</block>
-  <block id="1ce7cadb42fda63031710acdb1e36d13" category="list-text">IOPS/TIB/volume reais e Mbps/TIB/volume podem variar com base no tamanho do bloco real ou assumido, na simultaneidade da carga de trabalho do sistema ou nas operações de entrada/saída.</block>
   <block id="58ec0dfd62f9630c9b479a35a8b38962" category="list-text">A latência não inclui o seguinte:</block>
   <block id="e777748ce6788629275890358373ad33" category="list-text">latência do aplicativo ou do host</block>
   <block id="303d588a44f75e97197277df23fe31a6" category="list-text">latência de rede do cliente de ou para as portas do controlador</block>
   <block id="66da45e9c280e17b214fda19697e0c52" category="list-text">Overheads associados à transferência de dados para o armazenamento de objetos em caso de FabricPool</block>
   <block id="85bc0e8522deb39494936f2ff6c542e4" category="list-text">Os valores de latência não se aplicam às operações de gravação do MetroCluster. Essas operações de gravação dependem da distância dos sistemas remotos.</block>
   <block id="d292740ed171285325a91f3bddbbc59d" category="list-text">_IOPS_ esperado é direcionado para o FabricPool somente se a política de disposição em camadas estiver definida como "nenhum" e nenhum bloco estiver na nuvem. _IOPS_ esperado é destinado a volumes que não estão em uma relação síncrona do SnapMirror.</block>
-  <block id="acad586f6e3c240e49bc22095d3d4c92" category="list-text">As operações de IO do workload precisam ser balanceadas em todos os controladores implantados, conforme determinado pelo pedido do Keystone.</block>
   <block id="670aaecb1a526fbed439dad3ec353a96" category="section-title">Storage de objetos</block>
   <block id="58d801506333ab644845942779162cbc" category="paragraph">*Protocolo suportado*: S3</block>
-  <block id="9256405ef4b3e50cc40cc8f3d4e135e9" category="cell">*Tipo de carga de trabalho*</block>
-  <block id="346ddf53d2d569d0bb73eb7826cf95d8" category="cell">Repositório de Mídia, arquivamento</block>
-  <block id="93ed1a757e360a886c7ba5a5d93ba089" category="cell">*Máximo de IOPS/TIB lógico armazenado por volume*</block>
-  <block id="382b0f5185773fa0f67a8ed8056c7759" category="cell">N/A.</block>
-  <block id="a082738e5a73e8698a3682d9439c6131" category="cell">*Máximo de Mbps/TIB lógico armazenado por volume*</block>
-  <block id="61871926ab208323c9981229029b2c82" category="cell">*Latência média*</block>
-  <block id="a2fc4fb8d2c1f832a708597b03fe2218" category="admonition">A latência não inclui overheads associados à transferência de dados para o armazenamento de objetos no caso de armazenamento FabricPool.</block>
   <block id="6872c2b6282a1ff41523f7b84a51d4da" category="section-title">Storage de nuvem</block>
-  <block id="eb915b9a3c101f4c453714a5ea9a7f1f" category="paragraph">*Protocolo compatível*: NFS, CIFS, iSCSI e S3 (somente AWS e Azure)</block>
-  <block id="a6b775035306fc8ea9ed0392f6da3bfa" category="cell">Recuperação de desastres, desenvolvimento/teste de software, aplicativos de negócios</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">Serviços nativos em nuvem, como computação, storage, rede, são faturados por fornecedores de nuvem.</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">Esses serviços dependem das características de computação e storage de nuvem.</block>
   <block id="2dd5f36775604dad2303abf8267a2c4a" category="inline-link-macro">Capacidades de armazenamento suportadas</block>
   <block id="a2e2f97253342349ff9ef2b936b778d0" category="list-text"><block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block></block>
   <block id="9a951c3d80a9377bd47aaa657c36398a" category="list-text"><block ref="9a951c3d80a9377bd47aaa657c36398a" category="inline-link-macro-rx"></block></block>
-  <block id="b0c2a97a674f701e042904eabd2ce86c" category="inline-link-macro">Qualidade do serviço (QoS) no Keystone</block>
-  <block id="01d1ce60b1a3aef68f02db880ec50307" category="list-text"><block ref="01d1ce60b1a3aef68f02db880ec50307" category="inline-link-macro-rx"></block></block>
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLAs e garantias estão disponíveis em uma base de nomeação.</block>
   <block id="f32c3edaacea72c0ddb30ecf0135c4de" category="section-title">Métricas</block>
   <block id="e67906640477f8681e506869bc6e612e" category="list-text">*Porcentagem de tempo de atividade mensal*: [(número de segundos qualificados em um mês - média de segundos de tempo de inatividade para todos os storage arrays AFF implantados para entregar a ordem do Keystone nesse mês) / número de segundos qualificados em um mês] x 100%</block>
@@ -530,7 +389,6 @@
   <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">A latência adicionada pelo AQoS para manter IOPS mínimo por volume é excluída da amostra.</block>
   <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">Para volumes com o FabricPool habilitado, a latência incorrida devido à transferência de dados de e para o storage de destino (frio) não é contada.</block>
   <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">A latência causada pelo aplicativo, host ou rede do cliente fora do cluster ONTAP não é contada.</block>
-  <block id="57d56dc842f4da79392d5bc2178582dc" category="list-text">Ao usar o serviço complementar avançado de proteção de dados, a latência de destino inclui apenas operações de e/S de e para o storage array local.</block>
   <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">Durante um período de 24 horas, pelo menos dez métricas válidas devem estar disponíveis. Caso contrário, as métricas serão descartadas.</block>
   <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">Se um ou mais volumes em um storage array não tiverem uma política AQoS válida aplicada, o número de IOPS disponíveis para outros volumes poderá ser afetado e o NetApp não será responsável por segmentar ou atender aos níveis de desempenho nesse storage array.</block>
   <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">Nas configurações do FabricPool, os níveis de performance são aplicáveis quando todos os blocos de dados solicitados estiverem em um storage de origem FabricPool (hot) e o storage de origem não estiver em uma relação síncrona do SnapMirror.</block>
@@ -578,19 +436,15 @@
   <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">Capacidade lógica</block>
-  <block id="dfafb0db4cb7ff50434d65c4ee640f1a" category="paragraph">Esses são os dados colocados na infraestrutura do Keystone por um cliente. Todas as capacidades do Keystone referem-se a capacidade lógica. Por exemplo, se um arquivo TIB de 1 TB for armazenado na infraestrutura do Keystone, será necessário adquirir um mínimo de 1 TIB de capacidade.</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">Capacidade comprometida</block>
   <block id="6695ab4bfa1eb6d5122189f790f27577" category="paragraph">A capacidade lógica mínima cobrada mensalmente durante a assinatura:</block>
   <block id="5e4631059cd88370a28a74ba7f45c7b3" category="list-text">A capacidade está comprometida em cada nível de serviço.</block>
-  <block id="c6eb79bc54b68ec5e0cc19ef77aaf577" category="list-text">Capacidade comprometida e níveis de serviço adicionais podem ser adicionados durante o período.</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">Mudanças na capacidade comprometida</block>
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">Durante o período de vigência de uma assinatura, você pode alterar as capacidades comprometidas. No entanto, existem certas condições prévias:</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">A capacidade comprometida pode ser reduzida com base em certas condições. Para obter informações, <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">A capacidade comprometida não pode ser aumentada 90 dias antes do término da assinatura, a menos que a assinatura seja renovada por um período adicional de 12 meses.</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Capacidade consumida</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">Capacidade de pico sazonal</block>
-  <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">Capacidade de pico sazonal é acordada no contrato do Keystone. Normalmente, está configurado até 20% acima da capacidade comprometida e é cobrado à mesma taxa que a capacidade comprometida.</block>
-  <block id="422cb43011b8f4dd25975e284b167728" category="list-text">A capacidade de explosão pode ser consumida de forma elástica e é carregada diariamente pela média consumida.</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">Capacidade faturada</block>
   <block id="0b2c78b413a92fa3d683991180e6b149" category="paragraph">Cobrança mensal (capacidade comprometida [TIB] * taxa comprometida [ USD/TIB]) (capacidade de sobrecarga provisionada média diária [TIB] * taxa de explosão [ USD/TIB]). A fatura mensal contém um custo mínimo com base na capacidade comprometida.</block>
   <block id="2eb54516538e34e5753ac19de355cf86" category="paragraph">A fatura mensal varia além da cobrança mínima com base no consumo médio diário de capacidade de pico sazonal.</block>
@@ -599,34 +453,16 @@
   <block id="83051df9527e67fafbf41db513cd8e94" category="paragraph">O Keystone STaaS fornece serviços padrão e opcionais para o seu storage.</block>
   <block id="f711abd7b1376e4ea173ce403853e332" category="paragraph">*Serviços padrão Keystone STaaS*: Os serviços padrão estão incluídos na assinatura básica e não são cobrados separadamente.</block>
   <block id="f768fe86ef4edbeda93c2b9eb617765e" category="paragraph">*Serviços complementares do Keystone STaaS*: São serviços opcionais e cobráveis que fornecem utilitários e benefícios adicionais além dos serviços de assinatura padrão do Keystone STaaS.</block>
-  <block id="c8c350f712b7e8a483647c016478eb87" category="section-title">Serviços para storage de arquivos, blocos e objetos</block>
-  <block id="6b71507d392708444982d424df1963c2" category="paragraph">Os serviços Keystone STaaS para storage de arquivos e blocos do ONTAP e storage de objetos StorageGRID, oferecem suporte a vários recursos e protocolos, além de serem descritos na tabela a seguir:</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="cell">Armazenamento</block>
   <block id="419f3742e6de8e0ec4b22cce005e7630" category="cell">Plataforma</block>
   <block id="9985b4390c40137573e6da05caf85874" category="cell">Protocolos</block>
   <block id="f6d7a1a39c7e76b0a2ad7044af130caf" category="cell">Recursos suportados</block>
-  <block id="4bf6c8c02a43c4ae5ff566acdd8213b8" category="paragraph">Armazenamento de ficheiros</block>
   <block id="253b40ae359ba25b56231803430c4873" category="paragraph">ONTAP</block>
   <block id="bcb30b4b4c5f93b9e66badd1fc91f6dc" category="paragraph">NFS e CIFS</block>
-  <block id="6a2ad0d44539352fd04c903f84fa3a89" category="paragraph">Recursos suportados do ONTAP:</block>
-  <block id="84b9523e45d813a33b6812a09967996f" category="list-text">FlexVol</block>
-  <block id="54452390cac5f65f3bcec580ba079531" category="list-text">FlexGroup</block>
-  <block id="92d0a1aef2134a70d5c0f0279dc22ec6" category="list-text">Cópias Snapshot</block>
-  <block id="57a6112c79ff86026f727cd1499c0cec" category="list-text">SnapMirror (assíncrono)</block>
-  <block id="5bc075cee240a70af54270621d93765c" category="list-text">SnapVault</block>
-  <block id="8fe0c9f8f23d1eb8317ecbfc3412e145" category="list-text">SnapLock Enterprise</block>
-  <block id="8dc15fd420da8bda739ceb80f1f8cc73" category="list-text">FabricPool/Cloud Tiering</block>
-  <block id="82ef718f4ebe0c276814ee3d51e33361" category="list-text">SnapRestore</block>
   <block id="a701f5d044348085ee4f97fef6636845" category="list-text">FlexClone</block>
-  <block id="7d2113229d846a15533e691c746ce4c8" category="list-text">SnapCenter (a licença está incluída, mas não faz parte dos serviços do Keystone, e o gerenciamento não é garantido)</block>
-  <block id="1b5106e844354f799e5aa0cfdd0ead2d" category="list-text">1</block>
-  <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="paragraph">Storage de bloco</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="paragraph">FC e iSCSI</block>
   <block id="392d70ca39f31f10bd637936769788df" category="paragraph">StorageGRID</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="paragraph">S3</block>
-  <block id="ec45d0e150ff641adb7da6f8f3be1d72" category="paragraph">Suporta várias políticas de gerenciamento de ciclo de vida de informações (ILM) em vários sites 2</block>
-  <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">Proteção autônoma contra ransomware</block>
-  <block id="6b51f04b870573bccac2a4d06532aa13" category="admonition">1 para obter informações sobre a proteção contra ransomware no ONTAP,<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> consulte . 2 cada site requer uma assinatura separada.</block>
   <block id="141b2b4361a2b3c206d10e1c27378c2e" category="section-title">Serviços para armazenamento em nuvem</block>
   <block id="d96e0cf44b3111cb9ae984add2b97c74" category="paragraph">O Keystone STaaS fornece serviços de storage de nuvem. O Keystone STaaS oferece suporte aos recursos de gerenciamento de dados do Cloud Volumes ONTAP no Amazon Web Services (AWS), no Microsoft Azure e no Google Cloud Platform.</block>
   <block id="2a947eac17f71a99037966f44ce8252d" category="admonition">Os serviços de computação, storage e rede baseados em Hyperscalar exigidos pelo Cloud Volumes ONTAP não são fornecidos pelo NetApp como parte das assinaturas do Keystone STaaS. Essas assinaturas precisam ser obtidas diretamente de fornecedores de serviços de nuvem em hyperscalar.</block>
@@ -664,16 +500,13 @@
   <block id="216db5e98775635c45af8fd76d3f120f" category="paragraph"><block ref="216db5e98775635c45af8fd76d3f120f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="63eb3f8b8783ba2307d650252c320fc0" category="list-text">Certifique-se de que o Keystone Collector está em um estado saudável retornando à tela principal da TUI e verificando as informações *Status do serviço*. O sistema deve mostrar que os serviços estão em um status *geral: Saudável*. Aguarde até 10 minutos, se o status geral permanecer sem integridade após esse período, revise as etapas de configuração anteriores e entre em Contato com a equipe de suporte da NetApp.</block>
   <block id="095b2736fda36d0222656cf6f4c5be55" category="inline-image-macro">Estado do serviço</block>
-  <block id="fdc583538b94d7a1b00a631fea6a48d1" category="paragraph"><block ref="fdc583538b94d7a1b00a631fea6a48d1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="355f50922b8f701f647de7da778ad2c7" category="list-text">Saia da TUI de gerenciamento do Keystone Collector selecionando a opção *Sair para Shell* na tela inicial.</block>
   <block id="73851b479605eb5d7961a4f17abc4861" category="list-text">Recuperar a chave pública gerada:</block>
   <block id="1fb69ffa43c5d2393747fb8591908923" category="paragraph"><block ref="0aa1845efe7a628c5cf5087616257084" prefix="" category="inline-code"></block></block>
-  <block id="e3f489c24017dacebdfc4336a7c526f6" category="list-text">Envie um e-mail com este arquivo para keystone.services@NetApp.com.</block>
   <block id="b9a6d96820187805409aa2a1c60142ae" category="section-title">Exportar relatório de utilização</block>
   <block id="7213bdfaef9f90b96334939108353cdc" category="paragraph">Você deve enviar o relatório de resumo de uso mensal para o NetApp no final de cada mês. Você pode gerar este relatório manualmente.</block>
   <block id="9229403d63b77e4aef85fd68e230e0ad" category="paragraph">Siga estas etapas para gerar o relatório de uso:</block>
   <block id="d28319812905a38f64e9f59d61f93d22" category="list-text">Vá para *uso de exportação* na tela inicial do Keystone Collector TUI.</block>
-  <block id="712c8cee897bc7d934e369862f1de46f" category="list-text">Recolha os ficheiros e envie-os para keystone.services@NetApp.com.</block>
   <block id="06c85910e7b6c5d744082a8b771fd05e" category="paragraph">O Keystone Collector gera um arquivo claro e um arquivo criptografado, que deve ser enviado manualmente para o NetApp. O relatório Limpar arquivo contém os seguintes detalhes que podem ser validados pelo cliente.</block>
   <block id="75d8461b47629d5f6688144d087a37f1" category="inline-image-macro">Limpar relatório de ficheiro</block>
   <block id="37cc95117623c08b2d6c6fec6aa2e8a1" category="paragraph"><block ref="37cc95117623c08b2d6c6fec6aa2e8a1" category="inline-image-macro-rx" type="image"></block></block>
@@ -1232,9 +1065,6 @@
   <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM: 2 GB DE RAM</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">Gerar relatórios</block>
   <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">Os detalhes são gerados em formato CSV que você pode salvar para uso futuro e comparação.</block>
-  <block id="7ed21143076d0cca420653d4345baa2f" category="inline-image-macro">alerta</block>
-  <block id="382fd8723ebdcd2f39cbf2ac2a288ee4" category="paragraph"><block ref="382fd8723ebdcd2f39cbf2ac2a288ee4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">Para obter informações sobre as políticas AQoS, <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="89c9ef7132e6fac6325de01d876fc5aa" category="list-text">Selecione o número da assinatura para o qual você deseja exibir os clusters.</block>
   <block id="2c2277efed09502321b33f1286580b04" category="inline-image-macro">Separador ativos</block>
   <block id="82b1ab776febbe15c1e9dd82cf8b7ed3" category="doc">Veja as tendências de consumo</block>
@@ -1259,21 +1089,6 @@
   <block id="d7b378f896f44381b7e64ff2e954c2d4" category="paragraph">A explosão é a diferença entre a capacidade consumida e a capacidade comprometida. Por exemplo, com 30 dias no mês, se a capacidade consumida atingir 120 TIB e a capacidade comprometida for de 100 TIB por um intervalo de 2 minutos, isso resulta em uma capacidade de explosão de 20 TIB, o que equivale a um uso acumulado de 0,000925926 TIB para esse intervalo.</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">Ver sequência acumulada faturada</block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">Esta funcionalidade está disponível no modo apenas pré-visualização. Contacte o seu KSM para saber mais sobre esta funcionalidade.</block>
-  <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">Proteção de dados avançada</block>
-  <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">Para obter informações sobre o serviço complementar avançado de proteção de dados, <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="75e0534d6922c86860faff1d9500a18b" category="admonition">A dica de ferramenta ao lado do ID de rastreamento da sua assinatura na guia *consumo atual* ajuda você a identificar a assinatura do parceiro na configuração do MetroCluster.</block>
-  <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">O que você pode ver para a assinatura principal</block>
-  <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">mcc primário</block>
-  <block id="411b4b5589103e858fe02027bfde997a" category="paragraph"><block ref="411b4b5589103e858fe02027bfde997a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4bb0adac0644b7c8396196d410d47909" category="inline-image-macro">base primária de mcc</block>
-  <block id="769532fe8a4c67a337e04a1f1be3251f" category="paragraph"><block ref="769532fe8a4c67a337e04a1f1be3251f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cd9124dc0715967bbbd4e31ad8a6f35d" category="paragraph-title">O que você pode ver para a assinatura secundária (site espelho)</block>
-  <block id="ff58d4e2d2a69e5e91f9509907ba3bd1" category="inline-image-macro">espelho mcc</block>
-  <block id="190a77bbd4a70cc413c9d5e6b34bf1cc" category="paragraph"><block ref="190a77bbd4a70cc413c9d5e6b34bf1cc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ab682f0abbe8b97aaec76b435ca52575" category="inline-image-macro">base do espelho mcc</block>
-  <block id="583eae6921fe4460222bc113f31b5308" category="paragraph"><block ref="583eae6921fe4460222bc113f31b5308" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="48d59ef93e565c1c62d4604f7ddf6561" category="inline-link">Compreender a proteção de dados e a recuperação de desastres da MetroCluster</block>
-  <block id="11faa60292999fe44e704021ce9a5657" category="paragraph">Para obter informações sobre como o MetroCluster protege seus dados,<block ref="f22c59fda71318ed939c4a5a7c90b447" category="inline-link-rx"></block> consulte .</block>
   <block id="7a6bf42e443853b65d1851b22d80d1b8" category="summary">Para entender o uso da assinatura, você pode visualizar a capacidade comprometida, a capacidade consumida, a capacidade disponível e muito mais.</block>
   <block id="113a7f7a3800ecc0ca2650ec55f2fc4d" category="inline-image-macro">Separador consumo de corrente</block>
   <block id="2f92de04a3d2869fe0cf56db40e54a0a" category="paragraph">Juntamente com o consumo atual, você pode querer ver os dados de uso do histórico para comparação. Clique no botão *Exibir dados históricos* para navegar até a guia *tendência de consumo* para exibir os dados históricos da mesma assinatura.</block>
@@ -1286,8 +1101,6 @@
   <block id="13d14e18f44239917913d637c7256363" category="paragraph-title">Painel de instrumentos alternativo (novo)</block>
   <block id="1a088874dce4d7e7d6594dc2f1a4f5dc" category="paragraph">Você pode ver a quebra do uso de capacidade de acordo com suas assinaturas, e avisos e alertas que exigem atenção ou ação imediata. As informações são exibidas seletivamente, dependendo de suas assinaturas e do status de seu uso. Você pode visualizar essas informações:</block>
   <block id="bdca3ca2afa1706094d192b0cd927373" category="list-text">*Alertas*: Você vê alertas para vários cenários se eles forem aplicáveis a você.</block>
-  <block id="9194b7f85d509cccf4786fa0a36abb7e" category="list-text">*Expirando em breve*: Caso suas assinaturas expirem dentro de 90 dias.</block>
-  <block id="d1460394a13760c5650d62f6d4fd88e4" category="list-text">*Avisos QoS*: Você tem volumes sem políticas AQoS atribuídas.</block>
   <block id="212358b46f9bebbd9fb05f0b1ec74010" category="admonition">Clique no link *assinaturas* para exibir a lista de assinaturas filtradas na guia *assinaturas*.</block>
   <block id="07dd553ab0687b884de52961e62afa71" category="inline-image-macro">novo painel de instrumentos</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Painel e geração de relatórios do Keystone Subscription</block>
@@ -1321,7 +1134,6 @@
   <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a7a03de7b430dd390a52a4acaf198ea0" category="summary">Para saber mais sobre suas assinaturas do Keystone, você pode exibir uma lista de todas as assinaturas na guia assinaturas.</block>
   <block id="48946b5a768605c40f4daddd2a8cd029" category="inline-image-macro">Uma imagem do separador Subscrições</block>
-  <block id="0f9ac035eb1ca017e76913bac1e0a516" category="paragraph"><block ref="0f9ac035eb1ca017e76913bac1e0a516" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8e43124ddee77b223f1e720973e147e7" category="list-text">*Número da assinatura*: O número da assinatura do Keystone atribuída pela NetApp.</block>
   <block id="f06c1648cc175308e5d0425681e31f63" category="list-text">*Tracking ID*: O ID de rastreamento atribuído no momento da ativação da assinatura. Este é um ID exclusivo para cada assinatura e site, usado para rastrear a assinatura.</block>
   <block id="58ddac2ef16530986372a556eb9e6b7a" category="list-text">*Data de início*: A data de início da assinatura.</block>
@@ -1340,13 +1152,9 @@
   <block id="10aeed360fbcc9bd5a33ce04370b8b61" category="section-title">Visualizar os detalhes do ONTAP volumes e do storage de objetos</block>
   <block id="6fa44ce4bca94d7becaf8d27d8fc4202" category="open-title">Resumo do volume</block>
   <block id="3aa28a24613316ab1ba9910b8ae72a64" category="list-text">Selecione o número da subscrição.</block>
-  <block id="95deeaeeffa8b4897a76ec75e6c301c9" category="paragraph">Para a subscrição do Keystone STaaS selecionada, você pode ver o número total de volumes, o status de conformidade de QoS, a contagem de volumes protegidos e a capacidade total de compromisso, consumo e disponível em todos esses volumes. Se você clicar no número de volumes não compatíveis ou protegidos, ele o levará para a guia *Detalhes do volume*, onde você pode exibir uma lista filtrada mostrando os volumes não compatíveis ou os volumes protegidos, com base em sua seleção.</block>
   <block id="8dff7dfae08e07f968c1f9832e3df172" category="inline-image-macro">Separador Resumo do volume</block>
-  <block id="07ade29ef359cb8a074eb4341737c291" category="paragraph"><block ref="07ade29ef359cb8a074eb4341737c291" category="inline-image-macro-rx" type="image"></block></block>
   <block id="df2851db59c826c171859259b2102458" category="open-title">Detalhes do volume</block>
-  <block id="af16b731bd6e35896b00c75d9acfb1d5" category="admonition">Para o serviço complementar de proteção de dados avançada, uma coluna adicional aparece para indicar se o volume é um volume primário ou espelhado na configuração do MetroCluster. Você pode copiar números de série de nós individuais clicando no botão *Copiar Séries de nós*.</block>
   <block id="6c419bfae17b57a1883f78150d7fbdce" category="inline-image-macro">Separador Detalhes volumes</block>
-  <block id="56e2246e0f7e12674e62ac0311a5600a" category="paragraph"><block ref="56e2246e0f7e12674e62ac0311a5600a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c8308b1eba7ba926a61b8fd802194386" category="open-title">Objetos</block>
   <block id="3b41a0b0d60e10655d8e46d1aa287167" category="admonition">No StorageGRID, essa guia exibe o uso físico dos nós para storage de objetos.</block>
   <block id="8f0fe81a9b7f4cb142f2a7084f33fd88" category="inline-image-macro">Separador objetos</block>
@@ -1581,18 +1389,15 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">O que é o NetApp Keystone?</block>
   <block id="bf871fbeda66c457eaf1656d09ea34de" category="sidebar">Serviços compatíveis no Keystone</block>
-  <block id="edfc4c86589e31546a8fb2d8b085b8c9" category="sidebar">Qualidade do serviço (QoS)</block>
   <block id="272552b591277a155ab212d038a32279" category="sidebar">Quais são as unidades de medida?</block>
   <block id="202e5e87c64fed77827697acb780124e" category="sidebar">O que é o armazenamento base suportado?</block>
   <block id="15b8bdededfed453d4aa35a4585d9e2c" category="sidebar">Posso realocar meus gastos do local para a nuvem?</block>
   <block id="e95f37597101815c1d465e37eb31cab2" category="sidebar">Preços e cobrança do Keystone</block>
-  <block id="60c2efc3e4aa54d923286d4b7554d471" category="sidebar">Saiba mais sobre os preços do Keystone</block>
   <block id="7fb6ecbfc2c7172d977f1ac481edef36" category="sidebar">As minhas agendas de faturação</block>
   <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">O que acontece se eu tiver consumido mais do que a minha capacidade comprometida?</block>
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">O que posso fazer com meus dados inativos ou menos usados?</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Como posso proteger meus dados do Keystone?</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">Apoio ao Cidadão DOS EUA</block>
-  <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">Saiba mais</block>
   <block id="dab2edf9eaac3950e92c281ce358af01" category="sidebar">Consultor digital da Active IQ</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">BlueXP</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
@@ -1613,7 +1418,6 @@
   <block id="7b373ff6530e34788cfaf1ee2a5d46b5" category="sidebar">Monitore a integridade do Keystone Collector</block>
   <block id="2951c1f61944250838607486af8b4ac0" category="sidebar">Atualize o Keystone Collector</block>
   <block id="a84d47a9c10091a234dee7fdfbd4ae68" category="sidebar">Métricas e definições</block>
-  <block id="be373fb58d77d15be6b1ad3433c36936" category="sidebar">Qualidade do serviço de storage</block>
   <block id="bff50f1947dbec1e11bc66d60ca0b1d9" category="sidebar">Armazenamento suportado</block>
   <block id="7618f9f854f7d4bc7c7026ffaab24dae" category="sidebar">Capacidade suportada</block>
   <block id="087e52621b1299752b891e4115749950" category="sidebar">Serviços de subscrição Keystone versão 1</block>
@@ -1630,13 +1434,6 @@
   <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">Detalhes do volume indisponíveis para subscrições primárias e vinculadas</block>
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">A guia *Resumo de volume* mostra zero para o número total de volumes, status de conformidade de QoS, contagem de volumes protegidos e capacidade total consumida para assinaturas secundárias primárias e vinculadas.</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">A subguia *Resumo de volume* na guia *volumes e objetos* não é carregada para assinaturas do StorageGRID.</block>
-  <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">Tamanho mínimo recomendado do volume: 100GiB, 0,1TiB</block>
-  <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">Tamanho máximo recomendado do volume: 10TiB</block>
-  <block id="15338332b8fcdeeb5cf2e61fbed1f587" category="list-text">Tamanho mínimo recomendado do volume: 500GiB, 0,5TiB</block>
-  <block id="b153328fc34aa79250fe1cd04b633016" category="list-text">Tamanho máximo recomendado do volume: 50TiB</block>
-  <block id="1fd6dacdb284abe9cc20a2bbb9c6a535" category="list-text">Tamanho máximo recomendado do volume: 80TiB</block>
-  <block id="cf94268a733259e784ff458e2880c445" category="list-text">Tamanho mínimo recomendado do volume: 1TiB</block>
-  <block id="b28606b9957df145a655531d978d4f7a" category="list-text">Tamanho máximo recomendado do volume: 100TiB</block>
   <block id="13c09ed2290110fb23f7ef738098a6ce" category="section-title">Gerar relatório consolidado</block>
   <block id="d9c75c79440b3db3ac3e86ae04bc9f19" category="inline-image-macro">Criar relatório</block>
   <block id="ad127b553d070e603bcca75c99aa0aa4" category="paragraph"><block ref="ad127b553d070e603bcca75c99aa0aa4" category="inline-image-macro-rx" type="image"></block></block>
@@ -1651,7 +1448,6 @@
   <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">Se você mudar de faturamento trimestral para mensal, a fatura trimestral ainda cobrirá o período de 90 dias, com duas faturas geradas no último mês do trimestre: Uma para o período de faturamento trimestral e outra para os dias restantes desse mês. Esta transição permite que o período de faturação mensal comece no dia 1 do mês seguinte. Por exemplo, se sua assinatura começar em 15 de outubro, você receberá duas faturas em janeiro, uma de 15 de outubro a 14 de janeiro e outra de 15 a 31 de janeiro, antes do início do período de faturamento mensal em 1 de fevereiro.</block>
   <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">utilização de expansões sazonais acumuladas trimestralmente</block>
   <block id="8215e5a0d8116559b577a00ac7f9d7a4" category="paragraph"><block ref="8215e5a0d8116559b577a00ac7f9d7a4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bd743c791b4d6ca2e7a1d3c5f2d40a95" category="section-title">Gráficos de referência para proteção de dados avançada para MetroCluster</block>
   <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
   <block id="24685db79ee3df152404bc24333590fd" category="paragraph">21 de novembro de 2024</block>
   <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">Explosão acumulada faturada melhorada</block>
@@ -1825,7 +1621,6 @@
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Separador ativos melhorados</block>
   <block id="d7dc6f5447fca23324df2672bac7c802" category="section-title">Nova opção Ocultar/Mostrar colunas</block>
   <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Faça mais com os serviços do Keystone</block>
-  <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">Conheça sua equipe de suporte</block>
   <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">Monitore, solucione problemas e melhore o storage</block>
   <block id="7fe1234c016df317c9bb2796b94c80c3" category="list-text">Customer fornece um servidor Linux em execução em um dos seguintes sistemas operacionais: Debian 12, Red Hat Enterprise Linux 8,6 ou versões 8.x posteriores, ou CentOS 7 (apenas para ambientes existentes). O software Keystone é instalado usando o<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> pacote ou<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block>, dependendo da distribuição Linux.</block>
   <block id="af1726e663445fca1780939dd8437580" category="list-text">Sistema operacional: Debian 12, ou Red Hat Enterprise Linux (RHEL) 8,6, ou versões posteriores dentro da série RHEL 8.x.</block>
@@ -1891,11 +1686,6 @@
   <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">Uma incompatibilidade nos dados de consumo das assinaturas do AutoSupport leva à geração de faturas incorretas, causando imprecisões de faturamento.</block>
   <block id="433d1a34b63c347d592c720846bb3834" category="paragraph">O Keystone Collector não coleta dados de uso para clusters do ONTAP com versões inferiores a 9,11.</block>
   <block id="ddb5adb9194c71f7e22975533efa8326" category="paragraph">30 de abril de 2025</block>
-  <block id="95ff7c62926d2ecbfa68d2cb55e84679" category="paragraph">A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. É a soma de:</block>
-  <block id="bc1fb831529945409538850faa16026e" category="list-text">A capacidade lógica usada para armazenar todas as instâncias e tipos de dados de usuário (como cópias, cópias espelhadas e versões).</block>
-  <block id="b2a0ad297e26236d750246160723aa4e" category="list-text">A capacidade lógica utilizada para armazenar volumes de clones que são mais de 10% do tamanho do volume original.</block>
-  <block id="93fcc6bc4dfbcffb60fef19d3e82a054" category="list-text">Capacidade física usada para armazenar dados diferenciais de cópias Snapshot.</block>
-  <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">A capacidade física alocada.</block>
   <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">O Keystone Collector para StorageGRID não consegue configurar corretamente devido às configurações comuns ausentes.</block>
   <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">12 de maio de 2025</block>
   <block id="e52daa0a0f5a4268d3b3cd4835eb59fa" category="paragraph">Quando o Keystone Collector existente instalado usando um pacote Debian tenta configurar um Proxy HTTP ou ativar o Unified Manager através da TUI de gerenciamento do Keystone Collector, o TUI fica sem resposta.</block>
@@ -1908,12 +1698,9 @@
   <block id="c946fc133c6959483805e8ee848d8d3c" category="list-text">Mantenha-se atualizado com as informações mais recentes sobre seu ambiente de armazenamento.</block>
   <block id="fae22dda3b161bc9a9e770f8b7e7a634" category="paragraph">Para obter informações sobre como exibir o consumo em uma configuração do MetroCluster, <block ref="0e74b0f4cd2655beb5f463b480ef4016" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="9b83bd6bb9b0235168f39a4c45d8529f" category="paragraph">Capacidade comprometida é a capacidade comprometida com você durante a compra da assinatura. A capacidade comprometida e a capacidade de pico são medidas por nível de serviço de desempenho. A capacidade consumida é a capacidade que seus workloads realmente usam.</block>
-  <block id="f82d400f954e1fba0aed8949df21cf29" category="paragraph">Quando a capacidade consumida é maior que a capacidade comprometida para um nível de serviço de desempenho, o consumo de pico é registrado e cobrado adequadamente. Normalmente, está 20% acima da capacidade comprometida. O uso acima da capacidade de explosão é indicado como "acima do limite de explosão".</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Veja as tendências de consumo das suas assinaturas Keystone</block>
   <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">Este processo ocorre para cada Registro de consumo gerado. O consumo de expansões sazonais, portanto, é um reflexo da quantidade e da posse de suas capacidades sobreconsumidas, além de suas capacidades comprometidas. Para saber mais, <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="6095900a0be4c21e582c9ce633f3eb3f" category="doc">Requisitos de capacidade para níveis de serviço de desempenho</block>
-  <block id="2cc6c921ae4994e76d0319db0d3cd7a0" category="paragraph">A capacidade mínima e a capacidade incremental permitidas por assinatura são descritas na tabela a seguir. A capacidade mínima por nível de serviço de desempenho é definida para ser a mesma em todos os movimentos de vendas da Keystone. A capacidade acima da capacidade mínima no início da assinatura, ou como um serviço complementar da assinatura, ou após a realocação durante a assinatura também está estruturada na tabela.</block>
-  <block id="53db5d34b018b33bf2946b9361474113" category="list-text">Uma capacidade de pico sazonal está disponível em cada local, com base no contrato do Keystone. Normalmente, é 20% acima da capacidade comprometida para um nível de serviço de desempenho. Qualquer uso de expansões sazonais é cobrado apenas por esse período de cobrança. Se você tiver um requisito adicional de explosão maior do que a capacidade acordada, entre em Contato com o suporte.</block>
   <block id="4a786f23e386c92e1c49cf8b214e240b" category="list-text">É permitido aumentar a capacidade ou mudar para um nível de serviço de desempenho superior durante o período de assinatura. No entanto, não é permitido mudar de um nível de serviço de desempenho superior para um nível de serviço de desempenho inferior.</block>
   <block id="13af83dfc053ffff9447cbafc3b9ac06" category="paragraph">Você pode alocar uma parte de suas despesas para os níveis de serviço de desempenho de armazenamento de arquivos, blocos ou objetos assinados para serviços de armazenamento em nuvem híbrida. Até 25% do valor do contrato anual (ACV) pode ser realocado trimestralmente para Cloud Volumes ONTAP os serviços primários e secundários da Cloud Volumes ONTAP:</block>
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">A redução é de (125-108) = 17 TiB da capacidade alocada para o nível de serviço de desempenho Extremo. Na realocação de gastos, o storage de nuvem híbrida alocado não é de 17 TIB, mas uma capacidade equivalente que o $5000 pode comprar. Neste exemplo, por US$ 5.000, você pode obter 17 TiB de capacidade de armazenamento local para o nível de serviço de desempenho Extremo e 47 TiB de capacidade de nuvem híbrida para o nível de serviço de desempenho Cloud Volumes ONTAP. Portanto, a realocação é no que diz respeito ao gasto, não à capacidade.</block>
@@ -1931,18 +1718,8 @@
   <block id="3baadf2264f6a3ed3c5dfbc1e7a94348" category="paragraph">Para obter informações sobre os níveis de serviço de desempenho, consulte <block ref="d2021ebe74ad4577de5c973838fa2a38" category="inline-link-macro-rx"></block> .</block>
   <block id="d534e2cd061f06b6e0ad742d6dda7fee" category="list-text"><block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block></block>
   <block id="391d525ac5052ae01c2eb2bf929d6706" category="paragraph">Uma assinatura pode ter vários planos de tarifas, e cada plano corresponde a um nível de serviço de desempenho. Cada plano de tarifas tem uma capacidade comprometida por nível de serviço de desempenho.</block>
-  <block id="4182ab15a404865f9525355f8e07083c" category="paragraph">Cada nível de serviço de desempenho é definido por sua densidade de E/S, ou seja, IOPS/TiB/volume. Essa é a proporção de desempenho (IOPS/IOPS por segundo [IOPS]) e capacidade de storage usada (TIB), que é IOPS/TIB na latência média por volume.</block>
-  <block id="e454c9ca30d2e42e70a55ea28dbc890e" category="paragraph">Você seleciona os níveis de serviço de desempenho com base no seu ambiente de armazenamento e nas suas necessidades de armazenamento e consumo. Os níveis de serviço de desempenho básicos estão disponíveis por padrão. Níveis de serviço de desempenho específicos também estão disponíveis, caso você tenha optado por serviços complementares. Por exemplo, para o serviço complementar de proteção de dados avançada, o nível de serviço de desempenho _Advanced Data-Protect_ é atribuído à sua assinatura.</block>
   <block id="b1951e8ebdcabd07a41b38adc74988e3" category="admonition">Uma descrição detalhada do serviço para os níveis de serviço de desempenho do NetApp Keystone STaaS está disponível <block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block> .</block>
-  <block id="690df7be8fb02c6ecaadec8d6a3577e5" category="paragraph">Os níveis de serviço de desempenho básico para os tipos de armazenamento suportados, arquivo, bloco, objeto e serviços de nuvem são descritos nas seções a seguir:</block>
-  <block id="6125820a82257d1b0a8a45a5f4ccd8a4" category="section-title">Níveis de serviço de desempenho para armazenamento de arquivos e blocos</block>
-  <block id="eece4e000677bd546d15d7aa91d85788" category="cell">*Nível de serviço de desempenho*</block>
-  <block id="92af66f1bc0b3babca35921e4e8649c3" category="section-title">Mais sobre níveis de serviço de desempenho para armazenamento de arquivos e blocos</block>
   <block id="7c917a242507a352850575e21d7b1850" category="paragraph">As métricas de nível de serviço de desempenho básico dependem das seguintes condições:</block>
-  <block id="ed00a249a43b4ac9ed9aa1c61c9f1817" category="list-text">Os níveis de serviço de desempenho para armazenamento de arquivos e blocos são compatíveis com ONTAP 9.7 e posteriores.</block>
-  <block id="758490773ba9003ffc6eb07a4371b1bc" category="list-text">Os valores de IOPS/TiB/volume, MBps/TiB/volume e latência para níveis de serviço de desempenho são baseados na quantidade de dados armazenados no volume, no tamanho do bloco de 32 KB e em uma combinação aleatória de 70% de operações de E/S de leitura e 30% de gravação.</block>
-  <block id="5a48f4cc79173b3df0aa36e888c80afe" category="list-text">latência aplicada automaticamente pelo QoS para manter o IO dentro dos níveis máximos de serviço de desempenho</block>
-  <block id="f6aa89c07bdac473bce6627326627550" category="list-text">Se um ou mais volumes em um sistema de armazenamento não tiverem uma política de AQoS atribuída, esses volumes serão considerados volumes não compatíveis e nenhum nível de serviço de desempenho de destino será aplicável a esses sistemas.</block>
   <block id="acfc67d5d434abd61811abf81c0d1571" category="cell">*Nível de serviço de desempenho*</block>
   <block id="5f351af05581a0eadaf1177970b72a10" category="section-title">Níveis de serviço de desempenho</block>
   <block id="e1a2df339e5e1d4b2b6d447c58823500" category="list-text">*capacidade total comprometida*: A capacidade comprometida para o nível de serviço de desempenho do pedido Keystone.</block>
@@ -1978,8 +1755,6 @@
   <block id="3610c4351229db10744b51bac557a915" category="list-text">Selecione a aba *Ativos*.</block>
   <block id="0c854999a653f9d56014836883e5217d" category="list-text">Selecione *Volumes no cluster* no menu suspenso *Exibir*.</block>
   <block id="b93b903719b1580864ac4e8956c555c8" category="inline-image-macro">Uma captura de tela de volumes em clusters para uma assinatura</block>
-  <block id="0654b3dd588d55e33d9029198f8f2f63" category="paragraph"><block ref="0654b3dd588d55e33d9029198f8f2f63" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="40306668f7baae095ccfe6f816e8159e" category="paragraph">Você verá informações detalhadas sobre os volumes nos clusters, incluindo nome do volume, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você também pode monitorar a capacidade provisionada, a utilização lógica e física, e dados inativos.</block>
   <block id="081ceda2f79c0faf6fe05d511f52c3be" category="inline-image-macro">ícone do seletor de coluna</block>
   <block id="363a64ab1176a4ec2912bb476eaca7c4" category="admonition">Você pode personalizar a tabela usando o seletor de colunas <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> ícone e use a barra de pesquisa na parte superior para pesquisar e filtrar dados da tabela com base nos parâmetros da coluna.</block>
   <block id="c8dad022332943c24f5c1ee6ac971a4d" category="open-title">Nós em clusters</block>
@@ -2020,7 +1795,6 @@
   <block id="a6d14f938372e9370efce69c777dcc25" category="admonition">Você pode personalizar a tabela usando o seletor de colunas <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> ícone e use a barra de pesquisa na parte superior para pesquisar e filtrar dados do Keystone com base nos parâmetros da coluna.</block>
   <block id="724db714685a078e3188da156c5e09ff" category="list-text">Selecione a aba *Volumes em clusters*.</block>
   <block id="7eaaba921c5d6990f4eb7b440707d8bf" category="inline-image-macro">Uma captura de tela de volumes em clusters para várias assinaturas</block>
-  <block id="07782809ace50c9e4a830207b1bbea1f" category="paragraph"><block ref="07782809ace50c9e4a830207b1bbea1f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2c7173774c9df82165dfee33d6fceb13" category="paragraph">Você verá informações detalhadas sobre todos os volumes em clusters nas assinaturas do Keystone, incluindo nome do volume, número da assinatura, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você pode monitorar a capacidade provisionada, a utilização lógica e física e os dados inativos. Você também terá uma visão geral de:</block>
   <block id="c35efb62586ff05c5d6f57e4b0350323" category="list-text">O número total de assinaturas, clusters e volumes.</block>
   <block id="14ef4df445c232cff9b58a77d20a81f1" category="list-text">Status de conformidade e proteção do volume, com um botão *Exibir* para filtrar a tabela e exibir ativos com base em critérios como compatível, não compatível ou não protegido.</block>
@@ -2040,8 +1814,6 @@
   <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">Ver explosão acumulada</block>
   <block id="36622f05ec893025953fee00b23a1397" category="admonition">Você pode selecionar *Explosão acumulada* no menu suspenso *Exibir* se quiser visualizar os dados históricos de uso da explosão para os quais as faturas foram geradas. Você pode usar esses dados para analisar o uso faturado refletido na sua fatura. Para saber mais, <block ref="7f44df2b1aebfeb61dadb6bb658158eb" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="bc5861ecce15db0ff44c510f9fedbeaf" category="inline-image-macro">captura de tela exibindo o consumo histórico</block>
-  <block id="63e510765fb95a4a6443ac88cd9ad8ac" category="paragraph"><block ref="63e510765fb95a4a6443ac88cd9ad8ac" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="394e769a900171f8d4d656d38b1718c8" category="paragraph">O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como dados (capacidade de armazenamento utilizada pelos dados do usuário), snapshot (capacidade de armazenamento utilizada pelos dados do snapshot) e capacidade utilizada (capacidade total de armazenamento, incluindo dados e snapshots), além de capacidade comprometida e de pico. A data e a hora de cada ponto de dados são exibidas na parte inferior do gráfico. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode passar o cursor do mouse sobre o gráfico para visualizar o detalhamento do uso em cada ponto de coleta de dados.</block>
   <block id="f055d8eea192534e47e7050f174dbca0" category="paragraph">Você também pode visualizar um resumo do consumo atual juntamente com o consumo histórico para ter uma compreensão clara do seu uso.</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="open-title">Consultor digital</block>
   <block id="54ff77c73123d1c57aa12ca33c4e0d68" category="list-text">Clique em *Geral &gt; Assinaturas Keystone &gt; Tendência de consumo*.</block>
@@ -2061,27 +1833,14 @@
   <block id="5ebd05a1b0a3fae552005acfec4e3c45" category="paragraph"><block ref="5ebd05a1b0a3fae552005acfec4e3c45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d0baf3847f6e93ee353d71b13ee7d980" category="paragraph">No Digital Advisor, ao clicar na barra que exibe os dados faturados da opção *Explosão acumulada faturada*, você vê a seção Capacidade provisionada faturável abaixo do gráfico de barras, oferecendo opções de visualização em gráfico e tabela. A exibição de gráfico padrão exibe o uso diário de dados acumulados em um formato de gráfico de linha, mostrando alterações no uso ao longo do tempo.</block>
   <block id="c349aee97f052361891132091b4ab93a" category="paragraph">Você pode alternar para uma exibição de tabela clicando na opção *Tabela* no canto superior direito do gráfico. A exibição de tabela fornece métricas detalhadas de uso diário, incluindo nível de serviço de desempenho, registro de data e hora, capacidade comprometida, capacidade consumida e capacidade provisionada faturável. Você também pode gerar um relatório desses detalhes em formato CSV para uso futuro e comparação.</block>
-  <block id="6f7b7898d7600a4f58a896cb2693e0dc" category="paragraph">Se você assinou o serviço complementar de proteção avançada de dados, pode visualizar o detalhamento dos dados de consumo dos sites parceiros do MetroCluster na aba *Tendência de consumo* no Digital Advisor.</block>
-  <block id="6d2267f5875d98e045ec56c36925fe8c" category="paragraph">Se os clusters no seu ambiente de armazenamento ONTAP estiverem configurados em uma configuração MetroCluster, os dados de consumo da sua assinatura Keystone serão divididos no mesmo gráfico de dados históricos para exibir o consumo nos sites primário e espelho para os níveis de serviço de desempenho base.</block>
-  <block id="9fb2ff331e9a4f6de17ec429db9059a4" category="admonition">Os gráficos de barras de consumo são divididos apenas para os níveis de serviço de desempenho básicos. Para o serviço complementar de proteção de dados avançada, ou seja, o nível de serviço de desempenho _Advanced Data-Protect_, essa demarcação não aparece.</block>
-  <block id="2fae3d33272e10a8e0d8a4f54d7ccf59" category="paragraph-title">Nível de serviço de desempenho de proteção de dados avançado</block>
-  <block id="c95ef05952568a698dfcd18bf24d8d1c" category="paragraph">Para o nível de serviço de desempenho _Advanced Data-Protect_, o consumo total é dividido entre os sites parceiros, e o uso em cada site parceiro é refletido e cobrado em uma assinatura separada; uma assinatura para o site principal e outra para o site espelho. Essa é a razão pela qual, quando você seleciona o número de assinatura do site principal na guia *tendência de consumo*, os gráficos de consumo do serviço complementar avançado de proteção de dados exibem os detalhes de consumo discretos apenas do site principal. Como cada local de parceiro em uma configuração do MetroCluster atua como fonte e espelho, o consumo total em cada local inclui os volumes de origem e espelho criados nesse local.</block>
-  <block id="af2f02359b7fb9ee4bbd8da82f9a739e" category="paragraph-title">Níveis de serviço de desempenho base</block>
-  <block id="8d3774c17da465a501ec67ba1b699194" category="paragraph">Para os níveis de serviço de desempenho básico, cada volume é cobrado conforme provisionado nos sites primário e espelho e, portanto, o mesmo gráfico de barras é dividido de acordo com o consumo nos sites primário e espelho.</block>
-  <block id="baf0c1c466328c8c3a82b4aacf9b25fa" category="paragraph">A imagem a seguir exibe os gráficos para o nível de serviço de desempenho _Extreme_ (nível de serviço de desempenho base) e um número de assinatura principal. O mesmo gráfico de dados históricos também indica o consumo do local do espelho em um tom mais claro do mesmo código de cor usado para o local principal. A dica de ferramenta no Mouse hover exibe a quebra de consumo (em TIB) para os locais primários e espelhados, 22,24 TIB e 14,86 TIB respetivamente.</block>
-  <block id="ca144cd9fcb70d648de199582c73313f" category="paragraph">Para o nível de serviço de desempenho _Advanced Data-Protect_, os gráficos aparecem assim:</block>
-  <block id="6a226b04b05616bac9de389e952a5c37" category="paragraph">Ao verificar a assinatura secundária, você pode ver que o gráfico de barras para o nível de serviço de desempenho _Extreme_ (nível de serviço de desempenho base) no mesmo ponto de coleta de dados que o site parceiro é invertido, e a divisão do consumo nos sites primário e espelho é de 14,86 TiB e 22,24 TiB, respectivamente.</block>
-  <block id="eb558bf0915ebb2e189ec8a1ab2f0494" category="paragraph">Para o nível de serviço de desempenho _Advanced Data-Protect_, o gráfico aparece assim para o mesmo ponto de coleta do site do parceiro:</block>
   <block id="eccd215d2aef918d99c7ac04567a0cdc" category="doc">Veja o consumo atual de suas assinaturas Keystone</block>
   <block id="ef06226e0a70f0b27bda10913e0d2622" category="paragraph">Você pode obter insights sobre o uso da sua assinatura visualizando informações detalhadas, como capacidade comprometida, capacidade consumida e capacidade disponível, com o status de consumo atual exibido e segregado por níveis de serviço de desempenho.</block>
   <block id="a1b69ea5f6e5ee30c195bf008e9fa903" category="paragraph">Para visualizar o status atual de consumo de suas assinaturas pelo BlueXP ou Digital Advisor, siga estes passos:</block>
   <block id="d74dcd27166505385c38faabf0aa85e8" category="list-text">Selecione o número da assinatura na coluna *Número da assinatura* da tabela para visualizar o consumo atual.</block>
   <block id="53a763ce4287b06d38f889380a89f60e" category="inline-image-macro">detalhes do consumo atual no formato gráfico</block>
-  <block id="2a2c95b649190c3cc1f06120d092d6d4" category="paragraph"><block ref="2a2c95b649190c3cc1f06120d092d6d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f2f90873373e8bda06d2b4b7f736c646" category="paragraph">Para a assinatura selecionada, você pode visualizar os detalhes do consumo em formato de tabela ou gráfico usando a opção *Tabela* ou *Gráfico* no menu suspenso *Exibir como*. Na visualização gráfica, você pode ver o consumo atual por nível de serviço de desempenho, incluindo capacidade utilizada, capacidade provisionada, limite de capacidade comprometida e limite de capacidade de pico.</block>
   <block id="c4fcbd586e1246d8dc64a993418dc4e6" category="paragraph">Na visualização de tabela, você pode ver detalhes como a capacidade máxima consumida e os dias restantes até o vencimento. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o status do consumo, as capacidades comprometidas e utilizadas, as capacidades provisionadas e em pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunas. <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> ícone.</block>
   <block id="34a7549847d69b5f6a7bc80883249b7c" category="inline-image-macro">detalhes do consumo atual em formato de tabela</block>
-  <block id="e23891f2b176efe9895c82b9379985c7" category="paragraph"><block ref="e23891f2b176efe9895c82b9379985c7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="358fad495e1a2eb2366e40c04887ab64" category="list-text">No painel de navegação esquerdo do Digital Advisor, acesse *Geral &gt; Assinaturas Keystone &gt; Consumo atual*.</block>
   <block id="f4dd6979877f030ad7dafa413c0d90c7" category="list-text">Selecione ou pesquise o número de assinatura necessário na lista suspensa *Assinatura*.</block>
   <block id="331c11b73c128b4850cdd7086b4a560e" category="paragraph">Para a assinatura selecionada, você pode exibir detalhes, como as datas de início e término da assinatura e o período de faturamento, como mensal ou anual. Como parte do uso da assinatura, você pode visualizar o nome do nível de serviço de desempenho, as capacidades comprometidas, consumidas e disponíveis, além do uso atual e acumulado em picos (em TiB). Os níveis de serviço de desempenho específicos que registram maior consumo são destacados. Também pode ver avisos e alertas gerados para os seus volumes.</block>
@@ -2151,16 +1910,10 @@
   <block id="b765b9fa2b328a037f9230a9731313e1" category="paragraph">Você pode usar a aba *Visão Geral* para determinar rapidamente as cargas de trabalho em risco, visualizar a capacidade e o status de expiração das assinaturas, identificar os alertas não resolvidos e visualizar as assinaturas com maior utilização de capacidade. Você também pode visualizar o status das suas assinaturas em diferentes versões do Keystone, destacando quaisquer problemas que precisem da sua atenção.</block>
   <block id="69c256f24be6d7d65006f9cabf1af28b" category="paragraph">Para visualizar a aba *Visão geral*, no menu de navegação esquerdo do BlueXP, acesse *Armazenamento &gt; Keystone &gt; Visão geral*.</block>
   <block id="191a397fd7f3af011ab96788c6a64400" category="inline-image-macro">uma captura de tela da guia Visão geral</block>
-  <block id="3b7f81175fbc6ab193bc0f87dda1738f" category="paragraph"><block ref="3b7f81175fbc6ab193bc0f87dda1738f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7160cc45d78b33c1028e96d51d6d07b7" category="paragraph">A aba *Visão geral* oferece os seguintes insights:</block>
   <block id="eb8b05f2c3cb48609e4fe07ccdcb9e3e" category="list-text">*Resumo*: Exibe o número total de assinaturas, clusters ONTAP, nós StorageGRID e nós ONTAP. Cada categoria possui um botão *Exibir* para navegar facilmente até as seções detalhadas na aba *Assinaturas* ou *Ativos*.</block>
   <block id="92b787d913c7ad5afc095b2bdf953c66" category="list-text">*Solicitações abertas*: O número total de solicitações de serviço abertas.</block>
-  <block id="bcc8c270eef7e54a86830c2ee156fca3" category="list-text">*Status da capacidade da assinatura*: O status de consumo de capacidade para assinaturas acima do pico, usando pico e subutilizadas. Cada categoria inclui um botão *Visualizar* para navegar até a aba *Assinaturas* com os filtros relevantes aplicados.</block>
-  <block id="3eabadcab5f6903132182237a418411f" category="list-text">*Status de expiração da assinatura*: O número de assinaturas expiradas e aquelas prestes a expirar em 90 dias. Cada categoria inclui um botão *Visualizar* para navegar até a aba *Assinaturas* com os filtros relevantes aplicados.</block>
   <block id="010423df1000a45a1a63fdd5f480f566" category="inline-link">Serviços de assinatura Keystone | Documentação da versão 1</block>
-  <block id="420eaad038193becd7c858328e26f08e" category="list-text">*Versão do Keystone em todas as assinaturas*: Uma análise das suas assinaturas do Keystone por versão. As regras do plano de tarifas para níveis de serviço de desempenho podem variar entre as versões de assinatura. Você pode filtrar as assinaturas por versão usando o botão *Visualizar*, que o leva à aba *Assinaturas* com os filtros relevantes aplicados. Para saber mais sobre a versão v1, consulte <block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
-  <block id="33332190daf696e98fc7a1c86abcdbe4" category="inline-image-macro">Um gráfico de pizza das assinaturas do Keystone nas versões v1, v2 e v3.</block>
-  <block id="e3600a519e3243f8588365f4142bc1d4" category="paragraph"><block ref="e3600a519e3243f8588365f4142bc1d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a8ce21fd73a6b04f851be6e1d6d0da63" category="list-text">*As 5 principais assinaturas com maior utilização da capacidade*: Exibe uma tabela com as cinco principais assinaturas Keystone com a maior porcentagem de utilização da capacidade. Você pode clicar no número da assinatura na coluna *Assinatura* para obter informações detalhadas.</block>
   <block id="18524115bd307002c1e1529c109b8ffa" category="summary">Modifique sua assinatura do Keystone para alterar a capacidade comprometida para os níveis de serviço de desempenho associados por meio do BlueXP.</block>
   <block id="bc7859d006be0123d59cb9e40c9f05c2" category="doc">Modifique sua assinatura Keystone do BlueXP</block>
@@ -2173,7 +1926,6 @@
   <block id="7368a9d71827e42ec6d0e30872f2ade8" category="paragraph">A página *Modificar assinatura* exibe os detalhes dos níveis de serviço de desempenho assinados associados ao número de assinatura selecionado.</block>
   <block id="91122b642327c299496bd2cc715f61db" category="admonition">Opcionalmente, você pode acessar a página *Modificar assinatura* clicando em *Gerenciar assinatura* na seção de detalhes da assinatura e selecionando *Modificar*.</block>
   <block id="2bab978071b4f2c42a0cbd4063050bd6" category="inline-image-macro">uma captura de tela exibindo a opção de modificação da lista de assinaturas</block>
-  <block id="90754b6ff645e8d6097a5e645f8cf686" category="paragraph"><block ref="90754b6ff645e8d6097a5e645f8cf686" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2f945ecac337fb632279a3a5c8be5147" category="list-text">Clique em *Editar capacidade* para modificar a capacidade comprometida para os níveis de serviço de desempenho, forneça os detalhes necessários e clique em *Enviar*.</block>
   <block id="77d85bf27ff4e86e9c2c0d124a29092e" category="paragraph">Você vê a solicitação na seção *Modificações* na mesma página.</block>
   <block id="6174a39a3e1c2618d458d58ece61fe5f" category="list-text">Revise os detalhes da solicitação, clique no botão *Revisar*, forneça a confirmação necessária e envie a solicitação.</block>
@@ -2184,14 +1936,10 @@
   <block id="420037edfc562a3cab0d69942792c02f" category="section-title">Pesquisar e filtrar dados do BlueXP</block>
   <block id="e012018c98b92f9352da0f4425ac486d" category="paragraph">No BlueXP, você pode pesquisar e filtrar dados do Keystone com base nos parâmetros de coluna disponíveis na tabela dentro de uma aba. Por exemplo, na subaba *Assinaturas*, na aba *Assinaturas*, você pode filtrar os dados inserindo a versão do Keystone na caixa de pesquisa. Da mesma forma, na aba *Volumes em clusters*, na aba *Ativos*, você pode filtrar volumes inserindo o nome do volume na caixa de pesquisa.</block>
   <block id="3cee6bca91f027ee394211756dc833f4" category="inline-image-macro">opção de filtro avançado</block>
-  <block id="ad8fa1641ca66860ac0fef44a7b5d23f" category="paragraph">Você pode refinar suas pesquisas usando a opção de filtro avançado, quando disponível. Por exemplo, na subguia *Assinaturas*, você pode filtrar dados por versão do Keystone, período de cobrança, capacidade máxima e dias até o vencimento da assinatura. Já na aba *Volumes em clusters*, você pode filtrar por nome do volume, nome do cluster, conformidade com QoS, tipo de volume e muito mais. Vários filtros podem ser aplicados simultaneamente para refinar seus resultados com precisão. <block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e1e69bf873dd9761998d1a096d39951a" category="section-title">Gere relatórios do BlueXP ou do Digital Advisor</block>
   <block id="d0c322fc884a1966308c94c8f8ea7989" category="inline-image-macro">ícone de download de relatório 2 no BlueXP</block>
   <block id="c0966097b6e3bcb3af49a46a84c76250" category="section-title">Gerar relatório consolidado do Digital Advisor</block>
   <block id="c9b179ad408758a592f1e7e3637faa7f" category="paragraph">No Digital Advisor, você pode gerar e visualizar um relatório consolidado para suas assinaturas, uso histórico, uso intermitente, desempenho, ativos, volumes e objetos. Para fazer isso, selecione *Keystone Subscriptions* como o tipo de relatório no recurso Relatório no Digital Advisor. Você pode gerar esses relatórios no nível de cliente, cluster, lista de observação ou assinatura.</block>
-  <block id="9571c59df04a5f47520e5cdaf57bfb57" category="section-title">Ver alertas do Digital Advisor</block>
-  <block id="4bf52ff68178cad10e2f67cee55f6105" category="admonition">Se você tiver assinado um único nível de serviço de desempenho ou plano de tarifas, não poderá ver o alerta para volumes não compatíveis.</block>
-  <block id="7b6da7b249c3996384e4b6096fb42564" category="paragraph">Entre em contato com o suporte do NetApp Keystone para obter mais informações sobre essas mensagens. Para obter informações sobre como levantar solicitações de serviço, <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="20198235825fb8adf4086bd1ca3ba286" category="admonition">Esta aba está disponível opcionalmente no Digital Advisor. Contacte o suporte para visualizar este separador. Não está disponível no BlueXP.</block>
   <block id="71470a3714862a9c1c398e48dfec41a7" category="paragraph">Para visualizar esta aba no Digital Advisor, siga estas etapas:</block>
   <block id="d83ac6ac0c6b80d1d5c748c0365ce923" category="list-text">Clique em *Geral &gt; Assinaturas Keystone &gt; Desempenho*.</block>
@@ -2216,13 +1964,10 @@
   <block id="3ecb4d80c0a9bc2b7d4df8e0ab67a958" category="paragraph">A aba *Assinaturas* no BlueXP é dividida em duas seções: *Assinaturas* e *Níveis de serviço de desempenho*. Cada seção oferece insights específicos para ajudar você a gerenciar e monitorar suas assinaturas Keystone. Para visualizar informações detalhadas sobre suas assinaturas, siga estes passos:</block>
   <block id="1c497c059f638e9ed17590e5317d525b" category="list-text">No menu de navegação esquerdo do BlueXP, acesse *Armazenamento &gt; Keystone &gt; Assinaturas*.</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">ver os detalhes da aba de assinatura</block>
-  <block id="334fef5d11de1f6c02e8160f766e960d" category="paragraph"><block ref="334fef5d11de1f6c02e8160f766e960d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="65ce0939d8b46ca45d989ba0547de91e" category="paragraph">Você vê as principais métricas, como status da capacidade, status de expiração da assinatura e versão do Keystone em todas as assinaturas. Para saber mais, <block ref="993666c3d95ac6fd97ba90eab93b4de7" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">Você pode ver os seguintes detalhes na tabela:</block>
   <block id="777a92dd9a9405f5a8f4c89917427c35" category="list-text">*Número da assinatura*: O número da assinatura do Keystone atribuído pela NetApp.</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*Nome do cliente*: O nome do cliente associado à assinatura do Keystone.</block>
   <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*Assinaturas vinculadas*: Se você tiver alguma assinatura secundária vinculada à sua assinatura principal, esta coluna lista os números de assinatura vinculados à assinatura principal. Este número de assinatura pode ser da sua assinatura principal ou secundária (vinculada).</block>
-  <block id="42e817f3f8de7e2d0b00dce143f76387" category="list-text">*Versão do Keystone*: A versão do serviço Keystone que está sendo usada para a assinatura.</block>
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*Período de cobrança*: O período de cobrança da assinatura.</block>
   <block id="15d3201050b72761174ef874891c70c2" category="list-text">*Níveis de serviço de desempenho*: O número de planos de tarifas associados à assinatura, com cada plano de tarifas correspondendo a um nível de serviço de desempenho específico e capacidade comprometida.</block>
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*Capacidade máxima*: Capacidade máxima consumida dentro da assinatura.</block>
@@ -2233,13 +1978,11 @@
   <block id="7e928a58999c6ac9fe618e59ef69b760" category="paragraph"><block ref="7e928a58999c6ac9fe618e59ef69b760" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dadddb052717c3425b64a63b6753347b" category="list-text">*Níveis de serviço de desempenho em todas as assinaturas*: Exibe o número de níveis de serviço de desempenho em todas as assinaturas.</block>
   <block id="5b6c7c5dcaf056e81b8e2d308696999f" category="list-text">*Consistência de provisionamento entre assinaturas*: mostra as contagens de níveis de serviço de desempenho com provisionamento excessivo e insuficiente.</block>
-  <block id="d4428358a601815463d727507e16d164" category="paragraph">Você pode ver a lista de níveis de serviço de desempenho, incluindo detalhes importantes como nome do cliente, número da assinatura, tipo de nível de serviço de desempenho, número total de volumes e seu status de conformidade com a QoS. A tabela também exibe a contagem de volumes protegidos, o total de capacidade comprometida, consumida, provisionada e disponível (com e sem pico) e a capacidade de pico acumulada.</block>
   <block id="ed4d0852f1703e0820b9637850aeae85" category="paragraph">Para visualizar suas assinaturas no Digital Advisor, siga estas etapas:</block>
   <block id="01bbb3898ca00363b1b5c84f5c112a6e" category="list-text">No painel de navegação esquerdo do Digital Advisor, acesse *Geral &gt; Assinaturas Keystone &gt; Assinaturas*.</block>
   <block id="8623285496d906d1d5c230fd4132ac11" category="paragraph">Você pode visualizar todas as suas assinaturas aqui, com informações detalhadas sobre cada uma delas.</block>
   <block id="3fee1753dbbd332a559927be35ca6060" category="paragraph">Para determinados campos e colunas, você pode ver informações ou ícones de aviso e dicas de ferramentas que fornecem informações adicionais sobre os dados.</block>
   <block id="96293ec1c9ddbb930d39d0f569a22682" category="list-text">*Tracking ID*: O ID de rastreamento atribuído no momento da ativação da assinatura. Este é um ID exclusivo para cada assinatura e site.</block>
-  <block id="2a21d74f8e43863e1499bedc0b85ce35" category="admonition">Se você se inscreveu no serviço complementar avançado de proteção de dados, então você pode clicar na dica de ferramenta em relação ao seu número de assinatura para exibir o ID de rastreamento da assinatura do parceiro em uma configuração do MetroCluster. Para visualizar o consumo detalhado por assinaturas de parceiros em uma configuração do MetroCluster, consulte <block ref="0e74b0f4cd2655beb5f463b480ef4016" category="inline-link-macro-rx"></block> .</block>
   <block id="0ad0ea24438b91d60d9457bb9a6ad491" category="list-text">*Tipo de Uso*: Você pode ter assinado várias versões do Keystone. As regras do plano de tarifas para níveis de serviço de desempenho podem ser diferentes entre as versões de assinatura. Ao observar o valor nesta coluna, você sabe se o tipo de uso é cobrado de acordo com o uso provisionado, físico ou lógico. Para saber mais sobre a versão 1, consulte <block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
   <block id="8a3b6107c8628879030ac592d36c112f" category="list-text">*Período de cobrança*: O período de cobrança da assinatura.</block>
   <block id="55edd89d2feaee597a2b149b857d78ec" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block> : Clicar neste ícone abre a aba *Tendência de Consumo*, onde você pode ver os dados históricos de uso para cada nível de serviço de desempenho incluído nesta assinatura.</block>
@@ -2277,7 +2020,6 @@
   <block id="904d19fedb40bf9820beb309aafcf17b" category="inline-link-macro">Veja o painel do Keystone no Active IQ Digital Advisor</block>
   <block id="1749d12df3df2319d3eee218a277ff83" category="inline-link-macro">MetroCluster</block>
   <block id="b0e7be39762b5cd093fd721cb637ce50" category="paragraph">O serviço avançado de proteção de dados do Keystone pode espelhar dados em um local secundário de forma síncrona. Em caso de desastre no local principal, o local secundário pode assumir o controle, sem perda de dados. Este recurso aproveita o <block ref="e34027f10b07a4258180f071293183bf" category="inline-link-macro-rx"></block> configuração entre dois sites para habilitar a proteção de dados. Você pode aproveitar os serviços adicionais avançados de proteção de dados apenas para seus serviços de storage de arquivos e blocos. Como parte deste serviço complementar, o <block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> o nível de serviço de desempenho é atribuído à sua assinatura.</block>
-  <block id="0bca6dc9cc192191d0c17b2098857764" category="paragraph">As assinaturas do Keystone STaaS na versão 2 (v2) são cobradas mensalmente ou anualmente.</block>
   <block id="9c8f3bc01ebc0e505ffd72688670b036" category="paragraph">As assinaturas do Keystone STaaS na versão 3 (v3) são cobradas mensalmente, trimestralmente, semestralmente ou anualmente.</block>
   <block id="3635526a73c594ba1955c17ce445b905" category="section-title">Faturamento trimestral, semestral e anual</block>
   <block id="d71328738154b6b1b18068c31b885b0a" category="paragraph">Para faturamento trimestral, semestral e anual, o processo é semelhante, com pequenas variações no tempo:</block>
@@ -2291,12 +2033,9 @@
   <block id="7f47b8ee067aaac2bc090f2155ebbfb0" category="paragraph">Capacidade de pico refere-se à capacidade de armazenamento adicional que pode ser utilizada além da capacidade comprometida da sua assinatura. Ela é medida e cobrada por nível de serviço de desempenho. Por padrão, seu limite de pico é definido em 20% acima da capacidade comprometida. No entanto, com este serviço adicional, você pode aumentar o limite para 40% ou 60%.</block>
   <block id="aefad734c06988971c818d41e4af2b8c" category="paragraph">Para alterar seu limite de burst para 40% ou 60%, entre em contato com a equipe de suporte do NetApp Keystone.</block>
   <block id="1db1ab512ec07d15bf8d3f03a076139a" category="paragraph">Para saber mais sobre como a capacidade de pico é cobrada, consulte <block ref="da7adc48e3ef5d5cba8270d6542a88e9" category="inline-link-macro-rx"></block> .</block>
-  <block id="358aee06f2e0039d175ba9710fbe95a8" category="paragraph">Seu limite de explosão é determinado e especificado no contrato do Keystone. Está 20% acima da capacidade comprometida.</block>
-  <block id="66e1d0b849b16a3f5cfb822e35689ee4" category="paragraph">Para obter informações sobre diferentes capacidades com suporte no Keystone, <block ref="df1cc61cb77b9306852c524638f099be" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">Opções de aumento da capacidade de burst</block>
   <block id="b8ce331afde85a2f9ccc21b17b658035" category="paragraph">Seu limite de explosão é determinado e especificado no contrato do Keystone. Por padrão, ele é definido em 20% acima da capacidade comprometida. Você também tem a opção de escolher limites de capacidade de pico de 40% ou 60% da capacidade comprometida. Para saber mais, <block ref="c3f852e472538152b8572347bb4a142d" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="7d38503d78c628f634f345f9649cfdd1" category="paragraph">Quando a capacidade consumida é maior que a capacidade comprometida para um nível de serviço de desempenho, o consumo de pico é registrado e cobrado adequadamente. O uso acima da capacidade de explosão é indicado como "acima do limite de explosão".</block>
-  <block id="44b98adec970ac913f01eb0e1fd40b24" category="paragraph">Os requisitos de capacidade para os níveis de serviço de desempenho do Keystone STaaS na versão 2 (v2) diferem entre as ofertas de armazenamento de arquivo, bloco, objeto ou nuvem suportadas pela assinatura do Keystone STaaS.</block>
   <block id="b08904144697ce5104bed18cd93f91f8" category="paragraph">Saiba mais sobre ajustes de capacidade:</block>
   <block id="dc6244a840ba98e3e2b7311362cd8e71" category="list-text">A capacidade pode ser adicionada a qualquer momento durante o prazo, exceto nos últimos 90 dias do prazo do contrato, em incrementos por nível de serviço de desempenho, conforme descrito nas tabelas da seção anterior. A adição de capacidade ou serviços é permitida nos últimos 90 dias do prazo do contrato, desde que haja consentimento para renovação do serviço. Qualquer adição de capacidade, novo serviço no local ou na nuvem pode cooperar com o termo existente. A fatura enviada a você após a ativação dos novos serviços reflete a cobrança revisada. A capacidade comprometida dos serviços de nuvem não pode ser reduzida em nenhum momento durante o período da assinatura. Enquanto isso, a capacidade comprometida e o gasto comprometido nos serviços locais durante a vigência do contrato podem ser reduzidos com base em determinados critérios, conforme definido na seção a seguir _redução de capacidade_.</block>
   <block id="cf5d3b118116cd326c3440fa520fa16e" category="paragraph">Os requisitos de capacidade para os níveis de serviço de desempenho do Keystone STaaS na versão 3 (v3) diferem entre as ofertas de armazenamento unificado, otimizado por bloco, de objeto ou em nuvem suportadas pela assinatura do Keystone STaaS.</block>
@@ -2323,8 +2062,6 @@
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">fluxo de dados do coletor</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4daf62661f9278775d1e8692f4fb7df" category="paragraph">Você pode visualizar os detalhes da assinatura e do consumo das suas assinaturas Keystone por meio do BlueXP ou do Digital Advisor. Para saber mais sobre os relatórios Keystone, consulte <block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block> .</block>
-  <block id="661dc0732c9608cbd4ce15e65f4cc30c" category="summary">O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone na versão 2 do serviço.</block>
-  <block id="9164310e4ad49ce6677aa8c248a5f778" category="paragraph">O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone na versão 2 (v2).</block>
   <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone na versão 3 do serviço.</block>
   <block id="e87d3081221b4d38577a4dbe05435e86" category="paragraph">O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone na versão 3 (v3).</block>
   <block id="947a74aac556a4978330239679ebabf1" category="list-text">IOPS: Número de operações de entrada/saída processadas por segundo.</block>
@@ -2337,9 +2074,7 @@
   <block id="3bb74cf9f4497420cd995b7ac6103817" category="paragraph">*Bloquear serviços otimizados:*</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*: Para o ONTAP 9.16.1 com FCP, cada instância de nível de desempenho suporta acesso aleatório com uma taxa de leitura de 70% e gravação de 30%, um tamanho de bloco de 8 KB e uma latência de 1 ms.</block>
   <block id="743bda28c7e3ff71e63d96fad8b96946" category="list-text">*Rendimento de dados*: Para o ONTAP 9.16.1 com FCP, cada instância de nível de desempenho suporta acesso sequencial com 100% de leitura e um tamanho de bloco de 64 KB.</block>
-  <block id="f5a26eb62b8f73c2532513082c468410" category="paragraph">Entender o faturamento do Keystone para configurações específicas na versão 2 (v2) pode ajudar você a otimizar o uso do serviço e gerenciar custos. As configurações incluem volumes clonados, proteção avançada de dados, volumes temporários, políticas de QoS, destinos SnapMirror, LUNs e volumes de sistema/raiz.</block>
   <block id="4a71061ce212df640aef8be8d2595397" category="list-text">Não há período de carência de 24 horas para volumes clonados. Apenas o tamanho do clone é considerado.</block>
-  <block id="a084ea8dab52ad14d107b53a85840d44" category="paragraph">Entender o faturamento do Keystone para configurações específicas na versão 3 (v3) pode ajudar você a otimizar o uso do serviço e gerenciar custos. As configurações incluem volumes clonados, proteção avançada de dados, volumes temporários, destinos SnapMirror, LUNs e volumes de sistema/raiz.</block>
   <block id="311fa0b14c132cc09ffa0940763ed317" category="paragraph">O preço dos volumes de destino do SnapMirror, sejam eles usados para recuperação de desastres ou retenção de longo prazo, é baseado no nível de serviço de desempenho atribuído ao destino. Não há taxa extra para proteção de dados.</block>
   <block id="043a801e169414534666972af92048c7" category="paragraph">Para LUNs, a cobrança é baseada nos níveis de serviço de desempenho do volume.</block>
   <block id="6318e8b902dd302d5ad2e2ac912ca98c" category="list-text">*Modelo operado por parceiros*: Este modelo oferece duas opções:</block>
@@ -2361,21 +2096,10 @@
   <block id="e6e41564c0eb58e7df450956b2e9d7ef" category="section-title">Armazenamento como serviço Keystone (STaaS)</block>
   <block id="db1293ec8548c413e40861e5a81d1401" category="paragraph">As ofertas de storage como serviço (STaaS) visam fornecer um modelo semelhante à nuvem pública para a aquisição, implantação e gerenciamento da infraestrutura de storage. Enquanto muitas empresas ainda estão trabalhando em sua estratégia para a nuvem híbrida, o Keystone STaaS oferece a flexibilidade para começar com serviços locais e migrar para a nuvem quando for o momento certo. Isso garante que você possa proteger seus compromissos em diferentes modelos de implantação, realocando seus gastos conforme necessário sem aumentar sua fatura mensal.</block>
   <block id="b7d43ae1979d8e64c664de0e3d94f3c9" category="paragraph">O serviço de assinatura pré-pago do NetApp Keystone STaaS oferece consumo flexível e escalável com preços previsíveis e antecipados para suas necessidades de armazenamento.</block>
-  <block id="6ced49367d6dfdc16b1d1689fc65a840" category="paragraph">O Keystone para a versão 2 (v2) oferece os seguintes recursos de cobrança:</block>
-  <block id="ab44647f83eec4ac9adbf2b290b27f7c" category="list-text">Você pode selecionar um prazo flexível para os serviços e opções de pagamento, como mensal, trimestral ou anual.</block>
-  <block id="663765cf7ed64b49b04b9a7cfafdebc6" category="list-text"><block ref="663765cf7ed64b49b04b9a7cfafdebc6" category="inline-link-macro-rx"></block></block>
-  <block id="54c598f14c6c0403f8028707399a4c5b" category="list-text"><block ref="54c598f14c6c0403f8028707399a4c5b" category="inline-link-macro-rx"></block></block>
-  <block id="bd1895f2e3e5d6a16b163cda35e1aafd" category="list-text"><block ref="bd1895f2e3e5d6a16b163cda35e1aafd" category="inline-link-macro-rx"></block></block>
-  <block id="3471b3eda86fbafe4e153583bbecb7d4" category="list-text"><block ref="3471b3eda86fbafe4e153583bbecb7d4" category="inline-link-macro-rx"></block></block>
-  <block id="6bf37464b877a50aec1db56fbd46455e" category="list-text"><block ref="6bf37464b877a50aec1db56fbd46455e" category="inline-link-macro-rx"></block></block>
   <block id="c2a67d8aa2af51e64f020d7e0c6e8feb" category="paragraph">O Keystone para a versão 3 (v3) oferece os seguintes recursos de cobrança:</block>
   <block id="52773f9acaafea047b32251f660d25e2" category="list-text">Você pode pagar com base em IOPS e latência da capacidade comprometida para atender a várias necessidades de workload. Os diferentes níveis de serviço de desempenho — Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP — permitem que você gerencie seu armazenamento com base no nível de serviço adquirido.</block>
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">Você pode selecionar um preço de pacote para hardware, sistema operacional central e suporte por um preço por TIB. Você tem uma única fatura para cada tipo de armazenamento: unificado, em bloco, otimizado, de objeto ou serviços de armazenamento em nuvem.</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">Você pode selecionar um prazo flexível para os serviços e opções de pagamento, como mensal, trimestral, semestral ou anual.</block>
-  <block id="ed570a10e17470484fdd87252635bb14" category="paragraph">O Keystone STaaS para versão 2 (v2) oferece capacidade de armazenamento de dados em níveis de serviço de desempenho predefinidos. Cada volume gerenciado pelos serviços Keystone está associado a um nível de serviço de desempenho.</block>
-  <block id="b8dc0acbd0aa5bf36048a32457a20abf" category="list-text"><block ref="b8dc0acbd0aa5bf36048a32457a20abf" category="inline-link-macro-rx"></block></block>
-  <block id="5149d36dca38417f7f668187d473bc44" category="list-text"><block ref="5149d36dca38417f7f668187d473bc44" category="inline-link-macro-rx"></block></block>
-  <block id="a6ba1e3de6b8458df17848e0ec3e2a38" category="list-text"><block ref="a6ba1e3de6b8458df17848e0ec3e2a38" category="inline-link-macro-rx"></block></block>
   <block id="65f13786054dfad371efd46410aaee0a" category="summary">O Keystone STaaS para versão 3 oferece capacidade de armazenamento em níveis de serviço predefinidos. Cada volume gerenciado pelo Keystone está associado a um nível de serviço.</block>
   <block id="27a608ddf344e641c1f1c588dba9fbe6" category="paragraph">O Keystone STaaS para versão 3 (v3) oferece capacidade de armazenamento de dados em níveis de serviço de desempenho predefinidos. Cada volume gerenciado pelos serviços Keystone está associado a um nível de serviço de desempenho.</block>
   <block id="04d889d69e926414f8e3667e8632108a" category="paragraph">Um nível de serviço de desempenho pode ter várias instâncias, com cada instância representando um array de armazenamento separado atribuído a esse nível de serviço de desempenho no ambiente do cliente. Cada nível de serviço de desempenho é definido por operações de entrada/saída por segundo (IOPS), taxa de transferência (GBps) e latência (ms), sendo essas métricas medidas e aplicadas por instância de nível de serviço de desempenho.</block>
@@ -2435,10 +2159,7 @@
   <block id="7649a9c2aa81e74af3af6ce5c9dcb1f7" category="cell">*Critérios SLO*</block>
   <block id="05a7c939901eab929ebc44c3b2bea033" category="cell">&lt;= 8 W/TiB</block>
   <block id="a219a5819e6733ccfc6f4bfd2c2de9c4" category="cell">&lt;= 4 W/TiB</block>
-  <block id="1c8da55ed1bb51aa2c1e766474b9b2bc" category="summary">Saiba mais sobre os tipos de capacidades de armazenamento suportados pelo serviço NetApp Keystone STaaS para a versão 2.</block>
-  <block id="20a28a9162ad36d78952cc14119207f5" category="paragraph">O serviço NetApp Keystone STaaS para versão 2 (v2) oferece suporte a vários tipos de capacidades de armazenamento. Entender esses diferentes termos de capacidade pode ajudar à medida que você usa o Keystone.</block>
   <block id="7317b3beebf79ce6d9067b02a860be6b" category="list-text">Você pode solicitar alterações na capacidade comprometida por meio da interface do BlueXP ou do seu Keystone Success Manager (KSM). Para obter informações sobre como solicitar alterações, <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="3be3c0e5a4c3f89e825b202394d2aaab" category="paragraph">O serviço NetApp Keystone permite que você use capacidade adicional além da capacidade comprometida para um nível de serviço. Isso é chamado de uso de capacidade máxima.</block>
   <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">Observe estes pontos:</block>
   <block id="aa26b728d618a456dca6365c13707f90" category="summary">Saiba mais sobre os tipos de capacidades de armazenamento suportados pelo serviço NetApp Keystone STaaS para a versão 3.</block>
   <block id="0dd726f7147b5bc5b69c71264bd43f5b" category="paragraph">O serviço NetApp Keystone STaaS para versão 3 (v3) oferece suporte a vários tipos de capacidades de armazenamento. Entender esses diferentes termos de capacidade pode ajudar à medida que você usa o Keystone.</block>
@@ -2459,12 +2180,7 @@
   <block id="39e8174efdec154af4f9c69757cc5fee" category="list-text">Capacidade de pico sazonal é acordada no contrato do Keystone. Geralmente, ele é definido até 20% acima da capacidade comprometida, por instância de nível de serviço de desempenho, com opções adicionais disponíveis para selecionar limites de capacidade de pico de 40% ou 60% da capacidade comprometida.</block>
   <block id="ee07c6373035e91351baca56c1404db1" category="list-text">O consumo de capacidade de pico é faturado na mesma taxa que a capacidade comprometida correspondente ao nível de serviço de desempenho selecionado.</block>
   <block id="7cca77e7db25de35fd08005008af1f32" category="list-text">Os serviços STaaS da Keystone oferecem um período de isenção de 60 dias a partir da data de início.</block>
-  <block id="efe6536c314cb8ce293eb59340104e3f" category="paragraph">Os serviços Keystone STaaS para a versão 2 (v2) oferecem suporte ao armazenamento de arquivos e blocos com ONTAP, armazenamento de objetos com StorageGRID e Cloud Volumes ONTAP.</block>
-  <block id="bf8fba0cbc7cd551824bd5ac4a8b50af" category="paragraph">Os serviços Keystone STaaS podem ser usados simultaneamente. Por exemplo, uma assinatura de armazenamento em nuvem pode ter o mesmo prazo das assinaturas de armazenamento de arquivos, blocos e objetos. Um serviço de nuvem pode ser incluído a qualquer momento durante o período de serviço de uma subscrição de storage existente. No entanto, se você não planeja renovar uma assinatura de arquivo, bloco e objeto existente, não será possível adicionar uma assinatura de armazenamento em nuvem durante os últimos 90 dias da assinatura.</block>
-  <block id="7f483afe9a1e0bf2ea2167e6f8ffbff7" category="paragraph">Os serviços Keystone STaaS para a versão 3 (v3) oferecem suporte ao armazenamento unificado, otimizado por bloco e de objetos do NetApp e do Cloud Volumes ONTAP.</block>
-  <block id="1f9dee12be8ccfcf96c7b7821dd9f39e" category="paragraph">Cada tipo de armazenamento inclui:</block>
   <block id="2f5118ac9c7b726f2e3fb3f02a8d2bc3" category="list-text">*Armazenamento unificado*: Inclui armazenamento de arquivos, blocos e objetos S3, disponível nos sistemas NetApp ONTAP AFF e FAS.</block>
-  <block id="f65788ab27c29f4072a10c73914145e6" category="list-text">*Armazenamento otimizado em bloco*: Inclui armazenamento em bloco disponível em sistemas NetApp ONTAP ASA.</block>
   <block id="86164c66223c4b45cdcc32b7ef27af38" category="list-text">*Armazenamento de objetos*: Inclui armazenamento de objetos disponível em sistemas NetApp StorageGRID.</block>
   <block id="c828c0f1013974e213c30783b2330308" category="paragraph">Os serviços Keystone STaaS podem ser usados simultaneamente. Por exemplo, uma assinatura de armazenamento em nuvem pode ter o mesmo prazo que as assinaturas unificadas, otimizadas para blocos e de armazenamento de objetos. Um serviço de nuvem pode ser incluído a qualquer momento durante o período de serviço de uma subscrição de storage existente. No entanto, se você não planeja renovar uma assinatura unificada, otimizada para blocos ou de armazenamento de objetos existente, uma assinatura de armazenamento em nuvem não poderá ser adicionada durante os últimos 90 dias da assinatura.</block>
   <block id="e2481d555d88554b2cab041888938da0" category="section-title">Serviços para armazenamento unificado, otimizado por bloco e de objetos</block>
@@ -2484,28 +2200,21 @@
   <block id="a2e3b87e900cd80529151deefb209af2" category="paragraph">Para o Red Hat Enterprise Linux 9, execute o seguinte comando para instalar o pacote keystone-collector: <block ref="469a6c4348fc55be6113496e79df8512" prefix=" " category="inline-code"></block></block>
   <block id="ea8fd641a36217b35135e329311b7083" category="paragraph">Os dados mensais nos gráficos são separados por uma linha vertical.</block>
   <block id="5671610338efe655434c6977fe6ed80b" category="paragraph"><block ref="5671610338efe655434c6977fe6ed80b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="672a0c4e233a4c8328e89c04f4262ff4" category="admonition">Com o Keystone versão 3 (v3), você pode visualizar os detalhes do consumo atual para cada instância de nível de serviço de desempenho. Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extreme em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente. Para saber mais sobre os níveis de serviço de desempenho, consulte <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> .</block>
   <block id="a5295d30cda2860412d8b6bef5ab5b8a" category="paragraph"><block ref="a5295d30cda2860412d8b6bef5ab5b8a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8215bcb478e68aed5d5b6ae1aaf7d85c" category="inline-link-macro">Comece a usar o painel Keystone</block>
   <block id="a30438022816f4866ad2630868499b34" category="list-text"><block ref="a30438022816f4866ad2630868499b34" category="inline-link-macro-rx"></block></block>
   <block id="ffb1a3b812d409c688b237660355d989" category="paragraph">Você pode gerar e visualizar relatórios para seus dados Keystone usando o botão de download <block ref="5875c8338d2998bbff533ca0f83e1168" category="inline-image-macro-rx" type="image"></block> disponível em abas no BlueXP ou Digital Advisor. Essas abas permitem gerar relatórios para suas assinaturas, histórico de uso, picos de uso, desempenho, ativos, volumes e objetos.</block>
-  <block id="3c7872a423e6c6da131a7f6a79de38a8" category="paragraph">No Digital Advisor, o painel do Keystone fornece notificações de alerta que permitem entender os problemas que ocorrem no seu ambiente de armazenamento. Essas notificações podem aparecer como alertas informativos ou avisos. Por exemplo, com o Keystone versão 2 (v2), se houver volumes em seus clusters gerenciados que não tenham políticas de QoS adaptáveis (AQoS) anexadas, você poderá ver uma mensagem de aviso. Selecione a mensagem de aviso para ver a lista de volumes não compatíveis na aba *Volumes e Objetos*.</block>
   <block id="ba14ade4eddc6f656eb0b7e0f297c28b" category="paragraph">Esta seção exibe os gráficos de entrada e saída para as cargas de trabalho no volume com base no intervalo de datas da consulta. O pico de IOPS para o nível de serviço de desempenho e o IOPS atual (nos últimos cinco minutos, não com base no intervalo de datas da consulta) são exibidos, juntamente com os IOPS mínimo, máximo e médio para o intervalo de tempo, em IOPS/Tib.</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="section-title">Taxa de transferência</block>
   <block id="e71af0b604b9c4925cf64f4a5d32c687" category="paragraph">Você pode consultar os indicadores de uso para verificar o status de uso de cada assinatura:</block>
   <block id="4b74c9be479e8905d4e8f29ad9f1af7c" category="paragraph"><block ref="52273d64c65862ef424a47885fe81b01" category="inline-image-macro-rx" type="image"></block> *Sem consumo*: Nenhum uso de capacidade registrado em relação à capacidade comprometida do nível de serviço de desempenho. <block ref="d72ea1f055275eb6c806c044808270ee" category="inline-image-macro-rx" type="image"></block> *Normal*: O consumo é normal. <block ref="26b60b3bc680636be1bff71d9158314a" category="inline-image-macro-rx" type="image"></block> *Alto*: Consumo máximo, ou seja, o uso está prestes a atingir 100% ou mais da capacidade comprometida. <block ref="25206057152159ddc0d0e53262070870" category="inline-image-macro-rx" type="image"></block> *Burst*: O consumo está dentro do limite de burst. O consumo de burst é aquele que ultrapassa 100% da capacidade comprometida de um nível de serviço de desempenho e está dentro do limite de uso de burst acordado. <block ref="49884f5051327fb7a920e2ee64178452" category="inline-image-macro-rx" type="image"></block> *Acima do limite de estouro*: indica consumo acima do limite de estouro acordado.</block>
-  <block id="b4bfc97b4a6664c07d3cb265b1f77f66" category="admonition">As políticas de QoS não são aplicáveis na versão 3 (v3) do Keystone.</block>
-  <block id="288b4e42b32faccce4a2d55e94593bd9" category="admonition">As políticas de QoS não são aplicáveis na versão 3 do Keystone.</block>
   <block id="b0ff511b21770d18a844437708e370f3" category="inline-link-macro">Serviços Keystone STaaS para v3</block>
   <block id="ee326973c25ecfa958c9bcb665f7c905" category="list-text">Dados de consumo e uso acumulado de pico da aba *Tendência de Capacidade*.</block>
   <block id="e00666b1159de8493cf756574e49f1ec" category="list-text">Métricas de desempenho de volumes ONTAP na guia *Desempenho*.</block>
   <block id="ac75d9678d2b707154377e207cada198" category="paragraph">Os dados são exibidos com base na data de início selecionada da assinatura.</block>
-  <block id="827576c6aae044f788e1af326fe64f33" category="sidebar">O NetApp Keystone é um serviço flexível, baseado em assinatura, com pagamento conforme o uso, que oferece uma experiência de nuvem híbrida integrada para clientes que preferem despesas operacionais a investimentos de capital ou leasing. Com ele, você acelera o retorno do investimento removendo a sobrecarga DA TI no gerenciamento de recursos e no ciclo de aquisição demorado. Navegue pelos documentos nesta biblioteca para saber mais sobre a oferta de Armazenamento como Serviço (STaaS) do NetApp Keystone em seu ambiente ONTAP ou StorageGRID.</block>
   <block id="914dcbba0b077ce4f352aa32f6a6d389" category="sidebar">O NetApp Keystone é uma oferta de armazenamento como serviço, com pagamento conforme o uso, para serviços de armazenamento de dados no local e na nuvem em uma única assinatura, com a capacidade de realocar os gastos com armazenamento entre as nuvens.</block>
   <block id="d390d1bb241eb25a8ca394226a403023" category="sidebar">Aumentar a capacidade de burst</block>
-  <block id="3bae5d9e115e99cbd9c3f56c7214ff02" category="sidebar">Conceitos Keystone STaaS para v3</block>
   <block id="66fb046e2c5f18ee0925adc05ac14d1f" category="sidebar">SLO do Keystone STaaS</block>
-  <block id="af7cd0085fe6b7c0200fe4c5a018cbdc" category="sidebar">Conceitos STaaS Keystone para v2</block>
   <block id="cfa9db7c89ff68cb147c3dad7e8b0b59" category="section-title">Lançamento da versão 3 (v3) do Keystone</block>
   <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">Para começar, vá para *Armazenamento &gt; Keystone* no menu de navegação esquerdo do BlueXP. Para saber mais, <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 de junho de 2025</block>
@@ -2523,7 +2232,6 @@
   <block id="96e33a5d1e2356ba12a5de62a859d567" category="section-title">13 de fevereiro de 2024</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">11 de janeiro de 2024</block>
   <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">15 de dezembro de 2023</block>
-  <block id="238d9c83743312925f27989be3169a57" category="paragraph">Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta diversas melhorias, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, <block ref="8447fd48964084b96eba4846dff79543" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="da1502e4b231c66071c9672b3628d5d7" category="paragraph">Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="3578be224f6790339a9675dcb099b1fc" category="paragraph">A guia *Assets* na tela *assinaturas do Keystone* agora tem duas novas subguias: *ONTAP* e *StorageGRID*. Essas subguias oferecem insights detalhados em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas. Para saber mais, <block ref="c61c6efa97fc0d2a151bd41776a02253" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="b8f51f2e64174b6976db9b503b1e517b" category="paragraph">A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opção *Ocultar/Mostrar colunas*. Esta opção permite selecionar ou desmarcar colunas para personalizar a lista tabular de volumes de acordo com a sua preferência. Para saber mais, <block ref="e7a3c48d13050d0d62097e8438e13870" category="inline-link-macro-rx"></block>consulte .</block>
@@ -2571,4 +2279,49 @@
   <block id="c5015af0f3f8bd7ccedb75312dd4eed3" category="list-text">Configuração do coletor</block>
   <block id="4f41955c42edb315e08aec95ec34acd3" category="list-text">Registros de serviço</block>
   <block id="494dd216fe759558e1a91f40c35ee621" category="list-text">Registros de serviço dos serviços Keystone</block>
+  <block id="c1682b4af830f8e1dcda8da16400f7e1" category="doc">Exibir dados de consumo em nível de instância</block>
+  <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">Veja o consumo de suas assinaturas Keystone</block>
+  <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">Você pode visualizar o consumo atual e os dados históricos de cada instância de nível de serviço de desempenho por meio do painel do Keystone no BlueXP. Este recurso está disponível para níveis de serviço de desempenho com múltiplas instâncias, desde que você tenha uma assinatura do Keystone versão 3 (v3). Para saber mais, consulte<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block> .</block>
+  <block id="279160650841dbd8f0f6b25bf0ff9e80" category="paragraph">Você pode assinar o serviço complementar de proteção avançada de dados com sua assinatura do Keystone STaaS. Este serviço complementar usa a tecnologia NetApp MetroCluster para garantir proteção de dados eficiente de suas cargas de trabalho de missão crítica com um objetivo de ponto de recuperação (RPO) de 0.</block>
+  <block id="cfcbbd8a31fba3f531d652505099a6e6" category="admonition">Os serviços padrão Keystone STaaS para armazenamento de arquivos e blocos oferecem serviços de proteção de dados padrão usando tecnologias NetApp , como SnapMirror, SnapVault e Snapshot.</block>
+  <block id="7cd7afd8c693d81152dc35d68b442ba2" category="paragraph">Entender o faturamento do Keystone para configurações específicas na versão 3 (v3) pode ajudar você a otimizar o uso do serviço e gerenciar custos.  As configurações incluem volumes clonados, volumes temporários, destinos SnapMirror , LUNs e volumes de sistema/raiz.</block>
+  <block id="9a074d3c3d3b3789030128089b065c8d" category="paragraph">Você seleciona níveis de serviço de desempenho com base no seu ambiente de armazenamento e nas necessidades de armazenamento e consumo. Os níveis de serviço de desempenho básico estão disponíveis para você por padrão. Níveis de serviço de desempenho específicos também estão disponíveis, caso você tenha optado por serviços adicionais.</block>
+  <block id="cc625dd61c8f93252f42b4f3adf096b7" category="paragraph">O serviço Keystone STaaS oferece suporte ao armazenamento unificado, otimizado por bloco e de objetos do NetApp e do Cloud Volumes ONTAP.</block>
+  <block id="a38c4c1572c8ef4e4dba4054df60c293" category="paragraph">As opções de armazenamento suportadas são:</block>
+  <block id="6cbacdcb488aa4e37079dcf1d4dc7e92" category="list-text">*Armazenamento otimizado em bloco*: Inclui armazenamento em bloco disponível em sistemas NetApp ONTAP ASA .</block>
+  <block id="4e78bdae86afc20e1dc87f90302287c9" category="paragraph"><block ref="4e78bdae86afc20e1dc87f90302287c9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1602534a88a762a1ce3972cdede18e6" category="list-text">Envie um e-mail com este arquivo para ng-keystone-secure-site-upload@netapp.com para sites seguros que não sejam dos Correios dos EUA, ou para ng-keystone-secure-site-usps-upload@netapp.com para sites seguros dos Correios dos EUA.</block>
+  <block id="f554b3f79210a232f43aa1148b762978" category="list-text">Reúna os arquivos e envie-os para ng-keystone-secure-site-upload@netapp.com para sites seguros que não sejam dos Correios dos EUA, ou para ng-keystone-secure-site-usps-upload@netapp.com para sites seguros dos Correios dos EUA.</block>
+  <block id="2dfe1e4bd705394ed47b37168da7e39d" category="paragraph"><block ref="2dfe1e4bd705394ed47b37168da7e39d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d1b3427c4c890671eb0520ac0d4affa3" category="paragraph">Você vê informações detalhadas sobre volumes em clusters, incluindo nome do volume, número de série do nó, nome do cluster, nome do host e níveis de serviço de desempenho. Você também pode monitorar a capacidade provisionada, a utilização lógica e física, e dados frios.</block>
+  <block id="d989db649afc27b39b5e6bcc878623cb" category="paragraph"><block ref="d989db649afc27b39b5e6bcc878623cb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5c5e806c3574f28d7ccf6a897c034d18" category="paragraph"><block ref="5c5e806c3574f28d7ccf6a897c034d18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="21c9d68b030c5bf0ddbda9a170d32552" category="paragraph">O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como capacidade utilizada (capacidade total de armazenamento, incluindo dados e dados de instantâneos), dados (capacidade de armazenamento usada por dados do usuário) e instantâneo (capacidade de armazenamento usada por dados de instantâneos), juntamente com capacidade comprometida e de pico. A data e a hora de cada ponto de dados são exibidas na parte inferior do gráfico. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode passar o cursor do mouse sobre o gráfico para ver o detalhamento do uso em cada ponto de coleta de dados.</block>
+  <block id="1b137f241f929a351e941ba96f7347a8" category="admonition">Se um nível de serviço de desempenho tiver várias instâncias, você poderá filtrar por instância para visualizar dados históricos de cada uma separadamente.</block>
+  <block id="dfa99eff3410a5ab865d863e81dce8fa" category="paragraph"><block ref="dfa99eff3410a5ab865d863e81dce8fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c790cd64cc9ce087b29b63d208671f07" category="admonition">Se um nível de serviço de desempenho tiver várias instâncias, você poderá expandir *Exibir por instâncias* em qualquer uma delas para ver os detalhes de consumo atuais de cada instância separadamente.  Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extremo em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente.</block>
+  <block id="1d33ed42565e60483002000b7dcb22c3" category="paragraph"><block ref="1d33ed42565e60483002000b7dcb22c3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d302dcc8fc5540b6e87e54f3d0753c8" category="admonition">Se um nível de serviço de desempenho tiver várias instâncias, você poderá selecionar a guia *Instâncias* para ver os detalhes de consumo atuais de cada instância.  Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extremo em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente.  Para saber mais sobre os níveis de serviço de desempenho, consulte<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> .</block>
+  <block id="59830f78e0d47985667f7cf21bc3414e" category="paragraph"><block ref="59830f78e0d47985667f7cf21bc3414e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f888b3b7cb5daf8fc505a9054b74b03d" category="list-text">*Expirando em breve*: O número de assinaturas que expiram em 6 meses. Clique em *Exibir* para ver essas assinaturas na aba *Assinaturas*.</block>
+  <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*Uso de capacidade*: O status de consumo de capacidade para assinaturas que estão acima do pico, usando pico e subutilizadas. Cada categoria inclui um botão *Exibir* para navegar até a aba *Assinaturas* com filtros relevantes aplicados.</block>
+  <block id="2241cb4debecdc9d4b9f4ec012449ef9" category="paragraph"><block ref="2241cb4debecdc9d4b9f4ec012449ef9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8f6704f67b358f07487daa3b4147d780" category="paragraph">Você pode refinar suas pesquisas usando a opção de filtro avançado, quando disponível. Por exemplo, na subguia *Assinaturas*, você pode filtrar dados por versão do Keystone , período de cobrança, capacidade máxima e dias até a expiração da assinatura. Já na guia *Volumes em clusters*, você pode filtrar por nome do volume, nome do cluster, tipo de volume e muito mais. Vários filtros podem ser aplicados simultaneamente para refinar seus resultados com precisão.<block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e840924dab6114ff274443702cd49f8" category="paragraph"><block ref="4e840924dab6114ff274443702cd49f8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="406924b12fb99a749735918b73f398aa" category="paragraph">Você vê as principais métricas, como uso da capacidade, status de expiração da assinatura e versão do Keystone em todas as assinaturas. Para saber mais, consulte<block ref="993666c3d95ac6fd97ba90eab93b4de7" category="inline-link-macro-rx"></block> .</block>
+  <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Versão do Keystone *: A versão do serviço Keystone que está sendo usada para a assinatura. As regras do plano de tarifas para níveis de serviço de desempenho podem ser diferentes entre as versões de assinatura. Para saber mais sobre a versão v1, consulte<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
+  <block id="3ba6a6d11b1758706dea931e7a369c1d" category="paragraph">Você pode ver a lista de níveis de serviço de desempenho, incluindo detalhes importantes, como o nome do cliente, o número da assinatura, o tipo de nível de serviço de desempenho e o número total de volumes. A tabela também exibe a contagem de volumes protegidos, a capacidade total comprometida, consumida, provisionada, disponível (com e sem burst) e a capacidade de burst acumulada.</block>
+  <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e3db4ac6b95d51ce2a9fc54f2ebc8f17" category="list-text">*Assinaturas vinculadas*: esta coluna está disponível opcionalmente para você. Se você tiver alguma assinatura secundária vinculada à sua assinatura principal, esta coluna listará os números de assinatura vinculados à assinatura principal. Este número de assinatura pode ser da sua assinatura primária ou secundária (vinculada).</block>
+  <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">Para a assinatura selecionada do Keystone STaaS, você pode ver o número total de volumes, a contagem de volumes protegidos, o status da proteção anti-ransomware e a capacidade total comprometida, consumida e disponível em todos esses volumes.  Se você clicar no número de volumes protegidos, será direcionado para a aba *Detalhes do Volume*, onde você poderá visualizar uma lista filtrada mostrando os volumes protegidos, com base na sua seleção.</block>
+  <block id="c7409eaa8633fe96cf75ec03a907af58" category="paragraph"><block ref="c7409eaa8633fe96cf75ec03a907af58" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="964c0373b6e90b739308a155629631d1" category="paragraph"><block ref="964c0373b6e90b739308a155629631d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d3416f2b111546052098b9c77ea87f5" category="paragraph">Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keystone STaaS.</block>
+  <block id="5e7c6c3c4a3f1109745fdf45ec1f1b45" category="section-title">05 de agosto de 2025</block>
+  <block id="860a9b00f775e55f5f4abd684d89a362" category="paragraph">Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta vários aprimoramentos, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, consulte<block ref="d7deefef65ef51793b8b97cb33a8c208" category="inline-link-macro-rx"></block> .</block>
+  <block id="5c201143f722abb135fb91ea77a2a32b" category="sidebar">O NetApp Keystone é um serviço flexível baseado em assinatura de pagamento conforme o uso que oferece uma experiência de nuvem híbrida perfeita para clientes que preferem despesas operacionais a despesas de capital ou leasing. Ele oferece a capacidade de acelerar o tempo de retorno do investimento ao remover o fardo de TI de gerenciar recursos e evitar o longo ciclo de aquisição. Navegue pelos documentos nesta biblioteca para saber mais sobre a oferta de armazenamento como serviço (STaaS) do NetApp Keystone .</block>
+  <block id="d86cc1250d7492d626c32cc9fb65dfab" category="sidebar">Saiba mais sobre os preços do Keystone</block>
+  <block id="f4933584c28adc3bd3ea423ed96920ec" category="sidebar">Saiba mais sobre sua equipe de suporte</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">Saber mais</block>
+  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Conceitos</block>
 </blocks>
