@@ -14,7 +14,7 @@ summary: O Keystone STaaS para versão 3 oferece capacidade de armazenamento em 
 
 
 [role="lead"]
-O Keystone STaaS para versão 3 (v3) oferece capacidade de armazenamento de dados em níveis de serviço de desempenho predefinidos. Cada volume gerenciado pelos serviços Keystone está associado a um nível de serviço de desempenho.
+O Keystone STaaS oferece capacidade de armazenamento de dados em níveis de serviço de desempenho predefinidos. Cada volume gerenciado pelos serviços Keystone está associado a um nível de serviço de desempenho.
 
 Uma assinatura pode ter vários planos de tarifas, e cada plano corresponde a um nível de serviço de desempenho. Cada plano de tarifas tem uma capacidade comprometida por nível de serviço de desempenho.
 

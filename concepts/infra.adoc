@@ -34,7 +34,7 @@ A infraestrutura do Keystone inclui vários componentes, como os seguintes, entr
 
 == Plataformas de storage
 
-Aplicações corporativas precisam de plataformas de armazenamento para suportar fluxos de trabalho de provisionamento rápidos, manter disponibilidade contínua, sustentar altas cargas de trabalho com baixa latência, oferecer maior desempenho e suportar integração com os principais provedores de nuvem. A NetApp tem vários produtos e tecnologias para dar suporte a esses requisitos. Para o serviço Keystone, a NetApp utiliza sistemas AFF, ASA e FAS, além de StorageGRID.
+Os aplicativos corporativos precisam de plataformas de armazenamento para dar suporte a fluxos de trabalho de provisionamento rápido, manter disponibilidade contínua, sustentar altas cargas de trabalho com baixa latência, oferecer maior desempenho e dar suporte à integração com os principais provedores de nuvem. A NetApp tem vários produtos e tecnologias para dar suporte a esses requisitos. Para o serviço Keystone , a NetApp usa sistemas ONTAP (AFF, ASA e FAS) e sistemas StorageGRID .
 
 
 

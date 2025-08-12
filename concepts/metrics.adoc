@@ -14,11 +14,11 @@ summary: O serviço STaaS da NetApp Keystone usa vários termos para medir métr
 
 
 [role="lead"]
-O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone na versão 3 (v3).
+O serviço NetApp Keystone STaaS usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone.
 
 Os seguintes termos e definições são usados no serviço STaaS do Keystone para medir métricas:
 
-* Unidades de medida de capacidade: Gib, TIB e PIB
+* Capacidade: Medida em GiB, TiB e PiB.
 * IOPS: Número de operações de entrada/saída processadas por segundo.
 * Disponibilidade do serviço
 * Durabilidade no acesso preciso aos dados
@@ -29,7 +29,7 @@ Os seguintes termos e definições são usados no serviço STaaS do Keystone par
 
 == Medição de métricas
 
-* A capacidade de armazenamento de dados com base de 1024 (1 GiB 1024 4 bytes, 1 TIB 1024 3 bytes e 1PiB 1024 5 bytes).
+* *Medição de capacidade em GiB, TiB e PiB*: Medições de capacidade de armazenamento de dados usando base de 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes e 1 PiB = 1024^5^ bytes).
 * *Gráfico do contador de operações em IOPS*: As operações de protocolo por segundo, solicitadas pelo aplicativo.
 * *Disponibilidade*: Medido como uma porcentagem do número de solicitações de e/S respondidas com sucesso pelo serviço, dividido pelo número total de solicitações de e/S feitas ao serviço. Isso é medido na demarcação do serviço em um mês e não inclui o tempo de inatividade programado do serviço ou a indisponibilidade das instalações, da rede ou de outros serviços fornecidos pelo cliente.
 * *Durabilidade*: Porcentagem de dados acessados sem perda de fidelidade, excluindo exclusão ou corrupção causada pelo cliente.
@@ -40,7 +40,7 @@ Os seguintes termos e definições são usados no serviço STaaS do Keystone par
 
 === Métricas de performance
 
-As seguintes métricas de desempenho são aplicáveis para serviços unificados e otimizados por bloco:
+As seguintes métricas de desempenho são aplicáveis a serviços unificados e otimizados por bloco:
 
 *Serviços unificados:*
 

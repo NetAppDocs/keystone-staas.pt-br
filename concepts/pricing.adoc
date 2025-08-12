@@ -16,7 +16,7 @@ summary: O Keystone oferece um modelo de pagamento conforme o uso para suas nece
 [role="lead"]
 O serviço de assinatura pré-pago do NetApp Keystone STaaS oferece consumo flexível e escalável com preços previsíveis e antecipados para suas necessidades de armazenamento.
 
-O Keystone para a versão 3 (v3) oferece os seguintes recursos de cobrança:
+A Keystone oferece os seguintes recursos de cobrança:
 
 * Você pode pagar com base em IOPS e latência da capacidade comprometida para atender a várias necessidades de workload. Os diferentes níveis de serviço de desempenho — Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP — permitem que você gerencie seu armazenamento com base no nível de serviço adquirido.
 * Ele apresenta cobrança previsível para a capacidade comprometida e pagamento por uso para uso de capacidade variável (sobrecarga).

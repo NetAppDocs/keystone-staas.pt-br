@@ -14,7 +14,7 @@ summary: Saiba mais sobre a cobrança do Keystone para configurações específi
 
 
 [role="lead"]
-Entender o faturamento do Keystone para configurações específicas na versão 3 (v3) pode ajudar você a otimizar o uso do serviço e gerenciar custos.  As configurações incluem volumes clonados, volumes temporários, destinos SnapMirror , LUNs e volumes de sistema/raiz.
+Entender o faturamento do Keystone para configurações específicas pode ajudar você a otimizar o uso do serviço e gerenciar custos. As configurações incluem volumes clonados, volumes temporários, destinos SnapMirror , LUNs e volumes de sistema/raiz.
 
 
 
@@ -46,28 +46,6 @@ O preço dos volumes de destino do SnapMirror, sejam eles usados para recuperaç
 == Cobrança de LUNs
 
 Para LUNs, a cobrança é baseada nos níveis de serviço de desempenho do volume.
-
-
-
-== Volumes de sistema e raiz
-
-Os volumes de sistema e raiz são monitorados como parte do monitoramento geral do serviço Keystone, mas não são contados ou faturados. O consumo destes volumes está isento para faturação.
-
-
-
-== Faturamento para destinos SnapMirror
-
-O preço do volume de destino do SnapMirror é regido pela política de QoS adaptável para o nível de serviço atribuído na origem. No entanto, se a origem não tiver uma política de QoS adaptável associada, o destino será cobrado com base no nível de serviço mais baixo disponível.
-
-
-
-== Cobrança de LUNs
-
-Para LUNs, o mesmo padrão de faturamento é seguido como para os volumes que são governados por políticas de QoS adaptáveis. Se políticas de QoS adaptáveis separadas forem definidas em LUNs, então:
-
-* O tamanho do LUN é contado para consumo de acordo com o nível de serviço associado desse LUN.
-* O restante do espaço no volume, se houver, será cobrado de acordo com a política de QoS adaptável do nível de serviço definido no volume.
-
 
 
 
