@@ -18,6 +18,22 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+== 28 de agosto de 2025
+
+
+
+=== Rastreamento de uso lógico aprimorado com uma nova coluna
+
+Uma nova coluna, Total footprint, foi adicionada para melhorar o rastreamento do consumo do Keystone para volumes do FabricPool :
+
+* * Painel do Keystone no BlueXP*: Você pode ver a coluna *Pegada total* na aba *Volumes em clusters* dentro da aba *Ativos*.
+* * Digital Advisor*: Você pode ver a coluna *Pegada Total* na aba *Detalhes do Volume* dentro da aba *Volumes e Objetos*.
+
+
+Esta coluna exibe a pegada lógica total para volumes que usam a divisão em camadas do FabricPool , incluindo dados de camadas de desempenho e frias, para que você possa calcular com precisão o consumo do Keystone .
+
+
+
 == 05 de agosto de 2025
 
 

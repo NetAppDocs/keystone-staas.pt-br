@@ -22,6 +22,15 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+Linha de limite de pico ausente nos gráficos de tendência de consumo para assinaturas configuradas com uma configuração MetroCluster no painel do Digital Advisor , mostrando um status incorreto *Acima do limite de pico*.
+ a| 
+Fixo
+ a| 
+2025-08-28
+
+
+
+ a| 
 Na aba *Ativos*, os ativos do StorageGRID não são visíveis.
  a| 
 Fixo

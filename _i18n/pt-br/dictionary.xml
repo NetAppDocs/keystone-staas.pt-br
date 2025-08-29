@@ -666,7 +666,6 @@
   <block id="0615b5bfa7b669de144331b512440192" category="inline-link">Aceda ao cluster utilizando o SSH</block>
   <block id="75637cd8fe530b3ca0a91d01f7a154b3" category="list-text">Como usuário administrador de sistema, faça login no cluster Keystone ONTAP usando SSH. Para obter informações,<block ref="72c78e462556b03d46e2f3029d4a0613" category="inline-link-rx"></block>consulte .</block>
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">Modifique o conteúdo do log.</block>
-  <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">Execute este comando para modificar o conteúdo diário do log:</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">Execute este comando para modificar o conteúdo do log semanal:</block>
   <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">modificação do acionador do AutoSupport do nó do sistema</block>
   <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">Para obter mais informações sobre esse comando,<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>consulte .</block>
@@ -1604,7 +1603,6 @@
   <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">Você vê os detalhes da grade, categorizados por identificadores de grade e nó, informações do site, especificações de hardware e detalhes de capacidade, que ajudam no monitoramento e gerenciamento de nós em sua infraestrutura StorageGRID.</block>
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">Captura de tela para mostrar informações de nível de grade para o StorageGRID</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">Você pode usar *Ocultar/Mostrar colunas* para adicionar ou remover colunas exibidas na tabela. Por padrão, todas as colunas são selecionadas, exceto a coluna *Departamento*. Você pode selecionar ou desmarcar qualquer coluna, incluindo a coluna *Departamento*, e suas preferências serão salvas para uso posterior. Ao fazer o download do relatório CSV, os detalhes da coluna *Departamento* serão incluídos se selecionados, enquanto outras colunas aparecerão independentemente do status de seleção na tabela.</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">Coluna lógica utilizada renomeada</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">A coluna *Logical Used* na guia *volume Details* dentro de *volumes &amp; Objects* agora é renomeada para *Keystone Logical Used*.</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">Separador ativos melhorados</block>
@@ -2321,4 +2319,15 @@
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*Capacidade lógica*: É a soma de:</block>
   <block id="0649df2b2e490a85273ef7528dbeb91a" category="list-text">*Capacidade física*: É a soma de:</block>
   <block id="eb80e5c63a486d3698858f87d747e461" category="paragraph">Você pode entrar em contato com a equipe de suporte do Keystone para assinar o Keystone versão 3 (v3). Para mais detalhes, consulte<block ref="ba5860e7066469b734064f44e703aa5c" category="inline-link-macro-rx"></block> .</block>
+  <block id="7e8fe67b005603b496012796735f2d36" category="doc">Rastreamento de uso lógico aprimorado com uma nova coluna</block>
+  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">Uma nova coluna, Total footprint, foi adicionada para melhorar o rastreamento do consumo do Keystone para volumes do FabricPool :</block>
+  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* Painel do Keystone no BlueXP*: Você pode ver a coluna *Pegada total* na aba *Volumes em clusters* dentro da aba *Ativos*.</block>
+  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">* Digital Advisor*: Você pode ver a coluna *Pegada Total* na aba *Detalhes do Volume* dentro da aba *Volumes e Objetos*.</block>
+  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">Esta coluna exibe a pegada lógica total para volumes que usam a divisão em camadas do FabricPool , incluindo dados de camadas de desempenho e frias, para que você possa calcular com precisão o consumo do Keystone .</block>
+  <block id="bff820430728f0b409c26641dc8ddd41" category="list-text">Para ONTAP 9.16.1 e superior, execute este comando para modificar o conteúdo do log diário:</block>
+  <block id="63af57ffe551ed93c0576ba741b36e47" category="list-text">Para versões anteriores do ONTAP , execute este comando para modificar o conteúdo do log diário:</block>
+  <block id="8e65b1fa60d467c8850acfb3f1d1b8b9" category="paragraph">Você pode usar *Ocultar/Mostrar Colunas* para adicionar ou remover colunas exibidas na tabela. Por padrão, a tabela mostra suas preferências de coluna salvas anteriormente.  Colunas adicionadas recentemente, como *Departamento* ou *Pegada Total*, ficam ocultas por padrão e devem ser selecionadas manualmente para aparecerem na tabela.  Você pode selecionar ou desmarcar qualquer coluna, e suas preferências serão salvas para uso posterior.  Ao baixar o relatório CSV, todas as colunas disponíveis são incluídas na exportação, independentemente das suas preferências de exibição.</block>
+  <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Linha de limite de pico ausente nos gráficos de tendência de consumo para assinaturas configuradas com uma configuração MetroCluster no painel do Digital Advisor , mostrando um status incorreto *Acima do limite de pico*.</block>
+  <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">2025-08-28</block>
+  <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">28 de agosto de 2025</block>
 </blocks>

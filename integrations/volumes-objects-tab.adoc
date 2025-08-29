@@ -50,7 +50,7 @@ image:volume-summary-3.png["Separador Resumo do volume"]
 Você pode ver a listagem tabular dos volumes, como uso de capacidade, tipo de volume, cluster, agregado e os níveis de serviço de desempenho do Keystone atribuídos. Você pode rolar pelas colunas e aprender mais sobre elas passando o Mouse sobre os ícones de informações ao lado dos cabeçalhos das colunas. Você pode classificar pelas colunas e filtrar as listas para exibir informações específicas.
 
 +
-Você pode usar *Ocultar/Mostrar colunas* para adicionar ou remover colunas exibidas na tabela. Por padrão, todas as colunas são selecionadas, exceto a coluna *Departamento*. Você pode selecionar ou desmarcar qualquer coluna, incluindo a coluna *Departamento*, e suas preferências serão salvas para uso posterior. Ao fazer o download do relatório CSV, os detalhes da coluna *Departamento* serão incluídos se selecionados, enquanto outras colunas aparecerão independentemente do status de seleção na tabela.
+Você pode usar *Ocultar/Mostrar Colunas* para adicionar ou remover colunas exibidas na tabela. Por padrão, a tabela mostra suas preferências de coluna salvas anteriormente.  Colunas adicionadas recentemente, como *Departamento* ou *Pegada Total*, ficam ocultas por padrão e devem ser selecionadas manualmente para aparecerem na tabela.  Você pode selecionar ou desmarcar qualquer coluna, e suas preferências serão salvas para uso posterior.  Ao baixar o relatório CSV, todas as colunas disponíveis são incluídas na exportação, independentemente das suas preferências de exibição.
 
 +
 image:volume-details-4.png["Separador Detalhes volumes"]
