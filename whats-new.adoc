@@ -18,6 +18,28 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+== 22 de setembro de 2025
+
+
+
+=== Adição de monitoramento de alertas
+
+O painel do Keystone no BlueXP agora inclui uma aba *Monitoramento* para gerenciar alertas e monitores em suas assinaturas.  Esta nova aba permite que você:
+
+* Visualize e resolva alertas ativos, incluindo alertas gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura.
+* Crie monitores de alerta para rastrear o uso da capacidade e eventos de expiração de assinatura.
+
+
+Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"] .
+
+
+
+=== Visualização simplificada dos níveis de serviço de desempenho
+
+Você pode visualizar as informações sobre os níveis de serviço de desempenho, agora movidas de uma guia separada para uma visualização expansível, na guia *Assinaturas*.  Clique na seta para baixo ao lado da coluna *Data de validade* para visualizá-las para cada assinatura. Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"] .
+
+
+
 == 28 de agosto de 2025
 
 

@@ -36,5 +36,6 @@ A aba *Visão geral* oferece os seguintes insights:
 * link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
 * link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
+* link:../integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"]
 * link:../integrations/consumption-tab.html["Veja as tendências de consumo"]
 

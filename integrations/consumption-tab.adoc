@@ -31,7 +31,7 @@ Você será redirecionado para a aba *Consumo atual*.
 . Selecione a aba *Tendência de consumo*.
 . Selecione *Consumo histórico* no menu suspenso *Exibir* e escolha o intervalo de tempo usando o ícone de calendário no campo *Período* para analisar tendências de uso da capacidade.
 +
-Os dados históricos de consumo para cada nível de serviço de desempenho são exibidos em um gráfico de linhas com base no intervalo de tempo selecionado.
+Os dados históricos de consumo para cada nível de serviço de desempenho são exibidos em um gráfico de linhas com base no intervalo de tempo selecionado. Se uma assinatura do Keystone for modificada ou renovada, você pode definir a data de início para uma data anterior para visualizar dados de consumo anteriores.
 
 +
 

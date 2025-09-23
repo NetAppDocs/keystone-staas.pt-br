@@ -76,6 +76,11 @@ link:../integrations/assets-tab.html["Ver ativos associados a uma assinatura Key
 
 
  a| 
+link:../integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"]
+| Sim | Não 
+
+
+ a| 
 link:../integrations/modify-subscription.html["Modifique suas assinaturas"] (somente para administradores do Keystone)
 | Sim | Não 
 

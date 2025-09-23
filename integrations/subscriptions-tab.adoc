@@ -20,18 +20,15 @@ Você pode visualizar uma lista de todas as suas assinaturas na aba *Assinaturas
 ====
 .BlueXP
 --
-A aba *Assinaturas* no BlueXP é dividida em duas seções: *Assinaturas* e *Níveis de serviço de desempenho*. Cada seção oferece insights específicos para ajudar você a gerenciar e monitorar suas assinaturas Keystone. Para visualizar informações detalhadas sobre suas assinaturas, siga estes passos:
+Para visualizar informações detalhadas de suas assinaturas, siga estas etapas:
 
 .Passos
 . No menu de navegação esquerdo do BlueXP, acesse *Armazenamento > Keystone > Assinaturas*.
 +
-image:bxp-subscription-list-1.png["ver os detalhes da aba de assinatura"]
+image:bxp-subscription-list-2.png["ver os detalhes da aba de assinatura"]
 
 +
-Você vê as principais métricas, como uso da capacidade, status de expiração da assinatura e versão do Keystone em todas as assinaturas. Para saber mais, consultelink:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"] .
-
-+
-Você pode ver os seguintes detalhes na tabela:
+Você vê as principais métricas, como uso de capacidade, status de expiração da assinatura e alertas não resolvidos. Você pode ver os seguintes detalhes na tabela:
 
 +
 ** *Número da assinatura*: O número da assinatura do Keystone atribuído pela NetApp.
@@ -45,19 +42,11 @@ Você pode ver os seguintes detalhes na tabela:
 ** *Dias até o vencimento da assinatura*: Número de dias restantes até o vencimento da assinatura.
 +
 
+NOTE: Você pode clicar na seta para baixo ao lado da coluna *Data de validade* para visualizar as informações sobre os níveis de serviço de desempenho de cada assinatura.  Isso mostra informações detalhadas sobre a capacidade, incluindo uso atual, capacidade comprometida, capacidade provisionada, capacidade de pico e capacidade disponível.
+
++
+
 TIP: Você pode personalizar as colunas exibidas na tabela usando o seletor de colunas image:column-selector.png["ícone do seletor de coluna"] ícone. Para determinados campos e colunas, você pode ver informações ou ícones de aviso e dicas de ferramentas que fornecem informações adicionais sobre os dados.
-
-
-
-. Você pode selecionar a subguia *Níveis de serviço de desempenho* para visualizar os níveis de serviço de desempenho em todas as assinaturas.
-+
-image:bxp-performance-levels.png["visualizar níveis de serviço de desempenho em todas as assinaturas"]
-
-+
-** *Níveis de serviço de desempenho em todas as assinaturas*: Exibe o número de níveis de serviço de desempenho em todas as assinaturas.
-** *Consistência de provisionamento entre assinaturas*: mostra as contagens de níveis de serviço de desempenho com provisionamento excessivo e insuficiente.
-+
-Você pode ver a lista de níveis de serviço de desempenho, incluindo detalhes importantes, como o nome do cliente, o número da assinatura, o tipo de nível de serviço de desempenho e o número total de volumes. A tabela também exibe a contagem de volumes protegidos, a capacidade total comprometida, consumida, provisionada, disponível (com e sem burst) e a capacidade de burst acumulada.
 
 
 
@@ -110,5 +99,6 @@ image:icon-grey.png["ícone de ponto cinzento"] *Sem consumo*: Nenhum uso de cap
 * link:../integrations/subscription-timeline.html["Veja o cronograma da sua assinatura"]
 * link:../integrations/assets-tab.html["Veja seus ativos de assinatura Keystone"]
 * link:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"]
+* link:../integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"]
 * link:../integrations/volumes-objects-tab.html["Ver detalhes de volumes e objetos"]
 

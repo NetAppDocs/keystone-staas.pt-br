@@ -79,5 +79,6 @@ Para obter informações sobre seus serviços de armazenamento Keystone e os ní
 * link:../integrations/subscription-timeline.html["Veja o cronograma da sua assinatura"]
 * link:../integrations/assets-tab.html["Veja seus ativos de assinatura Keystone"]
 * link:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"]
+* link:../integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"]
 * link:../integrations/volumes-objects-tab.html["Ver detalhes de volumes e objetos"]
 

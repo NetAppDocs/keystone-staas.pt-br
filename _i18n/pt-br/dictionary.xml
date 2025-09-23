@@ -1797,7 +1797,6 @@
   <block id="a2d82bfae4a6bb07ee9998c93a16870b" category="list-text">Selecione o número da assinatura na coluna *Número da assinatura*.</block>
   <block id="b3622e97032fbaf5c45471e9056cfa2a" category="list-text">Selecione a aba *Tendência de consumo*.</block>
   <block id="58eb77e186ebbaf3af405a5c39204491" category="list-text">Selecione *Consumo histórico* no menu suspenso *Exibir* e escolha o intervalo de tempo usando o ícone de calendário no campo *Período* para analisar tendências de uso da capacidade.</block>
-  <block id="0e8d23fb0ad25edbe90bd0d8904ed1a0" category="paragraph">Os dados históricos de consumo para cada nível de serviço de desempenho são exibidos em um gráfico de linhas com base no intervalo de tempo selecionado.</block>
   <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">Ver explosão acumulada</block>
   <block id="36622f05ec893025953fee00b23a1397" category="admonition">Você pode selecionar *Explosão acumulada* no menu suspenso *Exibir* se quiser visualizar os dados históricos de uso da explosão para os quais as faturas foram geradas. Você pode usar esses dados para analisar o uso faturado refletido na sua fatura. Para saber mais, <block ref="7f44df2b1aebfeb61dadb6bb658158eb" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="bc5861ecce15db0ff44c510f9fedbeaf" category="inline-image-macro">captura de tela exibindo o consumo histórico</block>
@@ -1948,10 +1947,8 @@
   <block id="e656406ec3f71a6faf961120d8791fe6" category="paragraph"><block ref="e656406ec3f71a6faf961120d8791fe6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">Veja detalhes sobre suas assinaturas Keystone</block>
   <block id="1809602b585b3ac8e4023ba17752a0ea" category="paragraph">Você pode visualizar uma lista de todas as suas assinaturas na aba *Assinaturas* do BlueXP e do Digital Advisor. Essa aba fornece insights fáceis de entender com base no status e no uso da sua assinatura, ajudando você a se manter informado e a tomar medidas quando necessário.</block>
-  <block id="3ecb4d80c0a9bc2b7d4df8e0ab67a958" category="paragraph">A aba *Assinaturas* no BlueXP é dividida em duas seções: *Assinaturas* e *Níveis de serviço de desempenho*. Cada seção oferece insights específicos para ajudar você a gerenciar e monitorar suas assinaturas Keystone. Para visualizar informações detalhadas sobre suas assinaturas, siga estes passos:</block>
   <block id="1c497c059f638e9ed17590e5317d525b" category="list-text">No menu de navegação esquerdo do BlueXP, acesse *Armazenamento &gt; Keystone &gt; Assinaturas*.</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">ver os detalhes da aba de assinatura</block>
-  <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">Você pode ver os seguintes detalhes na tabela:</block>
   <block id="777a92dd9a9405f5a8f4c89917427c35" category="list-text">*Número da assinatura*: O número da assinatura do Keystone atribuído pela NetApp.</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*Nome do cliente*: O nome do cliente associado à assinatura do Keystone.</block>
   <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*Assinaturas vinculadas*: Se você tiver alguma assinatura secundária vinculada à sua assinatura principal, esta coluna lista os números de assinatura vinculados à assinatura principal. Este número de assinatura pode ser da sua assinatura principal ou secundária (vinculada).</block>
@@ -1960,11 +1957,6 @@
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*Capacidade máxima*: Capacidade máxima consumida dentro da assinatura.</block>
   <block id="e0e64854d2f2c608544b01e8cc518243" category="list-text">*Dias até o vencimento da assinatura*: Número de dias restantes até o vencimento da assinatura.</block>
   <block id="e567b31e26c159f427dde0e64b05c3c2" category="admonition">Você pode personalizar as colunas exibidas na tabela usando o seletor de colunas <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> ícone. Para determinados campos e colunas, você pode ver informações ou ícones de aviso e dicas de ferramentas que fornecem informações adicionais sobre os dados.</block>
-  <block id="1c41968ddb0fb23a80518bb355e54c96" category="list-text">Você pode selecionar a subguia *Níveis de serviço de desempenho* para visualizar os níveis de serviço de desempenho em todas as assinaturas.</block>
-  <block id="3a8dbe659351eb624b78364320035052" category="inline-image-macro">visualizar níveis de serviço de desempenho em todas as assinaturas</block>
-  <block id="7e928a58999c6ac9fe618e59ef69b760" category="paragraph"><block ref="7e928a58999c6ac9fe618e59ef69b760" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dadddb052717c3425b64a63b6753347b" category="list-text">*Níveis de serviço de desempenho em todas as assinaturas*: Exibe o número de níveis de serviço de desempenho em todas as assinaturas.</block>
-  <block id="5b6c7c5dcaf056e81b8e2d308696999f" category="list-text">*Consistência de provisionamento entre assinaturas*: mostra as contagens de níveis de serviço de desempenho com provisionamento excessivo e insuficiente.</block>
   <block id="ed4d0852f1703e0820b9637850aeae85" category="paragraph">Para visualizar suas assinaturas no Digital Advisor, siga estas etapas:</block>
   <block id="01bbb3898ca00363b1b5c84f5c112a6e" category="list-text">No painel de navegação esquerdo do Digital Advisor, acesse *Geral &gt; Assinaturas Keystone &gt; Assinaturas*.</block>
   <block id="8623285496d906d1d5c230fd4132ac11" category="paragraph">Você pode visualizar todas as suas assinaturas aqui, com informações detalhadas sobre cada uma delas.</block>
@@ -2277,10 +2269,7 @@
   <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*Uso de capacidade*: O status de consumo de capacidade para assinaturas que estão acima do pico, usando pico e subutilizadas. Cada categoria inclui um botão *Exibir* para navegar até a aba *Assinaturas* com filtros relevantes aplicados.</block>
   <block id="2241cb4debecdc9d4b9f4ec012449ef9" category="paragraph"><block ref="2241cb4debecdc9d4b9f4ec012449ef9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8f6704f67b358f07487daa3b4147d780" category="paragraph">Você pode refinar suas pesquisas usando a opção de filtro avançado, quando disponível. Por exemplo, na subguia *Assinaturas*, você pode filtrar dados por versão do Keystone , período de cobrança, capacidade máxima e dias até a expiração da assinatura. Já na guia *Volumes em clusters*, você pode filtrar por nome do volume, nome do cluster, tipo de volume e muito mais. Vários filtros podem ser aplicados simultaneamente para refinar seus resultados com precisão.<block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e840924dab6114ff274443702cd49f8" category="paragraph"><block ref="4e840924dab6114ff274443702cd49f8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="406924b12fb99a749735918b73f398aa" category="paragraph">Você vê as principais métricas, como uso da capacidade, status de expiração da assinatura e versão do Keystone em todas as assinaturas. Para saber mais, consulte<block ref="993666c3d95ac6fd97ba90eab93b4de7" category="inline-link-macro-rx"></block> .</block>
   <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Versão do Keystone *: A versão do serviço Keystone que está sendo usada para a assinatura. As regras do plano de tarifas para níveis de serviço de desempenho podem ser diferentes entre as versões de assinatura. Para saber mais sobre a versão v1, consulte<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> .</block>
-  <block id="3ba6a6d11b1758706dea931e7a369c1d" category="paragraph">Você pode ver a lista de níveis de serviço de desempenho, incluindo detalhes importantes, como o nome do cliente, o número da assinatura, o tipo de nível de serviço de desempenho e o número total de volumes. A tabela também exibe a contagem de volumes protegidos, a capacidade total comprometida, consumida, provisionada, disponível (com e sem burst) e a capacidade de burst acumulada.</block>
   <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e3db4ac6b95d51ce2a9fc54f2ebc8f17" category="list-text">*Assinaturas vinculadas*: esta coluna está disponível opcionalmente para você. Se você tiver alguma assinatura secundária vinculada à sua assinatura principal, esta coluna listará os números de assinatura vinculados à assinatura principal. Este número de assinatura pode ser da sua assinatura primária ou secundária (vinculada).</block>
   <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">Para a assinatura selecionada do Keystone STaaS, você pode ver o número total de volumes, a contagem de volumes protegidos, o status da proteção anti-ransomware e a capacidade total comprometida, consumida e disponível em todos esses volumes.  Se você clicar no número de volumes protegidos, será direcionado para a aba *Detalhes do Volume*, onde você poderá visualizar uma lista filtrada mostrando os volumes protegidos, com base na sua seleção.</block>
@@ -2330,4 +2319,88 @@
   <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Linha de limite de pico ausente nos gráficos de tendência de consumo para assinaturas configuradas com uma configuração MetroCluster no painel do Digital Advisor , mostrando um status incorreto *Acima do limite de pico*.</block>
   <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">2025-08-28</block>
   <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">28 de agosto de 2025</block>
+  <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">Adição de monitoramento de alertas</block>
+  <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">O painel do Keystone no BlueXP agora inclui uma aba *Monitoramento* para gerenciar alertas e monitores em suas assinaturas.  Esta nova aba permite que você:</block>
+  <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">Visualize e resolva alertas ativos, incluindo alertas gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura.</block>
+  <block id="64d4cc394badd0b54b5b74f5080233c6" category="list-text">Crie monitores de alerta para rastrear o uso da capacidade e eventos de expiração de assinatura.</block>
+  <block id="fad96b4b3d3badf81c42f03f5e3e79f9" category="inline-link-macro">Visualizar e gerenciar alertas e monitores</block>
+  <block id="cdd57c5e351290faba63a64f9aeaaa00" category="paragraph">Para saber mais, consulte<block ref="54a7920301641a95eb19ac46b9860916" category="inline-link-macro-rx"></block> .</block>
+  <block id="bcf269fdba28fb16246a22e167483e0c" category="section-title">Visualização simplificada dos níveis de serviço de desempenho</block>
+  <block id="d5361f65bad1a0cefb26442a03e3f1a3" category="paragraph">Você pode visualizar as informações sobre os níveis de serviço de desempenho, agora movidas de uma guia separada para uma visualização expansível, na guia *Assinaturas*.  Clique na seta para baixo ao lado da coluna *Data de validade* para visualizá-las para cada assinatura. Para saber mais, consulte<block ref="c9175061cd37da451a004ee428397f08" category="inline-link-macro-rx"></block> .</block>
+  <block id="1c560ebcd3a4417c966fc32410160aad" category="list-text"><block ref="1c560ebcd3a4417c966fc32410160aad" category="inline-link-macro-rx"></block></block>
+  <block id="f1725014f45852c6d29865ed1732954a" category="paragraph">Os dados históricos de consumo para cada nível de serviço de desempenho são exibidos em um gráfico de linhas com base no intervalo de tempo selecionado. Se uma assinatura do Keystone for modificada ou renovada, você pode definir a data de início para uma data anterior para visualizar dados de consumo anteriores.</block>
+  <block id="59bf2678f53f6a44de56bb54540c62f2" category="summary">Use a guia Monitoramento para visualizar e criar monitores de alertas para suas assinaturas do Keystone .</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="doc">Visualize e crie monitores de alerta para assinaturas do Keystone</block>
+  <block id="503deffca9ee5758ad0987665bae2c9b" category="paragraph">Você pode visualizar e criar monitores de alerta para suas assinaturas do Keystone no painel do Keystone no BlueXP.  O painel exibe monitores gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura.  Você pode criar monitores para definir limites, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações.  Esta funcionalidade não está disponível no Digital Advisor.</block>
+  <block id="0189c782e04bc566597908eddaee3dd5" category="section-title">Ver monitores de alerta</block>
+  <block id="d8d1f09f12d3047d0b1d5264e0fbb3d4" category="paragraph">Para visualizar os monitores de alerta, siga estas etapas:</block>
+  <block id="ad041e960bec5dc5229fc16df370faba" category="list-text">No menu de navegação esquerdo do BlueXP , selecione *Armazenamento &gt; Keystone &gt; Monitoramento &gt; Monitores de alerta*.</block>
+  <block id="8891b6740bffe77b967f8fe0f2bb0320" category="inline-image-macro">Uma captura de tela dos monitores de alerta para assinaturas do Keystone</block>
+  <block id="3d0fb75de7ebb0236cb8ae8d3c066ab9" category="paragraph"><block ref="3d0fb75de7ebb0236cb8ae8d3c066ab9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae75ac6ecba83cd82e353c5c2dddf9ca" category="paragraph">Você pode visualizar uma lista de monitores de alerta em suas assinaturas do Keystone , incluindo nomes de monitores, condições de alerta que acionam notificações, níveis de gravidade, números de assinatura, níveis de serviço de desempenho e status.  Você pode verificar a coluna *Criado por* para determinar se os monitores de alerta são gerados pelo sistema ou definidos pelo usuário.</block>
+  <block id="6b29e04f1a3d7126b32fea3e35336be6" category="section-title">Crie e gerencie monitores de alerta</block>
+  <block id="c52ec421c31615867815fd4658197c12" category="paragraph">Na aba *Monitores de alerta*, você pode criar monitores para rastrear o uso da capacidade e a expiração da assinatura.  Você também pode editar, duplicar ou excluir monitores existentes, conforme necessário.</block>
+  <block id="57ff1be6332a578fa82ccb64d9259d54" category="open-title">Criar um monitor</block>
+  <block id="64c64a9516f4ac5c0006a03c872e7317" category="paragraph">Para criar um monitor de alerta, siga estas etapas:</block>
+  <block id="a3513012c18df0c1a7b8764f4e9f1ff9" category="list-text">Clique no botão *Criar monitor*.</block>
+  <block id="f4743dcb07fb533885399ef1728ce857" category="paragraph">A página *Criar monitor de alerta* é exibida.</block>
+  <block id="704b16afc2be166a3265886d6a494bb5" category="inline-image-macro">Uma captura de tela da criação de um monitor de alerta para assinaturas do Keystone</block>
+  <block id="b2aa832e4d8d1fd7361158475afea146" category="paragraph"><block ref="b2aa832e4d8d1fd7361158475afea146" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b4c98c2b68ae3596fde0807f39bf8eb" category="list-text">Selecione *Uso de capacidade* ou *Expiração da assinatura* para definir o tipo de monitor.  Com base na sua seleção, forneça os seguintes detalhes:</block>
+  <block id="36f26e169972f962b25a6506460ae66c" category="list-text">*Detalhes gerais*: Forneça um nome de alerta e selecione o nível de gravidade.</block>
+  <block id="01d4a6c47010cf55459d034438cd8558" category="list-text">*Seleção de recursos*: escolha criar o monitor para assinaturas específicas.  Com base na seleção do tipo de monitor, preencha os campos obrigatórios que aparecem, como números de assinatura e níveis de serviço de desempenho para monitores de uso de capacidade ou somente números de assinatura para monitores de expiração de assinatura.</block>
+  <block id="77c6e2eed99c9f2a9d3128048679495b" category="inline-image-macro">Uma captura de tela da seleção de recursos para o monitor de uso de capacidade</block>
+  <block id="6d50a26803a6349c2cc6cb785a778441" category="paragraph"><block ref="6d50a26803a6349c2cc6cb785a778441" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fdbe9792be04e34a378a291acc9fd58e" category="list-text">*Condição*: Defina a condição limite que aciona o alerta.  Por exemplo, acione um alerta quando o uso da capacidade exceder uma porcentagem especificada.</block>
+  <block id="081b779044826c7402e8be12f60e47fc" category="list-text">*Notificações*: Selecione os usuários que receberão notificações de alerta.</block>
+  <block id="f2a42a68e067e481d094b018459ef895" category="list-text">Clique em *Criar*.</block>
+  <block id="40ba3f5bddd118df328d541eaca8d495" category="paragraph">Depois de criar o monitor, o sistema retorna para a página *Monitores de alerta* e exibe o novo monitor de alerta na lista com status ativo.</block>
+  <block id="b90a660758bfb2841e6f5e3e73c4113e" category="open-title">Monitor de edição</block>
+  <block id="9131807a78723c5874820558a8cc87f2" category="list-text">Selecione o ícone de reticências para o monitor de alerta que você deseja alterar.</block>
+  <block id="df23f39bc797fc31ee6855e3e60bfaa2" category="inline-image-macro">Uma captura de tela da edição de um monitor de alerta para assinaturas do Keystone</block>
+  <block id="0911ae3a58dc910fecbaffb2e8eda605" category="paragraph"><block ref="0911ae3a58dc910fecbaffb2e8eda605" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="071ef8ace6c74c9a1515550077974172" category="list-text">Selecione *Editar*.</block>
+  <block id="5f023211b561aa7847ec9d213c1e34ea" category="paragraph">A página *Editar monitor de alerta* aparece com a configuração atual do monitor.</block>
+  <block id="0b7226db9b072fa62db9d7faf6b77dd4" category="list-text">Altere os campos necessários.  Para descrições de campos, consulte<block ref="f5b0d13ec8e410cddd0c73aae96856f8" category="inline-link-macro-rx"></block> .</block>
+  <block id="d74972c802a7dc5b4ab78ef8b78b3df7" category="admonition">Para monitores de alerta gerados pelo sistema, você só pode modificar números de assinatura e níveis de serviço de desempenho para monitores de uso de capacidade, e somente números de assinatura para monitores de expiração de assinatura.</block>
+  <block id="302ef561e28f7d7cd13d1042cece78e1" category="list-text">Selecione *Salvar alterações*.</block>
+  <block id="1b4b0eac0e2e2ba0ced6a7a1087e315d" category="paragraph">O sistema retorna você para a página *Monitores de alerta*, onde o monitor atualizado aparece na lista.</block>
+  <block id="908bcd6b0087e1fa4513711a28297d89" category="open-title">Monitor duplicado</block>
+  <block id="37436487b6f97021df7ee2c4adbdfa45" category="list-text">Selecione o ícone de reticências do monitor que você deseja copiar.</block>
+  <block id="3cf3a984f792c68d00d0ddbaa1549d75" category="list-text">Selecione *Duplicar*.</block>
+  <block id="1c9486cebc61c5048cf6288719fae578" category="paragraph">A página *Criar monitor de alerta* aparece com os valores de campo existentes já preenchidos.</block>
+  <block id="7a170bf7d609f40a91657be5b2c92dc3" category="list-text">Modifique os campos conforme necessário e clique em *Criar*.</block>
+  <block id="59c8147f6a6c89c779cc9c0e0d31057d" category="paragraph">Um novo monitor de alerta é criado com a configuração atualizada e aparece na lista *Monitores de alerta*.</block>
+  <block id="f9fcefd0027bc07ce00160c69b1e0c90" category="open-title">Excluir monitor</block>
+  <block id="85fc8a3c54b846eae784ce216c74002f" category="list-text">Selecione o ícone de reticências do monitor que você deseja remover.</block>
+  <block id="78d022431bdaa899926744aad15d4c0d" category="list-text">Selecione *Excluir* e confirme a exclusão.</block>
+  <block id="e33238cb2adeeccce9f9b9d4a8b9bb1c" category="paragraph">Após a exclusão, as assinaturas conectadas ao monitor param de receber notificações.</block>
+  <block id="0c3bfbd743380880bf374b2cdc5d53ec" category="admonition">Monitores gerados pelo sistema não podem ser excluídos pelos usuários.</block>
+  <block id="1d02064d5ee1a5a4a8455f06dacb6b1f" category="inline-link-macro">Visualizar e gerenciar alertas</block>
+  <block id="b3f8c20435f04a33e07ab53c0c9f7689" category="list-text"><block ref="b3f8c20435f04a33e07ab53c0c9f7689" category="inline-link-macro-rx"></block></block>
+  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Visualizar e gerenciar alertas para assinaturas do Keystone</block>
+  <block id="45b1b24d622565a139eb50e1cef4cd1b" category="list-text"><block ref="45b1b24d622565a139eb50e1cef4cd1b" category="inline-link-macro-rx"></block></block>
+  <block id="1853b61f9b6b779d424aeae83667bdd2" category="summary">Use a guia Monitoramento para visualizar e gerenciar alertas para suas assinaturas do Keystone .</block>
+  <block id="84d89a0580920cca786f8f2e2e9ea5e7" category="paragraph">O painel do Keystone no BlueXP permite que você visualize e gerencie alertas ativos no seu ambiente de armazenamento Keystone .  Você pode ver alertas gerados pelo sistema e alertas definidos pelo usuário para uso de capacidade e expiração de assinatura.  A partir dessa visualização, você pode avaliar rapidamente a gravidade do alerta, identificar problemas de armazenamento e tomar ações corretivas. Esta visualização não está disponível no Digital Advisor.</block>
+  <block id="7945624e1cf116b23d8e231fa6ab8d6d" category="paragraph">Para configurar alertas definidos pelo usuário, consulte<block ref="78059b8e17cadd39b328bdc0fd7cd2de" category="inline-link-macro-rx"></block> .</block>
+  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">Ver alertas</block>
+  <block id="17ec1dd00ee2fa8e3a2bea341f3176eb" category="paragraph">Para visualizar alertas ativos, siga estas etapas:</block>
+  <block id="a880a650e117aeb93dc97bdeaf243435" category="list-text">No menu de navegação esquerdo do BlueXP , selecione *Armazenamento &gt; Keystone &gt; Monitoramento &gt; Alertas*.</block>
+  <block id="c1c3f4de38096a880721ae1b1aac2343" category="inline-image-macro">Uma captura de tela de alertas ativos para assinaturas do Keystone</block>
+  <block id="4898a5ef7f9f2f68000a751495cca177" category="paragraph"><block ref="4898a5ef7f9f2f68000a751495cca177" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d3c879b0c34417e803eaa2f50299c117" category="paragraph">Você pode visualizar detalhes do alerta, como gravidade, ID, descrição, hora de acionamento, número da assinatura, ID de rastreamento, nível de serviço de desempenho e status.  A página também mostra o total de alertas não resolvidos por gravidade e tipo.</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="section-title">Gerenciar alertas</block>
+  <block id="e947bf3957a95267ebbec2757a9931af" category="paragraph">Na aba *Alertas*, você pode executar as seguintes ações:</block>
+  <block id="e6c2b8324e72d373fd318067fad63e39" category="list-text">*Revisar e resolver alertas*: Selecione o número de ID do alerta para abrir uma visualização detalhada do alerta.  Esta visualização exibe a descrição do alerta e as etapas de resolução sugeridas.  A partir desta visão detalhada, você pode:</block>
+  <block id="99091d9847708ade0e5c12b824b530ec" category="list-text">Marque o alerta como resolvido selecionando o botão *Editar* depois de resolver o problema.</block>
+  <block id="d97dee7ef47cec6420fa02b3c5776dde" category="list-text">Adicione notas de apoio selecionando o botão *Adicionar nota*, se necessário.</block>
+  <block id="e814402d8806e7855f5c97156e88da0c" category="list-text">*Filtrar alertas*: use o ícone de filtro na coluna *Status* para visualizar apenas alertas ativos, alertas resolvidos ou ambos.</block>
+  <block id="66c71aff4423b3f2e50ac2dfa8ccf4c9" category="list-text">*Ver detalhes da assinatura*: Selecione o número da assinatura na coluna *Assinatura* para acessar detalhes da assinatura, tendências de consumo e informações de ativos que podem ajudar você a entender e lidar com o alerta. Para mais informações, consulte <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block> .</block>
+  <block id="f4a4fc70d768b745e8b5b57c259ad569" category="inline-link-macro">Visualizar e criar monitores de alerta</block>
+  <block id="a2adacdfb688f8f57f2b03920c9e2a80" category="list-text"><block ref="a2adacdfb688f8f57f2b03920c9e2a80" category="inline-link-macro-rx"></block></block>
+  <block id="5e8ec25578a50b65b6a5cd50c3407574" category="paragraph">Para visualizar informações detalhadas de suas assinaturas, siga estas etapas:</block>
+  <block id="7833eab52cb0dde2b2475b6de3bac658" category="paragraph"><block ref="7833eab52cb0dde2b2475b6de3bac658" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18d49dfd26fc514adaab2c9799dd5201" category="paragraph">Você vê as principais métricas, como uso de capacidade, status de expiração da assinatura e alertas não resolvidos. Você pode ver os seguintes detalhes na tabela:</block>
+  <block id="49ee8cd124ac86a74b0e8df79ea84356" category="admonition">Você pode clicar na seta para baixo ao lado da coluna *Data de validade* para visualizar as informações sobre os níveis de serviço de desempenho de cada assinatura.  Isso mostra informações detalhadas sobre a capacidade, incluindo uso atual, capacidade comprometida, capacidade provisionada, capacidade de pico e capacidade disponível.</block>
+  <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22 de setembro de 2025</block>
 </blocks>
