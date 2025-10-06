@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, NetApp Console, Console 
 summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone. 
 ---
 = Visualizar ativos em várias assinaturas do Keystone
@@ -14,19 +14,19 @@ summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e d
 
 
 [role="lead"]
-O painel do Keystone no BlueXP permite visualizar informações detalhadas sobre nós em clusters, volumes provisionados e nós do StorageGRID em várias assinaturas do Keystone, de acordo com suas permissões de acesso. Esta visualização não está disponível no Digital Advisor.
+O painel do Keystone no NetApp Console permite que você visualize informações detalhadas sobre nós em clusters, volumes provisionados e nós do StorageGRID em várias assinaturas do Keystone , de acordo com suas permissões de acesso. Esta visualização não está disponível no Digital Advisor.
 
 [role="tabbed-block"]
 ====
 .Nós em clusters
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Ativos*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Ativos*.
 +
-A guia *Ativos* exibe a subguia *Nós no cluster*.
+A página *Ativos* exibe a guia *Nós no cluster*.
 
 +
-image:bxp-nodes-clusters-multiple-subscription.png["Uma captura de tela de nós em clusters para várias assinaturas"]
+image:console-nodes-clusters-multiple-subscription.png["Uma captura de tela de nós em clusters para várias assinaturas"]
 
 +
 Você pode visualizar informações detalhadas sobre todos os nós em clusters nas assinaturas do Keystone, incluindo números de série dos nós, status, configurações de eficiência de armazenamento, tipo de plataforma e detalhes de capacidade. Você também obtém uma visão geral de:
@@ -47,10 +47,10 @@ TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-s
 .Volumes em clusters
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Ativos*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Ativos*.
 . Selecione a aba *Volumes em clusters*.
 +
-image:bxp-volumes-clusters-multiple-sub-1.png["Uma captura de tela de volumes em clusters para várias assinaturas"]
+image:console-volumes-clusters-multiple-sub.png["Uma captura de tela de volumes em clusters para várias assinaturas"]
 
 +
 Você verá informações detalhadas sobre todos os volumes em clusters nas assinaturas do Keystone, incluindo nome do volume, número da assinatura, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você pode monitorar a capacidade provisionada, a utilização lógica e física e os dados inativos. Você também terá uma visão geral de:
@@ -73,10 +73,10 @@ Você pode clicar em um número de assinatura na coluna *Número da assinatura* 
 .Nós em grades
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Ativos*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Ativos*.
 . Selecione a aba *Nós em grades*.
 +
-image:bxp-nodes-grids-multiple-sub.png["Uma captura de tela de nós em grades para várias assinaturas"]
+image:console-nodes-grids-multiple-sub.png["Uma captura de tela de nós em grades para várias assinaturas"]
 
 +
 Você pode visualizar informações detalhadas sobre todos os nós nas grades das assinaturas Keystone, incluindo nome do nó, ID do nó, número da assinatura, nome da grade, tipo de nó e cliente. Você pode monitorar a capacidade de dados consumida e disponível, o uso da CPU e a capacidade de dados utilizável.

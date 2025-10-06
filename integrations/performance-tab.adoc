@@ -17,12 +17,12 @@ summary: Para monitorar a performance dos sistemas, você pode visualizar métri
 Para monitorar a performance dos sistemas, você pode visualizar métricas de performance dos volumes do ONTAP gerenciados pelas assinaturas do Keystone.
 
 
-TIP: Esta aba está disponível opcionalmente no Digital Advisor. Contacte o suporte para visualizar este separador. Não está disponível no BlueXP.
+TIP: Esta aba está opcionalmente disponível para você no Digital Advisor. Entre em contato com o suporte para visualizar esta aba. Não está disponível no NetApp Console.
 
 Para visualizar esta aba no Digital Advisor, siga estas etapas:
 
 .Passos
-. Clique em *Geral > Assinaturas Keystone > Desempenho*.
+. Selecione *Geral > Assinaturas Keystone > Desempenho*.
 . Selecione o número da subscrição. Por padrão, o primeiro número de assinatura é selecionado.
 . Selecione o nome do volume pretendido na lista.
 +

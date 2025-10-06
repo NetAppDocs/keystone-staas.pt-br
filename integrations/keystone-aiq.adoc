@@ -61,7 +61,7 @@ image:watchlist.png["ecrã da lista de observação"]
 *Informações relacionadas*
 
 * link:../integrations/dashboard-access.html["Comece a usar o painel Keystone"]
-* link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]
+* link:../integrations/keystone-console.html["Painel Keystone no NetApp Console"]
 * link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
 * link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
 * link:../integrations/consumption-tab.html["Veja as tendências de consumo"]

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-access.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions 
-summary: Como assinante do NetApp Keystone STaaS, você pode obter acesso ao painel do Keystone por meio do NetApp BlueXP ou do Digital Advisor 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console 
+summary: Como assinante do NetApp Keystone STaaS, você pode acessar o painel do Keystone por meio do NetApp Console ou do Digital Advisor 
 ---
 = Comece a usar o painel do Keystone
 :hardbreaks:
@@ -14,22 +14,22 @@ summary: Como assinante do NetApp Keystone STaaS, você pode obter acesso ao pai
 
 
 [role="lead"]
-Você pode acessar o painel do Keystone por meio do NetApp BlueXP ou do Digital Advisor após assinar os serviços do NetApp Keystone.
+Você pode acessar o painel do Keystone por meio do NetApp Console ou do Digital Advisor após assinar os serviços do NetApp Keystone .
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
-Para fazer login no BlueXP, você pode usar suas credenciais do site de suporte da NetApp ou se inscrever no BlueXP usando seu e-mail e uma senha. Saiba mais link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Iniciar sessão no BlueXP"^]sobre o .
+Efetue login no Console usando suas credenciais do site de suporte da NetApp ou inscreva-se para um login na nuvem da NetApp usando seu e-mail e uma senha. Para obter detalhes, consulte link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["fazendo login no Console"^] .
 
 .Passos
-. Inicie sessão no BlueXP .
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone*.
+. Efetue login no Console.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone*.
 +
 O painel do Keystone é exibido.
 
 +
-image:discover-subscriptions-1.png["a página do painel do Keystone"]
+image:discover-subscriptions-2.png["a página do painel do Keystone"]
 
 +
 
@@ -54,7 +54,7 @@ Você pode visualizar os detalhes da sua assinatura e uso, além de um resumo do
 ====
 *Informações relacionadas*
 
-* link:../integrations/keystone-bluexp.html["Painel Keystone no BlueXP"]
+* link:../integrations/keystone-console.html["Painel Keystone no NetApp Console"]
 * link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
 

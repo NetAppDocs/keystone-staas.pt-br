@@ -16,7 +16,7 @@ summary: Exibir detalhes de capacidade no nível de storage de volume ou objeto.
 [role="lead"]
 Se quiser visualizar detalhes de capacidade no nível de armazenamento de volume ou objeto, navegue até a guia *Volumes e Objetos* no Digital Advisor. Para o StorageGRID, use essa guia para ler o uso pelos nós individuais em seu ambiente de storage de objetos.
 
-Você pode consultar a aba *Ativos* no BlueXP para visualizar esses detalhes. Para visualizar os detalhes de uma assinatura específica do Keystone STaaS, consulte link:../integrations/assets-tab.html["Ver ativos associados a uma assinatura Keystone"] . Se você quiser visualizar detalhes de várias assinaturas Keystone, consulte link:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"] .
+Você pode consultar a página *Ativos* no NetApp Console para visualizar esses detalhes. Para visualizar os detalhes de uma assinatura específica do Keystone STaaS, consultelink:../integrations/assets-tab.html["Ver ativos associados a uma assinatura Keystone"] . Se você quiser visualizar detalhes de várias assinaturas Keystone , consultelink:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"] .
 
 
 NOTE: O título desta guia varia de acordo com a natureza da implantação em seu site. Se você tiver armazenamento de objetos e ONTAP, o título da guia será exibido como *volumes e objetos*. Apenas para ONTAP, o nome aparece *volumes*. Para armazenamento de objetos StorageGRID, você pode ver a guia *Objects*.

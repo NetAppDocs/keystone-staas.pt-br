@@ -100,8 +100,8 @@ sidebar:
         url: "/integrations/dashboard-overview.html"
       - title: Comece a usar o painel do Keystone
         url: "/integrations/dashboard-access.html"
-      - title: Painel Keystone no BlueXP
-        url: "/integrations/keystone-bluexp.html"
+      - title: Painel Keystone no NetApp Console
+        url: "/integrations/keystone-console.html"
       - title: Painel Keystone no Digital Advisor
         url: "/integrations/keystone-aiq.html"
       - title: Pesquise dados, gere relatórios e visualize alertas

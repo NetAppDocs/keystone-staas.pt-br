@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/modify-subscription.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
-summary: Modifique sua assinatura do Keystone para alterar a capacidade comprometida para os níveis de serviço de desempenho associados por meio do BlueXP. 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
+summary: Modifique sua assinatura do Keystone para alterar a capacidade comprometida para os níveis de serviço de desempenho associados por meio do NetApp Console. 
 ---
-= Modifique sua assinatura Keystone do BlueXP
+= Modifique sua assinatura do Keystone no NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,19 +14,19 @@ summary: Modifique sua assinatura do Keystone para alterar a capacidade comprome
 
 
 [role="lead"]
-Você pode modificar a capacidade comprometida da sua assinatura Keystone para os níveis de serviço de desempenho associados por meio do BlueXP.
+Você pode modificar a capacidade comprometida da sua assinatura do Keystone para os níveis de serviço de desempenho associados por meio do NetApp Console.
 
 [NOTE]
 ====
 * Você pode modificar a capacidade comprometida se a assinatura tiver mais de 90 dias restantes antes de expirar.
-* Você deve ter a função *administrador do Keystone* atribuída para modificar a capacidade comprometida. Para saber mais, link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções do BlueXP  Access"^]consulte .
+* Você deve ter a função *Administrador do Keystone * atribuída para modificar a capacidade comprometida. Para saber mais, consultelink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console"^] .
 
 
 ====
 Para alterar a capacidade comprometida, siga estas etapas:
 
 .Passos
-. No menu BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Clique no ícone de reticências na tabela da assinatura que você deseja modificar e selecione *Modificar*.
 +
 A página *Modificar assinatura* exibe os detalhes dos níveis de serviço de desempenho assinados associados ao número de assinatura selecionado.
@@ -36,7 +36,7 @@ A página *Modificar assinatura* exibe os detalhes dos níveis de serviço de de
 NOTE: Opcionalmente, você pode acessar a página *Modificar assinatura* clicando em *Gerenciar assinatura* na seção de detalhes da assinatura e selecionando *Modificar*.
 
 +
-image:bxp-modify-subscription-1.png["uma captura de tela exibindo a opção de modificação da lista de assinaturas"]
+image:console-modify-subscription.png["uma captura de tela exibindo a opção de modificação da lista de assinaturas"]
 
 . Clique em *Editar capacidade* para modificar a capacidade comprometida para os níveis de serviço de desempenho, forneça os detalhes necessários e clique em *Enviar*.
 +

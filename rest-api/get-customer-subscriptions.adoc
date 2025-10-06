@@ -14,7 +14,7 @@ summary: A API REST do Digital Advisor recupera uma lista de todas as assinatura
 
 
 [role="lead"]
-Esta API recupera uma lista de todas as assinaturas e níveis de serviço associados ao customerId dado.
+Esta API recupera uma lista de todas as assinaturas e níveis de serviço de desempenho associados ao customerID fornecido.
 
 *Pedido:*
 
@@ -43,7 +43,7 @@ Esta API recupera uma lista de todas as assinaturas e níveis de serviço associ
 |===
 *Resposta:*
 
-A API responderá com um objeto JSON contendo uma lista de todas as assinaturas e detalhes de nível de serviço associados para o cliente específico. Aqui está um exemplo de resposta:
+A API responderá com um objeto JSON contendo uma lista de todas as assinaturas e detalhes do nível de serviço de desempenho associado para o cliente em questão. Aqui está um exemplo de resposta:
 
 [listing]
 ----

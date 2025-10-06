@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
-keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions 
+keywords: keystone-aiq, digital advisor keystone, current consumption tab, performance service levels, subscriptions, NetApp Console, Console 
 summary: Para entender o uso da assinatura, você pode visualizar a capacidade comprometida, a capacidade consumida, a capacidade disponível e muito mais. 
 ---
 = Veja o consumo atual de suas assinaturas Keystone
@@ -16,14 +16,14 @@ summary: Para entender o uso da assinatura, você pode visualizar a capacidade c
 [role="lead"]
 Você pode obter insights sobre o uso da sua assinatura visualizando informações detalhadas, como capacidade comprometida, capacidade consumida e capacidade disponível, com o status de consumo atual exibido e segregado por níveis de serviço de desempenho.
 
-Para visualizar o status atual de consumo de suas assinaturas pelo BlueXP ou Digital Advisor, siga estes passos:
+Para visualizar o status de consumo atual de suas assinaturas por meio do NetApp Console ou do Digital Advisor, siga estas etapas:
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Selecione o número da assinatura na coluna *Número da assinatura* da tabela para visualizar o consumo atual.
 +
 Você será redirecionado para a aba *Consumo atual*.

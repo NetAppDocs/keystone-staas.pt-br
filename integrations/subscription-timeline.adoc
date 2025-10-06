@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscription-timeline.html 
-keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
-summary: Veja o cronograma de assinatura do BlueXP, que inclui eventos como datas de ativação, modificação e renovação. 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal, NetApp Console, Console 
+summary: Veja o cronograma de assinatura do NetApp Console, que inclui eventos como datas de ativação, modificação e renovação. 
 ---
 = Veja o cronograma de suas assinaturas Keystone
 :hardbreaks:
@@ -14,12 +14,12 @@ summary: Veja o cronograma de assinatura do BlueXP, que inclui eventos como data
 
 
 [role="lead"]
-O painel do Keystone no BlueXP oferece uma visão cronológica das suas assinaturas Keystone, exibindo eventos como datas de ativação, modificação e renovação. Essa visão cronológica não está disponível no Digital Advisor.
+O painel do Keystone no NetApp Console fornece uma visão cronológica das suas assinaturas do Keystone , exibindo eventos como datas de ativação, modificação e renovação. Esta visualização de linha do tempo não está disponível no Digital Advisor.
 
 Para visualizar o cronograma de assinatura, siga estas etapas:
 
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Selecione o número da assinatura na coluna *Número da assinatura* para visualizar o cronograma da assinatura.
 +
 Você será redirecionado para a aba *Consumo atual*.
@@ -29,7 +29,7 @@ Você será redirecionado para a aba *Consumo atual*.
 image:bxp-subscription-timeline-graph.png["uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de linha junto com eventos importantes"]
 
 +
-Por padrão, o cronograma da assinatura é exibido como um gráfico de linhas, com ícones marcando eventos importantes. Passe o mouse sobre um evento para ver informações detalhadas, como a data e as alterações feitas na capacidade comprometida durante uma modificação. Para visualizar esses eventos em uma tabela, selecione a opção *Tabela* no menu suspenso *Exibir como*. Você também pode visualizar o cronograma de outras assinaturas selecionando ou pesquisando na lista suspensa *ID de Rastreamento*.
+O cronograma da assinatura é exibido como um gráfico de linhas por padrão, com ícones marcando eventos importantes. Passe o mouse sobre um evento para ver detalhes, incluindo a data e as alterações de capacidade comprometidas. Para visualizar esses eventos em uma tabela, selecione a opção *Tabela* no menu suspenso *Exibir como*. Para visualizar outros cronogramas de assinatura, selecione ou pesquise no menu suspenso *ID de rastreamento*.
 
 +
 image:bxp-subscription-timeline.png["uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de tabela junto com eventos importantes"]

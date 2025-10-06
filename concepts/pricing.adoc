@@ -18,7 +18,7 @@ O serviço de assinatura pré-pago do NetApp Keystone STaaS oferece consumo flex
 
 A Keystone oferece os seguintes recursos de cobrança:
 
-* Você pode pagar com base em IOPS e latência da capacidade comprometida para atender a várias necessidades de workload. Os diferentes níveis de serviço de desempenho — Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP — permitem que você gerencie seu armazenamento com base no nível de serviço adquirido.
+* Você pode pagar com base no IOPS e na capacidade comprometida de latência para atender a diversas necessidades de carga de trabalho. Os diferentes níveis de serviço de desempenho - Extreme, Premium, Standard, Value, Object e Cloud Volumes ONTAP permitem que você gerencie seu armazenamento com base no nível de serviço de desempenho adquirido.
 * Ele apresenta cobrança previsível para a capacidade comprometida e pagamento por uso para uso de capacidade variável (sobrecarga).
 * Você pode selecionar um preço de pacote para hardware, sistema operacional central e suporte por um preço por TIB. Você tem uma única fatura para cada tipo de armazenamento: unificado, em bloco, otimizado, de objeto ou serviços de armazenamento em nuvem.
 * Você pode selecionar um prazo flexível para os serviços e opções de pagamento, como mensal, trimestral, semestral ou anual.

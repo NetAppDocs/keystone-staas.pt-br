@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: integrations/keystone-bluexp.html 
-keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor 
-summary: Como assinante do NetApp Keystone STaaS, você pode obter uma visão geral de suas assinaturas do NetApp BlueXP. 
+permalink: integrations/keystone-console.html 
+keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor, NetApp Console, Console 
+summary: Como assinante do NetApp Keystone STaaS, você pode obter uma visão geral de suas assinaturas no NetApp Console. 
 ---
-= Painel Keystone no BlueXP
+= Painel Keystone no NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Como assinante do NetApp Keystone STaaS, você pode obter uma visão ge
 
 
 [role="lead"]
-Você pode usar a aba *Visão Geral* para determinar rapidamente as cargas de trabalho em risco, visualizar a capacidade e o status de expiração das assinaturas, identificar os alertas não resolvidos e visualizar as assinaturas com maior utilização de capacidade. Você também pode visualizar o status das suas assinaturas em diferentes versões do Keystone, destacando quaisquer problemas que precisem da sua atenção.
+Você pode usar a página *Visão geral* para determinar rapidamente as cargas de trabalho em risco, visualizar a capacidade e o status de expiração das assinaturas, identificar os alertas não resolvidos e visualizar as assinaturas com maior utilização de capacidade. Você também pode visualizar o status de suas assinaturas em diferentes versões do Keystone, destacando quaisquer problemas que precisem de sua atenção.
 
-Para visualizar a aba *Visão geral*, no menu de navegação esquerdo do BlueXP, acesse *Armazenamento > Keystone > Visão geral*.
+Para visualizar a página *Visão geral*, no menu de navegação esquerdo do Console, acesse *Armazenamento > Keystone > Visão geral*.
 
-image:bxp-dashboard-overview-1.png["uma captura de tela da guia Visão geral"]
+image:bxp-dashboard-overview-2.png["uma captura de tela da página Visão geral"]
 
-A aba *Visão geral* oferece os seguintes insights:
+A página *Visão geral* oferece os seguintes insights:
 
 * *Resumo*: Exibe o número total de assinaturas, clusters ONTAP, nós StorageGRID e nós ONTAP. Cada categoria possui um botão *Exibir* para navegar facilmente até as seções detalhadas na aba *Assinaturas* ou *Ativos*.
 * *Expirando em breve*: O número de assinaturas que expiram em 6 meses. Clique em *Exibir* para ver essas assinaturas na aba *Assinaturas*.
@@ -36,6 +36,5 @@ A aba *Visão geral* oferece os seguintes insights:
 * link:..//integrations/keystone-aiq.html["Painel Keystone no Digital Advisor"]
 * link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
 * link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
-* link:../integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"]
 * link:../integrations/consumption-tab.html["Veja as tendências de consumo"]
 

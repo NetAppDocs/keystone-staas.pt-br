@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
-keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab, performance levels, keystone-bluexp, NetApp Console, Console 
 summary: Para saber mais sobre suas assinaturas do Keystone, você pode exibir uma lista de todas as assinaturas na guia assinaturas. 
 ---
 = Veja detalhes sobre suas assinaturas Keystone
@@ -14,21 +14,24 @@ summary: Para saber mais sobre suas assinaturas do Keystone, você pode exibir u
 
 
 [role="lead"]
-Você pode visualizar uma lista de todas as suas assinaturas na aba *Assinaturas* do BlueXP e do Digital Advisor. Essa aba fornece insights fáceis de entender com base no status e no uso da sua assinatura, ajudando você a se manter informado e a tomar medidas quando necessário.
+Você pode visualizar uma lista de todas as suas assinaturas em *Assinaturas* no NetApp Console e no Digital Advisor. Essa visualização fornece insights fáceis de entender com base no status e no uso da sua assinatura, ajudando você a se manter informado e a agir quando necessário.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
 Para visualizar informações detalhadas de suas assinaturas, siga estas etapas:
 
 .Passos
-. No menu de navegação esquerdo do BlueXP, acesse *Armazenamento > Keystone > Assinaturas*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 +
-image:bxp-subscription-list-2.png["ver os detalhes da aba de assinatura"]
+image:bxp-subscription-list-3.png["ver os detalhes da aba de assinatura"]
 
 +
-Você vê as principais métricas, como uso de capacidade, status de expiração da assinatura e alertas não resolvidos. Você pode ver os seguintes detalhes na tabela:
+Você vê as principais métricas, como uso de capacidade, status de expiração da assinatura e alertas não resolvidos.
+
++
+Você pode ver os seguintes detalhes na tabela:
 
 +
 ** *Número da assinatura*: O número da assinatura do Keystone atribuído pela NetApp.

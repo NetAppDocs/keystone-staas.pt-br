@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/administration-tab.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
 summary: Visualize ou cancele a solicitação do serviço de assinatura do Keystone. 
 ---
 = Ver solicitações de serviço para assinaturas Keystone
@@ -14,18 +14,18 @@ summary: Visualize ou cancele a solicitação do serviço de assinatura do Keyst
 
 
 [role="lead"]
-Você pode visualizar e rastrear solicitações de serviço para modificar assinaturas do Keystone por meio do BlueXP, fornecendo um resumo rápido e monitorando o progresso.
+Você pode visualizar e rastrear solicitações de serviço para modificar assinaturas do Keystone por meio do NetApp Console, fornecendo um resumo rápido e monitorando o progresso.
 
 Para visualizar o andamento ou cancelar uma solicitação, siga estas etapas:
 
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Administração*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Administração*.
 +
 Você vê uma lista de todas as solicitações de serviço, incluindo o número da solicitação, o tipo de solicitação e o status atual.
 
 . Você pode clicar no image:down-arrow.png["ícone de seta para baixo"] Clique no ícone ao lado da coluna *Data de envio* para expandir o número da solicitação e visualizar os detalhes. Você verá os níveis de serviço de desempenho para os quais as solicitações são geradas.
 +
-image:bxp-service-request-list.png["uma captura de tela mostra para quais níveis de serviço de desempenho as solicitações de modificação são geradas"]
+image:console-service-request-list.png["uma captura de tela mostra para quais níveis de serviço de desempenho as solicitações de modificação são geradas"]
 
 . Selecione o número da solicitação para visualizar informações detalhadas, incluindo detalhes de modificação da assinatura solicitada e o status atual do andamento.
 +

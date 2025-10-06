@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/monitoring-alerts.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, console 
 summary: Use a guia Monitoramento para visualizar e gerenciar alertas para suas assinaturas do Keystone . 
 ---
 = Visualizar e gerenciar alertas para assinaturas do Keystone
@@ -14,7 +14,7 @@ summary: Use a guia Monitoramento para visualizar e gerenciar alertas para suas 
 
 
 [role="lead"]
-O painel do Keystone no BlueXP permite que você visualize e gerencie alertas ativos no seu ambiente de armazenamento Keystone .  Você pode ver alertas gerados pelo sistema e alertas definidos pelo usuário para uso de capacidade e expiração de assinatura.  A partir dessa visualização, você pode avaliar rapidamente a gravidade do alerta, identificar problemas de armazenamento e tomar ações corretivas. Esta visualização não está disponível no Digital Advisor.
+O painel do Keystone no NetApp Console permite que você visualize e gerencie alertas ativos no seu ambiente de armazenamento Keystone . Você pode ver alertas gerados pelo sistema e alertas definidos pelo usuário para uso de capacidade e expiração de assinatura. A partir dessa visualização, você pode avaliar rapidamente a gravidade do alerta, identificar problemas de armazenamento e tomar ações corretivas. Esta visualização não está disponível no Digital Advisor.
 
 Para configurar alertas definidos pelo usuário, consultelink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Crie e gerencie monitores de alerta"] .
 
@@ -25,9 +25,9 @@ Para configurar alertas definidos pelo usuário, consultelink:../integrations/mo
 Para visualizar alertas ativos, siga estas etapas:
 
 .Passos
-. No menu de navegação esquerdo do BlueXP , selecione *Armazenamento > Keystone > Monitoramento > Alertas*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Monitoramento > Alertas*.
 +
-image:monitoring-alerts-default-view.png["Uma captura de tela de alertas ativos para assinaturas do Keystone"]
+image:monitoring-alerts-default-view-1.png["Uma captura de tela de alertas ativos para assinaturas do Keystone"]
 
 +
 Você pode visualizar detalhes do alerta, como gravidade, ID, descrição, hora de acionamento, número da assinatura, ID de rastreamento, nível de serviço de desempenho e status.  A página também mostra o total de alertas não resolvidos por gravidade e tipo.

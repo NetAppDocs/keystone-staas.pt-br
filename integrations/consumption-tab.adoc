@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/consumption-tab.html 
-keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp 
+keywords: keystone-aiq, digital advisor keystone, consumption trends, subscriptions, historical data, bluexp, NetApp Console, Console 
 summary: Para entender o uso da assinatura, você pode visualizar a capacidade comprometida, a capacidade consumida, a capacidade disponível e muito mais. 
 ---
 = Veja as tendências de consumo das suas assinaturas Keystone
@@ -16,14 +16,14 @@ summary: Para entender o uso da assinatura, você pode visualizar a capacidade c
 [role="lead"]
 Você pode monitorar o uso da sua assinatura visualizando dados históricos das suas assinaturas Keystone por um período específico. Isso permite que você obtenha insights valiosos sobre seus padrões de uso.
 
-Você pode visualizar dados históricos de suas assinaturas Keystone por meio do BlueXP ou do Digital Advisor:
+Você pode visualizar dados históricos de suas assinaturas do Keystone por meio do NetApp Console ou do Digital Advisor:
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Selecione o número da assinatura na coluna *Número da assinatura*.
 +
 Você será redirecionado para a aba *Consumo atual*.
@@ -129,7 +129,7 @@ A explosão é a diferença entre a capacidade consumida e a capacidade comprome
 
 == Ver explosão acumulada
 
-Você pode visualizar o uso acumulado de dados em pico pelo BlueXP ou pelo Digital Advisor. Se você selecionou "Explosão acumulada" no menu suspenso "Exibir" na aba "Tendência de consumo" no BlueXP, ou a opção "Explosão acumulada faturada" na aba "Tendência de consumo" no Digital Advisor, poderá visualizar o uso acumulado de dados em pico mensal ou trimestralmente, dependendo do período de cobrança selecionado. Esses dados estão disponíveis para os últimos 12 meses que foram cobrados e você pode consultar pelo intervalo de datas para até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, eles serão marcados como _pendente_ para esse período.
+Você pode visualizar o uso acumulado de dados em pico por meio do Console ou do Digital Advisor. Se você tiver selecionado *Explosão acumulada* no menu suspenso *Exibir* na guia *Tendência de consumo* no Console, ou a opção *Explosão acumulada faturada* na guia *Tendência de consumo* no Digital Advisor, você poderá ver o uso de dados acumulados em explosão mensal ou trimestralmente, dependendo do período de cobrança selecionado. Esses dados estão disponíveis para os últimos 12 meses cobrados, e você pode consultar por intervalo de datas de até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, ele será marcado como _Pendente_ para esse período.
 
 
 TIP: O uso acumulado faturado é calculado por período de cobrança, com base na capacidade comprometida e consumida para um nível de serviço de desempenho.
@@ -146,7 +146,7 @@ Esta funcionalidade está disponível no modo apenas pré-visualização. Contac
 
 == Veja o uso diário de dados de pico acumulado
 
-Você pode visualizar o uso diário de dados em pico acumulado para um período de cobrança mensal ou trimestral pelo BlueXP ou pelo Digital Advisor. No BlueXP, a tabela "Pico acumulado por dias" fornece dados detalhados, incluindo registro de data e hora, capacidade comprometida, consumida e pico acumulado, se você selecionar "Pico acumulado" no menu suspenso "Exibir" na aba "Tendência de consumo".
+Você pode visualizar o uso diário de dados acumulados em intervalos de um período de cobrança mensal ou trimestral por meio do Console ou do Digital Advisor. No Console, a tabela *Explosão acumulada por dias* fornece dados detalhados, incluindo registro de data e hora, capacidade comprometida, consumida e acumulada em estouro, se você selecionar *Explosão acumulada* no menu suspenso *Exibir* na guia *Tendência de consumo*.
 
 image:bxp-accrued-burst-days.png["captura de tela mostrando a tabela de estouro acumulado por dias"]
 

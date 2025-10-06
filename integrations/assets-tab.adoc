@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, bluexp, volumes in clusters, NetApp Console, Console 
 summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e das grades, sites e nós do StorageGRID gerenciados pelas assinaturas do Keystone. 
 ---
 = Ver ativos associados a uma assinatura Keystone
@@ -14,16 +14,16 @@ summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e d
 
 
 [role="lead"]
-Você pode visualizar informações detalhadas sobre clusters e nós do ONTAP, bem como as grades, sites e nós do StorageGRID, gerenciados por uma única assinatura do Keystone. Essa visualização dos ativos da sua assinatura está disponível nas visualizações do painel do Keystone, tanto do BlueXP quanto do Digital Advisor.
+Você pode visualizar informações detalhadas sobre clusters e nós do ONTAP , além de grades, sites e nós do StorageGRID , gerenciados por uma única assinatura do Keystone . Você pode acessar esses ativos de assinatura no painel do Keystone no NetApp Console ou no Digital Advisor.
 
 
 
-== Ver ativos de assinatura Keystone da BlueXP
+== Exibir ativos de assinatura do Keystone no NetApp Console
 
-A guia *Ativos* dentro da guia *Assinaturas* no BlueXP fornece informações detalhadas sobre volumes em clusters, nós StorageGRID e nós ONTAP associados à assinatura, incluindo vários detalhes e status de capacidade.
+A guia *Ativos* na página *Assinaturas* mostra informações detalhadas sobre volumes em clusters, nós StorageGRID e nós ONTAP associados à assinatura, incluindo vários detalhes e status de capacidade.
 
 
-NOTE: Esta visualização é limitada a uma assinatura Keystone por vez. Você também pode ver os ativos de outras assinaturas selecionando *ID de Rastreamento* na lista suspensa. O painel Keystone no BlueXP permite visualizar ativos de várias assinaturas Keystone. Para saber mais, link:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"]consulte .
+NOTE: Esta visualização é limitada a uma assinatura Keystone por vez. Você também pode ver os ativos de outras assinaturas selecionando na lista suspensa *ID de rastreamento*. O painel do Keystone no NetApp Console permite que você visualize ativos em várias assinaturas do Keystone . Para saber mais, consultelink:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"] .
 
 Você pode visualizar essas informações seguindo estas etapas:
 
@@ -32,10 +32,10 @@ Você pode visualizar essas informações seguindo estas etapas:
 .Volumes em clusters
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Selecione o número da assinatura na coluna *Número da assinatura* da tabela.
 +
-Você será redirecionado para a aba *Consumo atual*.
+O sistema abre a aba *Consumo atual*.
 
 . Selecione a aba *Ativos*.
 . Selecione *Volumes no cluster* no menu suspenso *Exibir*.
@@ -55,13 +55,10 @@ TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-s
 .Nós em clusters
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
-+
-Por padrão, a guia *Assinaturas* exibe a subguia *Assinaturas*.
-
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Selecione o número da assinatura na coluna *Número da assinatura* da tabela.
 +
-Você será redirecionado para a aba *Consumo atual*.
+O sistema abre a aba *Consumo atual*.
 
 . Selecione a aba *Ativos*.
 . Selecione *Nós em clusters* no menu suspenso *Exibir*.
@@ -81,13 +78,10 @@ TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-s
 .Nós em grades
 --
 .Passos
-. No menu de navegação esquerdo do BlueXP, selecione *Armazenamento > Keystone > Assinaturas*.
-+
-Por padrão, a guia *Assinaturas* exibe a subguia *Assinaturas*.
-
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Selecione o número da assinatura na coluna *Número da assinatura* da tabela.
 +
-Você será redirecionado para a aba *Consumo atual*.
+O sistema abre a aba *Consumo atual*.
 
 . Selecione a aba *Ativos*.
 . Selecione *Nós em grades* no menu suspenso *Exibir*.
@@ -116,7 +110,7 @@ A aba *Ativos* do painel do Keystone no Digital Advisor inclui duas subabas: *ON
 .ONTAP
 --
 .Passos
-. Clique em *Geral > Assinaturas Keystone > Ativos > ONTAP*.
+. Selecione *Geral > Assinaturas Keystone > Ativos > ONTAP*.
 . Selecione o número da assinatura para o qual você deseja exibir os clusters.
 +
 Você vê os detalhes do cluster, discriminados por configurações de eficiência de storage, tipo de plataforma e detalhes de capacidade. Clicar em um dos clusters leva você ao widget *clusters* na tela Digital Advisor, onde você obtém informações adicionais para esse cluster. O Digital Advisor fornece informações abrangentes em nível de inventário de suas implantações.
@@ -130,7 +124,7 @@ image:assets-tab-3.png["Captura de tela para mostrar informações em nível de 
 .StorageGRID
 --
 .Passos
-. Clique em *Geral > Assinaturas Keystone > Ativos > StorageGRID*.
+. Selecione *Geral > Assinaturas Keystone > Ativos > StorageGRID*.
 . Selecione o número da subscrição.
 +
 Você vê os detalhes da grade, categorizados por identificadores de grade e nó, informações do site, especificações de hardware e detalhes de capacidade, que ajudam no monitoramento e gerenciamento de nós em sua infraestrutura StorageGRID.
