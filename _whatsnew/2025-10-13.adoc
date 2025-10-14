@@ -1,0 +1,20 @@
+= Coluna de substituição de política de QoS na guia Ativos
+:allow-uri-read: 
+
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Coluna de substituição de política de QoS na guia Ativos
+
+A guia *Volumes em clusters* dentro da guia *Ativos* agora inclui uma coluna *Substituição de política de QoS* que indica se as regras de QoS são ignoradas para volumes de backup e espelho, exibindo *verdadeiro* (regras ignoradas), *falso* (regras aplicadas) ou *N/D* (para volumes espelho).
+
+
+NOTE: Para assinaturas do Keystone v3, esta coluna exibe *N/A*, pois as políticas de QoS não são aplicáveis ​​na oferta v3.
+
+
+
+=== Visibilidade de alertas aprimorada na página Visão geral
+
+A página *Visão geral* agora inclui duas novas seções de alerta denominadas *Alertas não resolvidos por gravidade* e *Alertas Keystone não resolvidos mais antigos*. Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["Painel Keystone no NetApp Console"] .

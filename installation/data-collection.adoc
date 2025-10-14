@@ -78,6 +78,10 @@ A lista a seguir é uma amostra representativa dos dados de consumo de capacidad
 ** StorageType
 ** Nome agregado
 ** UUID agregado
+** Físico usado
+** Tamanho disponível
+** Tamanho
+** Tamanho usado
 
 
 * Agregar armazenamentos de objetos
@@ -174,6 +178,17 @@ A lista a seguir é uma amostra representativa dos dados de consumo de capacidad
 ** VolumeBlocksFootprintBin1
 
 
+* MetroCluster
++
+** Nó
+** Agregado
+** LIFs
+** Replicação de configuração
+** Conexões
+** Clusters
+** Volumes
+
+
 * Clusters de MetroCluster
 +
 ** ClusterUUID
@@ -182,6 +197,36 @@ A lista a seguir é uma amostra representativa dos dados de consumo de capacidad
 ** RemoteCluserName
 ** Estado Configuração local
 ** Estado de configuração remota
+
+
+* Nós do MetroCluster
++
+** Estado de espelhamento DR
+** LIF interaglomerado
+** Acessibilidade do nó
+** Nó de parceiro DR
+** Nó DR Aux Partner
+** Relação simétrica entre nós DR, DR Aux e HA
+** Troca automática não planejada
+
+
+* Replicação de configuração do MetroCluster
++
+** Batimento cardíaco remoto
+** Último batimento cardíaco enviado
+** Último batimento cardíaco recebido
+** Fluxo do Vserver
+** Fluxo de Cluster
+** Armazenamento
+** Volume de armazenamento em uso
+
+
+* Mediadores do MetroCluster
++
+** Endereço do Mediador
+** Porta do Mediador
+** Mediador Configurado
+** Mediador Alcançável
 ** Modo
 
 
@@ -243,6 +288,13 @@ A lista a seguir é uma amostra representativa dos dados de desempenho coletados
 * QoSPolicyGroupLatency
 * ReadMBps
 * QoSSyncSnapmirrorLatency
+* Dados de nível de sistema
++
+** Gravação/Leitura/Outro/IOPS total
+** Gravação/Leitura/Outro/Taxa de transferência total
+** Gravação/Leitura/Outro/Latência Total
+
+
 * Capacidade de IOPS
 
 
@@ -298,6 +350,11 @@ A lista a seguir é uma amostra representativa dos `Physical Data` coletados par
 * Instância
 * Bytes de utilização do storage StorageGRID
 * Bytes dos metadados da utilização do storage do StorageGRID
+
+
+A lista a seguir é uma amostra representativa do `Availability/Uptime Data` coletados para StorageGRID:
+
+* Porcentagem de tempo de atividade do SLA
 
 
 ====

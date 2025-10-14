@@ -66,19 +66,8 @@
   <block id="c52919f8e1a989864d933795a6103494" category="paragraph">Atualizações do software Keystone Collector e relatórios de uso</block>
   <block id="eb0a564f9b59329f26be908a369dcafd" category="paragraph"><block ref="eb0a564f9b59329f26be908a369dcafd" category="inline-link-rx"></block></block>
   <block id="0dc1066c9360d7e2bbaf4bb6e9c5ebe1" category="paragraph">Sede da NetApp para informações de faturamento e entrega do AutoSupport</block>
-  <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">Use o serviço complementar avançado de proteção de dados para garantir a proteção de dados eficiente de workloads essenciais.</block>
-  <block id="a6b5c7400b59e86e1201f869cdba2c1a" category="doc">Saiba mais sobre proteção de dados avançada</block>
   <block id="702bdcf3d6f1e35319059ac6ab7ba5c9" category="inline-link-macro">Serviços Keystone STaaS</block>
-  <block id="4a313a9affe19522ce794cef41abbe6f" category="paragraph">Para obter informações sobre o padrão e o serviço de nuvem, <block ref="32999c765ee523f7718a7908120f4502" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="ad18d1cc4c02be72a25ef833b2c8c734" category="inline-link-macro">Gráficos de referência para proteção avançada de dados</block>
-  <block id="789c0cf84faa868401f2d0fbccadc981" category="paragraph">As cobranças adicionais são aplicáveis a todas as capacidades da assinatura: A origem, a cópia espelhada e os dados sem espelhamento.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Observe o seguinte:</block>
-  <block id="4d194848bc2fab0aa3d23867126f7f3c" category="list-text">Para esse serviço, 100% da capacidade comprometida em um storage associado é configurada como capacidade comprometida.</block>
-  <block id="b21152b7b912739b58060e9f661767eb" category="list-text">O storage é cobrado para os clusters de origem e destino. Esse serviço complementar também é cobrado pelos volumes primário e secundário (espelhado).</block>
-  <block id="c2c11a830d011ece03d73534208897a1" category="list-text">As cobranças são aplicáveis apenas ao armazenamento de arquivos e blocos.</block>
-  <block id="3505917ad3d0afd6896fab28f67d309e" category="paragraph">São suportados os seguintes cenários de MetroCluster:</block>
-  <block id="707341c09d7ffe7d139516dd4be5dcc7" category="inline-image-macro">Configurações do MetroCluster compatíveis com o Keystone</block>
-  <block id="5aca18c7a53d30f1878ae1f0a8d3c847" category="paragraph"><block ref="5aca18c7a53d30f1878ae1f0a8d3c847" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfd0252d57910ac70c5c31013436bba6" category="doc">Horários de faturamento</block>
   <block id="7f5043ec0394d759e4ce437fc8c9cd52" category="section-title">Cobrança mensal</block>
   <block id="4984e08f464a2069cf4e4d2bc61ffe7e" category="paragraph">As faturas são enviadas mensalmente. Para o mês em que os serviços estão disponíveis, uma fatura é enviada no mês seguinte. Por exemplo, a fatura dos serviços que utilizou em Janeiro é entregue no início de Fevereiro. Esta fatura inclui os encargos para a capacidade comprometida e, se aplicável, qualquer uso de expansões sazonais.</block>
@@ -1672,7 +1661,6 @@
   <block id="7fdbb259eae173e23f83dbc4823d28da" category="list-text">Visualize todos os detalhes da sua assinatura, uso da capacidade e ativos em um só lugar.</block>
   <block id="4cc15c3d51785ada1c6ba9fa1e1e13b0" category="list-text">Gerencie assinaturas facilmente e solicite alterações conforme suas necessidades evoluem.</block>
   <block id="c946fc133c6959483805e8ee848d8d3c" category="list-text">Mantenha-se atualizado com as informações mais recentes sobre seu ambiente de armazenamento.</block>
-  <block id="fae22dda3b161bc9a9e770f8b7e7a634" category="paragraph">Para obter informações sobre como exibir o consumo em uma configuração do MetroCluster, <block ref="0e74b0f4cd2655beb5f463b480ef4016" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="9b83bd6bb9b0235168f39a4c45d8529f" category="paragraph">Capacidade comprometida é a capacidade comprometida com você durante a compra da assinatura. A capacidade comprometida e a capacidade de pico são medidas por nível de serviço de desempenho. A capacidade consumida é a capacidade que seus workloads realmente usam.</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Veja as tendências de consumo das suas assinaturas Keystone</block>
   <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">Este processo ocorre para cada Registro de consumo gerado. O consumo de expansões sazonais, portanto, é um reflexo da quantidade e da posse de suas capacidades sobreconsumidas, além de suas capacidades comprometidas. Para saber mais, <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>consulte .</block>
@@ -1794,7 +1782,6 @@
   <block id="d74dcd27166505385c38faabf0aa85e8" category="list-text">Selecione o número da assinatura na coluna *Número da assinatura* da tabela para visualizar o consumo atual.</block>
   <block id="53a763ce4287b06d38f889380a89f60e" category="inline-image-macro">detalhes do consumo atual no formato gráfico</block>
   <block id="f2f90873373e8bda06d2b4b7f736c646" category="paragraph">Para a assinatura selecionada, você pode visualizar os detalhes do consumo em formato de tabela ou gráfico usando a opção *Tabela* ou *Gráfico* no menu suspenso *Exibir como*. Na visualização gráfica, você pode ver o consumo atual por nível de serviço de desempenho, incluindo capacidade utilizada, capacidade provisionada, limite de capacidade comprometida e limite de capacidade de pico.</block>
-  <block id="c4fcbd586e1246d8dc64a993418dc4e6" category="paragraph">Na visualização de tabela, você pode ver detalhes como a capacidade máxima consumida e os dias restantes até o vencimento. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o status do consumo, as capacidades comprometidas e utilizadas, as capacidades provisionadas e em pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunas. <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> ícone.</block>
   <block id="34a7549847d69b5f6a7bc80883249b7c" category="inline-image-macro">detalhes do consumo atual em formato de tabela</block>
   <block id="358fad495e1a2eb2366e40c04887ab64" category="list-text">No painel de navegação esquerdo do Digital Advisor, acesse *Geral &gt; Assinaturas Keystone &gt; Consumo atual*.</block>
   <block id="f4dd6979877f030ad7dafa413c0d90c7" category="list-text">Selecione ou pesquise o número de assinatura necessário na lista suspensa *Assinatura*.</block>
@@ -1924,7 +1911,6 @@
   <block id="edecc7e6feeced1cf533a9de993dd568" category="list-text"><block ref="edecc7e6feeced1cf533a9de993dd568" category="inline-link-macro-rx"></block></block>
   <block id="904d19fedb40bf9820beb309aafcf17b" category="inline-link-macro">Veja o painel do Keystone no Active IQ Digital Advisor</block>
   <block id="1749d12df3df2319d3eee218a277ff83" category="inline-link-macro">MetroCluster</block>
-  <block id="b0e7be39762b5cd093fd721cb637ce50" category="paragraph">O serviço avançado de proteção de dados do Keystone pode espelhar dados em um local secundário de forma síncrona. Em caso de desastre no local principal, o local secundário pode assumir o controle, sem perda de dados. Este recurso aproveita o <block ref="e34027f10b07a4258180f071293183bf" category="inline-link-macro-rx"></block> configuração entre dois sites para habilitar a proteção de dados. Você pode aproveitar os serviços adicionais avançados de proteção de dados apenas para seus serviços de storage de arquivos e blocos. Como parte deste serviço complementar, o <block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> o nível de serviço de desempenho é atribuído à sua assinatura.</block>
   <block id="6460d354c4ef5c2f34d145689f3906df" category="list-text">*Faturamento trimestral*: Uma fatura é gerada no início de cada trimestre de assinatura para o pagamento mínimo da capacidade comprometida. Outra fatura é enviada no final do trimestre para qualquer uso excessivo acumulado.</block>
   <block id="1ae0b00f6871c042811b2ef5f0368dc4" category="summary">Permite que os clientes usem capacidade de armazenamento adicional além da capacidade comprometida.</block>
   <block id="8a2359cfa062fe95972fc70674d2584a" category="doc">Opções de capacidade de burst</block>
@@ -2166,8 +2152,6 @@
   <block id="c1682b4af830f8e1dcda8da16400f7e1" category="doc">Exibir dados de consumo em nível de instância</block>
   <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">Veja o consumo de suas assinaturas Keystone</block>
   <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">Você pode visualizar o consumo atual e os dados históricos de cada instância de nível de serviço de desempenho por meio do painel do Keystone no BlueXP. Este recurso está disponível para níveis de serviço de desempenho com múltiplas instâncias, desde que você tenha uma assinatura do Keystone versão 3 (v3). Para saber mais, consulte<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block> .</block>
-  <block id="279160650841dbd8f0f6b25bf0ff9e80" category="paragraph">Você pode assinar o serviço complementar de proteção avançada de dados com sua assinatura do Keystone STaaS. Este serviço complementar usa a tecnologia NetApp MetroCluster para garantir proteção de dados eficiente de suas cargas de trabalho de missão crítica com um objetivo de ponto de recuperação (RPO) de 0.</block>
-  <block id="cfcbbd8a31fba3f531d652505099a6e6" category="admonition">Os serviços padrão Keystone STaaS para armazenamento de arquivos e blocos oferecem serviços de proteção de dados padrão usando tecnologias NetApp , como SnapMirror, SnapVault e Snapshot.</block>
   <block id="9a074d3c3d3b3789030128089b065c8d" category="paragraph">Você seleciona níveis de serviço de desempenho com base no seu ambiente de armazenamento e nas necessidades de armazenamento e consumo. Os níveis de serviço de desempenho básico estão disponíveis para você por padrão. Níveis de serviço de desempenho específicos também estão disponíveis, caso você tenha optado por serviços adicionais.</block>
   <block id="cc625dd61c8f93252f42b4f3adf096b7" category="paragraph">O serviço Keystone STaaS oferece suporte ao armazenamento unificado, otimizado por bloco e de objetos do NetApp e do Cloud Volumes ONTAP.</block>
   <block id="a38c4c1572c8ef4e4dba4054df60c293" category="paragraph">As opções de armazenamento suportadas são:</block>
@@ -2180,9 +2164,7 @@
   <block id="5c5e806c3574f28d7ccf6a897c034d18" category="paragraph"><block ref="5c5e806c3574f28d7ccf6a897c034d18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="21c9d68b030c5bf0ddbda9a170d32552" category="paragraph">O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como capacidade utilizada (capacidade total de armazenamento, incluindo dados e dados de instantâneos), dados (capacidade de armazenamento usada por dados do usuário) e instantâneo (capacidade de armazenamento usada por dados de instantâneos), juntamente com capacidade comprometida e de pico. A data e a hora de cada ponto de dados são exibidas na parte inferior do gráfico. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode passar o cursor do mouse sobre o gráfico para ver o detalhamento do uso em cada ponto de coleta de dados.</block>
   <block id="1b137f241f929a351e941ba96f7347a8" category="admonition">Se um nível de serviço de desempenho tiver várias instâncias, você poderá filtrar por instância para visualizar dados históricos de cada uma separadamente.</block>
-  <block id="dfa99eff3410a5ab865d863e81dce8fa" category="paragraph"><block ref="dfa99eff3410a5ab865d863e81dce8fa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c790cd64cc9ce087b29b63d208671f07" category="admonition">Se um nível de serviço de desempenho tiver várias instâncias, você poderá expandir *Exibir por instâncias* em qualquer uma delas para ver os detalhes de consumo atuais de cada instância separadamente.  Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extremo em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente.</block>
-  <block id="1d33ed42565e60483002000b7dcb22c3" category="paragraph"><block ref="1d33ed42565e60483002000b7dcb22c3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d302dcc8fc5540b6e87e54f3d0753c8" category="admonition">Se um nível de serviço de desempenho tiver várias instâncias, você poderá selecionar a guia *Instâncias* para ver os detalhes de consumo atuais de cada instância.  Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extremo em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente.  Para saber mais sobre os níveis de serviço de desempenho, consulte<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> .</block>
   <block id="f888b3b7cb5daf8fc505a9054b74b03d" category="list-text">*Expirando em breve*: O número de assinaturas que expiram em 6 meses. Clique em *Exibir* para ver essas assinaturas na aba *Assinaturas*.</block>
   <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*Uso de capacidade*: O status de consumo de capacidade para assinaturas que estão acima do pico, usando pico e subutilizadas. Cada categoria inclui um botão *Exibir* para navegar até a aba *Assinaturas* com filtros relevantes aplicados.</block>
@@ -2262,9 +2244,7 @@
   <block id="b2aa832e4d8d1fd7361158475afea146" category="paragraph"><block ref="b2aa832e4d8d1fd7361158475afea146" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8b4c98c2b68ae3596fde0807f39bf8eb" category="list-text">Selecione *Uso de capacidade* ou *Expiração da assinatura* para definir o tipo de monitor.  Com base na sua seleção, forneça os seguintes detalhes:</block>
   <block id="36f26e169972f962b25a6506460ae66c" category="list-text">*Detalhes gerais*: Forneça um nome de alerta e selecione o nível de gravidade.</block>
-  <block id="01d4a6c47010cf55459d034438cd8558" category="list-text">*Seleção de recursos*: escolha criar o monitor para assinaturas específicas.  Com base na seleção do tipo de monitor, preencha os campos obrigatórios que aparecem, como números de assinatura e níveis de serviço de desempenho para monitores de uso de capacidade ou somente números de assinatura para monitores de expiração de assinatura.</block>
   <block id="77c6e2eed99c9f2a9d3128048679495b" category="inline-image-macro">Uma captura de tela da seleção de recursos para o monitor de uso de capacidade</block>
-  <block id="6d50a26803a6349c2cc6cb785a778441" category="paragraph"><block ref="6d50a26803a6349c2cc6cb785a778441" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fdbe9792be04e34a378a291acc9fd58e" category="list-text">*Condição*: Defina a condição limite que aciona o alerta.  Por exemplo, acione um alerta quando o uso da capacidade exceder uma porcentagem especificada.</block>
   <block id="081b779044826c7402e8be12f60e47fc" category="list-text">*Notificações*: Selecione os usuários que receberão notificações de alerta.</block>
   <block id="f2a42a68e067e481d094b018459ef895" category="list-text">Clique em *Criar*.</block>
@@ -2366,23 +2346,19 @@
   <block id="e955295a860e893d00951c8233972d56" category="paragraph">Saiba mais sobre o<block ref="2f3134b8970d60226f00e362a8c05c8c" category="inline-link-macro-rx"></block> .</block>
   <block id="e1a2098926fff2b44e76595b2fab04b4" category="list-text">Embora o Console e o Digital Advisor ofereçam alguns recursos exclusivos, o Console fornece funcionalidade administrativa para o Keystone, permitindo que você gerencie assinaturas e faça os ajustes necessários.</block>
   <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">Saiba mais sobre as funções de acesso do NetApp Console</block>
-  <block id="ff366c40543fbef7804957d52fabf2a0" category="list-text">Você deve ter a função *Administrador do Keystone * atribuída para modificar assinaturas. Para saber mais, consulte<block ref="22d60f99a4ac0841de53b7fa8c3f1253" category="inline-link-macro-rx"></block> .</block>
   <block id="7d0366e10bff9b03e7d1ebe083232ad0" category="inline-link-macro">Integração do Digital Advisor com o NetApp Console</block>
   <block id="19f702ba317875d05972d4dc2df1d379" category="list-text">O Digital Advisor é integrado ao Console, permitindo que você acesse todos os recursos do Digital Advisor , incluindo o painel do Keystone , diretamente do Console. Para saber mais, consulte<block ref="5983da9102c6398c455221dbbeef93c0" category="inline-link-macro-rx"></block> .</block>
   <block id="754a3a5b6d930270b1fbfb641c89b440" category="section-title">Recursos do Keystone no NetApp Console e no Digital Advisor</block>
   <block id="fbe45a39864c469e12feb1cb9128ed44" category="paragraph">A tabela a seguir mostra a disponibilidade de recursos no NetApp Console e no Digital Advisor, ajudando você a identificar rapidamente a plataforma certa para suas necessidades:</block>
   <block id="14b33e994477a76e918b15271e482d20" category="cell">* Console NetApp *</block>
-  <block id="e35a8b08a1eced21ae0e1445810e0ff0" category="paragraph"><block ref="e35a8b08a1eced21ae0e1445810e0ff0" category="inline-link-macro-rx"></block></block>
   <block id="2e8b12135324e72007b3768ea8e3b475" category="summary">Como assinante do NetApp Keystone STaaS, você pode obter uma visão geral de suas assinaturas no NetApp Console.</block>
   <block id="a8b926e7f40ce1b8a36a0d50c4412766" category="paragraph">Você pode usar a página *Visão geral* para determinar rapidamente as cargas de trabalho em risco, visualizar a capacidade e o status de expiração das assinaturas, identificar os alertas não resolvidos e visualizar as assinaturas com maior utilização de capacidade. Você também pode visualizar o status de suas assinaturas em diferentes versões do Keystone, destacando quaisquer problemas que precisem de sua atenção.</block>
   <block id="859167398832678cbae2e0062c6a5136" category="paragraph">Para visualizar a página *Visão geral*, no menu de navegação esquerdo do Console, acesse *Armazenamento &gt; Keystone &gt; Visão geral*.</block>
   <block id="e9803f7c01419ecddf878fe4fd33bc47" category="inline-image-macro">uma captura de tela da página Visão geral</block>
-  <block id="4e1db70e55c012f3d68da057084056e2" category="paragraph"><block ref="4e1db70e55c012f3d68da057084056e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8325080ad6eca6e402bccdbbcccd2b3" category="paragraph">A página *Visão geral* oferece os seguintes insights:</block>
   <block id="b6a17a16f2925f240966aa803c2d67ff" category="summary">Modifique sua assinatura do Keystone para alterar a capacidade comprometida para os níveis de serviço de desempenho associados por meio do NetApp Console.</block>
   <block id="2227728e15b4a8b218a3533e278cf342" category="doc">Modifique sua assinatura do Keystone no NetApp Console</block>
   <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">Você pode modificar a capacidade comprometida da sua assinatura do Keystone para os níveis de serviço de desempenho associados por meio do NetApp Console.</block>
-  <block id="9313fbe04542c1ff2b3e92ade6375732" category="list-text">Você deve ter a função *Administrador do Keystone * atribuída para modificar a capacidade comprometida. Para saber mais, consulte<block ref="22d60f99a4ac0841de53b7fa8c3f1253" category="inline-link-macro-rx"></block> .</block>
   <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb873e65402011d905122364da690822" category="paragraph">Você pode visualizar e criar monitores de alerta para suas assinaturas do Keystone no painel do Keystone no NetApp Console. O painel exibe monitores gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura. Você pode criar monitores para definir limites, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações. Esta funcionalidade não está disponível no Digital Advisor.</block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">No menu de navegação esquerdo do Console, selecione *Armazenamento &gt; Keystone &gt; Monitoramento &gt; Monitores de alerta*.</block>
@@ -2414,4 +2390,55 @@
   <block id="827607b42918efbeec5d1431418ad729" category="paragraph">Embora a navegação das duas ofertas seja semelhante no<block ref="07f7314e0fdd92e843ce6bfcd1f08066" category="inline-link-macro-rx"></block> Os serviços de assinatura da Keystone diferem do Keystone STaaS nos níveis de serviço de desempenho constituintes, na oferta de serviços e nos princípios de cobrança. Desde abril de 2024, a NetApp mantém e publica documentação apenas para o Keystone STaaS. Se você ainda estiver usando os serviços de assinatura do Keystone , entre em contato com seu KSM para obter suporte na migração para o Keystone STaaS. Se necessário, você pode acessar uma versão em PDF da documentação dos serviços de assinatura do Keystone aqui:</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 de outubro de 2025</block>
   <block id="03e4603e7e1d94d1d2afa097ed77bcc4" category="sidebar">Painel Keystone no NetApp Console e no Digital Advisor</block>
+  <block id="13f711a55db449e74aa63517fe680750" category="doc">Coluna de substituição de política de QoS na guia Ativos</block>
+  <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Novos aprimoramentos no painel do Keystone no NetApp Console:</block>
+  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">A guia *Volumes em clusters* dentro da guia *Ativos* agora inclui uma coluna *Substituição de política de QoS* que indica se as regras de QoS são ignoradas para volumes de backup e espelho, exibindo *verdadeiro* (regras ignoradas), *falso* (regras aplicadas) ou *N/D* (para volumes espelho).</block>
+  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Para assinaturas do Keystone v3, esta coluna exibe *N/A*, pois as políticas de QoS não são aplicáveis ​​na oferta v3.</block>
+  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">Visibilidade de alertas aprimorada na página Visão geral</block>
+  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">A página *Visão geral* agora inclui duas novas seções de alerta denominadas *Alertas não resolvidos por gravidade* e *Alertas Keystone não resolvidos mais antigos*. Para saber mais, consulte<block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block> .</block>
+  <block id="aa7a1a40be5427d20e444e625b1e8690" category="list-text">Físico usado</block>
+  <block id="0811dbd951e43bbe1fc86f756210d7e1" category="list-text">Tamanho disponível</block>
+  <block id="c2b555f514e74c99fe1ee6eaa6770e35" category="list-text">Tamanho usado</block>
+  <block id="6c3a6944a808a7c0bbb6788dbec54a9f" category="list-text">Nó</block>
+  <block id="bfa10f7c5e846fdab9228aa316c04549" category="list-text">LIFs</block>
+  <block id="9e1894c70a5220dfab0925ac115d2ed6" category="list-text">Replicação de configuração</block>
+  <block id="98a2bc79c11d0cbb19f99b2b8c70e6e3" category="list-text">Conexões</block>
+  <block id="cf8683a46a9fce46da2b0e7bac364b41" category="list-text">Nós do MetroCluster</block>
+  <block id="b1bcb082b9f4bfb2e9950b72c46ff1e1" category="list-text">Estado de espelhamento DR</block>
+  <block id="54f7d853bcd07992f133218c21a038be" category="list-text">LIF interaglomerado</block>
+  <block id="b3d4d99e2963cdc1ba5444b9c4f62295" category="list-text">Acessibilidade do nó</block>
+  <block id="db4e7a23ada0f093c517d41efe049779" category="list-text">Nó de parceiro DR</block>
+  <block id="668d9d7500fec64fc64a67d1a756077c" category="list-text">Nó DR Aux Partner</block>
+  <block id="b68fb88346774a3d1c33270e3be52557" category="list-text">Relação simétrica entre nós DR, DR Aux e HA</block>
+  <block id="5f40a0155cfe0bbbd8b2764836ebb3e9" category="list-text">Troca automática não planejada</block>
+  <block id="f5643211f88659eaf49718a1434d4efe" category="list-text">Replicação de configuração do MetroCluster</block>
+  <block id="7edd41b738e0d4f4661cf8ce53b95719" category="list-text">Batimento cardíaco remoto</block>
+  <block id="c53dc32b833a96f36213da88e4d519d2" category="list-text">Último batimento cardíaco enviado</block>
+  <block id="ffc7e818f459dd40b0602c5559ba0956" category="list-text">Último batimento cardíaco recebido</block>
+  <block id="e7f09ca73d207d376215a76fcb9f6ac5" category="list-text">Fluxo do Vserver</block>
+  <block id="f9c03fed2172cc949108bc9deba594ea" category="list-text">Fluxo de Cluster</block>
+  <block id="5d6e7ea0747340efe96e6ee216c70f32" category="list-text">Volume de armazenamento em uso</block>
+  <block id="fa5d802c1e0b472446381304bcc2ff35" category="list-text">Mediadores do MetroCluster</block>
+  <block id="6cd5a922d59678d886207fc62464e56a" category="list-text">Endereço do Mediador</block>
+  <block id="dd74069b22733e2b03a0958eb9f230a3" category="list-text">Porta do Mediador</block>
+  <block id="144307032147887917be25ed225bafb6" category="list-text">Mediador Configurado</block>
+  <block id="12a348ac24415229fee936cd66e2e92d" category="list-text">Mediador Alcançável</block>
+  <block id="b421cdbed621e0e15c8acb8194a4fdb6" category="list-text">Dados de nível de sistema</block>
+  <block id="a32872d4ee3d3cc5fb982a73c188de0c" category="list-text">Gravação/Leitura/Outro/IOPS total</block>
+  <block id="2c627ab62d04412aa9cab71e9e33c9cb" category="list-text">Gravação/Leitura/Outro/Taxa de transferência total</block>
+  <block id="fabeb58b0dad9f899d8b88416117bc79" category="list-text">Gravação/Leitura/Outro/Latência Total</block>
+  <block id="c5bf928fa690e77e77b3e5dc9c570773" category="paragraph">A lista a seguir é uma amostra representativa do<block ref="05916e807214b60fdcd842fb212b7897" prefix=" " category="inline-code"></block> coletados para StorageGRID:</block>
+  <block id="2961ad92d313263d5c9701f5aa8126a9" category="list-text">Porcentagem de tempo de atividade do SLA</block>
+  <block id="c0029d3ed944e8ef4f598481e14db28c" category="paragraph"><block ref="c0029d3ed944e8ef4f598481e14db28c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f9aa673728fdf49de5fd7f4392426fc4" category="paragraph">Na visualização de tabela, você pode ver detalhes como capacidade máxima consumida e dias restantes até a expiração. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o uso da capacidade, as capacidades comprometidas e usadas, as capacidades provisionadas e de pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunas<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> ícone.</block>
+  <block id="c8e3290600a931a2c7f5ea26d1268469" category="paragraph"><block ref="c8e3290600a931a2c7f5ea26d1268469" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="65c72fc91b63262452cae6ffc68b5fe8" category="list-text">Você deve ter a função *Administrador do Keystone * atribuída para modificar assinaturas. Para saber mais, consulte<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block> .</block>
+  <block id="3073adc4a7680cc828c55134467305ae" category="paragraph"><block ref="3073adc4a7680cc828c55134467305ae" category="inline-link-macro-rx"></block></block>
+  <block id="503323af5c69bab54cb6fe53ccef6f8e" category="paragraph"><block ref="503323af5c69bab54cb6fe53ccef6f8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3564bb0e09fc76eb6075b25b3c3643e0" category="list-text">*Alertas não resolvidos por gravidade*: lista o total de alertas não resolvidos com base na gravidade: Crítico, Aviso e Informativo.  Cada categoria inclui um botão *Exibir* para revisar detalhes e tomar outras medidas.</block>
+  <block id="fbdd0ec7256573dce976dc52a2cdad0e" category="list-text">*Alertas Keystone não resolvidos mais antigos*: Exibe uma tabela dos alertas críticos não resolvidos mais antigos em todas as assinaturas.</block>
+  <block id="9fcb29f9ba41ea80f15f38f0907ab2f0" category="list-text">Você deve ter a função *Administrador do Keystone * atribuída para modificar a capacidade comprometida. Para saber mais, consulte<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block> .</block>
+  <block id="012cc690ee0f390b86e69b7ef941643e" category="list-text">*Seleção de recursos*: escolha criar o monitor para assinaturas específicas ou todas as assinaturas. Com base na seleção do tipo de monitor, preencha os campos obrigatórios que aparecem, como números de assinatura e níveis de serviço de desempenho para monitores de uso de capacidade ou somente números de assinatura para monitores de expiração de assinatura.</block>
+  <block id="17eb308ea945cce061c4020365ec2ddf" category="paragraph"><block ref="17eb308ea945cce061c4020365ec2ddf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13 de outubro de 2025</block>
 </blocks>

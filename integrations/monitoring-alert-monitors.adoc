@@ -55,9 +55,9 @@ image:create-alert-monitor.png["Uma captura de tela da criação de um monitor d
 . Selecione *Uso de capacidade* ou *Expiração da assinatura* para definir o tipo de monitor.  Com base na sua seleção, forneça os seguintes detalhes:
 +
 ** *Detalhes gerais*: Forneça um nome de alerta e selecione o nível de gravidade.
-** *Seleção de recursos*: escolha criar o monitor para assinaturas específicas.  Com base na seleção do tipo de monitor, preencha os campos obrigatórios que aparecem, como números de assinatura e níveis de serviço de desempenho para monitores de uso de capacidade ou somente números de assinatura para monitores de expiração de assinatura.
+** *Seleção de recursos*: escolha criar o monitor para assinaturas específicas ou todas as assinaturas. Com base na seleção do tipo de monitor, preencha os campos obrigatórios que aparecem, como números de assinatura e níveis de serviço de desempenho para monitores de uso de capacidade ou somente números de assinatura para monitores de expiração de assinatura.
 +
-image:resource-selection.png["Uma captura de tela da seleção de recursos para o monitor de uso de capacidade"]
+image:resource-selection-1.png["Uma captura de tela da seleção de recursos para o monitor de uso de capacidade"]
 
 ** *Condição*: Defina a condição limite que aciona o alerta.  Por exemplo, acione um alerta quando o uso da capacidade exceder uma porcentagem especificada.
 ** *Notificações*: Selecione os usuários que receberão notificações de alerta.

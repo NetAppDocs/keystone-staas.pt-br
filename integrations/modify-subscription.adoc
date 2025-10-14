@@ -19,7 +19,7 @@ Você pode modificar a capacidade comprometida da sua assinatura do Keystone par
 [NOTE]
 ====
 * Você pode modificar a capacidade comprometida se a assinatura tiver mais de 90 dias restantes antes de expirar.
-* Você deve ter a função *Administrador do Keystone * atribuída para modificar a capacidade comprometida. Para saber mais, consultelink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console"^] .
+* Você deve ter a função *Administrador do Keystone * atribuída para modificar a capacidade comprometida. Para saber mais, consultelink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console"^] .
 
 
 ====

@@ -29,7 +29,7 @@ Para visualizar o status de consumo atual de suas assinaturas por meio do NetApp
 Você será redirecionado para a aba *Consumo atual*.
 
 +
-image:bxp-current-consumption-graph-1.png["detalhes do consumo atual no formato gráfico"]
+image:console-current-consumption-graph.png["detalhes do consumo atual no formato gráfico"]
 
 +
 Para a assinatura selecionada, você pode visualizar os detalhes do consumo em formato de tabela ou gráfico usando a opção *Tabela* ou *Gráfico* no menu suspenso *Exibir como*. Na visualização gráfica, você pode ver o consumo atual por nível de serviço de desempenho, incluindo capacidade utilizada, capacidade provisionada, limite de capacidade comprometida e limite de capacidade de pico.
@@ -39,10 +39,10 @@ Para a assinatura selecionada, você pode visualizar os detalhes do consumo em f
 NOTE: Se um nível de serviço de desempenho tiver várias instâncias, você poderá expandir *Exibir por instâncias* em qualquer uma delas para ver os detalhes de consumo atuais de cada instância separadamente.  Por exemplo, se você tiver duas instâncias do nível de serviço de desempenho Extremo em uma assinatura, cada instância exibirá suas próprias capacidades comprometidas, consumidas e disponíveis separadamente.
 
 +
-Na visualização de tabela, você pode ver detalhes como a capacidade máxima consumida e os dias restantes até o vencimento. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o status do consumo, as capacidades comprometidas e utilizadas, as capacidades provisionadas e em pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunas. image:column-selector.png["ícone do seletor de coluna"] ícone.
+Na visualização de tabela, você pode ver detalhes como capacidade máxima consumida e dias restantes até a expiração. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o uso da capacidade, as capacidades comprometidas e usadas, as capacidades provisionadas e de pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunasimage:column-selector.png["ícone do seletor de coluna"] ícone.
 
 +
-image:bxp-current-consumption-table-1.png["detalhes do consumo atual em formato de tabela"]
+image:console-current-consumption-table.png["detalhes do consumo atual em formato de tabela"]
 
 
 

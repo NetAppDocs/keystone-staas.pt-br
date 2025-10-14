@@ -48,7 +48,7 @@ Saiba mais sobre olink:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-
 Observe o seguinte:
 
 * Embora o Console e o Digital Advisor ofereçam alguns recursos exclusivos, o Console fornece funcionalidade administrativa para o Keystone, permitindo que você gerencie assinaturas e faça os ajustes necessários.
-* Você deve ter a função *Administrador do Keystone * atribuída para modificar assinaturas. Para saber mais, consultelink:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console"^] .
+* Você deve ter a função *Administrador do Keystone * atribuída para modificar assinaturas. Para saber mais, consultelink:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do NetApp Console"^] .
 * O Digital Advisor é integrado ao Console, permitindo que você acesse todos os recursos do Digital Advisor , incluindo o painel do Keystone , diretamente do Console. Para saber mais, consultelink:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["Integração do Digital Advisor com o NetApp Console"^] .
 
 
@@ -98,7 +98,7 @@ link:../integrations/modify-subscription.html["Modifique suas assinaturas"] (som
 
 
  a| 
-link:../integrations/options.html#generate-reports-from-console-or-digital-advisor["Gerar relatórios"]
+link:../integrations/options.html#generate-reports-from-netapp-console-or-digital-advisor["Gerar relatórios"]
 | Sim | Sim 
 
 

@@ -18,14 +18,16 @@ Você pode usar a página *Visão geral* para determinar rapidamente as cargas d
 
 Para visualizar a página *Visão geral*, no menu de navegação esquerdo do Console, acesse *Armazenamento > Keystone > Visão geral*.
 
-image:bxp-dashboard-overview-2.png["uma captura de tela da página Visão geral"]
+image:console-overview.png["uma captura de tela da página Visão geral"]
 
 A página *Visão geral* oferece os seguintes insights:
 
 * *Resumo*: Exibe o número total de assinaturas, clusters ONTAP, nós StorageGRID e nós ONTAP. Cada categoria possui um botão *Exibir* para navegar facilmente até as seções detalhadas na aba *Assinaturas* ou *Ativos*.
 * *Expirando em breve*: O número de assinaturas que expiram em 6 meses. Clique em *Exibir* para ver essas assinaturas na aba *Assinaturas*.
 * *Solicitações abertas*: O número total de solicitações de serviço abertas.
+* *Alertas não resolvidos por gravidade*: lista o total de alertas não resolvidos com base na gravidade: Crítico, Aviso e Informativo.  Cada categoria inclui um botão *Exibir* para revisar detalhes e tomar outras medidas.
 * *Uso de capacidade*: O status de consumo de capacidade para assinaturas que estão acima do pico, usando pico e subutilizadas. Cada categoria inclui um botão *Exibir* para navegar até a aba *Assinaturas* com filtros relevantes aplicados.
+* *Alertas Keystone não resolvidos mais antigos*: Exibe uma tabela dos alertas críticos não resolvidos mais antigos em todas as assinaturas.
 * *As 5 principais assinaturas com maior utilização da capacidade*: Exibe uma tabela com as cinco principais assinaturas Keystone com a maior porcentagem de utilização da capacidade. Você pode clicar no número da assinatura na coluna *Assinatura* para obter informações detalhadas.
 
 
