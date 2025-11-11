@@ -2225,12 +2225,10 @@
   <block id="0189c782e04bc566597908eddaee3dd5" category="section-title">Ver monitores de alerta</block>
   <block id="d8d1f09f12d3047d0b1d5264e0fbb3d4" category="paragraph">Para visualizar os monitores de alerta, siga estas etapas:</block>
   <block id="8891b6740bffe77b967f8fe0f2bb0320" category="inline-image-macro">Uma captura de tela dos monitores de alerta para assinaturas do Keystone</block>
-  <block id="ae75ac6ecba83cd82e353c5c2dddf9ca" category="paragraph">Você pode visualizar uma lista de monitores de alerta em suas assinaturas do Keystone , incluindo nomes de monitores, condições de alerta que acionam notificações, níveis de gravidade, números de assinatura, níveis de serviço de desempenho e status.  Você pode verificar a coluna *Criado por* para determinar se os monitores de alerta são gerados pelo sistema ou definidos pelo usuário.</block>
   <block id="6b29e04f1a3d7126b32fea3e35336be6" category="section-title">Crie e gerencie monitores de alerta</block>
   <block id="c52ec421c31615867815fd4658197c12" category="paragraph">Na aba *Monitores de alerta*, você pode criar monitores para rastrear o uso da capacidade e a expiração da assinatura.  Você também pode editar, duplicar ou excluir monitores existentes, conforme necessário.</block>
   <block id="57ff1be6332a578fa82ccb64d9259d54" category="open-title">Criar um monitor</block>
   <block id="64c64a9516f4ac5c0006a03c872e7317" category="paragraph">Para criar um monitor de alerta, siga estas etapas:</block>
-  <block id="a3513012c18df0c1a7b8764f4e9f1ff9" category="list-text">Clique no botão *Criar monitor*.</block>
   <block id="f4743dcb07fb533885399ef1728ce857" category="paragraph">A página *Criar monitor de alerta* é exibida.</block>
   <block id="704b16afc2be166a3265886d6a494bb5" category="inline-image-macro">Uma captura de tela da criação de um monitor de alerta para assinaturas do Keystone</block>
   <block id="b2aa832e4d8d1fd7361158475afea146" category="paragraph"><block ref="b2aa832e4d8d1fd7361158475afea146" category="inline-image-macro-rx" type="image"></block></block>
@@ -2255,7 +2253,6 @@
   <block id="37436487b6f97021df7ee2c4adbdfa45" category="list-text">Selecione o ícone de reticências do monitor que você deseja copiar.</block>
   <block id="3cf3a984f792c68d00d0ddbaa1549d75" category="list-text">Selecione *Duplicar*.</block>
   <block id="1c9486cebc61c5048cf6288719fae578" category="paragraph">A página *Criar monitor de alerta* aparece com os valores de campo existentes já preenchidos.</block>
-  <block id="7a170bf7d609f40a91657be5b2c92dc3" category="list-text">Modifique os campos conforme necessário e clique em *Criar*.</block>
   <block id="59c8147f6a6c89c779cc9c0e0d31057d" category="paragraph">Um novo monitor de alerta é criado com a configuração atualizada e aparece na lista *Monitores de alerta*.</block>
   <block id="f9fcefd0027bc07ce00160c69b1e0c90" category="open-title">Excluir monitor</block>
   <block id="85fc8a3c54b846eae784ce216c74002f" category="list-text">Selecione o ícone de reticências do monitor que você deseja remover.</block>
@@ -2352,7 +2349,6 @@
   <block id="2227728e15b4a8b218a3533e278cf342" category="doc">Modifique sua assinatura do Keystone no NetApp Console</block>
   <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">Você pode modificar a capacidade comprometida da sua assinatura do Keystone para os níveis de serviço de desempenho associados por meio do NetApp Console.</block>
   <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb873e65402011d905122364da690822" category="paragraph">Você pode visualizar e criar monitores de alerta para suas assinaturas do Keystone no painel do Keystone no NetApp Console. O painel exibe monitores gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura. Você pode criar monitores para definir limites, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações. Esta funcionalidade não está disponível no Digital Advisor.</block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">No menu de navegação esquerdo do Console, selecione *Armazenamento &gt; Keystone &gt; Monitoramento &gt; Monitores de alerta*.</block>
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">O painel do Keystone no NetApp Console permite que você visualize e gerencie alertas ativos no seu ambiente de armazenamento Keystone . Você pode ver alertas gerados pelo sistema e alertas definidos pelo usuário para uso de capacidade e expiração de assinatura. A partir dessa visualização, você pode avaliar rapidamente a gravidade do alerta, identificar problemas de armazenamento e tomar ações corretivas. Esta visualização não está disponível no Digital Advisor.</block>
@@ -2443,4 +2439,32 @@
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Baixe o certificado de CA de assinatura de código da Sectigo.<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>.</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Quando a integridade e a autenticidade do OVA Keystone Collector forem validadas, você poderá ver o texto.<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> com a editora. <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">Se o cluster estiver em uma configuração MetroCluster , execute este comando:</block>
+  <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">Preencha o formulário de notificação de cobertura.</block>
+  <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">Gerenciar lacunas de cobertura para monitores de alerta</block>
+  <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">A aba *Alertas de monitoramento* na página *Monitoramento* inclui uma caixa de notificação *Complete sua cobertura* que aparece quando existem lacunas de cobertura.  Esta caixa lista as assinaturas que não possuem monitores de capacidade ou expiração, e os monitores sem assinaturas.  Você pode solucionar as lacunas adicionando assinaturas a monitores existentes, criando novos monitores ou excluindo monitores não utilizados. Para saber mais, consulte <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>.</block>
+  <block id="39fb73624dac610b8274b1bd6e2c1193" category="paragraph">Você pode visualizar e criar monitores de alerta para suas assinaturas do Keystone a partir do painel do Keystone no NetApp Console.  O painel de controle exibe indicadores de uso de capacidade e expiração de assinaturas, tanto gerados pelo sistema quanto definidos pelo usuário. Você pode criar monitores para definir limites, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações.  Você pode solucionar as lacunas de cobertura adicionando monitores a assinaturas não cobertas ou resolvendo problemas com monitores não utilizados. Esta funcionalidade não está disponível no Digital Advisor.</block>
+  <block id="60adeaffad8e127352095573a6e3157f" category="paragraph">Você pode visualizar uma lista de monitores de alerta em suas assinaturas do Keystone , incluindo nomes de monitores, condições de alerta que acionam notificações, níveis de gravidade, números de assinatura, níveis de serviço de desempenho e status. Você pode verificar a coluna *Criado por* para ver se os monitores de alerta foram gerados pelo sistema ou definidos pelo usuário.</block>
+  <block id="ac092a2bcbdb5857ae37a4756db46a49" category="list-text">Selecione o botão *Criar monitor*.</block>
+  <block id="cb5198d92b18cf007a9117aa50f90c3e" category="list-text">Altere os campos conforme necessário e clique em *Criar*.</block>
+  <block id="2fd74b6a7fe875798408a25e1558c434" category="section-title">Gerenciar lacunas de cobertura</block>
+  <block id="27693e14a82cbe43a67100eb4538ddd9" category="paragraph">Uma caixa de notificação recolhível com a mensagem *Complete sua cobertura* aparece acima da lista de monitores de alerta quando alguma ação é necessária.  Isso te ajuda a:</block>
+  <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">Identificar e solucionar problemas de assinaturas que não possuem monitoramento de uso de capacidade ou de expiração de assinatura.</block>
+  <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">Analise e gerencie os monitores que não estão atualmente associados a nenhuma assinatura.</block>
+  <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Captura de tela das lacunas de cobertura dos monitores de alerta para assinaturas Keystone .</block>
+  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">Para corrigir assinaturas sem monitores ou monitores não utilizados, siga estes passos:</block>
+  <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">Assinaturas sem monitores</block>
+  <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">Selecione a aba *Expiração das assinaturas* ou *Utilização da capacidade*.</block>
+  <block id="226f73c9504a7560a9a6543e7686879d" category="list-text">Na coluna *Resolver*, selecione o ícone de reticências da assinatura que deseja abordar.</block>
+  <block id="4c0349a30e44fe2e3989a278d0a1f1e1" category="list-text">Escolha uma opção:</block>
+  <block id="55075c37621639cb4058160f8872944a" category="list-text">*Adicionar ao monitor existente*: Uma janela pop-up será exibida.  Selecione um monitor e confirme.</block>
+  <block id="8f9840a1a3c6e0d946a2c7230f2cc4a8" category="list-text">*Criar novo monitor*: O sistema exibe a página *Criar monitor de alerta*.  Siga os passos em<block ref="f5b0d13ec8e410cddd0c73aae96856f8" category="inline-link-macro-rx"></block> Criar um novo monitor.</block>
+  <block id="c63b72e256a63e39fd4833b7a7c43f16" category="paragraph">A assinatura desaparece da aba após a adição da cobertura.</block>
+  <block id="7652a06e5287973e36402a720937090f" category="open-title">Monitores não utilizados</block>
+  <block id="599e408ddca0ab40965afad26b9dd5ed" category="list-text">Selecione a aba *Não utilizado*.</block>
+  <block id="11ea68b14110fa7cbc61ea38b5a4fcec" category="list-text">Na coluna *Resolver*, selecione o ícone de reticências do monitor que você deseja acessar.</block>
+  <block id="41825a04a8338881f026e0e8b933fd54" category="list-text">*Editar*: O sistema exibe a página *Editar monitor de alertas*.  Altere os campos necessários e salve.  Para saber mais, consulte<block ref="b047d326fc106faf3f12ef4efac0005e" category="inline-link-macro-rx"></block> .</block>
+  <block id="0cfa773235daafece9ec96fac7a4ae83" category="list-text">*Excluir*: Confirme a exclusão para remover o monitor.</block>
+  <block id="9516b8db60240fe5a0c189f3a9d20181" category="paragraph">O monitor é removido da aba depois que você adiciona ou exclui assinaturas.</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 de novembro de 2025</block>
 </blocks>

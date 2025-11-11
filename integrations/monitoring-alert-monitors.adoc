@@ -14,7 +14,7 @@ summary: Use a guia Monitoramento para visualizar e criar monitores de alertas p
 
 
 [role="lead"]
-Você pode visualizar e criar monitores de alerta para suas assinaturas do Keystone no painel do Keystone no NetApp Console. O painel exibe monitores gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura. Você pode criar monitores para definir limites, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações. Esta funcionalidade não está disponível no Digital Advisor.
+Você pode visualizar e criar monitores de alerta para suas assinaturas do Keystone a partir do painel do Keystone no NetApp Console.  O painel de controle exibe indicadores de uso de capacidade e expiração de assinaturas, tanto gerados pelo sistema quanto definidos pelo usuário. Você pode criar monitores para definir limites, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações.  Você pode solucionar as lacunas de cobertura adicionando monitores a assinaturas não cobertas ou resolvendo problemas com monitores não utilizados. Esta funcionalidade não está disponível no Digital Advisor.
 
 
 
@@ -28,7 +28,7 @@ Para visualizar os monitores de alerta, siga estas etapas:
 image:monitoring-alert-monitors-default-view-1.png["Uma captura de tela dos monitores de alerta para assinaturas do Keystone"]
 
 +
-Você pode visualizar uma lista de monitores de alerta em suas assinaturas do Keystone , incluindo nomes de monitores, condições de alerta que acionam notificações, níveis de gravidade, números de assinatura, níveis de serviço de desempenho e status.  Você pode verificar a coluna *Criado por* para determinar se os monitores de alerta são gerados pelo sistema ou definidos pelo usuário.
+Você pode visualizar uma lista de monitores de alerta em suas assinaturas do Keystone , incluindo nomes de monitores, condições de alerta que acionam notificações, níveis de gravidade, números de assinatura, níveis de serviço de desempenho e status. Você pode verificar a coluna *Criado por* para ver se os monitores de alerta foram gerados pelo sistema ou definidos pelo usuário.
 
 
 
@@ -45,7 +45,7 @@ Na aba *Monitores de alerta*, você pode criar monitores para rastrear o uso da 
 Para criar um monitor de alerta, siga estas etapas:
 
 .Passos
-. Clique no botão *Criar monitor*.
+. Selecione o botão *Criar monitor*.
 +
 A página *Criar monitor de alerta* é exibida.
 
@@ -101,7 +101,7 @@ O sistema retorna você para a página *Monitores de alerta*, onde o monitor atu
 +
 A página *Criar monitor de alerta* aparece com os valores de campo existentes já preenchidos.
 
-. Modifique os campos conforme necessário e clique em *Criar*.
+. Altere os campos conforme necessário e clique em *Criar*.
 +
 Um novo monitor de alerta é criado com a configuração atualizada e aparece na lista *Monitores de alerta*.
 
@@ -119,6 +119,58 @@ Após a exclusão, as assinaturas conectadas ao monitor param de receber notific
 +
 
 NOTE: Monitores gerados pelo sistema não podem ser excluídos pelos usuários.
+
+
+
+--
+====
+
+
+== Gerenciar lacunas de cobertura
+
+Uma caixa de notificação recolhível com a mensagem *Complete sua cobertura* aparece acima da lista de monitores de alerta quando alguma ação é necessária.  Isso te ajuda a:
+
+* Identificar e solucionar problemas de assinaturas que não possuem monitoramento de uso de capacidade ou de expiração de assinatura.
+* Analise e gerencie os monitores que não estão atualmente associados a nenhuma assinatura.
++
+image:coverage-gaps.png["Captura de tela das lacunas de cobertura dos monitores de alerta para assinaturas Keystone ."]
+
+
+
+Para corrigir assinaturas sem monitores ou monitores não utilizados, siga estes passos:
+
+[role="tabbed-block"]
+====
+.Assinaturas sem monitores
+--
+.Passos
+. Selecione a aba *Expiração das assinaturas* ou *Utilização da capacidade*.
+. Na coluna *Resolver*, selecione o ícone de reticências da assinatura que deseja abordar.
+. Escolha uma opção:
++
+** *Adicionar ao monitor existente*: Uma janela pop-up será exibida.  Selecione um monitor e confirme.
+** *Criar novo monitor*: O sistema exibe a página *Criar monitor de alerta*.  Siga os passos emlink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Criar um monitor"] Criar um novo monitor.
++
+A assinatura desaparece da aba após a adição da cobertura.
+
+
+
+
+
+--
+.Monitores não utilizados
+--
+.Passos
+. Selecione a aba *Não utilizado*.
+. Na coluna *Resolver*, selecione o ícone de reticências do monitor que você deseja acessar.
+. Escolha uma opção:
++
+** *Editar*: O sistema exibe a página *Editar monitor de alertas*.  Altere os campos necessários e salve.  Para saber mais, consultelink:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["Monitor de edição"] .
+** *Excluir*: Confirme a exclusão para remover o monitor.
++
+O monitor é removido da aba depois que você adiciona ou exclui assinaturas.
+
+
 
 
 

@@ -18,6 +18,18 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+== 10 de novembro de 2025
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Preencha o formulário de notificação de cobertura.
+
+A aba *Alertas de monitoramento* na página *Monitoramento* inclui uma caixa de notificação *Complete sua cobertura* que aparece quando existem lacunas de cobertura.  Esta caixa lista as assinaturas que não possuem monitores de capacidade ou expiração, e os monitores sem assinaturas.  Você pode solucionar as lacunas adicionando assinaturas a monitores existentes, criando novos monitores ou excluindo monitores não utilizados. Para saber mais, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["Gerenciar lacunas de cobertura para monitores de alerta"].
+
+
+
 == 13 de outubro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
