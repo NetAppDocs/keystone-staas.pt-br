@@ -30,6 +30,10 @@ image:monitoring-alert-monitors-default-view-1.png["Uma captura de tela dos moni
 +
 Você pode visualizar uma lista de monitores de alerta em suas assinaturas do Keystone , incluindo nomes de monitores, condições de alerta que acionam notificações, níveis de gravidade, números de assinatura, níveis de serviço de desempenho e status. Você pode verificar a coluna *Criado por* para ver se os monitores de alerta foram gerados pelo sistema ou definidos pelo usuário.
 
++
+
+NOTE: A aba *Relatórios* está temporariamente indisponível para assinaturas Keystone .
+
 
 
 
@@ -133,7 +137,7 @@ Uma caixa de notificação recolhível com a mensagem *Complete sua cobertura* a
 * Identificar e solucionar problemas de assinaturas que não possuem monitoramento de uso de capacidade ou de expiração de assinatura.
 * Analise e gerencie os monitores que não estão atualmente associados a nenhuma assinatura.
 +
-image:coverage-gaps.png["Captura de tela das lacunas de cobertura dos monitores de alerta para assinaturas Keystone ."]
+image:coverage-gaps-1.png["Captura de tela das lacunas de cobertura dos monitores de alerta para assinaturas Keystone ."]
 
 
 

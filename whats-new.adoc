@@ -18,6 +18,18 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+== 24 de novembro de 2025
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== ID de rastreamento para assinaturas com período de cobertura limitado
+
+Na caixa de notificação *Conclua sua cobertura* em *Monitoramento > Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.
+
+
+
 == 10 de novembro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:

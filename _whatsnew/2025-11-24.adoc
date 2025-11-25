@@ -1,0 +1,11 @@
+= ID de rastreamento para assinaturas com período de cobertura limitado
+:allow-uri-read: 
+
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== ID de rastreamento para assinaturas com período de cobertura limitado
+
+Na caixa de notificação *Conclua sua cobertura* em *Monitoramento > Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.

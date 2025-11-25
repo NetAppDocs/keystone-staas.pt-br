@@ -1681,7 +1681,6 @@
   <block id="98d28e0357b1d103f21ba89dd0d19e08" category="paragraph">Você vê uma lista de todas as solicitações de serviço, incluindo o número da solicitação, o tipo de solicitação e o status atual.</block>
   <block id="d47cec4b54da960eb97da1285dba00bf" category="inline-image-macro">ícone de seta para baixo</block>
   <block id="b8915f85e20c41695f7695ce198af59a" category="list-text">Você pode clicar no <block ref="97aa861acb085111dcd2b43caf6c79a2" category="inline-image-macro-rx" type="image"></block> Clique no ícone ao lado da coluna *Data de envio* para expandir o número da solicitação e visualizar os detalhes. Você verá os níveis de serviço de desempenho para os quais as solicitações são geradas.</block>
-  <block id="de30be97e27dee0a131478825b7f19bd" category="inline-image-macro">uma captura de tela mostra para quais níveis de serviço de desempenho as solicitações de modificação são geradas</block>
   <block id="6f611e4ccc824406e0de3f7a09110159" category="list-text">Selecione o número da solicitação para visualizar informações detalhadas, incluindo detalhes de modificação da assinatura solicitada e o status atual do andamento.</block>
   <block id="a92c0535191745976db8964221708fe4" category="inline-image-macro">uma captura de tela que mostra o status atual do progresso</block>
   <block id="fc1597aa65903b595ab66b315f8b1878" category="paragraph"><block ref="fc1597aa65903b595ab66b315f8b1878" category="inline-image-macro-rx" type="image"></block></block>
@@ -2285,8 +2284,6 @@
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">Você pode selecionar vários níveis de serviço de desempenho simultaneamente para criar PSLs.</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">Se um PSL para o nível de serviço de desempenho selecionado já existir no servidor Active IQ Unified Manager especificado, você não poderá criá-lo novamente. Se você tentar fazer isso, receberá uma mensagem de erro.<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">Você pode visualizar e rastrear solicitações de serviço para modificar assinaturas do Keystone por meio do NetApp Console, fornecendo um resumo rápido e monitorando o progresso.</block>
-  <block id="2fbcdf41574fdac1e466d4dad9bb3a55" category="list-text">No menu de navegação esquerdo do Console, selecione *Armazenamento &gt; Keystone &gt; Administração*.</block>
-  <block id="26a02c6592f7d54ca37b8c1a48780136" category="paragraph"><block ref="26a02c6592f7d54ca37b8c1a48780136" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">Você pode visualizar informações detalhadas sobre clusters e nós do ONTAP , além de grades, sites e nós do StorageGRID , gerenciados por uma única assinatura do Keystone . Você pode acessar esses ativos de assinatura no painel do Keystone no NetApp Console ou no Digital Advisor.</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">Exibir ativos de assinatura do Keystone no NetApp Console</block>
   <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">A guia *Ativos* na página *Assinaturas* mostra informações detalhadas sobre volumes em clusters, nós StorageGRID e nós ONTAP associados à assinatura, incluindo vários detalhes e status de capacidade.</block>
@@ -2440,7 +2437,6 @@
   <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">Identificar e solucionar problemas de assinaturas que não possuem monitoramento de uso de capacidade ou de expiração de assinatura.</block>
   <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">Analise e gerencie os monitores que não estão atualmente associados a nenhuma assinatura.</block>
   <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Captura de tela das lacunas de cobertura dos monitores de alerta para assinaturas Keystone .</block>
-  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">Para corrigir assinaturas sem monitores ou monitores não utilizados, siga estes passos:</block>
   <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">Assinaturas sem monitores</block>
   <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">Selecione a aba *Expiração das assinaturas* ou *Utilização da capacidade*.</block>
@@ -2477,4 +2473,13 @@
   <block id="45d6736fdd879f91b2a538e05e0a3b12" category="list-text">Red Hat Enterprise Linux 9.0 ou posterior</block>
   <block id="cc20f1cec12842b9bed0a2fb4b579509" category="list-text">Amazon Linux 2023 ou posterior</block>
   <block id="f0fc80440f66cd06e8621cfb9578824b" category="paragraph">Você pode entrar em contato com a equipe de suporte do Keystone para assinar o Keystone versão 3 (v3). Para obter mais detalhes, consulte <block ref="90d872d2a90e66f6330f06f20805c0ef" category="inline-link-macro-rx"></block>.</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">ID de rastreamento para assinaturas com período de cobertura limitado</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">Na caixa de notificação *Conclua sua cobertura* em *Monitoramento &gt; Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.</block>
+  <block id="06d55ded719647ad67f379d0f9afc0e2" category="list-text">No menu de navegação à esquerda do Console, selecione *Armazenamento &gt; Keystone &gt; Administração &gt; Solicitações*.</block>
+  <block id="21ffef0c637fd0891ae9b41f52742b09" category="admonition">As abas *Gerenciamento de agentes* e *Relatórios* estão indisponíveis no momento para assinaturas Keystone .</block>
+  <block id="5d2cdc919ce893613b66b876a7c2782d" category="inline-image-macro">Uma captura de tela mostra os níveis de desempenho do serviço para as solicitações de modificação.</block>
+  <block id="a91bb8801531bd0f94f5726293b87485" category="paragraph"><block ref="a91bb8801531bd0f94f5726293b87485" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">A aba *Relatórios* está temporariamente indisponível para assinaturas Keystone .</block>
+  <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 de novembro de 2025</block>
 </blocks>

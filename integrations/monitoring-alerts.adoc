@@ -32,6 +32,10 @@ image:monitoring-alerts-default-view-1.png["Uma captura de tela de alertas ativo
 +
 Você pode visualizar detalhes do alerta, como gravidade, ID, descrição, hora de acionamento, número da assinatura, ID de rastreamento, nível de serviço de desempenho e status.  A página também mostra o total de alertas não resolvidos por gravidade e tipo.
 
++
+
+NOTE: A aba *Relatórios* está temporariamente indisponível para assinaturas Keystone .
+
 
 
 
