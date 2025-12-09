@@ -561,7 +561,6 @@
   <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">Antes de instalar o Keystone Collector em um ambiente sem acesso à Internet, também conhecido como _dark site_ ou _private mode_, certifique-se de que seus sistemas estejam preparados com o software necessário e atendam a todos os pré-requisitos necessários.</block>
   <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">Prepare-se para a instalação em modo privado</block>
   <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">Requisitos para o VMware vSphere</block>
-  <block id="4b78be970b5500221a819608df5616e7" category="list-text">Sistema operacional: VMware vCenter Server e ESXi 6,7 ou posterior</block>
   <block id="0ed064e2cd201442fba4d1be4a8ee19c" category="list-text">Núcleo: 1 CPU</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM: 2 GB</block>
   <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">Espaço em disco: 20 GB vDisk</block>
@@ -997,12 +996,6 @@
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">Em _Etapa 1_ do assistente *Deploy OVF Template*, clique em *Select e OVF template* para selecionar o arquivo baixado<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block>.</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">Em _Etapa 2_, especifique o nome da VM e selecione a pasta da VM.</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">Em _Etapa 3_, especifique o recurso de computação necessário para executar a VM.</block>
-  <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">Em _Etapa 4: Revise os detalhes_, verifique a correção e autenticidade do arquivo OVA. As versões do vCentre anteriores a 7.0u2 não conseguem verificar automaticamente a autenticidade do certificado de assinatura de código. VCentre 7.0u2 e posteriores podem realizar as verificações. No entanto, para isso, a autoridade do certificado de assinatura deve ser adicionada ao vCentre. Siga estas instruções para a sua versão do vCentre:</block>
-  <block id="ed55999d50b7451fbe4281de85f01c45" category="example-title">VCentre 7.0u1 e anteriores: Saiba mais</block>
-  <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">O vCentre valida a integridade do conteúdo do arquivo OVA e é fornecido um resumo válido de assinatura de código para os arquivos contidos no ARQUIVO OVA. No entanto, ele não valida a autenticidade do certificado de assinatura de código. Para verificar a integridade, você deve baixar o certificado de resumo de assinatura completo e verificá-lo em relação ao certificado público publicado pelo Keystone.</block>
-  <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">Clique no link *Publisher* para baixar o certificado de resumo completo da assinatura.</block>
-  <block id="ae33212e0f96fd19173ab021f7909861" category="example-title">VCentre 7.0u2 e posterior: Saiba mais</block>
-  <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2 e versões posteriores do vCenter são capazes de validar a integridade do conteúdo do arquivo OVA e a autenticidade do certificado de assinatura de código, quando um resumo válido de assinatura de código é fornecido. O armazenamento de confiança raiz do vCenter contém apenas certificados VMware. O NetApp usa o Entrust como autoridade de certificação e esses certificados precisam ser adicionados ao armazenamento de confiança do vCenter.</block>
   <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">Siga as etapas na<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> seção deste artigo da base de conhecimento (KB)<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>: .</block>
   <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">OVA UI exibindo um certificado verificado</block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">Em _Etapa 5_ do assistente *Deploy OVF Template*, especifique o local para armazenar a VM.</block>
@@ -1022,7 +1015,6 @@
   <block id="3901dacdf71718d8755295861e5a2509" category="list-text">Atualize os coletores Keystone usando a opção *Manutenção &gt; Atualizar coletores*. Após a atualização, reinicie o utilitário TUI de gerenciamento do Keystone Collector para aplicar as alterações.</block>
   <block id="1cceea5af439cdbb6c02b1dac3e52f59" category="summary">Seu sistema VMware vSphere deve atender a vários requisitos antes de instalar o Keystone Collector.</block>
   <block id="e662e98288b349f4be4a3688e1269383" category="list-title">Pré-requisitos para a VM do servidor Keystone Collector:</block>
-  <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">Sistema operacional: Servidor VMware vCentre e ESXi 6,7 ou posterior</block>
   <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM: 2 GB DE RAM</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">Gerar relatórios</block>
   <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">Os detalhes são gerados em formato CSV que você pode salvar para uso futuro e comparação.</block>
@@ -2420,8 +2412,6 @@
   <block id="b5e09b8913194b721a7e21626585dfc5" category="list-text">Certifique-se de que o certificado público correto foi importado, verificando a impressão digital da plataforma Keystone Billing no banco de dados RPM:<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block> A impressão digital correta tem esta aparência:<block ref="b91be68b3b67e632293886e3790eccc7" prefix=" " category="inline-code"></block></block>
   <block id="f4baeef0e68eefa8ecbde2db1c9bb6af" category="list-text">Baixe o<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> arquivo:<block ref="55192ff2cd286fc1b545da5fb86c86fb" prefix=" " category="inline-code"></block></block>
   <block id="859d80b97dc3be93d17073cb53fd1183" category="list-text">Verifique a autenticidade do arquivo:<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block> A assinatura de um arquivo autêntico tem a seguinte aparência:<block ref="ae3578a86bb737e9e2439ece85303ecb" prefix=" " category="inline-code"></block></block>
-  <block id="1eba34a29908de527656c195c6a4418a" category="list-text">Faça o download do certificado público do _Keystone Billing_ em<block ref="5520f333fe3958930d4ca351e896a12f" category="inline-link-rx"></block>.</block>
-  <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">Verifique a autenticidade do certificado de assinatura OVA comparando-o com o certificado público usando o OpenSSL:<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Baixe o certificado de CA de assinatura de código da Sectigo.<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>.</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Quando a integridade e a autenticidade do OVA Keystone Collector forem validadas, você poderá ver o texto.<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> com a editora. <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">Se o cluster estiver em uma configuração MetroCluster , execute este comando:</block>
@@ -2482,4 +2472,16 @@
   <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">A aba *Relatórios* está temporariamente indisponível para assinaturas Keystone .</block>
   <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 de novembro de 2025</block>
+  <block id="236430e108e8394ac19913076b10fb55" category="doc">Etiqueta de capacidade de explosão acumulada renomeada</block>
+  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada*.</block>
+  <block id="a6145fbfb28ae332bb61854cc43b2999" category="list-text">Sistema operacional: servidor VMware vCenter e ESXi 8.0 ou posterior</block>
+  <block id="19c50fb6e1d8179976234d4afbeaf824" category="list-text">Na etapa 4: Revisar detalhes, verifique a correção e a autenticidade do arquivo OVA.</block>
+  <block id="89982b0af4c1ad3b86da7a82b021fed7" category="paragraph">O armazenamento confiável raiz do vCenter contém apenas certificados VMware. A NetApp usa o Entrust como autoridade de certificação, e esses certificados precisam ser adicionados ao armazenamento confiável do vCenter.</block>
+  <block id="6421324a362bee91e5fee16704e6b0e5" category="admonition">Para versões do vCenter 7.x e anteriores, você deve atualizar o vCenter e o ESXi para a versão 8.0 ou posterior. As versões anteriores não são mais suportadas.</block>
+  <block id="21f65ffde9511843c6e3b86b7a0de865" category="list-text">Sistema operacional: servidor VMware vCenter e ESXi 8.0 ou posterior</block>
+  <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">As opções do menu suspenso *Visualizar* dependem da sua plataforma de assinatura Keystone . *Volumes em clusters* e *Nós em clusters* estão disponíveis para ONTAP. Para o StorageGRID, o menu suspenso *Visualizar* não está disponível; a tabela *Nós nas grades* é exibida automaticamente. Se sua assinatura incluir ambas as plataformas, todas as três opções estarão disponíveis.</block>
+  <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">A página *Ativos* exibe guias com base nas plataformas associadas às suas assinaturas do Keystone . Para o ONTAP, as abas *Nós em clusters* e *Volumes em clusters* estão disponíveis. Para o StorageGRID, a tabela *Nós em grades* é exibida diretamente, sem a necessidade de selecionar uma guia. Se a assinatura incluir ambas as plataformas, todas as três abas estarão disponíveis.</block>
+  <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">As assinaturas exibem incorretamente o status *Acima do Limite de Burst* no painel do Digital Advisor , apesar do consumo estar dentro dos limites de burst permitidos.</block>
+  <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025-12-08</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 de dezembro de 2025</block>
 </blocks>

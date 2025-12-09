@@ -1,0 +1,11 @@
+= Etiqueta de capacidade de explosão acumulada renomeada
+:allow-uri-read: 
+
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Etiqueta de capacidade de explosão acumulada renomeada
+
+A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada*.

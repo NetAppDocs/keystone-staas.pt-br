@@ -22,9 +22,13 @@ Você pode visualizar informações detalhadas sobre clusters e nós do ONTAP , 
 
 A guia *Ativos* na página *Assinaturas* mostra informações detalhadas sobre volumes em clusters, nós StorageGRID e nós ONTAP associados à assinatura, incluindo vários detalhes e status de capacidade.
 
+[NOTE]
+====
+* Esta visualização é limitada a uma assinatura Keystone por vez. Você também pode ver os ativos de outras assinaturas selecionando na lista suspensa *ID de rastreamento*. O painel do Keystone no NetApp Console permite que você visualize ativos em várias assinaturas do Keystone . Para saber mais, consultelink:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"] .
+* As opções do menu suspenso *Visualizar* dependem da sua plataforma de assinatura Keystone . *Volumes em clusters* e *Nós em clusters* estão disponíveis para ONTAP. Para o StorageGRID, o menu suspenso *Visualizar* não está disponível; a tabela *Nós nas grades* é exibida automaticamente. Se sua assinatura incluir ambas as plataformas, todas as três opções estarão disponíveis.
 
-NOTE: Esta visualização é limitada a uma assinatura Keystone por vez. Você também pode ver os ativos de outras assinaturas selecionando na lista suspensa *ID de rastreamento*. O painel do Keystone no NetApp Console permite que você visualize ativos em várias assinaturas do Keystone . Para saber mais, consultelink:../integrations/assets.html["Visualize ativos em suas assinaturas Keystone"] .
 
+====
 Você pode visualizar essas informações seguindo estas etapas:
 
 [role="tabbed-block"]
@@ -34,9 +38,6 @@ Você pode visualizar essas informações seguindo estas etapas:
 .Passos
 . No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 . Selecione o número da assinatura na coluna *Número da assinatura* da tabela.
-+
-O sistema abre a aba *Consumo atual*.
-
 . Selecione a aba *Ativos*.
 . Selecione *Volumes no cluster* no menu suspenso *Exibir*.
 +

@@ -16,6 +16,9 @@ summary: Use a guia Assets para exibir detalhes dos clusters e nós do ONTAP e d
 [role="lead"]
 O painel do Keystone no NetApp Console permite que você visualize informações detalhadas sobre nós em clusters, volumes provisionados e nós do StorageGRID em várias assinaturas do Keystone , de acordo com suas permissões de acesso. Esta visualização não está disponível no Digital Advisor.
 
+
+NOTE: A página *Ativos* exibe guias com base nas plataformas associadas às suas assinaturas do Keystone . Para o ONTAP, as abas *Nós em clusters* e *Volumes em clusters* estão disponíveis. Para o StorageGRID, a tabela *Nós em grades* é exibida diretamente, sem a necessidade de selecionar uma guia. Se a assinatura incluir ambas as plataformas, todas as três abas estarão disponíveis.
+
 [role="tabbed-block"]
 ====
 .Nós em clusters

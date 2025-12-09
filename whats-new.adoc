@@ -18,6 +18,18 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+== 08 de dezembro de 2025
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Etiqueta de capacidade de explosão acumulada renomeada
+
+A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada*.
+
+
+
 == 24 de novembro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
