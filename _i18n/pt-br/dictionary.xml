@@ -925,7 +925,6 @@
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">O mesmo servidor também deve ter os seguintes pacotes de terceiros:</block>
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">Podman (POD Manager)</block>
   <block id="e284374909d82a81c5150b7908e00147" category="list-text">cronologia</block>
-  <block id="3c048c264642c17c1d0bbd50b9e23bfe" category="list-text">python 3 (3.6.8 a 3,9.13)</block>
   <block id="9ce62eb0f672e21ccd91e690812cac59" category="list-title">Servidor VM do Keystone Collector:</block>
   <block id="3cd8ee624224889231554d68f6c0f471" category="list-text">Núcleo: 2 CPUs</block>
   <block id="729c0bdf36ec5a81531eff6e6786c89d" category="list-text">RAM: 4 GB DE RAM</block>
@@ -2484,4 +2483,5 @@
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">As assinaturas exibem incorretamente o status *Acima do Limite de Burst* no painel do Digital Advisor , apesar do consumo estar dentro dos limites de burst permitidos.</block>
   <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025-12-08</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 de dezembro de 2025</block>
+  <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">Python 3 (3.9.14 a 3.11.8)</block>
 </blocks>

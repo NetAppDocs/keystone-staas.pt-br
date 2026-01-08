@@ -36,7 +36,7 @@ O mesmo servidor também deve ter os seguintes pacotes de terceiros:
 * Podman (POD Manager)
 * sos
 * cronologia
-* python 3 (3.6.8 a 3,9.13)
+* Python 3 (3.9.14 a 3.11.8)
 
 
 .Servidor VM do Keystone Collector:
