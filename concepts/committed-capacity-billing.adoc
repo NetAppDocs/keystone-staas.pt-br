@@ -4,7 +4,7 @@ permalink: concepts/committed-capacity-billing.html
 keywords: Billing based on committed capacity, committed capacity billing 
 summary: Capacidade comprometida é a capacidade comprometida em um nível de serviço específico durante a compra da assinatura. 
 ---
-= Cobrança baseada na capacidade comprometida
+= Entenda a cobrança de capacidade comprometida da Keystone.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

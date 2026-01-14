@@ -4,7 +4,7 @@ permalink: concepts/burst-consumption-billing.html
 keywords: burst consumption billing 
 summary: A cobrança do Keystone STaaS é baseada na capacidade de expansão sazonal, que é a capacidade consumida por você, além da capacidade comprometida da sua assinatura. 
 ---
-= Cobrança baseada no consumo de expansões sazonais
+= Entenda a cobrança de consumo em rajadas da Keystone.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

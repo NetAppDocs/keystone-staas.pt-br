@@ -4,7 +4,7 @@ permalink: concepts/data-tiering.html
 keywords: add-on services, add-on, data tiering 
 summary: O serviço complementar de categorização de dados identifica os dados usados com menos frequência e categoriza-os em storage com suporte. 
 ---
-= Saiba mais sobre categorização de dados
+= Serviço adicional de armazenamento em camadas de dados para Keystone.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

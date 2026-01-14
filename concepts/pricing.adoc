@@ -4,7 +4,7 @@ permalink: concepts/pricing.html
 keywords: pricing, billing introduction, Keystone billing 
 summary: O Keystone oferece um modelo de pagamento conforme o uso para suas necessidades de consumo flexível e dimensionável. 
 ---
-= Preços do Keystone
+= Saiba mais sobre os preços do Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

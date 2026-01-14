@@ -4,7 +4,7 @@ permalink: dark-sites/requirements.html
 keywords: installation, private mode, requirement, vmware vsphere, linux, networking,disk, space 
 summary: Antes de instalar o Keystone Collector em um ambiente sem acesso à Internet, também conhecido como _dark site_ ou _private mode_, certifique-se de que seus sistemas estejam preparados com o software necessário e atendam a todos os pré-requisitos necessários. 
 ---
-= Prepare-se para a instalação em modo privado
+= Prepare-se para a instalação do Keystone Collector no modo privado.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

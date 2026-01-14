@@ -4,7 +4,7 @@ permalink: concepts/misc-volume-billing.html
 keywords: Billing and miscellaneous scenarios 
 summary: Saiba mais sobre a cobrança do Keystone para configurações específicas, incluindo volumes clonados, proteção de dados avançada e muito mais. 
 ---
-= Cenários diversos para faturamento do Keystone
+= Saiba mais sobre a cobrança do Keystone para configurações de volume específicas.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

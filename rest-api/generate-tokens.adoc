@@ -4,7 +4,7 @@ permalink: rest-api/generate-tokens.html
 keywords: Refresh token, Digital Advisor portal,access 
 summary: Gere um token de atualização para adquirir novos tokens de acesso. Ele autentica solicitações de API e permanece válido por uma semana ou até ser substituído. Você pode obter o token de acesso através do console ou de uma chamada de API. 
 ---
-= Gerar tokens de atualização e acesso
+= Gere tokens de atualização e acesso para o Keystone.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

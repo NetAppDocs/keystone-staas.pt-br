@@ -4,7 +4,7 @@ permalink: concepts/billing-schedules.html
 keywords: billing schedules, schedule for payment 
 summary: As assinaturas do Keystone STaaS são cobradas mensalmente, trimestralmente, semestralmente ou anualmente. 
 ---
-= Horários de faturamento
+= Saiba mais sobre os planos de faturamento da Keystone.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
