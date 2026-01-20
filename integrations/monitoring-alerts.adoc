@@ -48,6 +48,10 @@ Na aba *Alertas*, você pode executar as seguintes ações:
 +
 ** Marque o alerta como resolvido selecionando o botão *Editar* depois de resolver o problema.
 ** Adicione notas de apoio selecionando o botão *Adicionar nota*, se necessário.
++
+
+NOTE: A edição de alertas requer a função de *administrador do Keystone *. A função *Visualizador Keystone * só pode visualizar detalhes de alertas. Para saber mais, consulte link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Funções de acesso Keystone no NetApp Console"^].
+
 
 
 * *Filtrar alertas*: use o ícone de filtro na coluna *Status* para visualizar apenas alertas ativos, alertas resolvidos ou ambos.

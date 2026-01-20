@@ -18,6 +18,18 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+== 19 de janeiro de 2026
+
+Atualizações no painel do Keystone no NetApp Console:
+
+
+
+=== Modificar assinatura indisponível
+
+A opção de modificar a capacidade contratada para assinaturas Keystone está atualmente indisponível. Essa funcionalidade será reintroduzida em uma versão futura.
+
+
+
 == 08 de dezembro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:

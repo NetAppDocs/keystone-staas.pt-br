@@ -42,6 +42,9 @@ NOTE: A aba *Relatórios* está temporariamente indisponível para assinaturas K
 
 Na aba *Monitores de alerta*, você pode criar monitores para rastrear o uso da capacidade e a expiração da assinatura.  Você também pode editar, duplicar ou excluir monitores existentes, conforme necessário.
 
+
+NOTE: Você precisa ter a função de *Administrador do Keystone * atribuída para criar e gerenciar monitores de alerta. Para saber mais, consulte link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Funções de acesso Keystone no NetApp Console"^].
+
 [role="tabbed-block"]
 ====
 .Criar um monitor

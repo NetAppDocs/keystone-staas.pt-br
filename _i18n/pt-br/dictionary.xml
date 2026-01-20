@@ -1776,8 +1776,6 @@
   <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">Não</block>
   <block id="33df2a894b84cf92bf7b059b0628f59d" category="paragraph"><block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block></block>
   <block id="57d8e28284aecaa3906b97f010612fcd" category="cell"><block ref="57d8e28284aecaa3906b97f010612fcd" category="inline-link-macro-rx"></block></block>
-  <block id="b938e197dfa8dadbdec004a37e0ef3af" category="inline-link-macro">Modifique suas assinaturas</block>
-  <block id="a7629efe0e47f4108406da4590b98b87" category="paragraph"><block ref="761270557fec89f94924233c726d0e8a" category="inline-link-macro-rx"></block> (somente para administradores do Keystone)</block>
   <block id="f9eade15df63147aad555cc771e3c457" category="inline-link-macro">Ver detalhes de volumes e objetos</block>
   <block id="0fbbeb712322bc30085f9aee131d6509" category="paragraph"><block ref="0fbbeb712322bc30085f9aee131d6509" category="inline-link-macro-rx"></block></block>
   <block id="73be3087ebbe8024dbe143136c7e4de9" category="paragraph"><block ref="73be3087ebbe8024dbe143136c7e4de9" category="inline-link-macro-rx"></block></block>
@@ -1794,16 +1792,6 @@
   <block id="92b787d913c7ad5afc095b2bdf953c66" category="list-text">*Solicitações abertas*: O número total de solicitações de serviço abertas.</block>
   <block id="010423df1000a45a1a63fdd5f480f566" category="inline-link">Serviços de assinatura Keystone | Documentação da versão 1</block>
   <block id="a8ce21fd73a6b04f851be6e1d6d0da63" category="list-text">*As 5 principais assinaturas com maior utilização da capacidade*: Exibe uma tabela com as cinco principais assinaturas Keystone com a maior porcentagem de utilização da capacidade. Você pode clicar no número da assinatura na coluna *Assinatura* para obter informações detalhadas.</block>
-  <block id="2527930ed946837db80b382551b3e30f" category="list-text">Você pode modificar a capacidade comprometida se a assinatura tiver mais de 90 dias restantes antes de expirar.</block>
-  <block id="36b20c02b50b952932585493baf0578c" category="paragraph">Para alterar a capacidade comprometida, siga estas etapas:</block>
-  <block id="0777df37fb2d784be7418d104f1b48c3" category="list-text">Clique no ícone de reticências na tabela da assinatura que você deseja modificar e selecione *Modificar*.</block>
-  <block id="7368a9d71827e42ec6d0e30872f2ade8" category="paragraph">A página *Modificar assinatura* exibe os detalhes dos níveis de serviço de desempenho assinados associados ao número de assinatura selecionado.</block>
-  <block id="91122b642327c299496bd2cc715f61db" category="admonition">Opcionalmente, você pode acessar a página *Modificar assinatura* clicando em *Gerenciar assinatura* na seção de detalhes da assinatura e selecionando *Modificar*.</block>
-  <block id="2bab978071b4f2c42a0cbd4063050bd6" category="inline-image-macro">uma captura de tela exibindo a opção de modificação da lista de assinaturas</block>
-  <block id="2f945ecac337fb632279a3a5c8be5147" category="list-text">Clique em *Editar capacidade* para modificar a capacidade comprometida para os níveis de serviço de desempenho, forneça os detalhes necessários e clique em *Enviar*.</block>
-  <block id="77d85bf27ff4e86e9c2c0d124a29092e" category="paragraph">Você vê a solicitação na seção *Modificações* na mesma página.</block>
-  <block id="6174a39a3e1c2618d458d58ece61fe5f" category="list-text">Revise os detalhes da solicitação, clique no botão *Revisar*, forneça a confirmação necessária e envie a solicitação.</block>
-  <block id="0df3f6389fb32c1982ca6a2f3ba9de3c" category="paragraph">Você pode acompanhar e monitorar o andamento da sua solicitação na aba *Administração*. Para saber mais sobre a aba *Administração*, consulte <block ref="9f3b15d961aa4f93dcc619d13ad818be" category="inline-link-macro-rx"></block> .</block>
   <block id="4e45fcbdeb65b88a1abb90ed1fe072a6" category="summary">Como assinante do NetApp Keystone STaaS, você pode pesquisar e filtrar seus dados, gerar relatórios de assinaturas e uso, verificar registros de data e hora e visualizar alertas.</block>
   <block id="20124e162ad63d60b063ff80ef10f3c9" category="doc">Pesquise dados do Keystone, gere relatórios e visualize alertas</block>
   <block id="3c8389d9d758198177b96da335f3ac07" category="paragraph">Você pode pesquisar e filtrar seus dados, gerar relatórios de assinaturas e uso e visualizar alertas para se manter informado sobre seu ambiente de armazenamento.</block>
@@ -2294,8 +2282,6 @@
   <block id="d07b485359c52169277c3ff7aaed95d4" category="paragraph">O NetApp Console fornece gerenciamento centralizado de serviços de armazenamento e dados da NetApp em ambientes locais e na nuvem em escala empresarial. O Console é necessário para acessar e usar os serviços de dados do NetApp . Como uma interface de gerenciamento, ele permite que você gerencie muitos recursos de armazenamento a partir de uma única interface. Os administradores do console podem controlar o acesso ao armazenamento e aos serviços de todos os sistemas da empresa.</block>
   <block id="25873f208d2ff2745f96d86d5a87d7e7" category="paragraph">Você não precisa de uma licença ou assinatura para começar a usar o Console e só incorrerá em cobranças quando precisar implantar agentes do Console na sua nuvem para garantir a conectividade com seus sistemas de armazenamento ou serviços de dados da NetApp . No entanto, alguns serviços de dados da NetApp acessíveis pelo Console são licenciados ou baseados em assinatura.</block>
   <block id="e955295a860e893d00951c8233972d56" category="paragraph">Saiba mais sobre o<block ref="2f3134b8970d60226f00e362a8c05c8c" category="inline-link-macro-rx"></block> .</block>
-  <block id="e1a2098926fff2b44e76595b2fab04b4" category="list-text">Embora o Console e o Digital Advisor ofereçam alguns recursos exclusivos, o Console fornece funcionalidade administrativa para o Keystone, permitindo que você gerencie assinaturas e faça os ajustes necessários.</block>
-  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">Saiba mais sobre as funções de acesso do NetApp Console</block>
   <block id="7d0366e10bff9b03e7d1ebe083232ad0" category="inline-link-macro">Integração do Digital Advisor com o NetApp Console</block>
   <block id="19f702ba317875d05972d4dc2df1d379" category="list-text">O Digital Advisor é integrado ao Console, permitindo que você acesse todos os recursos do Digital Advisor , incluindo o painel do Keystone , diretamente do Console. Para saber mais, consulte<block ref="5983da9102c6398c455221dbbeef93c0" category="inline-link-macro-rx"></block> .</block>
   <block id="754a3a5b6d930270b1fbfb641c89b440" category="section-title">Recursos do Keystone no NetApp Console e no Digital Advisor</block>
@@ -2306,10 +2292,6 @@
   <block id="859167398832678cbae2e0062c6a5136" category="paragraph">Para visualizar a página *Visão geral*, no menu de navegação esquerdo do Console, acesse *Armazenamento &gt; Keystone &gt; Visão geral*.</block>
   <block id="e9803f7c01419ecddf878fe4fd33bc47" category="inline-image-macro">uma captura de tela da página Visão geral</block>
   <block id="e8325080ad6eca6e402bccdbbcccd2b3" category="paragraph">A página *Visão geral* oferece os seguintes insights:</block>
-  <block id="b6a17a16f2925f240966aa803c2d67ff" category="summary">Modifique sua assinatura do Keystone para alterar a capacidade comprometida para os níveis de serviço de desempenho associados por meio do NetApp Console.</block>
-  <block id="2227728e15b4a8b218a3533e278cf342" category="doc">Modifique sua assinatura do Keystone no NetApp Console</block>
-  <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">Você pode modificar a capacidade comprometida da sua assinatura do Keystone para os níveis de serviço de desempenho associados por meio do NetApp Console.</block>
-  <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">No menu de navegação esquerdo do Console, selecione *Armazenamento &gt; Keystone &gt; Monitoramento &gt; Monitores de alerta*.</block>
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">O painel do Keystone no NetApp Console permite que você visualize e gerencie alertas ativos no seu ambiente de armazenamento Keystone . Você pode ver alertas gerados pelo sistema e alertas definidos pelo usuário para uso de capacidade e expiração de assinatura. A partir dessa visualização, você pode avaliar rapidamente a gravidade do alerta, identificar problemas de armazenamento e tomar ações corretivas. Esta visualização não está disponível no Digital Advisor.</block>
@@ -2381,12 +2363,10 @@
   <block id="c0029d3ed944e8ef4f598481e14db28c" category="paragraph"><block ref="c0029d3ed944e8ef4f598481e14db28c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f9aa673728fdf49de5fd7f4392426fc4" category="paragraph">Na visualização de tabela, você pode ver detalhes como capacidade máxima consumida e dias restantes até a expiração. Como parte do monitoramento do uso da sua assinatura, você pode visualizar o nome do nível de serviço de desempenho, o uso da capacidade, as capacidades comprometidas e usadas, as capacidades provisionadas e de pico, a capacidade disponível e os volumes. Você pode personalizar a tabela usando o seletor de colunas<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> ícone.</block>
   <block id="c8e3290600a931a2c7f5ea26d1268469" category="paragraph"><block ref="c8e3290600a931a2c7f5ea26d1268469" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="65c72fc91b63262452cae6ffc68b5fe8" category="list-text">Você deve ter a função *Administrador do Keystone * atribuída para modificar assinaturas. Para saber mais, consulte<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block> .</block>
   <block id="3073adc4a7680cc828c55134467305ae" category="paragraph"><block ref="3073adc4a7680cc828c55134467305ae" category="inline-link-macro-rx"></block></block>
   <block id="503323af5c69bab54cb6fe53ccef6f8e" category="paragraph"><block ref="503323af5c69bab54cb6fe53ccef6f8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3564bb0e09fc76eb6075b25b3c3643e0" category="list-text">*Alertas não resolvidos por gravidade*: lista o total de alertas não resolvidos com base na gravidade: Crítico, Aviso e Informativo.  Cada categoria inclui um botão *Exibir* para revisar detalhes e tomar outras medidas.</block>
   <block id="fbdd0ec7256573dce976dc52a2cdad0e" category="list-text">*Alertas Keystone não resolvidos mais antigos*: Exibe uma tabela dos alertas críticos não resolvidos mais antigos em todas as assinaturas.</block>
-  <block id="9fcb29f9ba41ea80f15f38f0907ab2f0" category="list-text">Você deve ter a função *Administrador do Keystone * atribuída para modificar a capacidade comprometida. Para saber mais, consulte<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block> .</block>
   <block id="012cc690ee0f390b86e69b7ef941643e" category="list-text">*Seleção de recursos*: escolha criar o monitor para assinaturas específicas ou todas as assinaturas. Com base na seleção do tipo de monitor, preencha os campos obrigatórios que aparecem, como números de assinatura e níveis de serviço de desempenho para monitores de uso de capacidade ou somente números de assinatura para monitores de expiração de assinatura.</block>
   <block id="17eb308ea945cce061c4020365ec2ddf" category="paragraph"><block ref="17eb308ea945cce061c4020365ec2ddf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13 de outubro de 2025</block>
@@ -2503,4 +2483,12 @@
   <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">Saiba mais sobre o Keystone STaaS SLO</block>
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">Entenda o faturamento</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">Cobrança para configurações de volume específicas</block>
+  <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">Modificar assinatura indisponível</block>
+  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">Atualizações no painel do Keystone no NetApp Console:</block>
+  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">A opção de modificar a capacidade contratada para assinaturas Keystone está atualmente indisponível. Essa funcionalidade será reintroduzida em uma versão futura.</block>
+  <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">Funções de acesso Keystone no NetApp Console</block>
+  <block id="cecfedde5e4474302df84ae302547216" category="list-text">Embora o Console e o Digital Advisor ofereçam alguns recursos exclusivos, o Console fornece funcionalidades administrativas para o Keystone, permitindo que você gerencie assinaturas e faça os ajustes necessários. Para saber mais, consulte <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>.</block>
+  <block id="99a171058669ac189901e0c53c44ed13" category="admonition">Você precisa ter a função de *Administrador do Keystone * atribuída para criar e gerenciar monitores de alerta. Para saber mais, consulte <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>.</block>
+  <block id="53a22728b83fc16fec4e96baf9b85af7" category="admonition">A edição de alertas requer a função de *administrador do Keystone *. A função *Visualizador Keystone * só pode visualizar detalhes de alertas. Para saber mais, consulte <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>.</block>
+  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">19 de janeiro de 2026</block>
 </blocks>
