@@ -18,15 +18,33 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
-== 19 de janeiro de 2026
+== 02 de fevereiro de 2026
 
-Atualizações no painel do Keystone no NetApp Console:
+Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
-=== Modificar assinatura indisponível
+=== Filtragem interativa para dados de burst acumulados diariamente
 
-A opção de modificar a capacidade contratada para assinaturas Keystone está atualmente indisponível. Essa funcionalidade será reintroduzida em uma versão futura.
+A tabela *Acúmulo de consumo por dias* na aba *Tendência de consumo* agora oferece suporte a filtros interativos. Selecione qualquer barra no gráfico de acúmulo de consumo para visualizar apenas os dias dentro desse período de faturamento. Para saber mais, consulte link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"].
+
+
+
+=== Exibição aprimorada do intervalo de datas no gráfico de burst acumulado
+
+O gráfico de faturamento acumulado na aba *Tendência de consumo* agora exibe intervalos de datas completos para cada período de faturamento, como Oct 01, 2025 a Oct 31, 2025, em vez de apenas o mês e o ano.
+
+
+
+=== Visualização expansível dos detalhes da assinatura
+
+A aba *Assinaturas* inclui uma opção para expandir todas as assinaturas e visualizar simultaneamente as informações sobre os níveis de serviço de desempenho de cada assinatura. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
+
+
+
+=== Nova coluna Usage type
+
+A aba *Assinaturas* inclui uma coluna *Tipo de uso* que exibe se a assinatura é cobrada com base no uso provisionado, físico ou lógico. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
 
 
 

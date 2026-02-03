@@ -24,6 +24,15 @@ Os seguintes problemas conhecidos são relatados no NetApp Keystone STaaS:
 
 
  a| 
+Modificar assinatura indisponível
+ a| 
+A opção para modificar a capacidade comprometida para assinaturas do Keystone está atualmente indisponível no NetApp Console. Essa funcionalidade será reintroduzida em uma versão futura.
+ a| 
+Nenhum
+
+
+
+ a| 
 Fatura incorreta devido a incompatibilidade de dados
  a| 
 Uma incompatibilidade nos dados de consumo das assinaturas do AutoSupport leva à geração de faturas incorretas, causando imprecisões de faturamento.

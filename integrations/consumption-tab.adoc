@@ -129,18 +129,20 @@ A explosão é a diferença entre a capacidade consumida e a capacidade comprome
 
 == Ver explosão acumulada
 
-Você pode visualizar o uso acumulado de dados em pico por meio do Console ou do Digital Advisor. Se você tiver selecionado *Explosão acumulada* no menu suspenso *Exibir* na guia *Tendência de consumo* no Console, ou a opção *Explosão acumulada faturada* na guia *Tendência de consumo* no Digital Advisor, você poderá ver o uso de dados acumulados em explosão mensal ou trimestralmente, dependendo do período de cobrança selecionado. Esses dados estão disponíveis para os últimos 12 meses cobrados, e você pode consultar por intervalo de datas de até 30 meses. Os gráficos de barras exibem os dados faturados e, se o uso ainda não tiver sido cobrado, ele será marcado como _Pendente_ para esse período.
+Você pode visualizar o uso acumulado de dados em rajadas pelo Console ou Digital Advisor. Se você selecionou *Accrued burst* no menu suspenso *View* na guia *Consumption trend* no Console, ou a opção *Invoiced Accrued Burst* na guia *Consumption Trend* do Digital Advisor, você pode ver o uso acumulado de dados em rajadas mensalmente ou trimestralmente, dependendo do período de faturamento selecionado. Esses dados estão disponíveis para os últimos 12 meses faturados, e você pode consultar pelo intervalo de datas de até 30 meses anteriores.
+
+[TIP]
+====
+* No Console, você pode interagir com o gráfico de faturamento acumulado para filtrar o uso diário de dados. Para saber mais, consulte link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"].
+* O uso acumulado faturado é calculado por período de cobrança, com base na capacidade comprometida e consumida para um nível de serviço de desempenho.
 
 
-TIP: O uso acumulado faturado é calculado por período de cobrança, com base na capacidade comprometida e consumida para um nível de serviço de desempenho.
-
+====
 Para um período de faturação trimestral, se a subscrição começar numa data diferente da 1 o do mês, a fatura trimestral cobrirá o período subsequente de 90 dias. Por exemplo, se a sua assinatura começar em 15 de agosto, a fatura será gerada para o período de 15 de agosto a 14 de outubro.
 
 Se você mudar de faturamento trimestral para mensal, a fatura trimestral ainda cobrirá o período de 90 dias, com duas faturas geradas no último mês do trimestre: Uma para o período de faturamento trimestral e outra para os dias restantes desse mês. Esta transição permite que o período de faturação mensal comece no dia 1 do mês seguinte. Por exemplo, se sua assinatura começar em 15 de outubro, você receberá duas faturas em janeiro, uma de 15 de outubro a 14 de janeiro e outra de 15 a 31 de janeiro, antes do início do período de faturamento mensal em 1 de fevereiro.
 
 image:accr-burst-2.png["utilização de expansões sazonais acumuladas trimestralmente"]
-
-Esta funcionalidade está disponível no modo apenas pré-visualização. Contacte o seu KSM para saber mais sobre esta funcionalidade.
 
 
 
@@ -148,7 +150,9 @@ Esta funcionalidade está disponível no modo apenas pré-visualização. Contac
 
 Você pode visualizar o uso diário de dados acumulados em intervalos de um período de cobrança mensal ou trimestral por meio do Console ou do Digital Advisor. No Console, a tabela *Explosão acumulada por dias* fornece dados detalhados, incluindo registro de data e hora, capacidade comprometida, consumida e acumulada em estouro, se você selecionar *Explosão acumulada* no menu suspenso *Exibir* na guia *Tendência de consumo*.
 
-image:bxp-accrued-burst-days.png["captura de tela mostrando a tabela de estouro acumulado por dias"]
+No Console, você pode filtrar a tabela selecionando qualquer barra que represente um período de faturamento no gráfico de faturamento acumulado. Quando filtrada, a tabela exibe apenas os dias dentro do período de faturamento selecionado. Para visualizar o conjunto de dados completo novamente, use a opção *Clear filters*. Se não houver dados disponíveis para o período selecionado, uma mensagem é exibida indicando que não há dados disponíveis.
+
+image:bxp-accrued-burst-days-1.png["captura de tela mostrando a tabela de estouro acumulado por dias"]
 
 No Digital Advisor, ao clicar na barra que exibe os dados faturados da opção *Explosão acumulada faturada*, você vê a seção Capacidade provisionada faturável abaixo do gráfico de barras, oferecendo opções de visualização em gráfico e tabela. A exibição de gráfico padrão exibe o uso diário de dados acumulados em um formato de gráfico de linha, mostrando alterações no uso ao longo do tempo.
 

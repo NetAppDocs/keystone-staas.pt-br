@@ -25,7 +25,7 @@ Para visualizar informações detalhadas de suas assinaturas, siga estas etapas:
 .Passos
 . No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 +
-image:bxp-subscription-list-3.png["ver os detalhes da aba de assinatura"]
+image:bxp-subscription-list-4.png["ver os detalhes da aba de assinatura"]
 
 +
 Você vê as principais métricas, como uso de capacidade, status de expiração da assinatura e alertas não resolvidos.
@@ -39,13 +39,14 @@ Você pode ver os seguintes detalhes na tabela:
 ** *Nome do cliente*: O nome do cliente associado à assinatura do Keystone.
 ** *Assinaturas vinculadas*: Se você tiver alguma assinatura secundária vinculada à sua assinatura principal, esta coluna lista os números de assinatura vinculados à assinatura principal. Este número de assinatura pode ser da sua assinatura principal ou secundária (vinculada).
 ** * Versão do Keystone *: A versão do serviço Keystone que está sendo usada para a assinatura. As regras do plano de tarifas para níveis de serviço de desempenho podem ser diferentes entre as versões de assinatura. Para saber mais sobre a versão v1, consulte https://docs.netapp.com/us-en/keystone/index.html["Serviços de assinatura Keystone | Documentação da versão 1"^] .
+** *Tipo de uso*: Você pode ter assinado várias versões do Keystone. As regras do plano de tarifas para níveis de serviço de desempenho podem ser diferentes entre as versões da assinatura. Ao observar o valor nesta coluna, você sabe se o tipo de uso é cobrado conforme o uso provisionado, físico ou lógico. Para saber mais sobre a versão 1, consulte  https://docs.netapp.com/us-en/keystone/index.html["Serviços de assinatura Keystone | Documentação da versão 1"^].
 ** *Período de cobrança*: O período de cobrança da assinatura.
 ** *Níveis de serviço de desempenho*: O número de planos de tarifas associados à assinatura, com cada plano de tarifas correspondendo a um nível de serviço de desempenho específico e capacidade comprometida.
 ** *Capacidade máxima*: Capacidade máxima consumida dentro da assinatura.
 ** *Dias até o vencimento da assinatura*: Número de dias restantes até o vencimento da assinatura.
 +
 
-NOTE: Você pode clicar na seta para baixo ao lado da coluna *Data de validade* para visualizar as informações sobre os níveis de serviço de desempenho de cada assinatura.  Isso mostra informações detalhadas sobre a capacidade, incluindo uso atual, capacidade comprometida, capacidade provisionada, capacidade de pico e capacidade disponível.
+NOTE: Você pode clicar na seta para baixo image:down-arrow.png["ícone de expansão"] no cabeçalho da tabela para expandir todas as assinaturas e visualizar as informações de níveis de serviço de desempenho para cada assinatura simultaneamente. Isso mostra informações detalhadas de capacidade, incluindo uso atual, capacidade comprometida, capacidade provisionada, capacidade de pico e capacidade disponível para todas as assinaturas. Como alternativa, você pode clicar na seta para baixo ao lado da coluna *Expiration date* nas linhas de assinatura individuais para expandi-las uma de cada vez.
 
 +
 
