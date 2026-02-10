@@ -1,0 +1,171 @@
+---
+sidebar: sidebar 
+permalink: integrations/adp-tab.html 
+keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, bluexp, NetApp Console, Console 
+summary: Visualize dados de consumo e monitore o status de integridade dos sites parceiros do seu MetroCluster ao assinar o serviço complementar de proteção de dados avançada no Keystone. 
+---
+= Veja o consumo e o status das suas assinaturas Keystone MetroCluster
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ao assinar o serviço complementar de proteção de dados avançada, você pode visualizar os dados de consumo dos sites parceiros do seu MetroCluster tanto no NetApp Console quanto no Digital Advisor. No NetApp Console, você também pode monitorar o status de replicação e a integridade da configuração do seu MetroCluster.
+
+
+
+== Visualizar o consumo de assinaturas e o status de integridade do MetroCluster
+
+Siga as etapas abaixo:
+
+[role="tabbed-block"]
+====
+.Console NetApp
+--
+.Passos
+. No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
+. Selecione a assinatura MetroCluster na coluna *Número da assinatura*.
++
+
+TIP: As assinaturas do MetroCluster são identificadas pelo ícone image:metrocluster-icon.png["Símbolo de assinatura do MetroCluster"].
+
++
+A aba *Consumo atual* é aberta e exibe informações sobre o consumo dos seus níveis de serviço de desempenho básico assinados e seus respectivos níveis de serviço de desempenho de proteção de dados avançada. Você pode visualizar essas informações em formato tabular ou gráfico. Para saber mais, consulte link:../integrations/current-usage-tab.html["Veja o consumo atual de suas assinaturas Keystone"].
+
+. Selecione a guia *Proteção avançada de dados (ADP)*.
++
+Nesta aba, você pode visualizar os dados de consumo dos seus níveis de serviço de desempenho básico nos sites primário e espelho, monitorar o status de integridade da sua MetroCluster setup e acompanhar o status de sincronização.
+
++
+** Veja o gráfico de distribuição do consumo para o período selecionado.
++
+O gráfico mostra o consumo tanto do seu site primário quanto do site espelho. Passe o cursor sobre o gráfico para ver o detalhamento do consumo em tebibytes (TiB) para cada site.
+
++
+
+NOTE: Para os níveis de serviço de desempenho básico, cada volume é cobrado conforme provisionado nos sites primário e espelho. O gráfico é, portanto, dividido para refletir o consumo em cada site.
+
++
+*Exemplo:* A dica de ferramenta exibe valores de consumo como 1.15 TiB para o site primário e 4.22 TiB para o site espelho.
+
++
+image:adp-consumption-chart.png["Gráfico de linhas mostrando a distribuição do consumo do MetroCluster com 1,15 TiB no site primário e 4,22 TiB no site espelho exibidos na dica de ferramenta"]
+
+** Monitore o status de integridade da sua configuração MetroCluster na visualização *Topologia ADP*.
++
+A topologia exibe o status da conexão entre os sites primário e espelho (normal, degradado, desconectado ou inicializando), o status da sincronização de dados (em sincronia ou fora de sincronia) e o status do ONTAP Mediator, se configurado. Para saber mais sobre ONTAP Mediator, consulte link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html["Saiba mais sobre ONTAP Mediator"^].
+
++
+image:adp-topology.png["Imagem da topologia ADP exibindo o site primário (Cluster A), o site espelho (Cluster B), os indicadores de status da conexão, o status de sincronização e o ONTAP Mediator"]
+
++
+
+TIP: Você pode selecionar a assinatura do Cluster B (espelho) na topologia ADP para visualizá-la como o site primário.
+
++
+
+TIP: Se o status de sincronização mostrar fora de sincronia ou o status da conexão mostrar degradado, consulte link:../concepts/support-services.html["Obtenha ajuda com o Keystone"] para solucionar o problema.
+
+** Veja as tendências históricas de consumo do site principal ou do site espelho.
++
+Em *Utilização da capacidade*, selecione *Visualizar* ao lado de Cluster A (primary) ou Cluster B (mirror).
+
++
+A guia *Tendência de consumo* é aberta e exibe dados históricos de consumo para o cluster selecionado em um intervalo de datas especificado. Você pode analisar as tendências de uso de capacidade para os níveis de serviço de desempenho de proteção de dados base e avançado. Para saber mais, consulte link:../integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"].
+
++
+*Exemplo:* O gráfico a seguir mostra o consumo para o nível de serviço de desempenho _Premium_ (base) para o site primário (Cluster A):
+
++
+image:adp-base-consumption.png["Gráfico de consumo do nível de serviço de desempenho premium para o site principal"]
+
++
+Para o nível de serviço _Advanced Data-Protect premium_, o gráfico aparece da seguinte forma para o site primário (Cluster A):
+
++
+image:adp-consumption.png["Gráfico de consumo do Advanced Data Protection Premium para o site principal"]
+
++
+Para o nível de serviço _Advanced Data-Protect_, o consumo total é dividido entre os sites primário e espelho, e o uso em cada site é refletido e faturado em uma assinatura separada; uma assinatura para o site primário e outra para o site espelho. Esse é o motivo pelo qual, ao selecionar o número da assinatura do site primário na guia *Tendência de consumo*, os gráficos de consumo do serviço complementar de proteção de dados avançada exibem os detalhes de consumo discretos apenas do site primário. Como cada site parceiro em uma configuração MetroCluster atua tanto como origem quanto como espelho, o consumo total em cada site inclui os volumes de origem e espelho criados nesse site. Para obter mais informações, consulte link:../concepts/adp.html["Complemento de proteção de dados avançado para Keystone"].
+
+
+
+
+
+Para obter informações sobre como MetroCluster protege seus dados, consulte  https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Entendendo a proteção de dados e a recuperação de desastres do MetroCluster"^].
+
+--
+.Consultor digital
+--
+.Passos
+. Selecione *Geral > Keystone Subscriptions > Tendência de Consumo*.
+. Selecione a assinatura MetroCluster.
++
+Se os clusters em seu ambiente de storage ONTAP estiverem configurados em uma configuração MetroCluster, os dados de consumo da sua assinatura Keystone serão divididos no mesmo gráfico de dados históricos para exibir o consumo nos sites primário e espelho para os níveis de serviço de desempenho básico.
+
++
+
+NOTE: Os gráficos de barras de consumo são divididos apenas para os níveis de serviço de desempenho básico. Para o serviço complementar de proteção de dados avançada, ou seja, o nível de serviço de desempenho _Advanced Data-Protect_, essa demarcação não aparece.
+
++
+
+TIP: A dica de ferramenta ao lado do ID de rastreamento da sua assinatura na guia *Consumo Atual* ajuda você a identificar a assinatura do parceiro na configuração MetroCluster.
+
++
+*Nível de serviço de desempenho de proteção de dados avançada* Para o nível de serviço de desempenho de proteção de dados avançada, o consumo total é dividido entre os sites parceiros, e o uso em cada site parceiro é refletido e faturado em uma assinatura separada; uma assinatura para o site primário e outra para o site espelho. Esse é o motivo pelo qual, ao selecionar o número da assinatura do site primário na guia Tendência de Consumo, os gráficos de consumo do serviço complementar de proteção de dados avançada exibem os detalhes de consumo discretos apenas do site primário. Como cada site parceiro em uma configuração MetroCluster atua tanto como origem quanto como espelho, o consumo total em cada site inclui os volumes de origem e de espelho criados nesse site.
+
++
+*Níveis de serviço de desempenho básico* Para os níveis de serviço de desempenho básico, cada volume é cobrado conforme provisionado nos sites primário e espelho, e, portanto, o mesmo gráfico de barras é dividido de acordo com o consumo nos sites primário e espelho.
+
++
+*Visão principal da assinatura*
+
++
+A imagem a seguir exibe os gráficos para o nível de serviço _Performance_ (nível de serviço de desempenho base). O mesmo gráfico de dados históricos também indica o consumo do site espelho em um tom mais claro do mesmo código de cor usado para o site primário. Passe o cursor sobre o gráfico para visualizar a distribuição do consumo em TiB para cada site. Neste exemplo, os valores são 95,04 TiB para o site primário e 93,38 TiB para o site espelho.
+
++
+image:mcc-chart-2.png["mcc primário"]
+
++
+Para o nível de serviço _Advanced Data-Protect_ de desempenho, o gráfico aparece da seguinte forma:
+
++
+image:adp-src-2.png["base primária mcc"]
+
++
+O consumo exibido de 94,21 TiB representa o uso da assinatura principal. Como a proteção avançada de dados divide o consumo entre sites parceiros com assinaturas separadas, este gráfico mostra apenas o uso do site principal. Para saber mais sobre os preços do serviço adicional de proteção avançada de dados, consulte link:../concepts/adp.html#understand-pricing["Entenda preços"].
+
++
+*Visualização da assinatura de espelhamento*
+
++
+Ao verificar a assinatura de espelhamento, você pode ver que o gráfico de barras para o nível de serviço _Performance_ (nível de serviço de desempenho base) no mesmo ponto de coleta de dados que o site parceiro está invertido, e a distribuição do consumo nos sites primário e espelho é de 93,38 TiB e 95,04 TiB, respectivamente.
+
++
+image:mcc-chart-mirror-2.png["espelhamento mcc"]
+
++
+Para o nível de serviço _Advanced Data-Protect_, o gráfico aparece da seguinte forma para o mesmo ponto de coleta que no site do parceiro:
+
++
+image:adp-mir-2.png["base de espelhamento mcc"]
+
+
+
+Para obter informações sobre como MetroCluster protege seus dados, consulte  https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["Entendendo a proteção de dados e a recuperação de desastres do MetroCluster"^].
+
+--
+====
+*Informações relacionadas*
+
+* link:../integrations/dashboard-overview.html["Entenda o painel do Keystone"]
+* link:../integrations/subscriptions-tab.html["Ver detalhes da sua assinatura"]
+* link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
+* link:../integrations/consumption-tab.html["Veja as tendências de consumo"]
+* link:../integrations/subscription-timeline.html["Veja o cronograma da sua assinatura"]
+* link:../integrations/assets-tab.html["Veja seus ativos de assinatura Keystone"]
+
