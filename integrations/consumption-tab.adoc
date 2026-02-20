@@ -38,6 +38,10 @@ Os dados históricos de consumo para cada nível de serviço de desempenho são 
 NOTE: Você pode selecionar *Explosão acumulada* no menu suspenso *Exibir* se quiser visualizar os dados históricos de uso da explosão para os quais as faturas foram geradas. Você pode usar esses dados para analisar o uso faturado refletido na sua fatura. Para saber mais, link:../integrations/consumption-tab.html#view-accrued-burst["Ver explosão acumulada"]consulte .
 
 +
+
+NOTE: Se você assinou serviços adicionais, como advanced data protection (ADP) ou Data Infrastructure Insights (DII), os dados de consumo desses serviços aparecem junto com seus níveis de serviço de desempenho básico, tanto na visualização de consumo histórico quanto na visualização de picos acumulados. Para saber mais sobre serviços adicionais, consulte link:../concepts/adp.html["Saiba mais sobre serviços adicionais"].
+
++
 image:bxp-consumption-trend-1.png["captura de tela exibindo o consumo histórico"]
 
 +
@@ -163,3 +167,14 @@ Uma imagem de exemplo que mostra a utilização diária de dados de sequência a
 image:invoiced-daily-accr-burst-date.png["captura de tela mostrando dados de uso de explosão em um formato de gráfico de linha"]
 
 Você pode alternar para uma exibição de tabela clicando na opção *Tabela* no canto superior direito do gráfico. A exibição de tabela fornece métricas detalhadas de uso diário, incluindo nível de serviço de desempenho, registro de data e hora, capacidade comprometida, capacidade consumida e capacidade provisionada faturável. Você também pode gerar um relatório desses detalhes em formato CSV para uso futuro e comparação.
+
+*Informações relacionadas*
+
+* link:../integrations/dashboard-overview.html["Entenda o painel do Keystone"]
+* link:../integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"]
+* link:../integrations/current-usage-tab.html["Veja o consumo atual de suas assinaturas Keystone"]
+* link:../integrations/subscription-timeline.html["Veja o cronograma de suas assinaturas Keystone"]
+* link:../integrations/assets-tab.html["Ver ativos associados a uma assinatura Keystone"]
+* link:../integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"]
+* link:../integrations/volumes-objects-tab.html["Ver detalhes de volumes e objetos"]
+

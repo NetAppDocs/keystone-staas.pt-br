@@ -16,7 +16,7 @@ summary: Como assinante do NetApp Keystone STaaS, você pode obter uma visão ge
 [role="lead"]
 O painel do Keystone é a sua solução ideal para monitorar, analisar e gerenciar suas assinaturas do Keystone com eficiência. Por meio dele, você pode atingir os seguintes objetivos:
 
-* *Monitorar detalhes da assinatura*: visualize informações detalhadas sobre suas assinaturas do Keystone, incluindo níveis de serviço de desempenho, uso de capacidade, ativos e alertas.
+* *Monitorar detalhes da assinatura*: visualize informações detalhadas sobre suas assinaturas Keystone, incluindo níveis de serviço de desempenho (serviços básicos e adicionais, como proteção avançada de dados e Data Infrastructure Insights), uso de capacidade, ativos e alertas.
 * *Acompanhe o uso da capacidade e gere relatórios*: acompanhe o uso atual e histórico da capacidade e gere relatórios para analisar dados de assinatura e tomar decisões informadas.
 * *Ver cronograma de assinaturas*: Mantenha-se informado sobre datas e eventos importantes monitorando o cronograma de suas assinaturas.
 * *Gerenciar assinaturas*: envie solicitações para modificar níveis de serviço de desempenho ou outros parâmetros de assinatura conforme suas necessidades mudam.

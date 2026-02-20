@@ -18,6 +18,18 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+== 16 de fevereiro de 2026
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Exibição de consumo do add-on DII
+
+O consumo do complemento Data Infrastructure Insights (DII) agora é exibido nas guias *Consumo atual* e *Tendência de consumo*. Para saber mais, consulte link:./concepts/data-infra-insights.html#view-dii-consumption["Ver consumo de DII"].
+
+
+
 == 02 de fevereiro de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
