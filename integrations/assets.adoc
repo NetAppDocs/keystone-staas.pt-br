@@ -56,11 +56,15 @@ TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-s
 image:console-volumes-clusters-multiple-sub.png["Uma captura de tela de volumes em clusters para várias assinaturas"]
 
 +
-Você verá informações detalhadas sobre todos os volumes em clusters nas assinaturas do Keystone, incluindo nome do volume, número da assinatura, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você pode monitorar a capacidade provisionada, a utilização lógica e física e os dados inativos. Você também terá uma visão geral de:
+Você visualiza informações detalhadas sobre todos os volumes em clusters em assinaturas Keystone, incluindo nome do volume, número da assinatura, número de série do nó, conformidade com as políticas de QoS, nome do cluster, nome do host e níveis de serviço de desempenho. Você pode monitorar a capacidade provisionada, utilização lógica e física, dados frios e dados quentes. Você também obtém uma visão geral de:
 
 +
 ** O número total de assinaturas, clusters e volumes.
 ** Status de conformidade e proteção do volume, com um botão *Exibir* para filtrar a tabela e exibir ativos com base em critérios como compatível, não compatível ou não protegido.
++
+
+NOTE: As colunas *Cold tier %* e *Hot tier %* mostram a porcentagem de dados em cada camada, calculada como (Cold data / Total footprint) × 100 e (Hot data / Total footprint) × 100, respectivamente.
+
 +
 
 TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-selector.png["ícone do seletor de coluna"] ícone e use a barra de pesquisa na parte superior para pesquisar e filtrar dados do Keystone com base nos parâmetros da coluna.

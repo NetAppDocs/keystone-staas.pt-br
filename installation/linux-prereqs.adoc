@@ -39,6 +39,9 @@ O mesmo servidor também deve ter os seguintes pacotes de terceiros:
 * Python 3 (3.9.14 a 3.11.8)
 
 
+
+NOTE: Somente os pacotes de terceiro listados acima são compatíveis com o Keystone Collector. A instalação de software adicional não é suportada e pode afetar o desempenho do coletor, coleta de dados e precisão da cobrança.
+
 .Servidor VM do Keystone Collector:
 * Núcleo: 2 CPUs
 * RAM: 4 GB DE RAM

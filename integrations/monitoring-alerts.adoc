@@ -27,14 +27,18 @@ Para visualizar alertas ativos, siga estas etapas:
 .Passos
 . No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Monitoramento > Alertas*.
 +
-image:monitoring-alerts-default-view-1.png["Uma captura de tela de alertas ativos para assinaturas do Keystone"]
+image:monitoring-alerts-default-view-2.png["Uma captura de tela de alertas ativos para assinaturas do Keystone"]
 
 +
-Você pode visualizar detalhes do alerta, como gravidade, ID, descrição, hora de acionamento, número da assinatura, ID de rastreamento, nível de serviço de desempenho e status.  A página também mostra o total de alertas não resolvidos por gravidade e tipo.
+Você pode visualizar detalhes do alerta, como gravidade, ID, tipo e condição, descrição, horário de acionamento, número da assinatura, ID de rastreamento, nível de serviço de desempenho e status. A página também mostra o total de alertas não resolvidos por gravidade e tipo.
 
 +
 
 NOTE: A aba *Relatórios* está temporariamente indisponível para assinaturas Keystone .
+
++
+
+TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-selector.png["ícone do seletor de coluna"] ícone.
 
 
 
@@ -44,10 +48,14 @@ NOTE: A aba *Relatórios* está temporariamente indisponível para assinaturas K
 
 Na aba *Alertas*, você pode executar as seguintes ações:
 
-* *Revisar e resolver alertas*: Selecione o número de ID do alerta para abrir uma visualização detalhada do alerta.  Esta visualização exibe a descrição do alerta e as etapas de resolução sugeridas.  A partir desta visão detalhada, você pode:
+* *Revisar e resolver alertas*: selecione o ID do alerta para abrir uma visualização detalhada do alerta. Essa visualização exibe a descrição do alerta e as etapas de resolução sugeridas. A partir dessa visualização detalhada, você pode marcar o alerta como resolvido usando o botão *Editar* ou adicionar notas de apoio usando o botão *Adicionar nota*.
 +
-** Marque o alerta como resolvido selecionando o botão *Editar* depois de resolver o problema.
-** Adicione notas de apoio selecionando o botão *Adicionar nota*, se necessário.
+Você também pode usar o ícone de reticências ao lado da coluna *Status* para realizar as seguintes ações:
+
++
+** *Edit*: Abre uma janela pop-up para alterar o status do alerta e adicionar detalhes da resolução.
+** *Adicionar nota*: Abre um pop-up para adicionar uma nota ao alerta.
+** *Visualizar*: Abre a mesma visualização detalhada que selecionar o ID do alerta.
 +
 
 NOTE: A edição de alertas requer a função de *administrador do Keystone *. A função *Visualizador Keystone * só pode visualizar detalhes de alertas. Para saber mais, consulte link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["Funções de acesso Keystone no NetApp Console"^].

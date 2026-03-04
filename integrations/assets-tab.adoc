@@ -44,7 +44,11 @@ Você pode visualizar essas informações seguindo estas etapas:
 image:bxp-volumes-clusters-single-subscription-1.png["Uma captura de tela de volumes em clusters para uma assinatura"]
 
 +
-Você vê informações detalhadas sobre volumes em clusters, incluindo nome do volume, número de série do nó, nome do cluster, nome do host e níveis de serviço de desempenho. Você também pode monitorar a capacidade provisionada, a utilização lógica e física, e dados frios.
+Você visualiza informações detalhadas sobre os volumes nos clusters, incluindo nome do volume, número de série do nó, nome do cluster, nome do host e níveis de serviço de desempenho. Você também pode monitorar a capacidade provisionada, utilização lógica e física, dados frios e dados quentes.
+
++
+
+NOTE: As colunas *Cold tier %* e *Hot tier %* mostram a porcentagem de dados em cada camada, calculada como (Cold data / Total footprint) × 100 e (Hot data / Total footprint) × 100, respectivamente.
 
 +
 

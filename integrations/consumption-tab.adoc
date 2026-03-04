@@ -45,7 +45,11 @@ NOTE: Se você assinou serviços adicionais, como advanced data protection (ADP)
 image:bxp-consumption-trend-1.png["captura de tela exibindo o consumo histórico"]
 
 +
-O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como capacidade utilizada (capacidade total de armazenamento, incluindo dados e dados de instantâneos), dados (capacidade de armazenamento usada por dados do usuário) e instantâneo (capacidade de armazenamento usada por dados de instantâneos), juntamente com capacidade comprometida e de pico. A data e a hora de cada ponto de dados são exibidas na parte inferior do gráfico. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode passar o cursor do mouse sobre o gráfico para ver o detalhamento do uso em cada ponto de coleta de dados.
+O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como capacidade utilizada (capacidade de storage total, incluindo dados e dados de captura de tela), dados (capacidade de storage usada pelos dados de usuário) e captura de tela (capacidade de storage usada pelos dados de captura de tela), juntamente com a capacidade comprometida e a capacidade de burst. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode posicionar o cursor do mouse sobre o gráfico para visualizar o detalhamento do uso em cada ponto de coleta de dados.
+
++
+
+NOTE: O intervalo de datas selecionado determina o nível de detalhe exibido na parte inferior do gráfico. Para períodos de 30 dias ou menos, a data e a hora são exibidas para cada ponto de dados. Para períodos superiores a 30 dias, apenas a data é exibida.
 
 +
 
@@ -135,6 +139,10 @@ A explosão é a diferença entre a capacidade consumida e a capacidade comprome
 
 Você pode visualizar o uso acumulado de dados em rajadas pelo Console ou Digital Advisor. Se você selecionou *Accrued burst* no menu suspenso *View* na guia *Consumption trend* no Console, ou a opção *Invoiced Accrued Burst* na guia *Consumption Trend* do Digital Advisor, você pode ver o uso acumulado de dados em rajadas mensalmente ou trimestralmente, dependendo do período de faturamento selecionado. Esses dados estão disponíveis para os últimos 12 meses faturados, e você pode consultar pelo intervalo de datas de até 30 meses anteriores.
 
+No Console, além do uso de burst faturado, você também pode visualizar o uso de burst não faturado (acumulado, mas ainda não cobrado) e o uso de burst provisório (acumulado no período de faturamento atual e ainda não faturado).
+
+image:accr-burst-provision-invoice.png["captura de tela mostrando o uso acumulado de burst no Console"]
+
 [TIP]
 ====
 * No Console, você pode interagir com o gráfico de faturamento acumulado para filtrar o uso diário de dados. Para saber mais, consulte link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"].
@@ -157,6 +165,8 @@ Você pode visualizar o uso diário de dados acumulados em intervalos de um per�
 No Console, você pode filtrar a tabela selecionando qualquer barra que represente um período de faturamento no gráfico de faturamento acumulado. Quando filtrada, a tabela exibe apenas os dias dentro do período de faturamento selecionado. Para visualizar o conjunto de dados completo novamente, use a opção *Clear filters*. Se não houver dados disponíveis para o período selecionado, uma mensagem é exibida indicando que não há dados disponíveis.
 
 image:bxp-accrued-burst-days-1.png["captura de tela mostrando a tabela de estouro acumulado por dias"]
+
+Você também pode baixar os dados em formato Excel, incluindo o status do burst (faturado, não faturado ou provisório) e o período de faturamento.
 
 No Digital Advisor, ao clicar na barra que exibe os dados faturados da opção *Explosão acumulada faturada*, você vê a seção Capacidade provisionada faturável abaixo do gráfico de barras, oferecendo opções de visualização em gráfico e tabela. A exibição de gráfico padrão exibe o uso diário de dados acumulados em um formato de gráfico de linha, mostrando alterações no uso ao longo do tempo.
 
