@@ -71,7 +71,7 @@ Você também pode visualizar um resumo do consumo atual juntamente com o consum
 
 NOTE: Você pode selecionar *Faturado Acumulado Explosivo* se desejar visualizar os dados históricos de uso de pico para os quais as faturas foram geradas. Você pode usar esses dados para analisar o uso faturado refletido na sua fatura. Para saber mais, link:../integrations/consumption-tab.html#view-accrued-burst["Ver explosão acumulada"]consulte .
 
-. Selecione o intervalo de tempo a partir dos ícones do calendário nos campos *de Data* e *até Data*. Selecione o intervalo de datas para a consulta. O intervalo de datas pode ser o início do mês ou a data de início da assinatura até a data atual ou a data de término da assinatura. Não é possível selecionar uma data futura.
+. Selecione o intervalo de tempo nos ícones de calendário nos campos *From Date* e *To Date*. Por padrão, o intervalo de datas é os últimos 30 dias a partir de hoje. Você pode alterar esse intervalo, mas não pode selecionar uma data futura.
 +
 
 TIP: Para obter o melhor desempenho e experiência do usuário, limite o intervalo de datas da sua consulta para três meses.
@@ -79,6 +79,10 @@ TIP: Para obter o melhor desempenho e experiência do usuário, limite o interva
 . Clique em *Ver detalhes*. Os dados históricos de consumo da assinatura para cada nível de serviço de desempenho são exibidos com base no intervalo de tempo selecionado.
 +
 Os gráficos de barras exibem o nome do nível de serviço de desempenho e a capacidade consumida em relação a esse nível de serviço de desempenho para o intervalo de datas. A data e a hora da coleção são exibidas na parte inferior do gráfico. Com base no intervalo de datas de sua consulta, os gráficos de uso são exibidos em um intervalo de 30 pontos de coleta de dados. Você pode passar o cursor do Mouse sobre os gráficos para ver a divisão de uso em termos de committed, consumed, burst e acima dos dados do limite de burst nesse ponto de coleta de dados.
+
++
+
+NOTE: Se você selecionar um intervalo de datas inferior a 30 dias, o gráfico exibirá um ponto de coleta de dados por dia, apenas para os dias selecionados. Por exemplo, um intervalo de 4 dias mostra 4 pontos de coleta de dados, não 30. Somente a data é exibida na parte inferior do gráfico para qualquer intervalo selecionado. Os registros de data e hora ficam visíveis apenas quando você amplia o gráfico usando o recurso de zoom descrito abaixo.
 
 +
 Os gráficos de barras exibem rajadas de curto prazo e você pode visualizar essas rajadas usando o recurso de zoom. Quando uma explosão de curto prazo está presente, ela é indicada por um ponto azul na barra correspondente ou diretamente no eixo x se nenhum dado for consumido. Para ver os detalhes, clique e mantenha premido na barra ou no eixo x onde o ponto azul aparece e, em seguida, arraste o cursor através do gráfico para selecionar o intervalo de tempo pretendido e solte para confirmar a sua seleção. Esta ação amplia os dados, fornecendo uma visão mais granular da capacidade usada naquele nível de serviço de desempenho para o intervalo selecionado. Você pode clicar no botão *Redefinir Zoom* para retornar à exibição de gráfico original.
