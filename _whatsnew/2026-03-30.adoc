@@ -1,0 +1,29 @@
+= Acima da capacidade máxima no gráfico de consumo histórico
+:allow-uri-read: 
+
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Acima da capacidade máxima no gráfico de consumo histórico
+
+O gráfico de consumo histórico na aba *Tendência de consumo* agora destaca o uso que excede o limite de pico. Para saber mais, consulte link:./integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"].
+
+
+
+=== Previsão de utilização da capacidade
+
+Você pode usar a opção *Previsão* na visualização *Consumo histórico* da guia *Tendência de consumo* para projetar o uso da capacidade nos próximos 120 dias a partir da data atual. Para saber mais, consulte link:./integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].
+
+
+
+=== ID de rastreamento na exportação de assinaturas
+
+O relatório de assinaturas baixado da página *Assinaturas* agora inclui o *ID de rastreamento* nos dados de nível de serviço de desempenho, tanto no formato Excel quanto no CSV.
+
+
+
+=== Atualizações de visibilidade da coluna na página de assinaturas
+
+Na página *Assinaturas*, a coluna *Keystone version* agora está oculta por padrão, e a coluna *Linked subscriptions* aparece somente quando assinaturas vinculadas estão disponíveis.

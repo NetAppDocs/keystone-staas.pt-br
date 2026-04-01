@@ -42,10 +42,20 @@ NOTE: Você pode selecionar *Explosão acumulada* no menu suspenso *Exibir* se q
 NOTE: Se você assinou serviços adicionais, como advanced data protection (ADP) ou Data Infrastructure Insights (DII), os dados de consumo desses serviços aparecem junto com seus níveis de serviço de desempenho básico, tanto na visualização de consumo histórico quanto na visualização de picos acumulados. Para saber mais sobre serviços adicionais, consulte link:../concepts/adp.html["Saiba mais sobre serviços adicionais"].
 
 +
-image:bxp-consumption-trend-1.png["captura de tela exibindo o consumo histórico"]
+image:consumption-trend-burst.png["captura de tela exibindo o consumo histórico"]
 
 +
-O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra métricas como capacidade utilizada (capacidade de storage total, incluindo dados e dados de captura de tela), dados (capacidade de storage usada pelos dados de usuário) e captura de tela (capacidade de storage usada pelos dados de captura de tela), juntamente com a capacidade comprometida e a capacidade de burst. Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode posicionar o cursor do mouse sobre o gráfico para visualizar o detalhamento do uso em cada ponto de coleta de dados.
+O gráfico de linhas exibe dados históricos de consumo e permite que os usuários analisem tendências em um intervalo de datas selecionado. O gráfico mostra as seguintes métricas:
+
++
+** *Capacidade utilizada*: Armazenamento total em uso, incluindo a capacidade de dados e de Snapshot.
+** *Dados*: Capacidade de armazenamento utilizada pelos dados de usuário.
+** *Snapshot*: Capacidade de armazenamento usada pelos dados do Snapshot.
+** *Comprometido*: A capacidade comprometida contratada.
+** *Capacidade de pico*: o limite máximo de pico permitido para sua assinatura.
+** *Acima da capacidade máxima*: Consumo de armazenamento além do limite de burst. Essa métrica aparece somente quando o limite de burst é excedido.
++
+Com base no intervalo de datas da sua consulta, os gráficos de uso mostram até 30 pontos de coleta de dados. Você pode posicionar o cursor do mouse sobre o gráfico para visualizar o detalhamento do uso em cada ponto de coleta de dados.
 
 +
 
@@ -57,6 +67,8 @@ NOTE: Se um nível de serviço de desempenho tiver várias instâncias, você po
 
 +
 Você também pode visualizar um resumo do consumo atual juntamente com o consumo histórico para ter uma compreensão clara do seu uso.
+
+
 
 
 
@@ -123,6 +135,20 @@ Você pode clicar no botão de alternância *Mostrar uso atual* para exibir os d
 
 --
 ====
+
+
+== Veja os dados de previsão
+
+Você pode visualizar a projeção de uso da capacidade para os próximos 120 dias a partir da data atual através da opção *Previsão*, disponível na visualização *Histórico de consumo* da aba *Tendência de consumo* no Console. A opção está ativada por padrão.
+
+Por padrão, o gráfico exibe os últimos 30 dias de consumo histórico e uma projeção de 120 dias a partir da data atual no mesmo gráfico. Até 30 pontos de dados são plotados no total (20 para dados históricos e 10 para dados de previsão), com uma linha vertical separando os dois segmentos.
+
+image:forecast-1.png["captura de tela mostrando dados de previsão"]
+
+Se você selecionar um intervalo de datas que não termine na data atual, a previsão será desativada automaticamente. Para reativá-la, uma caixa de diálogo de confirmação informa que os dados de previsão só estão disponíveis quando o período selecionado termina na data atual. A confirmação redefine a visualização para o intervalo padrão dos últimos 30 dias de dados históricos mais os próximos 120 dias de previsão.
+
+Caso o consumo projetado exceda a capacidade máxima, um indicador de alerta aparecerá no gráfico, recomendando uma atualização de capacidade.
+
 
 
 == Cálculo de burst acumulado

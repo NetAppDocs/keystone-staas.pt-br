@@ -26,7 +26,7 @@ As assinaturas exibem incorretamente o status *Acima do Limite de Burst* no pain
  a| 
 Fixo
  a| 
-2025-12-08
+2026-03-30
 
 
 
