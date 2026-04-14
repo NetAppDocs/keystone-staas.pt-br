@@ -36,12 +36,7 @@ A capacidade lógica mínima cobrada mensalmente durante a assinatura:
 
 === Mudanças na capacidade comprometida
 
-Durante o período de vigência de uma assinatura, você pode alterar as capacidades comprometidas. No entanto, existem certas condições prévias:
-
-* A capacidade comprometida pode ser reduzida com base em certas condições. Para obter informações, link:../concepts/capacity-requirements.html["Redução de capacidade"]consulte .
-* A capacidade comprometida não pode ser aumentada 90 dias antes do término da assinatura, a menos que a assinatura seja renovada por um período adicional de 12 meses.
-* Você pode solicitar alterações na capacidade contratada por meio do Console ou do seu Keystone Success Manager (KSM). Para obter informações sobre como solicitar alterações, consulte link:../concepts/support-services.html["Suporte à NetApp Keystone"].
-
+Durante a assinatura, você pode alterar as capacidades contratadas, sujeitas a determinadas condições. Para obter detalhes completos sobre as regras de aumento e redução de capacidade, consulte link:../concepts/capacity-requirements.html["Requisitos de capacidade para os níveis de serviço de desempenho do Keystone"]. Para solicitar uma alteração, entre em contato com seu Keystone Success Manager (KSM) ou consulte link:../concepts/support-services.html["Suporte à NetApp Keystone"].
 
 
 
