@@ -14,12 +14,12 @@ summary: O serviço complementar de categorização de dados identifica os dados
 
 
 [role="lead"]
-Os serviços padrão do Keystone STaaS para storage de arquivo e de bloco incluem funcionalidades de disposição em camadas que identificam dados usados com menos frequência e categorizam-no no storage frio NetApp compatível com STaaS do Keystone. Você pode usar a disposição de dados em categorias como serviço complementar se quiser categorizar seus dados inativos em qualquer storage que não seja NetApp compatível com Keystone STaaS.
+Os serviços padrão do Keystone STaaS para armazenamento de arquivos e blocos incluem recursos de hierarquização que identificam dados menos utilizados e os alocam em cold storage compatível com Keystone STaaS da NetApp. Você pode usar a hierarquização de dados como um serviço adicional se desejar alocar seus dados frios em qualquer storage compatível com Keystone STaaS que não seja da NetApp. Este serviço adicional é compatível apenas com o tipo de storage unificado.
 
 Para obter informações sobre serviços padrão e complementares, link:../concepts/supported-storage-services.html["Serviços Keystone STaaS"]consulte . Para obter informações sobre os níveis de serviço de desempenho, consulte link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"] .
 
 
-NOTE: O serviço complementar de camadas é necessário somente quando os dados são colocados em camadas em qualquer armazenamento não NetApp , como Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) e outros armazenamentos de objetos de terceiros compatíveis com S3 e com suporte do Keystone STaaS.
+NOTE: O serviço adicional de tiering é necessário apenas quando os dados são armazenados em camadas em qualquer storage que não seja NetApp, como Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) e outros storage de objetos compatíveis com S3 de terceiros suportados pelo Keystone STaaS. Este serviço está disponível apenas para o tipo de storage unificado.
 
 A funcionalidade de disposição em camadas utiliza a tecnologia NetApp FabricPool que permite a disposição automatizada em camadas de storage de objetos no local e fora dela.
 

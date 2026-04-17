@@ -43,7 +43,7 @@ Você pode clicar em *Exibir todas as assinaturas* para visualizar os detalhes d
 Os detalhes das assinaturas, gráficos de uso para cada nível de serviço de desempenho e detalhes de volume são exibidos nas diferentes guias na tela *Assinaturas Keystone*.
 
 
-NOTE: O consumo de capacidade nas assinaturas do Keystone é exibido no Tibs nos painéis e relatórios e é arredondado para duas casas decimais. Se o uso for menor que 0,01 TiB, o valor será mostrado como 0 ou Nenhum Uso. Os dados nessas telas são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para saber mais sobre métricas de utilização, link:../concepts/metrics.html#metrics-measurement["Medição de métricas"]consulte . Para obter informações sobre diferentes capacidades usadas no Keystone, link:../concepts/supported-storage-capacity.html["Capacidades de armazenamento suportadas"]consulte .
+NOTE: O consumo de capacidade nas assinaturas do Keystone é exibido em TiBs nos painéis e relatórios, e é arredondado para duas casas decimais. Se o uso for inferior a 0,01 TiB, o valor será exibido como 0 ou Sem uso. Os dados nessas telas são exibidos em horário UTC (fuso horário do servidor). Ao inserir uma data para consulta, ela é automaticamente considerada em horário UTC. Para saber mais sobre métricas de uso, consulte link:../concepts/metrics.html#metrics-measurement["Medição de métricas"]. Para obter informações sobre as diferentes capacidades usadas no Keystone, consulte link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"].
 
 
 

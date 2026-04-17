@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: Os requisitos de capacidade para níveis de serviço são diferentes do storage de arquivo, bloco, objeto ou nuvem com suporte da assinatura do Keystone STaaS. 
 ---
-= Requisitos de capacidade para os níveis de serviço de desempenho do Keystone
+= Requisitos de capacidade e ajustes no Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Os requisitos de capacidade para níveis de serviço são diferentes do
 
 
 [role="lead"]
-Os requisitos de capacidade para os níveis de serviço de desempenho do Keystone STaaS diferem entre as ofertas de armazenamento unificado, otimizado por bloco, de objeto ou em nuvem suportadas pela assinatura do Keystone STaaS.
+Os requisitos mínimos de capacidade e os incrementos para os níveis de serviço de desempenho do Keystone STaaS variam conforme o tipo de storage. Esta página também descreve como a capacidade contratada pode ser aumentada, reduzida ou realocada durante o período de assinatura.
 
 
 
@@ -31,7 +31,7 @@ Você pode ver a capacidade mínima e a capacidade incremental permitidas por as
 
 
  a| 
-Capacidade mínima [em TIB]
+Capacidade mínima por PSLI [em TiB]
 2+| 50 2+| 100 
 
 
@@ -49,24 +49,53 @@ Capacidade incremental (e em múltiplos) permitida como complemento durante a as
 |===
 
 
-| Capacidade | Extremo | Premium 
+| Capacidade | Extremo | Premium | Padrão 
 
 
  a| 
-Capacidade mínima [em TIB]
-2+| 50 
+Capacidade mínima por PSLI [em TiB]
+| 50 | 50 | 100 
 
 
  a| 
 Capacidade incremental (e em múltiplos) permitida no início da assinatura [no TIB]
-2+| 25 
+3+| 25 
 
 
  a| 
 Capacidade incremental (e em múltiplos) permitida como complemento durante a assinatura [no TIB]
-2+| 25 
+3+| 25 
 |===
 A capacidade mínima para cada nível de serviço de desempenho é a mesma em todas as vendas da Keystone.
+
+
+
+== Requisitos mínimos de capacidade para armazenamento AFX
+
+Você pode consultar os requisitos mínimos de capacidade para storage AFX na tabela a seguir:
+
+|===
+
+
+| Capacidade | Extremo 
+
+
+ a| 
+Capacidade mínima [em TiB] por cluster AFX
+| 200 
+
+
+ a| 
+Capacidade incremental (e em múltiplos) permitida no início da assinatura [no TIB]
+| 100 
+
+
+ a| 
+Capacidade incremental (e em múltiplos) permitida como complemento durante a assinatura [no TIB]
+| 100 
+|===
+
+NOTE: Para o armazenamento AFX, a capacidade é alocada e medida no nível do cluster AFX, em todos os compartimentos de unidades do cluster. Isso é independente do número de controladores de armazenamento AFX no cluster.
 
 
 
@@ -208,5 +237,3 @@ Esta tabela fornece um conjunto de valores de exemplo para demonstrar como funci
 A redução é de (125-108) = 17 TiB da capacidade alocada para o nível de serviço de desempenho Extremo. Na realocação de gastos, o storage de nuvem híbrida alocado não é de 17 TIB, mas uma capacidade equivalente que o $5000 pode comprar. Neste exemplo, por US$ 5.000, você pode obter 17 TiB de capacidade de armazenamento local para o nível de serviço de desempenho Extremo e 47 TiB de capacidade de nuvem híbrida para o nível de serviço de desempenho Cloud Volumes ONTAP. Portanto, a realocação é no que diz respeito ao gasto, não à capacidade.
 
 Entre em contato com seu Keystone Success Manager (KSM) para enviar uma solicitação de realocação.
-
-Para saber mais, consulte o  https://fieldportal.netapp.com/s/article/Changes-to-Keystone-STaaS-Service-Description-and-Supplement-v3-Reference-Guide["Guia de referência de descrição e suplemento do serviço Keystone STaaS v3"^].

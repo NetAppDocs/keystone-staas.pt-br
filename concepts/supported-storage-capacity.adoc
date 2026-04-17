@@ -4,7 +4,7 @@ permalink: concepts/supported-storage-capacity.html
 keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
 summary: Saiba mais sobre os tipos de capacidades de armazenamento suportados pelo serviço NetApp Keystone STaaS para a versão 3. 
 ---
-= Funcionalidades de storage compatíveis no Keystone
+= Tipos de capacidade de storage em Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Saiba mais sobre os tipos de capacidades de armazenamento suportados pe
 
 
 [role="lead"]
-O serviço NetApp Keystone STaaS suporta vários tipos de capacidades de armazenamento. Entender esses diferentes termos de capacidade pode ajudar você a usar o Keystone.
+Keystone STaaS utiliza diversos termos de capacidade para medir, comprometer e faturar o storage. Compreender esses termos ajudará você a planejar sua assinatura e interpretar seus relatórios de uso e faturas.
 
 
 
@@ -28,7 +28,7 @@ Esta é a quantidade de capacidade de armazenamento necessária para armazenar d
 
 A capacidade lógica mínima cobrada mensalmente durante a assinatura:
 
-* A capacidade é comprometida com cada nível de serviço de desempenho.
+* A capacidade é comprometida para cada instância de nível de serviço de desempenho para storage unificado ou otimizado para blocos, ou por cluster AFX.
 * Capacidade comprometida e níveis adicionais de serviço de desempenho podem ser adicionados durante o prazo.
 
 
@@ -36,13 +36,13 @@ A capacidade lógica mínima cobrada mensalmente durante a assinatura:
 
 === Mudanças na capacidade comprometida
 
-Durante a assinatura, você pode alterar as capacidades contratadas, sujeitas a determinadas condições. Para obter detalhes completos sobre as regras de aumento e redução de capacidade, consulte link:../concepts/capacity-requirements.html["Requisitos de capacidade para os níveis de serviço de desempenho do Keystone"]. Para solicitar uma alteração, entre em contato com seu Keystone Success Manager (KSM) ou consulte link:../concepts/support-services.html["Suporte à NetApp Keystone"].
+Durante a assinatura, você pode alterar as capacidades contratadas, sujeitas a determinadas condições. Para obter detalhes completos sobre as regras de aumento e redução de capacidade, consulte link:../concepts/capacity-requirements.html["Requisitos de capacidade para os níveis de serviço de desempenho do Keystone"]. Para solicitar uma alteração, entre em contato com seu Keystone Success Manager (KSM) ou link:../concepts/support-services.html["NetApp suporte"].
 
 
 
 == Capacidade consumida
 
-A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualmente consumida no serviço. Ele é calculado de forma diferente com base no tipo de armazenamento:
+A capacidade consumida refere-se à capacidade (em TiB de storage) atualmente utilizada pelo serviço. Ela é calculada de forma diferente dependendo do tipo de storage de dados:
 
 * *Armazenamento unificado ou otimizado em bloco*: A capacidade consumida é calculada com base no tipo de capacidade (lógica ou física) selecionada durante o processo de pedido.  O cálculo é realizado por instância de nível de serviço de desempenho.
 +
@@ -55,15 +55,22 @@ A capacidade consumida refere-se à capacidade (em TIB de armazenamento) atualme
 
 .. *Capacidade física*: É a soma de:
 +
-*** Capacidade física medida, após eficiências de dados do array de armazenamento, para armazenar todas as instâncias e tipos de dados do cliente, como cópias, cópias espelhadas, versões e clones.
+*** Capacidade física medida, após eficiências de dados do array de storage, para armazenar todas as instâncias e tipos de dados do cliente, como cópias, cópias espelhadas, versões e clones.
 *** Capacidade física usada para armazenar metadados e dados diferenciais de snapshots.
 *** Qualquer capacidade física com provisionamento espesso.
 
 
 
 
+* *Armazenamento AFX*: é calculado por cluster AFX como a soma de:
++
+** Capacidade física medida, após eficiências de dados do array de storage, para armazenar todas as instâncias e tipos de dados do cliente, como cópias, cópias espelhadas, versões e clones.
+** Capacidade física usada para armazenar metadados e dados diferenciais de snapshots.
+** Qualquer capacidade física com provisionamento espesso.
+
+
 * *Armazenamento de objetos*: A capacidade consumida é calculada como a quantidade de capacidade física medida usada para armazenar todas as instâncias e tipos de dados do cliente em todos os nós. Este cálculo é baseado nas políticas de gerenciamento do ciclo de vida da informação (ILM) configuradas.
-* *Cloud Volumes ONTAP*: A capacidade consumida é calculada como a quantidade de capacidade provisionada medida de todos os volumes Cloud Volumes ONTAP.
+* *Cloud Volumes ONTAP*: A capacidade consumida é calculada como a quantidade de capacidade lógica provisionada medida de todos os volumes do Cloud Volumes ONTAP.
 
 
 
@@ -74,8 +81,8 @@ O serviço NetApp Keystone STaaS permite que você use capacidade adicional alé
 
 Observe estes pontos:
 
-* Capacidade de pico sazonal é acordada no contrato do Keystone. Geralmente, ele é definido até 20% acima da capacidade comprometida, por instância de nível de serviço de desempenho, com opções adicionais disponíveis para selecionar limites de capacidade de pico de 40% ou 60% da capacidade comprometida.
-* O consumo de capacidade de pico é faturado na mesma taxa que a capacidade comprometida correspondente ao nível de serviço de desempenho selecionado.
+* O limite de capacidade de burst é acordado no pedido do Keystone. Normalmente, é definido por padrão como 20% acima da capacidade contratada por instância de nível de serviço de desempenho ou por cluster AFX, com opções adicionais disponíveis para storage unificado e otimizado para blocos, permitindo selecionar limites de capacidade de burst de 40% ou 60% da capacidade contratada.
+* O consumo de capacidade em picos de uso é faturado à mesma taxa da capacidade contratada correspondente ao tipo de storage de dados (DST) e nível de serviço de desempenho selecionado.
 * Os serviços STaaS da Keystone oferecem um período de isenção de 60 dias a partir da data de início.
 
 

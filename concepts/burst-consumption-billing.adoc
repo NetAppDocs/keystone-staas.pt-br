@@ -24,4 +24,4 @@ Quando a capacidade consumida é maior que a capacidade comprometida para um ní
 
 Este processo ocorre para cada Registro de consumo gerado. O consumo de expansões sazonais, portanto, é um reflexo da quantidade e da posse de suas capacidades sobreconsumidas, além de suas capacidades comprometidas. Para saber mais, link:../integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"]consulte .
 
-Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .
+Para obter informações sobre as diferentes capacidades suportadas no Keystone, consulte link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"].

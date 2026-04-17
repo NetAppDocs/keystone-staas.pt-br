@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/sla-sustainability.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
-summary: 'A Keystone oferece uma medição garantida do número máximo de watts reais por tebibyte (W/TiB) para serviços de armazenamento baseados em matrizes de armazenamento flash ONTAP com SLO de Sustentabilidade.' 
+summary: Saiba como o SLO de sustentabilidade da Keystone define as metas de consumo de energia para sua implementação do STaaS e como solicitar créditos de serviço caso essas metas não sejam atingidas. 
 ---
 = Objetivo de aprendizagem de sustentabilidade (SLO) para Keystone
 :hardbreaks:
@@ -14,51 +14,36 @@ summary: 'A Keystone oferece uma medição garantida do número máximo de watts
 
 
 [role="lead"]
-A NetApp Keystone oferece uma medição garantida do número máximo de watts reais por byte (W/TIB) para serviços de storage baseados em arrays de storage flash ONTAP com SLO de Sustentabilidade. O SLO de sustentabilidade define o consumo máximo de W/TiB para cada nível de serviço de desempenho elegível, ajudando as organizações a atingir suas metas de sustentabilidade.
+O objetivo de nível de serviço (SLO) de sustentabilidade visa o consumo de energia até a potência máxima nominal para produtos STaaS implantados para fornecer a instância de nível de serviço de desempenho (PSLI) para storage unificado (excluindo o nível de serviço de desempenho _Value_) e storage otimizado para blocos, ou por cluster AFX. Saiba como a meta de sustentabilidade da Keystone afeta sua configuração STaaS e como ganhar créditos de serviço caso os limites não sejam atingidos.
 
 
 
 == Métricas
 
-* * Watts*: O consumo de energia relatado pelo AutoSupport diário, incluindo o uso pelo controlador e pelas gavetas de disco conetadas.
+* *Watts*: A potência consumida pelos arrays de storage ou pelo cluster AFX, conforme relatado pela ferramenta de monitoramento. Os limites máximos de consumo de energia de referência são fornecidos no link:https://hwu.netapp.com["NetApp Hardware Universe"^].
 * *Tebibyte*: O máximo de:
 +
 ** a capacidade comprometida + capacidade de pico alocada para o nível de serviço de desempenho, ou
 ** a capacidade efetiva implantada, assumindo um fator de eficiência de storage `2:1` de .
 
 
-+
+
+
 Para saber mais sobre a taxa de eficiência de storage, https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["Analise a economia de capacidade e eficiência de storage"^] consulte .
 
 
 
+=== Configurações suportadas
 
+O objetivo de sustentabilidade (SLO) aplica-se a pedidos padrão do Keystone STaaS com as seguintes configurações suportadas:
 
-== Níveis de serviço de desempenho
+* Somente para arrays de storage ONTAP AFF Série A ou clusters AFX.
+* Somente configurações de cluster sem switch de dois nós.
+* Somente configurações não misturadas.
+* Somente configurações não-MetroCluster.
+* Capacitação total e contínua da ferramenta de monitoramento e AutoSupport (ASUP) em todos os arrays de storage.
+* A temperatura ambiente de operação durante a medição do consumo de energia deve estar entre 25°C e 27°C.
 
-O SLO de sustentabilidade baseia-se nos seguintes critérios de consumo:
-
-|===
-
-
-| *Nível de serviço* | *Critérios SLO* | * Capacidade mínima comprometida* | *Plataforma* 
-
-
- a| 
-Extremo
-| <= 8 W/TiB | 200 TIB | AFF A800 e AFF A900 
-
-
- a| 
-Premium
-| <= 4 W/TiB | 300 TIB | AFF A800 e AFF A900 
-
-
- a| 
-Desempenho
-| <= 4 W/TiB | 300 TIB | AFF A800 e AFF A900 
-|===
-Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Níveis de serviço de desempenho em Keystone"]consulte .
 
 
 
@@ -67,7 +52,7 @@ Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/serv
 
 NOTE: SLAs e garantias estão disponíveis em uma base de nomeação.
 
-Se o consumo de W/TIB durante um período de faturamento não atender aos critérios de SLA, o NetApp emitirá créditos de serviço da seguinte forma:
+Se o consumo de energia durante um período de faturamento exceder a potência nominal máxima dos produtos STaaS implantados, então a NetApp emitirá créditos de serviço com base na capacidade contratada, conforme descrito a seguir:
 
 |===
 | Dias SLA perdidos no período de faturamento | Crédito de serviço 
@@ -97,14 +82,14 @@ Se o consumo de W/TIB durante um período de faturamento não atender aos crité
 
 === Pedido de crédito de serviço
 
-Se for detetada uma violação do SLA, abra um ticket de suporte de prioridade 3 (P3) com suporte à NetApp Keystone e forneça os detalhes conforme solicitado na Planilha do excel, conforme mostrado abaixo:
+Para solicitar um crédito de serviço, abra um chamado de suporte de prioridade 3 (P3) com o suporte da NetApp Keystone em até 7 dias após o término do mês de serviço e forneça os detalhes solicitados na planilha do Excel, conforme mostrado abaixo:
 
 image:sla-breach.png["modelo de folha do excel"]
 
-[NOTE]
-====
-* Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o suporte da NetApp Keystone validar uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.
-* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas Keystone expiradas. Para saber mais, consulte link:../concepts/support-services.html["Suporte à NetApp Keystone"].
+Observe as seguintes condições para solicitações de crédito de serviço:
 
+* NetApp determina se ocorreu uma violação do nível de serviço.
+* Você deve fornecer informações adicionais conforme solicitado pela NetApp, incluindo seus dados de consumo de energia e método de medição.
+* Os créditos de serviço são calculados com base apenas na capacidade contratada.
+* Os créditos de serviço podem ser aplicados somente à fatura do mês seguinte. Eles não se aplicam a assinaturas Keystone expiradas. Para entrar em contato com o suporte da NetApp e abrir o chamado necessário para uma solicitação de crédito de serviço, consulte link:../concepts/support-services.html["Obtenha ajuda com o Keystone"].
 
-====

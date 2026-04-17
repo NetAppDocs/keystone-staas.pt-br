@@ -14,22 +14,16 @@ summary: 'O objetivo do SLO de disponibilidade é atingir um tempo de atividade 
 
 
 [role="lead"]
-O SLO de disponibilidade tem como objetivo um tempo de atividade de 99,999% durante um período de cobrança para todos os storage arrays flash NetApp ONTAP implantados para entregar o pedido do Keystone.
+O objetivo de nível de serviço (SLO) de disponibilidade visa 99,999% de disponibilidade de serviço por instância de nível de serviço de desempenho (PSLI) para storage unificado e otimizado para blocos, ou por controlador de storage AFX. Os detalhes incluem como a disponibilidade é medida, os tipos de storage e níveis de serviço de desempenho incluídos, e créditos de serviço caso as metas não sejam atingidas.
 
 
 
 == Métricas
 
-* *Porcentagem de tempo de atividade mensal*: [(número de segundos qualificados em um mês - média de segundos de tempo de inatividade para todos os storage arrays AFF implantados para entregar a ordem do Keystone nesse mês) / número de segundos qualificados em um mês] x 100%
-* *Tempo de inatividade*: O período de tempo em que ambas as controladoras em um par dentro de um storage array não estão disponíveis, conforme determinado pelo NetApp.
-* *Número elegível de segundos*: São segundos em um mês que contam para o cálculo de tempo de atividade. Isso não inclui o período de tempo em que os serviços STaaS não estão disponíveis devido à manutenção planejada, upgrades, atividades de suporte acordadas com a NetApp ou devido a circunstâncias que estão fora de controle ou responsabilidade dos serviços do NetApp ou do Keystone.
+* *Percentual de tempo de atividade mensal* = [(número de segundos elegíveis em um mês - número de segundos de indisponibilidade do serviço para um PSLI nesse mês) / número de segundos elegíveis em um mês] x 100%
+* *Indisponibilidade do serviço*: O período durante o qual as operações de leitura ou gravação de dados não são atendidas por um PSLI, conforme relatado pela ferramenta de monitoramento. Exclui o tempo em que os serviços STaaS estão indisponíveis devido a manutenções planejadas, atualizações ou atividades de suporte acordadas com NetApp, ou devido a circunstâncias fora do controle ou responsabilidade da NetApp.
+* *Segundos elegíveis*: Segundos em um mês que contam para o cálculo do tempo de atividade, excluindo qualquer período de indisponibilidade do serviço, conforme definido acima.
 
-
-
-
-== Níveis de serviço de desempenho
-
-Todos os níveis de serviço de desempenho suportados pelos arrays de armazenamento flash ONTAP são elegíveis para o SLO de disponibilidade. Para saber mais, link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Níveis de serviço de desempenho em Keystone"]consulte .
 
 
 
@@ -94,12 +88,12 @@ O exemplo a seguir mostra o método de cálculo para créditos de serviço:
 . Calcule o tempo de atividade mensal para determinar a porcentagem de crédito de serviço :
 +
 ** Segundos elegíveis em um mês de 30 dias: 30 (dias) X 24 (horas/dia) X 60 (minutos/hora) X 60 (segundos/minuto): 2.592.000 segundos
-** Tempo de inatividade em segundos: 95 segundos
+** Indisponibilidade do serviço em segundos: 95 segundos
 +
 Usando a fórmula: Porcentagem de tempo de atividade mensal: [(2.592.000 - 95)/(2.592.000)] X 100
 
 +
-Com base no cálculo, o tempo de atividade mensal será de 99,996%, e a porcentagem de crédito do serviço será de 5%.
+Com base nos cálculos, o tempo de atividade mensal é de 99,996% e a porcentagem de crédito de serviço é de 5%.
 
 
 
@@ -119,7 +113,7 @@ Extremo
 Usando a fórmula: Créditos de serviço ( 10 / 100 ) X 1000 x 0,05
 
 +
-Com base no cálculo, os créditos de serviço serão de 5 dólares.
+Com base nos cálculos, o crédito de serviço é de US$ 5.
 
 
 
@@ -148,7 +142,7 @@ image:sla-breach.png["modelo de folha do excel"]
 [NOTE]
 ====
 * Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o suporte da NetApp Keystone validar uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.
-* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas Keystone expiradas. Para saber mais, consulte link:../concepts/support-services.html["Suporte à NetApp Keystone"].
+* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas Keystone expiradas. Para entrar em contato com o suporte da NetApp e abrir o chamado necessário para uma solicitação de crédito de serviço, consulte link:../concepts/support-services.html["Obtenha ajuda com o Keystone"].
 
 
 ====

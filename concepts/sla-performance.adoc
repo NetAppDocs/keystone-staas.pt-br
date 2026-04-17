@@ -14,7 +14,7 @@ summary: A Keystone oferece SLO baseado em latência por nível de serviço de d
 
 
 [role="lead"]
-O NetApp Keystone oferece SLO baseado em latência por nível de serviço de desempenho, conforme descrito no pedido do Keystone para capacidade consumida até o limite de pico, de acordo com os termos e condições listados a seguir.
+Keystone STaaS oferece um objetivo de nível de serviço de desempenho (SLO) baseado em latência, visando o percentil 90 de latência por instância de nível de serviço de desempenho (PSLI) para storage unificado (excluindo o nível de serviço de desempenho _Value_), otimizado para blocos e storage AFX. Saiba como verificar o desempenho, quais regras se aplicam e como receber créditos de serviço caso Keystone não atinja a meta de latência para a capacidade utilizada até o limite de burst, conforme especificado nos termos e condições do pedido do Keystone.
 
 
 
@@ -27,29 +27,15 @@ O NetApp Keystone oferece SLO baseado em latência por nível de serviço de des
 ** Volumes com operações de gravação superiores a 30% no momento da coleta de métricas são excluídos da amostra.
 ** Para volumes com o FabricPool habilitado, a latência incorrida devido à transferência de dados de e para o storage de destino (frio) não é contada.
 ** A latência causada pelo aplicativo, host ou rede do cliente fora do cluster ONTAP não é contada.
+** Ao usar o serviço complementar de proteção de dados avançada, a latência inclui apenas as operações de E/S de e para o array de storage local.
 ** Durante um período de 24 horas, pelo menos dez métricas válidas devem estar disponíveis. Se a condição não for atendida, as métricas serão descartadas.
 ** Nas configurações do FabricPool, os níveis de performance são aplicáveis quando todos os blocos de dados solicitados estiverem em um storage de origem FabricPool (hot) e o storage de origem não estiver em uma relação síncrona do SnapMirror.
 
 
+* Aplicável somente às plataformas NetApp AFF e AFX.
+* Todos os limites mínimos e máximos de capacidade e outros limites por instância de nível de serviço de desempenho, conforme especificado no pedido Keystone, são aplicáveis.
+* Todas as instâncias de nível de serviço de desempenho exigem capacitação total e contínua da ferramenta de monitoramento e AutoSupport (ASUP).
 
-
-
-
-== Níveis de serviço de desempenho
-
-Todos os níveis de serviço de desempenho suportados pelos arrays de armazenamento flash ONTAP são elegíveis para o SLO de desempenho e garantem o cumprimento da seguinte latência alvo:
-
-|===
-
-
-| *Nível de serviço* | Extremo | Premium | Padrão | Valor 
-
-
- a| 
-* Target 90.o percentil latência*
-| <=1ms | <=1ms | <=4ms | >=4ms 
-|===
-Para saber mais sobre os requisitos de latência dos níveis de serviço de desempenho, consulte link:../concepts/service-levels.html["Níveis de serviço de desempenho em Keystone"].
 
 
 
@@ -89,7 +75,7 @@ Local:
 
 *Exemplo*
 
-O exemplo a seguir mostra o método de cálculo para créditos de serviço:
+O exemplo a seguir mostra como calcular os créditos de serviço:
 
 |===
 
@@ -103,7 +89,7 @@ Extremo
 |===
 Usando a fórmula: Créditos de serviço ( 10 / 50 ) X 1000 x 2 x 0,03
 
-Com base no cálculo, os créditos de serviço serão US$ 12.
+Com base no cálculo, os créditos de serviço são de US$ 12.
 
 
 
@@ -130,7 +116,7 @@ image:sla-breach.png["modelo de folha do excel"]
 [NOTE]
 ====
 * Uma solicitação de crédito de serviço deve ser iniciada dentro de seis semanas após o suporte da NetApp Keystone validar uma violação. Todos os créditos de serviço devem ser reconhecidos e aprovados pelo NetApp.
-* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas Keystone expiradas. Para saber mais, consulte link:../concepts/support-services.html["Suporte à NetApp Keystone"].
+* Os créditos de serviço podem ser aplicados a uma fatura futura. Os créditos de serviço não se aplicam a assinaturas Keystone expiradas. Para entrar em contato com o suporte da NetApp e abrir o chamado necessário para uma solicitação de crédito de serviço, consulte link:../concepts/support-services.html["Obtenha ajuda com o Keystone"].
 
 
 ====

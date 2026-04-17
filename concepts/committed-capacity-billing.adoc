@@ -18,4 +18,4 @@ Capacidade comprometida é a capacidade comprometida para um determinado nível 
 
 A capacidade comprometida pode ser a capacidade total para vários níveis de serviço de desempenho em uma única assinatura, conforme aceito por você e pela NetApp/parceiro. Essa capacidade é indicada em cada pedido do Keystone e é cobrada, independentemente do consumo de capacidade real.
 
-Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .
+Para obter informações sobre as diferentes capacidades suportadas no Keystone, consulte link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"].

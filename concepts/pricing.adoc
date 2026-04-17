@@ -26,7 +26,7 @@ A Keystone oferece os seguintes recursos de cobrança:
 
 A cobrança do Keystone é baseada na capacidade comprometida e no consumo de sobrecarga variável.
 
-Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .
+Para obter informações sobre as diferentes capacidades suportadas no Keystone, consulte link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"].
 
 *Informações relacionadas*
 

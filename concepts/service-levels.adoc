@@ -14,47 +14,62 @@ summary: O Keystone STaaS para versão 3 oferece capacidade de armazenamento em 
 
 
 [role="lead"]
-O Keystone STaaS oferece capacidade de armazenamento de dados em níveis de serviço de desempenho predefinidos. Cada volume gerenciado pelos serviços Keystone está associado a um nível de serviço de desempenho.
+Keystone STaaS oferece níveis de serviço de desempenho (PSLs) predefinidos para cada tipo de storage. Cada PSL especifica as metas de desempenho (IOPS, throughput e latência), protocolos suportados, plataforma e requisitos mínimos de capacidade. Analise os PSLs disponíveis para selecionar o nível de serviço correto para sua carga de trabalho e planejar sua assinatura.
 
-Uma assinatura pode ter vários planos de tarifas, e cada plano corresponde a um nível de serviço de desempenho. Cada plano de tarifas tem uma capacidade comprometida por nível de serviço de desempenho.
+Uma assinatura Keystone pode incluir vários PSLs em um ou mais tipos de storage. Cada PSL tem uma capacidade comprometida, que é a capacidade mínima faturada para esse nível de serviço durante o período da assinatura.
 
-Um nível de serviço de desempenho pode ter várias instâncias, com cada instância representando um array de armazenamento separado atribuído a esse nível de serviço de desempenho no ambiente do cliente. Cada nível de serviço de desempenho é definido por operações de entrada/saída por segundo (IOPS), taxa de transferência (GBps) e latência (ms), sendo essas métricas medidas e aplicadas por instância de nível de serviço de desempenho.
 
-Você seleciona níveis de serviço de desempenho com base no seu ambiente de armazenamento e nas necessidades de armazenamento e consumo. Os níveis de serviço de desempenho básico estão disponíveis para você por padrão. Níveis de serviço de desempenho específicos também estão disponíveis, caso você tenha optado por serviços adicionais.
+NOTE: A assinatura AFX é limitada ao tipo de storage AFX e atualmente oferece apenas um PSL, Extreme.
+
+
+
+== Instâncias de níveis de serviço de desempenho
+
+Um nível de serviço de desempenho (PSL) pode ter várias instâncias, chamadas de instâncias de nível de serviço de desempenho (PSLIs), em seu ambiente. Cada PSLI é um sistema de storage separado atribuído a esse nível de serviço de desempenho, com capacidade comprometida medida por PSLI.
+
+* Para armazenamento unificado ou otimizado para blocos, um PSLI é um array de storage composto por dois controladores de armazenamento em um par de HA com mídia de armazenamento interna ou externa conectada interna ou externamente.
+* Para armazenamento AFX, um PSLI é um único controlador de armazenamento AFX. O AFX utiliza uma arquitetura desagregada onde os controladores (computação) e os gabinetes de unidades (armazenamento) são independentes e podem ser escalados separadamente. As metas de IOPS e throughput se aplicam a cada controlador; a capacidade comprometida é medida no nível do cluster AFX, que inclui todos os controladores e gabinetes de unidades no cluster.
+
+
+Métricas de desempenho como IOPS, taxa de transferência (GBps) e latência (ms) são medidas por PSLI.
 
 
 TIP: Uma descrição detalhada do serviço para os níveis de serviço de desempenho do NetApp Keystone STaaS está disponível  https://www.netapp.com/services/keystone/terms-and-conditions/["aqui"^] .
 
-Os níveis de serviço de desempenho básico para os tipos de armazenamento suportados, serviços unificados, otimizados por bloco, de objeto e de nuvem são descritos nas seções a seguir:
+Os níveis básicos de serviço de desempenho para os tipos de storage de dados suportados: unificado, otimizado para blocos, AFX, objeto e serviços em nuvem são descritos nas seções a seguir:
 
 
 
 == Níveis de serviço de desempenho para armazenamento unificado
 
-*Protocolos suportados*: FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3
-
 |===
 
 
-| *Nível de serviço de desempenho* (todas as especificações por instância de nível de serviço de desempenho) | *Extreme* | *Premium* | *Standard* | *Valor* 
+| *Performance service level* (todas as especificações por instância de nível de serviço de desempenho [par de HA]) | *Extreme* | *Premium* | *Standard* | *Valor* 
+
+
+| *Protocolos suportados* 4+| FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3 
 
 
 | *Tipos de carga de trabalho de amostra* | IA/ML, HPC, BD InMem | Análise, EDA, OLTP | OLAP, IoT, Contêineres | Backup, Arquivo 
 
 
-| *IOPS máximo*^1^ | 1M | 550K | 500K | NA 
-
-
-| *Máximo de GBps* | 40 | 20 | 20 | NA 
-
-
 | * Target 90.o percentil latência* | <=1 ms | <=1 ms | <=4 ms | >4 ms 
+
+
+| *IOPS máximo alvo*^1^ | 1M | 550K | 250 mil | NA 
+
+
+| *Alvo máximo GBps*^1^ | 40 | 20 | 10 | NA 
+
+
+| *Plataforma* | AFF Série A | AFF Série A | AFF C-Series | FAS 
 
 
 | * Capacidade mínima comprometida* | 50 TIB | 50 TIB | 100 TIB | 100 TIB 
 
 
-| *Aumento incremental da capacidade comprometida* 4+| 25TiB 
+| *Aumento incremental da capacidade comprometida* 4+| 25 TIB 
 
 
 | * Tipo de capacidade comprometida e mensurada* 4+| Lógico ou físico 
@@ -63,40 +78,84 @@ Os níveis de serviço de desempenho básico para os tipos de armazenamento supo
 
 == Níveis de serviço de desempenho para armazenamento otimizado por bloco
 
-*Protocolos suportados*: NVMe/TCP, NVMe/FC, FC, iSCSI
+|===
+
+
+| *Performance service level* (todas as especificações por instância de nível de serviço de desempenho [par de HA]) | *Extreme* | *Premium* | *Standard* 
+
+
+| *Protocolos suportados* 3+| NVMe/TCP, NVMe/FC, FC, iSCSI 
+
+
+| *Tipos de carga de trabalho de amostra* 3+| SAP HANA, Oracle, MS SQL Server, EPIC 
+
+
+| * Target 90.o percentil latência* | <=1 ms | <=1 ms | <=4 ms 
+
+
+| *IOPS máximo alvo*^1^ | 850K | 450K | 120K 
+
+
+| *Alvo máximo em GBps* | 65 | 25 | 6 
+
+
+| *Plataforma* | ASA A-Series | ASA A-Series | ASA C-Series 
+
+
+| * Capacidade mínima comprometida* | 50 TIB | 50 TIB | 100 TIB 
+
+
+| *Aumento incremental da capacidade comprometida* 3+| 25TiB 
+
+
+| * Tipo de capacidade comprometida e mensurada* 3+| Lógico ou físico 
+|===
+
+
+== Níveis de serviço de desempenho para armazenamento AFX
 
 |===
 
 
-| *Nível de serviço de desempenho* (todas as especificações por instância de nível de serviço de desempenho) | *Extreme* | *Premium* 
+| *Performance service level* (todas as especificações por instância de nível de serviço de desempenho [um controlador de storage AFX]) | *Extreme* 
 
 
-| *Tipos de carga de trabalho de amostra* 2+| SAP HANA, Oracle, MS SQL Server, EPIC 
+| *Protocolos suportados* | NFSv3, NFSv4/RDMA, pNFS, SMB, S3 
 
 
-| *IOPS máximo*^1^ | 850K | 450K 
+| *Tipos de carga de trabalho de amostra* | IA/ML, HPC, BD InMem 
 
 
-| *Máximo de GBps* | 65 | 25 
+| * Target 90.o percentil latência* | <=1 ms 
 
 
-| * Target 90.o percentil latência* | <=1 ms | <=1 ms 
+| *IOPS máximo alvo*^1^ | 625 mil 
 
 
-| * Capacidade mínima comprometida* | 50 TIB | 50 TIB 
+| *Alvo máximo em GBps* | 20 
 
 
-| *Aumento incremental da capacidade comprometida* 2+| 25TiB 
+| *Plataforma* | AFX 
 
 
-| * Tipo de capacidade comprometida e mensurada* 2+| Lógico ou físico 
+| *Capacidade mínima contratada por cluster AFX*^2^ | 200 TIB 
+
+
+| *Aumento incremental da capacidade comprometida* | 100 TIB 
+
+
+| * Tipo de capacidade comprometida e mensurada* | Físico 
 |===
+[NOTE]
+====
+* ^1^Alvos mutuamente exclusivos. O desempenho real pode variar com base em vários fatores, incluindo a versão do sistema operacional, hardware, tipo de carga de trabalho e número de operações simultâneas.
+* ^2^Em um cluster AFX, as metas de desempenho se aplicam por controlador de storage. Cada controlador adicionado ao cluster contribui com a mesma quantidade de IOPS e throughput. A capacidade comprometida e os aumentos incrementais se aplicam à capacidade total do shelf de discos em todo o cluster.
 
-NOTE: ^1^Alvos mutuamente exclusivos. O desempenho real pode variar com base em vários fatores, incluindo a versão do sistema operacional, hardware, tipo de carga de trabalho e número de operações simultâneas.
+
+====
 
 
-
-=== Mais sobre níveis de serviço de desempenho para armazenamento unificado e otimizado por bloco
+== Condições de medição de desempenho para storage unificado, otimizado para blocos e AFX
 
 As métricas de nível de serviço de desempenho básico dependem das seguintes condições:
 
@@ -111,6 +170,12 @@ As métricas de nível de serviço de desempenho básico dependem das seguintes 
 +
 ** *IOPS*: Para o ONTAP 9.16.1 com FCP, cada instância de nível de desempenho suporta acesso aleatório com uma taxa de leitura de 70% e gravação de 30%, um tamanho de bloco de 8 KB e uma latência de 1 ms.
 ** *Rendimento de dados*: Para o ONTAP 9.16.1 com FCP, cada instância de nível de desempenho suporta acesso sequencial com 100% de leitura e um tamanho de bloco de 64 KB.
+
+
+* Para armazenamento AFX,
++
+** *IOPS*: Para ONTAP 9.18.1 com NFSv4, cada instância de nível de desempenho suporta acesso aleatório com uma taxa de leitura de 70% e 30% de gravação, e um tamanho de bloco de 4 KB.
+** *Taxa de transferência*: Para ONTAP 9.18.1 com NFSv4, cada instância de nível de desempenho suporta acesso sequencial com 100% de leitura e um tamanho de bloco de 64 KB.
 
 
 * A latência não inclui o seguinte:
@@ -128,12 +193,16 @@ As métricas de nível de serviço de desempenho básico dependem das seguintes 
 
 == Níveis de serviço de desempenho para armazenamento de objetos
 
-*Protocolo suportado*: S3
-
 |===
 
 
 | *Nível de serviço de desempenho* | *Standard* | *Valor* 
+
+
+| *Protocolo suportado* 2+| S3 
+
+
+| *Plataforma* | SGF6112 | SG6160 
 
 
 | *Capacidade mínima comprometida por pedido* | 200 TIB | 500 TIB 
@@ -148,12 +217,16 @@ As métricas de nível de serviço de desempenho básico dependem das seguintes 
 
 == Storage de nuvem
 
-*Protocolos suportados*: NFS, CIFS, iSCSI e S3 (somente AWS e Azure)
-
 |===
 
 
-| *Nível de serviço de desempenho* | Cloud Volumes ONTAP 
+| *Nível de serviço de desempenho* | *Cloud Volumes ONTAP* 
+
+
+| *Protocolos suportados* | NFS, CIFS, iSCSI e S3 (somente AWS e Azure) 
+
+
+| *Plataforma* | Cloud Volumes ONTAP 
 
 
 | *Capacidade mínima comprometida por pedido* | 4 TIB 
@@ -173,7 +246,7 @@ As métricas de nível de serviço de desempenho básico dependem das seguintes 
 ====
 *Informações relacionadas*
 
-* link:../concepts/supported-storage-capacity.html["Capacidades de armazenamento suportadas"]
+* link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"]
 * link:..//concepts/metrics.html["Métricas e definições usadas nos Serviços do Keystone"]
 * link:../concepts/pricing.html["Preços do Keystone"]
 

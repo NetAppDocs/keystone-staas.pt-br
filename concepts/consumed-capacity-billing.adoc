@@ -18,4 +18,4 @@ O Keystone STaaS tem medição com base na capacidade consumida por você durant
 
 Como parte da implantação do serviço do Keystone, o NetApp monitora e mede continuamente o consumo do serviço. Pelo menos uma vez em cada cinco minutos, um Registro de consumo é gerado pelo sistema, detalhando a capacidade consumida atual para sua assinatura. Esses Registros são agregados durante o período de faturamento para gerar faturas e relatórios de uso.
 
-Para obter informações sobre diferentes capacidades com suporte no Keystone, link:../concepts/supported-storage-capacity.html["Funcionalidades de storage compatíveis no Keystone"]consulte .
+Para obter informações sobre as diferentes capacidades suportadas no Keystone, consulte link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"].

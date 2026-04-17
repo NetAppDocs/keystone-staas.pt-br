@@ -14,14 +14,11 @@ summary: Os serviços Keystone STaaS são compatíveis com ONTAP e StorageGRID.
 
 
 [role="lead"]
-O serviço Keystone STaaS oferece suporte ao armazenamento unificado, otimizado por bloco e de objetos do NetApp e do Cloud Volumes ONTAP.
+Keystone STaaS oferece suporte a storage unificado, otimizado para blocos, AFX e storage de objetos nas plataformas NetApp, assim como Cloud Volumes ONTAP. Cada tipo de storage é definido como um tipo de storage de dados (DST) e está disponível com os serviços padrão incluídos na assinatura básica, juntamente com serviços adicionais opcionais.
 
-As opções de armazenamento suportadas são:
 
-* *Armazenamento unificado*: Inclui armazenamento de arquivos, blocos e objetos S3, disponível nos sistemas NetApp ONTAP AFF e FAS.
-* *Armazenamento otimizado em bloco*: Inclui armazenamento em bloco disponível em sistemas NetApp ONTAP ASA .
-* *Armazenamento de objetos*: Inclui armazenamento de objetos disponível em sistemas NetApp StorageGRID.
 
+== Serviços padrão e adicionais do Keystone STaaS
 
 O Keystone STaaS fornece serviços padrão e opcionais para o seu storage.
 
@@ -29,48 +26,70 @@ O Keystone STaaS fornece serviços padrão e opcionais para o seu storage.
 
 *Serviços complementares do Keystone STaaS*: São serviços opcionais e cobráveis que fornecem utilitários e benefícios adicionais além dos serviços de assinatura padrão do Keystone STaaS.
 
-Os serviços Keystone STaaS podem ser usados simultaneamente. Por exemplo, uma assinatura de armazenamento em nuvem pode ter o mesmo prazo que as assinaturas unificadas, otimizadas para blocos e de armazenamento de objetos. Um serviço de nuvem pode ser incluído a qualquer momento durante o período de serviço de uma subscrição de storage existente. No entanto, se você não planeja renovar uma assinatura unificada, otimizada para blocos ou de armazenamento de objetos existente, uma assinatura de armazenamento em nuvem não poderá ser adicionada durante os últimos 90 dias da assinatura.
+Você pode assinar vários serviços Keystone STaaS ao mesmo tempo. Quando serviços em nuvem são adicionados a uma assinatura, eles compartilham o mesmo prazo que storage unificado, otimizado para blocos e/ou storage de objetos. Um serviço em nuvem pode ser adicionado a qualquer momento durante uma assinatura de storage ativa. No entanto, se você não planeja renovar uma assinatura existente de storage unificado, otimizado para blocos ou de storage de objetos, um serviço em nuvem não poderá ser adicionado durante os últimos 90 dias dessa assinatura.
+
+
+NOTE: Uma assinatura AFX é independente e não pode ser combinada com storage unificado, otimizado para blocos ou storage de objetos na mesma assinatura. Se você precisar do AFX juntamente com outros tipos de storage, deverá solicitá-los como assinaturas separadas.
 
 
 
-== Serviços para armazenamento unificado, otimizado por bloco e de objetos
+== Tipos de storage de dados suportados
 
-Os serviços Keystone STaaS para armazenamento unificado, otimizado por blocos e de objetos oferecem suporte a vários recursos e protocolos e são descritos na tabela a seguir:
+Os serviços Keystone STaaS para armazenamento unificado, otimizado para blocos, objetos e AFX, suportam diversos recursos e protocolos, conforme descrito na tabela a seguir:
 
 |===
-| Armazenamento | Plataforma | Protocolos | Recursos suportados 
+| Tipo de armazenamento de dados | Descrição | Plataforma | Protocolos | Recursos suportados 
 
 
  a| 
-Storage unificado
+Unificado
  a| 
-ONTAP
+Inclui storage de arquivos, blocos e objetos S3
  a| 
-NFS e CIFS
+ONTAP em sistemas AFF e FAS
+ a| 
+FC, iSCSI, NFS, NFSv4/RDMA, NVMe/FC, NVMe/TCP, SMB, S3
  a| 
 Suporta todos os recursos do ONTAP One
 
 
 
  a| 
-Armazenamento otimizado em bloco
+Otimizado para blocos
  a| 
-ONTAP
+Inclui armazenamento em bloco
+ a| 
+NVMe/TCP, NVMe/FC, FC, iSCSI
  a| 
 FC e iSCSI
  a| 
+Compatível com todos os recursos do ONTAP One para SAN
+
+
+
+ a| 
+AFX
+ a| 
+Inclui storage de arquivos e de objetos em uma plataforma de storage desagregada
+ a| 
+ONTAP em sistemas AFX
+ a| 
+NFSv3, NFSv4/RDMA, pNFS, SMB, S3
+ a| 
 Suporta todos os recursos do ONTAP One
 
 
 
  a| 
-Storage de objetos
+Objeto
+ a| 
+Inclui storage de objetos
  a| 
 StorageGRID
  a| 
 S3
  a| 
-Suporta todos os recursos do ONTAP One
+Compatível com todos os recursos do StorageGRID
 
 |===
 Para saber mais sobre o ONTAP One, consulte link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one["Visão geral do licenciamento do ONTAP"^] e link:https://www.netapp.com/blog/ontap-one/["ONTAP One: todo o poder do ONTAP, agora tudo em um"^] .
@@ -82,4 +101,4 @@ Para saber mais sobre o ONTAP One, consulte link:https://docs.netapp.com/us-en/o
 O Keystone STaaS fornece serviços de storage de nuvem. O Keystone STaaS oferece suporte aos recursos de gerenciamento de dados do Cloud Volumes ONTAP no Amazon Web Services (AWS), no Microsoft Azure e no Google Cloud Platform.
 
 
-NOTE: Os serviços de computação, storage e rede baseados em Hyperscalar exigidos pelo Cloud Volumes ONTAP não são fornecidos pelo NetApp como parte das assinaturas do Keystone STaaS. Essas assinaturas precisam ser obtidas diretamente de fornecedores de serviços de nuvem em hyperscalar.
+NOTE: Os serviços de computação, storage e rede baseados em hyperscaler exigidos pelo Cloud Volumes ONTAP não são fornecidos pela NetApp como parte das assinaturas Keystone STaaS; essas assinaturas precisam ser adquiridas diretamente dos provedores de serviços de nuvem hyperscaler.
