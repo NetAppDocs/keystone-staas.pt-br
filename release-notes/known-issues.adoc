@@ -24,6 +24,15 @@ Os seguintes problemas conhecidos são relatados no NetApp Keystone STaaS:
 
 
  a| 
+Tendência de queda imprecisa nos dados de previsão de consumo
+ a| 
+Na aba *Tendência de consumo*, quando a opção *Previsão* está ativada na visualização *Consumo histórico*, a utilização de capacidade projetada mostra uma tendência de queda significativa e imprecisa.
+ a| 
+Nenhum
+
+
+
+ a| 
 Modificar assinatura indisponível
  a| 
 A opção para modificar a capacidade comprometida para assinaturas do Keystone está atualmente indisponível no NetApp Console. Essa funcionalidade será reintroduzida em uma versão futura.
