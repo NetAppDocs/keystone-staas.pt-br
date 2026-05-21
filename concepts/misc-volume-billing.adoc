@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
-keywords: Billing and miscellaneous scenarios 
-summary: Saiba mais sobre a cobrança do Keystone para configurações específicas, incluindo volumes clonados, proteção de dados avançada e muito mais. 
+keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes 
+summary: As regras de faturamento do Keystone variam para determinadas configurações de volume. Esta página explica o faturamento de volumes clonados, SnapMirror destinos, LUNs, volumes temporários e volumes do sistema. 
 ---
-= Saiba mais sobre a cobrança do Keystone para configurações de volume específicas.
+= Faturamento Keystone para tipos de volume específicos
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,20 +14,34 @@ summary: Saiba mais sobre a cobrança do Keystone para configurações específi
 
 
 [role="lead"]
-Entender o faturamento do Keystone para configurações específicas pode ajudar você a otimizar o uso do serviço e gerenciar custos. As configurações incluem volumes clonados, volumes temporários, destinos SnapMirror , LUNs e volumes de sistema/raiz.
+As regras de faturamento do Keystone variam para determinadas configurações de volume. Conhecer essas exceções ajuda você a evitar cobranças inesperadas ao trabalhar com volumes clonados, SnapMirror destinos, LUNs ou armazenamento temporário.
 
+A tabela a seguir resume as regras de faturamento para cada tipo de volume.
+
+[cols="1,2"]
+|===
+| Tipo de volume | Regra de faturamento 
+
+
+| Volumes clonados | Cobrado como volumes padrão 
+
+
+| Volumes temporários | Não cobrado 
+
+
+| SnapMirror destinos | Cobrado de acordo com o nível de serviço de destino 
+
+
+| LUNs | Cobrado de acordo com o nível de serviço de desempenho do volume que o contém 
+
+
+| Volumes de sistema e raiz | Monitorado, mas não cobrado 
+|===
 
 
 == Faturamento de volumes clonados
 
-Se os volumes forem clonados no ONTAP e forem usados para fazer backup e restauração de dados, você poderá continuar usando os clones sem pagamentos adicionais. No entanto, são cobrados volumes clonados usados para qualquer outra finalidade no seu negócio por uma duração extensa.
-
-Observe o seguinte:
-
-* Os volumes de clones estão livres do carregamento desde que o seu tamanho seja inferior a 10% do volume pai (a capacidade física usada no volume clone em comparação com a capacidade física usada no volume pai).
-* Não há período de carência de 24 horas para volumes clonados. Apenas o tamanho do clone é considerado.
-* Uma vez que o volume do clone excede 10% do tamanho físico do pai, o clone é cobrado como um volume padrão (capacidade lógica utilizada).
-
+Os volumes clonados são cobrados como volumes padrão, com o mesmo nível de serviço de desempenho do volume do qual foram clonados. Todos os volumes clonados são medidos e cobrados, independentemente do seu tamanho ou finalidade.
 
 
 

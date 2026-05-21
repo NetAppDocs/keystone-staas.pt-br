@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/pricing.html 
-keywords: pricing, billing introduction, Keystone billing 
-summary: O Keystone oferece um modelo de pagamento conforme o uso para suas necessidades de consumo flexível e dimensionável. 
+keywords: pricing, Keystone billing, committed capacity, consumed capacity, burst consumption, billing schedules 
+summary: Com NetApp Keystone STaaS, você paga pelo que contrata e somente extra pelo que usar além disso. Esta página explica como o modelo de pagamento conforme o uso funciona — desde como o seu compromisso de armazenamento é precificado, até como a capacidade é medida e faturada, até quando as faturas são geradas. 
 ---
-= Saiba mais sobre os preços do Keystone
+= Saiba mais sobre o faturamento do Keystone
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,13 @@ summary: O Keystone oferece um modelo de pagamento conforme o uso para suas nece
 
 
 [role="lead"]
-O serviço de assinatura pré-pago do NetApp Keystone STaaS oferece consumo flexível e escalável com preços previsíveis e antecipados para suas necessidades de armazenamento.
+Com NetApp Keystone STaaS, você paga pelo que contrata e somente extra pelo que usar além desse limite. Esta página explica como o modelo de pagamento conforme o uso funciona, incluindo como o preço do seu compromisso de armazenamento é calculado, como a capacidade é medida e faturada e quando as faturas são geradas.
+
+
+
+== Modelo de precificação Keystone
+
+Sua assinatura Keystone oferece custos previsíveis com a flexibilidade de aumentar a capacidade conforme a demanda de carga de trabalho. As cobranças do Keystone são baseadas no nível de serviço selecionado e na capacidade contratada.
 
 A Keystone oferece os seguintes recursos de cobrança:
 
@@ -28,11 +34,77 @@ A cobrança do Keystone é baseada na capacidade comprometida e no consumo de so
 
 Para obter informações sobre as diferentes capacidades suportadas no Keystone, consulte link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"].
 
-*Informações relacionadas*
 
-* link:../concepts/committed-capacity-billing.html["Cobrança baseada na capacidade comprometida"]
-* link:../concepts/consumed-capacity-billing.html["Medição baseada na capacidade consumida"]
-* link:../concepts/burst-consumption-billing.html["Cobrança baseada no consumo de expansões sazonais"]
-* link:../concepts/misc-volume-billing.html["Faturação baseada em tipos de volume diversos"]
-* link:../concepts/billing-schedules.html["Horários de faturamento"]
+
+== Como Keystone mede a capacidade
+
+Keystone utiliza três conceitos de capacidade para calcular sua fatura. Conhecer cada um deles ajuda você a evitar cobranças inesperadas.
+
+
+
+=== Capacidade comprometida
+
+A capacidade contratada é a capacidade que você concorda em adquirir para um nível de serviço de desempenho específico ao assinar sua assinatura Keystone. Esse valor é fixo no seu pedido Keystone e cobrado integralmente a cada período de faturamento, independentemente da quantidade de capacidade que suas cargas de trabalho realmente utilizam.
+
+Por exemplo, se você contratar 100 TiB no nível de serviço Premium, será cobrado por 100 TiB mesmo que o uso real naquele mês seja de 80 TiB.
+
+A capacidade contratada pode abranger vários níveis de serviço de desempenho dentro de uma única assinatura, conforme acordado entre você e NetApp ou seu parceiro.
+
+Para visualizar sua capacidade contratada e acompanhar o uso real em relação a ela, consulte link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"].
+
+
+
+=== Capacidade consumida
+
+A capacidade consumida é a capacidade que suas cargas de trabalho realmente utilizam em qualquer momento. Keystone monitora e mede continuamente seu consumo durante todo o período de faturamento. Pelo menos a cada cinco minutos, um registro de consumo é gerado que captura a capacidade consumida atual da sua assinatura. Esses registros são agregados ao longo do período de faturamento para gerar faturas e relatórios de uso.
+
+O intervalo de monitoramento de cinco minutos garante um rastreamento detalhado, de modo que o uso em picos seja detectado e cobrado com precisão — não estimado ao final do período.
+
+Quando a capacidade consumida se mantiver igual ou abaixo da sua capacidade contratada, aplica-se apenas a tarifa da capacidade contratada. Quando a capacidade consumida exceder a sua capacidade contratada, aplica-se a tarifa de pico.
+
+
+
+=== Consumo de burst
+
+O consumo de pico é a capacidade que você utiliza acima da sua capacidade contratada. Seu limite de consumo de pico é determinado e especificado no seu acordo Keystone. Por padrão, ele é definido em 20% acima da capacidade contratada. Você também pode escolher limites de consumo de pico de 40% ou 60% da capacidade contratada. Para saber mais, consulte link:../concepts/burst-capacity.html["Opções de capacidade de burst"].
+
+Por exemplo, se sua capacidade contratada for de 100 TiB e você usar 115 TiB, os 15 TiB extras serão cobrados na taxa de burst.
+
+Quando a capacidade consumida for maior que a capacidade contratada para um nível de serviço de desempenho, o consumo em pico é registrado e cobrado de acordo. O uso acima do limite de capacidade em pico é sinalizado como "Acima do limite em pico".
+
+O consumo de pico é calculado para cada registro de consumo gerado durante o período de faturamento. Ele reflete tanto a quantidade quanto a duração do seu consumo excedente de capacidade, além da sua capacidade contratada. Para visualizar as tendências de consumo de pico da sua assinatura, consulte link:../integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"].
+
+
+
+== Horários de faturamento
+
+A frequência de faturamento é definida no seu acordo Keystone. A tabela a seguir mostra quando esperar as faturas referentes à capacidade contratada e ao uso em picos de demanda em cada opção.
+
+[cols="1,2,2"]
+|===
+| Frequência de faturamento | Fatura referente à capacidade contratada | Fatura referente ao uso em picos de consumo 
+
+
+| Mensal | Enviado no mês seguinte | Incluído na mesma fatura 
+
+
+| Trimestral | Enviado no início de cada trimestre | Enviado no final de cada trimestre 
+
+
+| Semestralmente | Enviado no início de cada período de 6 meses | Enviado no final de cada trimestre 
+
+
+| Anualmente | Enviado no início de cada ano de assinatura | Enviado no final de cada trimestre 
+|===
+
+NOTE: Para faturamento trimestral, semestral e anual, se a sua capacidade contratada mudar durante a vigência da assinatura, uma fatura será enviada no mesmo dia referente aos pagamentos mínimos proporcionais para o restante do ano da assinatura. O faturamento é calculado a partir do dia em que a alteração da capacidade contratada entra em vigor.
+
+
+
+== Informações relacionadas
+
+* link:../concepts/supported-storage-capacity.html["Tipos de capacidade de storage em Keystone"]
+* link:../concepts/burst-capacity.html["Opções de capacidade de burst"]
+* link:../integrations/current-usage-tab.html["Veja os detalhes do seu consumo atual"]
+* link:../integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"]
 
