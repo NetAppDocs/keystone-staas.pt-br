@@ -24,6 +24,15 @@ Os seguintes problemas conhecidos são relatados no NetApp Keystone STaaS:
 
 
  a| 
+Data de expiração incorreta para assinaturas expiradas
+ a| 
+Na aba *Assinaturas*, as assinaturas expiradas exibem a data de ontem como data de expiração em vez da data real de término da assinatura.
+ a| 
+Nenhum
+
+
+
+ a| 
 Tendência de queda imprecisa nos dados de previsão de consumo
  a| 
 Na aba *Tendência de consumo*, quando a opção *Previsão* está ativada na visualização *Consumo histórico*, a utilização de capacidade projetada mostra uma tendência de queda significativa e imprecisa.

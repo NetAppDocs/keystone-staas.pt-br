@@ -1687,9 +1687,7 @@
   <block id="b714a345064d1fee61d1cc1281a6fefe" category="list-text">Selecione o número da assinatura na coluna *Número da assinatura* para visualizar o cronograma da assinatura.</block>
   <block id="378f1892574980608cc14d0505dc8302" category="list-text">Selecione a aba *Linha do tempo da assinatura*.</block>
   <block id="33a1adebde8a441b691ab5ca91c43f67" category="inline-image-macro">uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de linha junto com eventos importantes</block>
-  <block id="da68a8f816866d6c67389e49539cc5e4" category="paragraph"><block ref="da68a8f816866d6c67389e49539cc5e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20647cff2639f24d1690fa3e3247672e" category="inline-image-macro">uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de tabela junto com eventos importantes</block>
-  <block id="e656406ec3f71a6faf961120d8791fe6" category="paragraph"><block ref="e656406ec3f71a6faf961120d8791fe6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">Veja detalhes sobre suas assinaturas Keystone</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">ver os detalhes da aba de assinatura</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*Nome do cliente*: O nome do cliente associado à assinatura do Keystone.</block>
@@ -2102,7 +2100,6 @@
   <block id="2cffc1f33b9b6ccb45614d69036254d2" category="list-text">Selecione *Geral &gt; Assinaturas Keystone &gt; Desempenho*.</block>
   <block id="cf965a30eec7fe8ec42e2f3f520205a4" category="summary">Veja o cronograma de assinatura do NetApp Console, que inclui eventos como datas de ativação, modificação e renovação.</block>
   <block id="ea0ce0391196099aab618a4b710b5332" category="paragraph">O painel do Keystone no NetApp Console fornece uma visão cronológica das suas assinaturas do Keystone , exibindo eventos como datas de ativação, modificação e renovação. Esta visualização de linha do tempo não está disponível no Digital Advisor.</block>
-  <block id="51a66b760aa1870a147d6acc0e6c8efd" category="paragraph">O cronograma da assinatura é exibido como um gráfico de linhas por padrão, com ícones marcando eventos importantes. Passe o mouse sobre um evento para ver detalhes, incluindo a data e as alterações de capacidade comprometidas. Para visualizar esses eventos em uma tabela, selecione a opção *Tabela* no menu suspenso *Exibir como*. Para visualizar outros cronogramas de assinatura, selecione ou pesquise no menu suspenso *ID de rastreamento*.</block>
   <block id="fd4257d1ebe74f01a9d3b5236f722a08" category="paragraph">Você pode visualizar uma lista de todas as suas assinaturas em *Assinaturas* no NetApp Console e no Digital Advisor. Essa visualização fornece insights fáceis de entender com base no status e no uso da sua assinatura, ajudando você a se manter informado e a agir quando necessário.</block>
   <block id="579139f19217a677980dce581b098367" category="paragraph">Você vê as principais métricas, como uso de capacidade, status de expiração da assinatura e alertas não resolvidos.</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">Você pode ver os seguintes detalhes na tabela:</block>
@@ -2724,4 +2721,12 @@
   <block id="e6ff8f3b83ecc7de79998d1038e44b10" category="sidebar">O que acontece quando ultrapasso a minha capacidade contratada?</block>
   <block id="8c4d76fa92f09a8376865002414752f9" category="sidebar">Quando as faturas são geradas?</block>
   <block id="58738d2f8ee7ea1370382ef241eb44f2" category="sidebar">Entenda a cobrança da Keystone</block>
+  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">Exibição aprimorada de várias atualizações no mesmo dia na linha do tempo da assinatura</block>
+  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">O gráfico da linha do tempo de assinaturas agora exibe um número quando várias atualizações de assinatura de diferentes tipos ocorrem no mesmo dia, em vez de ícones separados. Passe o cursor sobre o número para ver todos os tipos de atualização daquele dia. O relatório baixado inclui uma linha separada para cada atualização, fornecendo um registro completo de todas as alterações. Para saber mais, consulte <block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="0e3e57bffd0893b655bd0cbbfa13b3f1" category="paragraph"><block ref="0e3e57bffd0893b655bd0cbbfa13b3f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb648f8805fc9b54e9ef8edf7809ab97" category="paragraph">Por padrão, a linha do tempo da assinatura é exibida como um gráfico de linhas, com ícones marcando eventos importantes. Quando várias atualizações de assinatura de diferentes tipos ocorrem no mesmo dia, o gráfico exibe um número em vez de ícones separados. Passe o cursor sobre o número para ver todos os tipos de atualização que ocorreram naquele dia ou sobre qualquer ícone de evento para obter detalhes, como a data e as alterações na capacidade contratada. Para visualizar esses eventos em uma tabela, selecione a opção *Tabela* no menu suspenso *Exibir como*. Para visualizar outras linhas do tempo de assinatura, selecione ou pesquise no menu suspenso *Tracking ID*.</block>
+  <block id="08e7a28380a64fb6e2353778c694c0a9" category="paragraph"><block ref="08e7a28380a64fb6e2353778c694c0a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="96eda23bc910b422399a3d3faca263de" category="paragraph">Data de expiração incorreta para assinaturas expiradas</block>
+  <block id="bab3c4cbe1382c763eff57041def5e4a" category="paragraph">Na aba *Assinaturas*, as assinaturas expiradas exibem a data de ontem como data de expiração em vez da data real de término da assinatura.</block>
+  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">25 de maio de 2026</block>
 </blocks>

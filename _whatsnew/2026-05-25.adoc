@@ -1,0 +1,11 @@
+= Exibição aprimorada de várias atualizações no mesmo dia na linha do tempo da assinatura
+:allow-uri-read: 
+
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Exibição aprimorada de várias atualizações no mesmo dia na linha do tempo da assinatura
+
+O gráfico da linha do tempo de assinaturas agora exibe um número quando várias atualizações de assinatura de diferentes tipos ocorrem no mesmo dia, em vez de ícones separados. Passe o cursor sobre o número para ver todos os tipos de atualização daquele dia. O relatório baixado inclui uma linha separada para cada atualização, fornecendo um registro completo de todas as alterações. Para saber mais, consulte link:./integrations/subscription-timeline.html["Veja o cronograma de suas assinaturas Keystone"].

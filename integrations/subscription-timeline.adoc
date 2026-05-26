@@ -26,13 +26,13 @@ Você será redirecionado para a aba *Consumo atual*.
 
 . Selecione a aba *Linha do tempo da assinatura*.
 +
-image:bxp-subscription-timeline-graph.png["uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de linha junto com eventos importantes"]
+image:console-subscription-timeline-graph.png["uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de linha junto com eventos importantes"]
 
 +
-O cronograma da assinatura é exibido como um gráfico de linhas por padrão, com ícones marcando eventos importantes. Passe o mouse sobre um evento para ver detalhes, incluindo a data e as alterações de capacidade comprometidas. Para visualizar esses eventos em uma tabela, selecione a opção *Tabela* no menu suspenso *Exibir como*. Para visualizar outros cronogramas de assinatura, selecione ou pesquise no menu suspenso *ID de rastreamento*.
+Por padrão, a linha do tempo da assinatura é exibida como um gráfico de linhas, com ícones marcando eventos importantes. Quando várias atualizações de assinatura de diferentes tipos ocorrem no mesmo dia, o gráfico exibe um número em vez de ícones separados. Passe o cursor sobre o número para ver todos os tipos de atualização que ocorreram naquele dia ou sobre qualquer ícone de evento para obter detalhes, como a data e as alterações na capacidade contratada. Para visualizar esses eventos em uma tabela, selecione a opção *Tabela* no menu suspenso *Exibir como*. Para visualizar outras linhas do tempo de assinatura, selecione ou pesquise no menu suspenso *Tracking ID*.
 
 +
-image:bxp-subscription-timeline.png["uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de tabela junto com eventos importantes"]
+image:console-subscription-timeline.png["uma captura de tela para mostrar o cronograma de assinatura em um formato de gráfico de tabela junto com eventos importantes"]
 
 
 
