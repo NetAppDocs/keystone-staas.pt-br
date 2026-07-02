@@ -1,0 +1,35 @@
+= Veja a distribuição de licenças ADP para assinaturas do MetroCluster
+:allow-uri-read: 
+
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+=== Veja a distribuição de licenças ADP para assinaturas do MetroCluster
+
+Uma nova subguia *Distribuição de licenças* agora está disponível na guia *Proteção avançada de dados (ADP)*, oferecendo visibilidade do uso de licenças ADP em seus clusters parceiros MetroCluster. Para saber mais, consulte link:./integrations/adp-tab.html["Veja o consumo e o status das suas assinaturas Keystone MetroCluster"].
+
+
+
+=== Veja o status da proteção contra ransomware para seus volumes
+
+A guia *Volumes em clusters* em *Ativos* agora inclui uma coluna *Status do ARP* que exibe se a Proteção Autônoma contra Ransomware (ARP) está ativada ou desativada para cada volume, oferecendo visibilidade da sua postura de proteção contra ransomware em todos os ativos gerenciados. Para saber mais sobre o ARP, consulte link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["Proteção Autônoma contra Ransomware (ARP) no ONTAP"].
+
+
+
+=== Compartilhe seu feedback usando a aba Feedback
+
+Agora você pode enviar feedback de qualquer tela no painel do Keystone usando a nova guia *Feedback*, ancorada na borda inferior direita da tela. Ao clicar nela, um painel é aberto onde você pode compartilhar sua experiência e enviar comentários diretamente para NetApp.
+
+
+
+=== Melhore os alertas para uso da capacidade e expiração da assinatura
+
+Os monitores gerados pelo sistema agora fornecem alertas mais granulares sobre o uso da capacidade e o vencimento da assinatura.
+
+Para o vencimento da assinatura, os alertas agora são acionados em cinco limites: 180, 90, 60, 30 e 7 dias antes do vencimento, com a gravidade aumentando de informativa para crítica à medida que a data se aproxima.
+
+Para o uso da capacidade, o limite de alerta de pico agora é baseado na porcentagem de pico contratada da sua assinatura, em vez de um valor fixo de 20%. Por exemplo, se sua porcentagem de pico contratada for de 40%, o alerta crítico será acionado em 140% da utilização da capacidade contratada.
+
+Para saber mais, consulte link:./integrations/monitoring-alert-monitors.html["Visualize e crie monitores de alerta para assinaturas do Keystone"].
