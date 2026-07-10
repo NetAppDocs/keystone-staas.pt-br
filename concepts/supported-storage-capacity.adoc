@@ -18,12 +18,14 @@ Keystone STaaS utiliza diversos termos de capacidade para medir, comprometer e f
 
 
 
+[[logical-capacity]]
 == Capacidade lógica
 
 Esta é a quantidade de capacidade de armazenamento necessária para armazenar dados do usuário antes que qualquer eficiência de dados fornecida pelo conjunto de armazenamento seja aplicada.
 
 
 
+[[committed-capacity]]
 == Capacidade comprometida
 
 A capacidade lógica mínima cobrada mensalmente durante a assinatura:
@@ -34,12 +36,14 @@ A capacidade lógica mínima cobrada mensalmente durante a assinatura:
 
 
 
+[[changes-to-committed-capacity]]
 === Mudanças na capacidade comprometida
 
 Durante a assinatura, você pode alterar as capacidades contratadas, sujeitas a determinadas condições. Para obter detalhes completos sobre as regras de aumento e redução de capacidade, consulte link:../concepts/capacity-requirements.html["Requisitos de capacidade para os níveis de serviço de desempenho do Keystone"]. Para solicitar uma alteração, entre em contato com seu Keystone Success Manager (KSM) ou link:../concepts/support-services.html["NetApp suporte"].
 
 
 
+[[consumed-capacity]]
 == Capacidade consumida
 
 A capacidade consumida refere-se à capacidade (em TiB de storage) atualmente utilizada pelo serviço. Ela é calculada de forma diferente dependendo do tipo de storage de dados:
@@ -75,6 +79,7 @@ A capacidade consumida refere-se à capacidade (em TiB de storage) atualmente ut
 
 
 
+[[burst-capacity]]
 == Capacidade de pico sazonal
 
 O serviço NetApp Keystone STaaS permite que você use capacidade adicional além da capacidade comprometida para um nível de serviço de desempenho. Isso é conhecido como uso de capacidade máxima.
@@ -88,6 +93,7 @@ Observe estes pontos:
 
 
 
+[[billed-capacity]]
 == Capacidade faturada
 
 Cobrança mensal (capacidade comprometida [TIB] * taxa comprometida [ USD/TIB]) (capacidade de sobrecarga provisionada média diária [TIB] * taxa de explosão [ USD/TIB]). A fatura mensal contém um custo mínimo com base na capacidade comprometida.

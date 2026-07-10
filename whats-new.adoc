@@ -18,30 +18,35 @@ Saiba mais sobre os recursos e aprimoramentos mais recentes nos serviços Keysto
 
 
 
+[[29-june-2026]]
 == 29 de junho de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[view-adp-license-distribution-for-metrocluster-subscriptions]]
 === Veja a distribuição de licenças ADP para assinaturas do MetroCluster
 
-Uma nova subguia *Distribuição de licenças* agora está disponível na guia *Proteção avançada de dados (ADP)*, oferecendo visibilidade do uso de licenças ADP em seus clusters parceiros MetroCluster. Para saber mais, consulte link:./integrations/adp-tab.html["Veja o consumo e o status das suas assinaturas Keystone MetroCluster"].
+Uma nova subguia *Distribuição de licenças* agora está disponível na guia *Proteção avançada de dados (ADP)*, oferecendo visibilidade do uso de licenças ADP em seus clusters parceiros MetroCluster. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["Veja o consumo e o status das suas assinaturas Keystone MetroCluster"].
 
 
 
+[[view-ransomware-protection-status-for-your-volumes]]
 === Veja o status da proteção contra ransomware para seus volumes
 
-A guia *Volumes em clusters* em *Ativos* agora inclui uma coluna *Status do ARP* que exibe se a Proteção Autônoma contra Ransomware (ARP) está ativada ou desativada para cada volume, oferecendo visibilidade da sua postura de proteção contra ransomware em todos os ativos gerenciados. Para saber mais sobre o ARP, consulte link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["Proteção Autônoma contra Ransomware (ARP) no ONTAP"].
+A guia *Volumes em clusters* em *Ativos* agora inclui uma coluna *Status do ARP* que exibe se a Autonomous Ransomware Protection (ARP) está ativada ou desativada para cada volume, oferecendo visibilidade da sua postura de proteção contra ransomware em todos os ativos gerenciados. Para saber mais sobre ARP, consulte  https://docs.netapp.com/us-en/ontap/anti-ransomware/["Proteção Autônoma contra Ransomware (ARP) no ONTAP"^].
 
 
 
+[[share-feedback-using-the-feedback-tab]]
 === Compartilhe seu feedback usando a aba Feedback
 
 Agora você pode enviar feedback de qualquer tela no painel do Keystone usando a nova guia *Feedback*, ancorada na borda inferior direita da tela. Ao clicar nela, um painel é aberto onde você pode compartilhar sua experiência e enviar comentários diretamente para NetApp.
 
 
 
+[[improve-alerting-for-capacity-usage-and-subscription-expiration]]
 === Melhore os alertas para uso da capacidade e expiração da assinatura
 
 Os monitores gerados pelo sistema agora fornecem alertas mais granulares sobre o uso da capacidade e o vencimento da assinatura.
@@ -50,88 +55,102 @@ Para o vencimento da assinatura, os alertas agora são acionados em cinco limite
 
 Para o uso da capacidade, o limite de alerta de pico agora é baseado na porcentagem de pico contratada da sua assinatura, em vez de um valor fixo de 20%. Por exemplo, se sua porcentagem de pico contratada for de 40%, o alerta crítico será acionado em 140% da utilização da capacidade contratada.
 
-Para saber mais, consulte link:./integrations/monitoring-alert-monitors.html["Visualize e crie monitores de alerta para assinaturas do Keystone"].
+Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Visualize e crie monitores de alerta para assinaturas do Keystone"].
 
 
 
+[[25-may-2026]]
 == 25 de maio de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[improved-display-of-multiple-updates-on-the-same-day-in-the-subscription-timeline]]
 === Exibição aprimorada de várias atualizações no mesmo dia na linha do tempo da assinatura
 
-O gráfico da linha do tempo de assinaturas agora exibe um número quando várias atualizações de assinatura de diferentes tipos ocorrem no mesmo dia, em vez de ícones separados. Passe o cursor sobre o número para ver todos os tipos de atualização daquele dia. O relatório baixado inclui uma linha separada para cada atualização, fornecendo um registro completo de todas as alterações. Para saber mais, consulte link:./integrations/subscription-timeline.html["Veja o cronograma de suas assinaturas Keystone"].
+O gráfico da linha do tempo de assinaturas agora exibe um número quando várias atualizações de assinatura de diferentes tipos ocorrem no mesmo dia, em vez de ícones separados. Passe o cursor sobre o número para ver todos os tipos de atualização daquele dia. O relatório baixado inclui uma linha separada para cada atualização, fornecendo um registro completo de todas as alterações. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Veja o cronograma de suas assinaturas Keystone"].
 
 
 
+[[27-april-2026]]
 == 27 de abril de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[renamed-provisioned-capacity-label]]
 === Rótulo de capacidade provisionada renomeado
 
 A etiqueta *Capacidade provisionada* foi renomeada para *Capacidade de volume provisionada*. A etiqueta atualizada também é refletida nos relatórios CSV e Excel relacionados.
 
 
 
+[[forecast-toggle-for-accrued-burst]]
 === Alternância de previsão para rajada acumulada
 
-Agora você pode usar a opção *Previsão* na visualização *Consumo acumulado* da guia *Tendência de consumo* para projetar o uso acumulado de burst para os próximos 120 dias a partir da data atual. Para saber mais, consulte link:./integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].
+Agora você pode usar a opção *Previsão* na visualização *Consumo acumulado* da guia *Tendência de consumo* para projetar o uso acumulado de burst para os próximos 120 dias a partir da data atual. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].
 
 
 
+[[30-march-2026]]
 == 30 de março de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[above-burst-capacity-on-the-historical-consumption-chart]]
 === Acima da capacidade máxima no gráfico de consumo histórico
 
-O gráfico de consumo histórico na aba *Tendência de consumo* agora destaca o uso que excede o limite de pico. Para saber mais, consulte link:./integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"].
+O gráfico de consumo histórico na aba *Tendência de consumo* agora destaca o uso que excede o limite de pico. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html["Veja as tendências de consumo das suas assinaturas Keystone"].
 
 
 
+[[forecast-for-capacity-usage]]
 === Previsão de utilização da capacidade
 
-Você pode usar a opção *Previsão* na visualização *Consumo histórico* da guia *Tendência de consumo* para projetar o uso da capacidade nos próximos 120 dias a partir da data atual. Para saber mais, consulte link:./integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].
+Você pode usar a opção *Previsão* na visualização *Consumo histórico* da guia *Tendência de consumo* para projetar o uso da capacidade nos próximos 120 dias a partir da data atual. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].
 
 
 
+[[tracking-id-in-subscription-export]]
 === ID de rastreamento na exportação de assinaturas
 
 O relatório de assinaturas baixado da página *Assinaturas* agora inclui o *ID de rastreamento* nos dados de nível de serviço de desempenho, tanto no formato Excel quanto no CSV.
 
 
 
+[[subscriptions-page-column-visibility-updates]]
 === Atualizações de visibilidade da coluna na página de assinaturas
 
 Na página *Assinaturas*, a coluna *Keystone version* agora está oculta por padrão, e a coluna *Linked subscriptions* aparece somente quando assinaturas vinculadas estão disponíveis.
 
 
 
+[[march-02-2026]]
 == 02 de março de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[new-columns-in-the-volumes-in-clusters-tab]]
 === Novas colunas na guia Volumes em clusters
 
-Três novas colunas, *Dados quentes*, *Camada fria (%)* e *Camada quente (%)*, foram adicionadas à guia *Volumes em clusters* em *Ativos*. Para saber mais, consulte link:./integrations/assets-tab.html["Ver ativos associados a uma assinatura Keystone"] e link:./integrations/assets.html["Visualize ativos em suas assinaturas Keystone"].
+Três novas colunas, *Dados quentes*, *Camada fria (%)* e *Camada quente (%)*, foram adicionadas à guia *Volumes em clusters* em *Ativos*. Para saber mais, consulte  https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["Ver ativos associados a uma assinatura Keystone"] e  https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["Visualize ativos em suas assinaturas Keystone"].
 
 
 
+[[invoiced-uninvoiced-and-provisional-burst-usage-in-consumption-trend]]
 === Consumo faturado, não faturado e provisório em picos de demanda na tendência de consumo
 
-O gráfico de faturamento acumulado de picos na aba *Tendência de consumo* agora exibe o uso de picos faturados, não faturados e provisórios. Para saber mais, consulte link:./integrations/consumption-tab.html#view-accrued-burst["Ver explosão acumulada"].
+O gráfico de faturamento acumulado de picos na aba *Tendência de consumo* agora exibe o uso de picos faturados, não faturados e provisórios. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-accrued-burst["Ver explosão acumulada"].
 
 
 
+[[enhancements-to-the-monitoring-view]]
 === Melhorias na visualização de monitoring
 
 A visualização *Monitoring* inclui as seguintes atualizações:
@@ -140,94 +159,109 @@ A visualização *Monitoring* inclui as seguintes atualizações:
 * *Aba Alert monitors*: A coluna *Condition* foi renomeada para *Monitor type & condition*.
 
 
-Para saber mais, consulte link:./integrations/monitoring-alerts.html["Visualizar e gerenciar alertas para assinaturas do Keystone"] e link:./integrations/monitoring-alert-monitors.html["Visualize e crie monitores de alerta para assinaturas do Keystone"].
+Para saber mais, consulte  https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["Visualizar e gerenciar alertas para assinaturas do Keystone"] e  https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Visualize e crie monitores de alerta para assinaturas do Keystone"].
 
 
 
+[[16-february-2026]]
 == 16 de fevereiro de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[dii-add-on-consumption-display]]
 === Exibição de consumo do add-on DII
 
-O consumo do complemento Data Infrastructure Insights (DII) agora é exibido nas guias *Consumo atual* e *Tendência de consumo*. Para saber mais, consulte link:./concepts/data-infra-insights.html#view-dii-consumption["Ver consumo de DII"].
+O consumo do complemento Data Infrastructure Insights (DII) agora é exibido nas guias *Consumo atual* e *Tendência de consumo*. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/concepts/data-infra-insights.html#view-dii-consumption["Ver consumo de DII"].
 
 
 
+[[02-february-2026]]
 == 02 de fevereiro de 2026
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[interactive-filtering-for-daily-accrued-burst-data]]
 === Filtragem interativa para dados de burst acumulados diariamente
 
 A tabela *Acúmulo de consumo por dias* na aba *Tendência de consumo* agora oferece suporte a filtros interativos. Selecione qualquer barra no gráfico de acúmulo de consumo para visualizar apenas os dias dentro desse período de faturamento. Para saber mais, consulte link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"].
 
 
 
+[[enhanced-date-range-display-in-accrued-burst-graph]]
 === Exibição aprimorada do intervalo de datas no gráfico de burst acumulado
 
 O gráfico de faturamento acumulado na aba *Tendência de consumo* agora exibe intervalos de datas completos para cada período de faturamento, como Oct 01, 2025 a Oct 31, 2025, em vez de apenas o mês e o ano.
 
 
 
+[[expandable-subscription-details-view]]
 === Visualização expansível dos detalhes da assinatura
 
 A aba *Assinaturas* inclui uma opção para expandir todas as assinaturas e visualizar simultaneamente as informações sobre os níveis de serviço de desempenho de cada assinatura. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
 
 
 
+[[new-usage-type-column]]
 === Nova coluna Usage type
 
 A aba *Assinaturas* inclui uma coluna *Tipo de uso* que exibe se a assinatura é cobrada com base no uso provisionado, físico ou lógico. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
 
 
 
+[[08-december-2025]]
 == 08 de dezembro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[renamed-accrued-burst-capacity-label]]
 === Etiqueta de capacidade de explosão acumulada renomeada
 
 A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada*.
 
 
 
+[[24-november-2025]]
 == 24 de novembro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[tracking-id-for-coverage-gap-subscriptions]]
 === ID de rastreamento para assinaturas com período de cobertura limitado
 
 Na caixa de notificação *Conclua sua cobertura* em *Monitoramento > Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.
 
 
 
+[[10-november-2025]]
 == 10 de novembro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[complete-your-coverage-notification-box]]
 === Preencha o formulário de notificação de cobertura.
 
 A aba *Alertas de monitoramento* na página *Monitoramento* inclui uma caixa de notificação *Complete sua cobertura* que aparece quando existem lacunas de cobertura.  Esta caixa lista as assinaturas que não possuem monitores de capacidade ou expiração, e os monitores sem assinaturas.  Você pode solucionar as lacunas adicionando assinaturas a monitores existentes, criando novos monitores ou excluindo monitores não utilizados. Para saber mais, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["Gerenciar lacunas de cobertura para monitores de alerta"].
 
 
 
+[[13-october-2025]]
 == 13 de outubro de 2025
 
 Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[qos-policy-override-column-in-assets-tab]]
 === Coluna de substituição de política de QoS na guia Ativos
 
 A guia *Volumes em clusters* dentro da guia *Ativos* agora inclui uma coluna *Substituição de política de QoS* que indica se as regras de QoS são ignoradas para volumes de backup e espelho, exibindo *verdadeiro* (regras ignoradas), *falso* (regras aplicadas) ou *N/D* (para volumes espelho).
@@ -237,16 +271,19 @@ NOTE: Para assinaturas do Keystone v3, esta coluna exibe *N/A*, pois as polític
 
 
 
+[[enhanced-alerts-visibility-in-overview-page]]
 === Visibilidade de alertas aprimorada na página Visão geral
 
 A página *Visão geral* agora inclui duas novas seções de alerta denominadas *Alertas não resolvidos por gravidade* e *Alertas Keystone não resolvidos mais antigos*. Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["Painel Keystone no NetApp Console"] .
 
 
 
+[[06-october-2025]]
 == 06 de outubro de 2025
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP agora é NetApp Console
 
 O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
@@ -255,10 +292,12 @@ Para obter detalhes sobre o que mudou, consulte olink:https://docs.netapp.com/us
 
 
 
+[[22-september-2025]]
 == 22 de setembro de 2025
 
 
 
+[[addition-of-alert-monitoring]]
 === Adição de monitoramento de alertas
 
 O painel do Keystone no BlueXP agora inclui uma aba *Monitoramento* para gerenciar alertas e monitores em suas assinaturas.  Esta nova aba permite que você:
@@ -271,16 +310,19 @@ Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integ
 
 
 
+[[streamlined-performance-service-levels-viewing]]
 === Visualização simplificada dos níveis de serviço de desempenho
 
 Você pode visualizar as informações sobre os níveis de serviço de desempenho, agora movidas de uma guia separada para uma visualização expansível, na guia *Assinaturas*.  Clique na seta para baixo ao lado da coluna *Data de validade* para visualizá-las para cada assinatura. Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"] .
 
 
 
+[[28-august-2025]]
 == 28 de agosto de 2025
 
 
 
+[[enhanced-logical-usage-tracking-with-a-new-column]]
 === Rastreamento de uso lógico aprimorado com uma nova coluna
 
 Uma nova coluna, Total footprint, foi adicionada para melhorar o rastreamento do consumo do Keystone para volumes do FabricPool :
@@ -293,20 +335,24 @@ Esta coluna exibe a pegada lógica total para volumes que usam a divisão em cam
 
 
 
+[[05-august-2025]]
 == 05 de agosto de 2025
 
 
 
+[[view-instance-level-consumption-data]]
 === Exibir dados de consumo em nível de instância
 
 Você pode visualizar o consumo atual e os dados históricos de cada instância de nível de serviço de desempenho por meio do painel do Keystone no BlueXP. Este recurso está disponível para níveis de serviço de desempenho com múltiplas instâncias, desde que você tenha uma assinatura do Keystone versão 3 (v3). Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["Veja o consumo de suas assinaturas Keystone"] .
 
 
 
+[[30-june-2025]]
 == 30 de junho de 2025
 
 
 
+[[keystone-version-3-v3-release]]
 === Lançamento da versão 3 (v3) do Keystone
 
 Agora você pode assinar o Keystone versão 3 (v3), a versão mais recente da oferta NetApp Keystone STaaS. Esta versão apresenta vários aprimoramentos, incluindo níveis de serviço de desempenho simplificados, opções adicionais de capacidade de pico e frequências de cobrança flexíveis. Essas melhorias simplificam o gerenciamento, a otimização e o dimensionamento de soluções de armazenamento. Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["Serviços Keystone STaaS para v3"] .
@@ -315,10 +361,12 @@ Você pode entrar em contato com a equipe de suporte do Keystone para assinar o 
 
 
 
+[[19-june-2025]]
 == 19 de junho de 2025
 
 
 
+[[keystone-dashboard-in-bluexp]]
 === Painel Keystone no BlueXP
 
 Agora você pode acessar o painel do Keystone diretamente do BlueXP. Essa integração oferece um único local para monitorar, gerenciar e acompanhar todas as suas assinaturas do Keystone, além dos seus outros serviços da NetApp.
@@ -334,48 +382,57 @@ Para começar, vá para *Armazenamento > Keystone* no menu de navegação esquer
 
 
 
+[[08-january-2025]]
 == 08 de janeiro de 2025
 
 
 
+[[addition-of-daily-accrued-data-usage-viewing-options]]
 === Adição de opções de visualização de utilização de dados acumulados diariamente
 
 Agora você pode visualizar o uso diário de dados de pico sazonal acumulados no formato gráfico ou tabela para um período de faturamento mensal ou trimestral, clicando na barra que exibe os dados faturados. Para saber mais, link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Veja o uso diário de dados de pico acumulado"]consulte .
 
 
 
+[[12-december-2024]]
 == 12 de dezembro de 2024
 
 
 
+[[renamed-logical-used-column]]
 === Coluna lógica utilizada renomeada
 
 A coluna *Logical Used* na guia *volume Details* dentro de *volumes & Objects* agora é renomeada para *Keystone Logical Used*.
 
 
 
+[[enhanced-assets-tab]]
 === Separador ativos melhorados
 
 A guia *Assets* na tela *assinaturas do Keystone* agora tem duas novas subguias: *ONTAP* e *StorageGRID*. Essas subguias oferecem insights detalhados em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas. Para saber mais, link:./integrations/assets-tab.html["Separador ativos"^]consulte .
 
 
 
+[[new-hideshow-columns-option]]
 === Nova opção Ocultar/Mostrar colunas
 
 A guia *Detalhes do volume* dentro de *volumes e objetos* agora inclui uma opção *Ocultar/Mostrar colunas*. Esta opção permite selecionar ou desmarcar colunas para personalizar a lista tabular de volumes de acordo com a sua preferência. Para saber mais, link:./integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
 
 
 
+[[21-november-2024]]
 == 21 de novembro de 2024
 
 
 
+[[enhanced-invoiced-accrued-burst]]
 === Explosão acumulada faturada melhorada
 
 Agora, você pode visualizar os dados de uso de expansões sazonais acumuladas trimestralmente por meio da opção *Invoed Acumulado Burst* se tiver optado por um período de faturamento trimestral. Para saber mais, link:./integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
 
 
 
+[[new-columns-in-the-volumes-details-tab]]
 === Novas colunas na guia Detalhes de volumes
 
 Para melhorar a clareza no cálculo do uso lógico, duas novas colunas foram adicionadas à guia *Detalhes do volume* na guia *volumes & objetos*:
@@ -388,36 +445,43 @@ Essas colunas fornecem melhor clareza na coluna *Logical Used*, que mostra a cap
 
 
 
+[[11-november-2024]]
 == 11 de novembro de 2024
 
 
 
+[[enhanced-report-generation]]
 === Geração de relatórios aprimorada
 
 Agora você pode gerar um relatório consolidado para exibir os detalhes dos dados do Keystone usando o recurso Relatório no Digital Advisor. Para saber mais, consulte link:./integrations/options.html#generate-consolidated-report-from-digital-advisor["Gerar relatório consolidado"^] .
 
 
 
+[[10-july-2024]]
 == 10 de julho de 2024
 
 
 
+[[label-modifications]]
 === Modificações na etiqueta
 
 O rótulo *uso atual* é alterado para *consumo atual* e *tendência de capacidade* é alterado para *tendência de consumo*.
 
 
 
+[[search-bar-for-subscriptions]]
 === Barra de pesquisa para assinaturas
 
 O menu suspenso *assinaturas* em todas as guias na tela *assinaturas do Keystone* agora inclui uma barra de pesquisa. Você pode pesquisar assinaturas específicas listadas no menu suspenso *assinaturas*.
 
 
 
+[[27-june-2024]]
 == 27 de junho de 2024
 
 
 
+[[consistent-display-of-subscription]]
 === Exibição consistente da assinatura
 
 A tela *Keystone Subscriptions* é atualizada para exibir o número de assinatura selecionado em todas as guias.
@@ -428,16 +492,19 @@ A tela *Keystone Subscriptions* é atualizada para exibir o número de assinatur
 
 
 
+[[29-may-2024]]
 == 29 de maio de 2024
 
 
 
+[[enhanced-burst-indicator]]
 === Indicador de Burst melhorado
 
 O indicador *Burst* no índice do gráfico de uso é aprimorado para exibir o valor da porcentagem do limite de burst. Esse valor muda dependendo do limite de estouro acordado para uma assinatura. Você também pode visualizar o valor limite de burst na guia *assinaturas* passando o Mouse sobre o indicador *Burst Usage* na coluna *Usage Status*.
 
 
 
+[[addition-of-service-levels]]
 === Adição de níveis de serviço
 
 Os níveis de serviço *CVO Primary* e *CVO Secondary* estão incluídos para oferecer suporte ao Cloud Volumes ONTAP para assinaturas que tenham planos de taxa com zero capacidade comprometida ou configuradas com um cluster de Metrô.
@@ -448,56 +515,66 @@ Os níveis de serviço *CVO Primary* e *CVO Secondary* estão incluídos para of
 
 
 
+[[zoom-in-feature-for-short-term-bursts]]
 === Funcionalidade de ampliação para rajadas de curto prazo
 
 A guia *tendência de capacidade* agora inclui um recurso de zoom para exibir os detalhes de picos de curto prazo nos gráficos de uso. Para obter mais informações, link:./integrations/consumption-tab.html["Separador tendência capacidade"^]consulte .
 
 
 
+[[enhanced-display-of-subscriptions]]
 === Exibição aprimorada de assinaturas
 
 A exibição padrão de assinaturas é aprimorada para classificar por ID de rastreamento. As assinaturas na guia *assinaturas*, inclusive nos relatórios de *assinatura* e CSV, agora serão exibidas com base na sequência alfabética dos IDs de rastreamento, seguindo a ordem de a, A, b, B, e assim por diante.
 
 
 
+[[enhanced-accrued-burst-display]]
 === Ecrã de sequência acumulada melhorado
 
 A dica de ferramenta que aparece ao passar o Mouse sobre o gráfico de barra de uso de capacidade na guia *tendência de capacidade* agora exibe o tipo de explosão acumulada com base na capacidade comprometida. Ele diferencia entre o estouro acumulado provisório e faturado, mostrando *consumo acumulado provisório* e *consumo acumulado faturado* para assinaturas com planos de taxa de capacidade comprometida zero e *explosão acumulada provisória* e *explosão acumulada faturada* para aqueles com capacidade não zero comprometida.
 
 
 
+[[09-may-2024]]
 == 09 de maio de 2024
 
 
 
+[[new-columns-in-csv-reports]]
 === Novas colunas nos relatórios CSV
 
 Os relatórios CSV da guia *tendência de capacidade* agora incluem as colunas *número de assinatura* e *Nome da conta* para detalhes aprimorados.
 
 
 
+[[enhanced-usage-type-column]]
 === Coluna Enhanced Usage Type
 
 A coluna *tipo de uso* na guia *assinaturas* é aprimorada para exibir usos lógicos e físicos como valores separados por vírgula para assinaturas que cobrem níveis de serviço para arquivos e objetos.
 
 
 
+[[access-object-storage-details-from-volume-details-tab]]
 === Acesse os detalhes do armazenamento de objetos na guia Detalhes do volume
 
 A guia *Detalhes do volume* na guia *volumes & objetos* agora fornece detalhes de armazenamento de objetos juntamente com informações de volume para assinaturas que incluem níveis de serviço para arquivos e objetos. Você pode clicar no botão *Detalhes do armazenamento de objetos* na guia *Detalhes do volume* para exibir os detalhes.
 
 
 
+[[28-march-2024]]
 == 28 de março de 2024
 
 
 
+[[improvement-to-qos-policy-compliance-display-in-the-volume-details-tab]]
 === A melhoria da conformidade com a política de QoS é exibida na guia Detalhes do volume
 
 A guia *Detalhes do volume* na guia *volumes & objetos* agora oferece melhor visibilidade da conformidade com a política de qualidade do serviço (QoS). A coluna anteriormente conhecida como *AQM* é renomeada para *compliant*, o que indica se a política de QoS está em conformidade. Além disso, uma nova coluna *QoS Policy Type* é adicionada, que especifica se a política é fixa ou adaptável. Se nenhum dos dois se aplicar, a coluna exibirá _não disponível_. Para obter mais informações, link:./integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
 
 
 
+[[new-column-and-simplified-subscription-display-in-the-volume-summary-tab]]
 === Nova coluna e assinatura simplificada são exibidos na guia Resumo de volume
 
 * A guia *Resumo do volume* dentro da guia *volumes & objetos* agora inclui uma nova coluna intitulada *protegido*. Esta coluna fornece uma contagem dos volumes protegidos associados aos níveis de serviço subscritos. Se você clicar no número de volumes protegidos, ele o levará para a guia *Detalhes do volume*, onde você pode exibir uma lista filtrada de volumes protegidos.
@@ -506,12 +583,14 @@ A guia *Detalhes do volume* na guia *volumes & objetos* agora oferece melhor vis
 
 
 
+[[change-to-accrued-burst-detail-display-in-the-capacity-trend-tab]]
 === Mude para a exibição de detalhes acumulados na guia tendência de capacidade
 
 A dica de ferramenta que aparece ao passar o Mouse sobre o gráfico de barra de uso de capacidade na guia *tendência de capacidade* exibirá os detalhes de explosões acumuladas para o mês atual. Os detalhes não estarão disponíveis nos meses anteriores.
 
 
 
+[[enhanced-access-to-view-historical-data-for-keystone-subscriptions]]
 === Acesso aprimorado para exibir dados históricos das assinaturas do Keystone
 
 Agora você pode exibir os dados históricos se uma assinatura do Keystone for modificada ou renovada. Pode definir a data de início de uma subscrição para uma data anterior para visualizar :
@@ -524,70 +603,83 @@ Os dados são exibidos com base na data de início selecionada da assinatura.
 
 
 
+[[29-february-2024]]
 == 29 de fevereiro de 2024
 
 
 
+[[addition-of-the-assets-tab]]
 === Adição da guia ativos
 
 A tela *Keystone Subscriptions* agora inclui a guia *Assets*. Esta nova guia fornece informações no nível do cluster com base em suas assinaturas. Para obter mais informações, link:./integrations/assets-tab.html["Separador ativos"^]consulte .
 
 
 
+[[improvements-to-the-volumes-objects-tab]]
 === Melhorias no separador volumes e objetos
 
 Para proporcionar maior clareza aos volumes do sistema ONTAP, dois novos botões de guia, *Resumo do volume* e *Detalhes do volume*, foram adicionados à guia *volumes*. A guia *Resumo de volume* fornece uma contagem geral dos volumes associados aos níveis de serviço subscritos, incluindo o status de conformidade do AQoS e as informações de capacidade. A guia *Detalhes do volume* lista todos os volumes e suas especificidades. Para obter mais informações, link:./integrations/volumes-objects-tab.html["Separador objetos  volumes"^]consulte .
 
 
 
+[[enhanced-search-experience-on-digital-advisor]]
 === Experiência de pesquisa aprimorada no Digital Advisor
 
 Os parâmetros de pesquisa na tela *Digital Advisor* agora incluem números de assinatura do Keystone e listas de observação criadas para assinaturas do Keystone. Você pode inserir os três primeiros carateres de um número de assinatura ou nome da lista de observação. Para obter mais informações, link:./integrations/keystone-aiq.html["Veja o painel do Keystone no Active IQ Digital Advisor"^]consulte .
 
 
 
+[[view-timestamp-of-the-consumption-data]]
 === Exibir o carimbo de data/hora dos dados de consumo
 
 Você pode ver o carimbo de data/hora dos dados de consumo (em UTC) no painel antigo do widget *Keystone Subscriptions*.
 
 
 
+[[13-february-2024]]
 == 13 de fevereiro de 2024
 
 
 
+[[ability-to-view-subscriptions-linked-to-a-primary-subscription]]
 === Capacidade de visualizar subscrições associadas a uma subscrição primária
 
 Algumas de suas assinaturas principais podem ter assinaturas secundárias vinculadas. Se for esse o caso, o número de assinatura principal continuará a ser exibido na coluna *número de assinatura*, enquanto os números de assinatura vinculados serão listados em uma nova coluna *assinaturas vinculadas* na guia *assinaturas*. A coluna *assinaturas vinculadas* só estará disponível se você tiver assinaturas vinculadas e poderá ver mensagens de informações notificando você sobre elas.
 
 
 
+[[11-january-2024]]
 == 11 de janeiro de 2024
 
 
 
+[[invoiced-data-returned-for-accrued-burst]]
 === Dados faturados devolvidos para estouro acumulado
 
 Os rótulos para *Acumulado Burst* agora são modificados para *Faturado Acumulado Burst* na guia *tendência de capacidade*. Selecionar esta opção permite visualizar os gráficos mensais dos dados de pico acumulado faturado. Para obter mais informações, link:./integrations/consumption-tab.html#view-accrued-burst["Ver sequência acumulada faturada"^]consulte .
 
 
 
+[[accrued-consumption-details-for-specific-rate-plans]]
 === Detalhes de consumo acumulados para planos de taxas específicos
 
 Se você tiver uma assinatura que tenha planos de taxa com capacidade comprometida _zero_, poderá visualizar os detalhes do consumo acumulado na guia *tendência de capacidade*. Ao selecionar a opção *consumo acumulado faturado*, você pode visualizar os gráficos mensais para os dados de consumo acumulado faturado.
 
 
 
+[[15-december-2023]]
 == 15 de dezembro de 2023
 
 
 
+[[ability-to-search-by-watchlists]]
 === Capacidade de pesquisar por listas de observação
 
 O suporte para listas de observação no Digital Advisor foi estendido para incluir sistemas Keystone. Agora você pode ver os detalhes das assinaturas de vários clientes pesquisando com listas de observação. Para obter mais informações sobre o uso de listas de observação no Keystone STaaS, link:./integrations/keystone-aiq.html#search-by-keystone-watchlists["PESQUISE por Keystone watchlists"^]consulte .
 
 
 
+[[date-converted-to-utc-timezone]]
 === Data convertida para fuso horário UTC
 
 Os dados retornados nas guias da tela *Keystone Subscriptions* do Digital Advisor são exibidos na hora UTC (fuso horário do servidor). Quando você insere uma data para consulta, ela é automaticamente considerada como estando na hora UTC. Para obter mais informações, link:./integrations/keystone-aiq.html["Painel e geração de relatórios do Keystone Subscription"^]consulte .

@@ -18,12 +18,14 @@ A NetApp garante a recuperação dos dados instantâneos do SnapLock Compliance 
 
 
 
+[[service-levels]]
 == Níveis de serviço
 
 O serviço de garantia de recuperação de ransomware é necessário para todo o hardware que suporte a assinatura do Keystone durante o período de assinatura aplicável.
 
 
 
+[[service-credits]]
 == Créditos de serviço
 
 

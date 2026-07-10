@@ -18,6 +18,7 @@ O Keystone coleta informações de configuração, status e uso das assinaturas 
 
 
 
+[[ontap-data-collection]]
 == Coleta de dados do ONTAP
 
 .<strong> dados de uso coletados para ONTAP: Saiba mais</strong>
@@ -325,6 +326,7 @@ Quando a opção *Remover dados privados* está ativada no Keystone Collector, a
 ====
 
 
+[[storagegrid-data-collection]]
 == Coleta de dados do StorageGRID
 
 .<strong> dados de uso coletados para StorageGRID: Saiba mais</strong>
@@ -372,6 +374,7 @@ Quando a opção *Remover dados privados* está ativada no Keystone Collector, a
 ====
 
 
+[[telemetry-data-collection]]
 == Coleta de dados de telemetria
 
 .<strong>Dados de telemetria coletados da VM do Keystone Collector: Saiba mais</strong>

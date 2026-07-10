@@ -55,6 +55,7 @@ Você precisa concluir algumas tarefas de configuração para permitir que o Key
 
 
 
+[[configure-http-proxy-on-keystone-collector]]
 == Configurar proxy HTTP no Keystone Collector
 
 O software Collector suporta o uso de um proxy HTTP para se comunicar com a internet. Isso pode ser configurado na TUI.
@@ -68,6 +69,7 @@ O software Collector suporta o uso de um proxy HTTP para se comunicar com a inte
 
 
 
+[[limit-collection-of-private-data]]
 == Limitar a coleta de dados privados
 
 O Keystone Collector reúne informações limitadas de configuração, status e desempenho necessárias para executar a medição de assinatura. Há uma opção para limitar ainda mais as informações coletadas mascarando informações confidenciais do conteúdo carregado. Isso não afeta o cálculo de faturamento. No entanto, limitar as informações pode afetar a usabilidade das informações de relatório, já que alguns elementos, que podem ser facilmente identificados pelos usuários, como o nome do volume, são substituídos por UUIDs.
@@ -80,6 +82,7 @@ Para obter informações sobre os itens removidos ao limitar o acesso a dados pr
 
 
 
+[[trust-a-custom-root-ca]]
 == Confie em uma CA raiz personalizada
 
 A verificação de certificados em relação a uma autoridade de certificação raiz pública (CA) faz parte dos recursos de segurança do Keystone Collector. No entanto, se necessário, você pode configurar o Keystone Collector para confiar em uma CA raiz personalizada.
@@ -111,6 +114,7 @@ image:kc-custom-ca.png["Tela TUI para personalização da CA"]
 
 
 
+[[create-performance-service-levels]]
 == Criar níveis de serviço de performance
 
 Você pode criar Níveis de Serviço de Desempenho (PSLs) usando o utilitário TUI de gerenciamento do Keystone Collector. A criação de PSLs por meio do TUI seleciona automaticamente os valores padrão definidos para cada nível de serviço de desempenho, reduzindo a chance de erros que podem ocorrer ao definir manualmente esses valores durante a criação de PSLs por meio do Active IQ Unified Manager.

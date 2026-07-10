@@ -6,6 +6,7 @@ Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[renamed-accrued-burst-capacity-label]]
 === Etiqueta de capacidade de explosão acumulada renomeada
 
 A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada*.

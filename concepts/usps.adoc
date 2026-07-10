@@ -20,24 +20,28 @@ Leia as seções a seguir para entender quais elementos de suas assinaturas est�
 
 
 
+[[netapp-usps-monitoring]]
 == Monitoramento NetApp USPS
 
 A equipe de suporte do Keystone, USPS NetApp monitora a integridade dos seus produtos e serviços inscritos, fornece suporte remoto e colabora com o seu Gerenciador de sucesso do Keystone. Todos os funcionários que monitoram os produtos associados aos pedidos de assinatura relevantes do Keystone são cidadãos dos EUA que operam em solo dos EUA.
 
 
 
+[[keystone-success-manager]]
 == Gerenciador de sucesso do Keystone
 
 O Keystone Success Manager (KSM) é um cidadão dos EUA que opera em solo americano. Suas responsabilidades são especificadas no seu Contrato NetApp Keystone.
 
 
 
+[[deployment-activities]]
 == Atividades de implantação
 
 Quando disponíveis, as atividades de implantação e instalação no local e remota são conduzidas por cidadãos dos EUA em solo dos EUA. Nota de rodapé:isenção de responsabilidade[a disponibilidade de pessoal apropriado para atividades no local depende da localização geográfica em que os sistemas Keystone são implantados.]
 
 
 
+[[support]]
 == Suporte
 
 Quando disponíveis, as atividades necessárias de solução de problemas e suporte no local são conduzidas por cidadãos dos EUA em solo dos EUA.

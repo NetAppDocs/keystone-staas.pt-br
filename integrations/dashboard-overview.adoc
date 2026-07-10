@@ -25,6 +25,7 @@ O painel do Keystone é a sua solução ideal para monitorar, analisar e gerenci
 
 
 
+[[access-the-keystone-dashboard]]
 == Acesse o painel do Keystone
 
 Você pode acessar o painel do Keystone através de:
@@ -35,6 +36,7 @@ Você pode acessar o painel do Keystone através de:
 
 
 
+[[about-netapp-console]]
 == Sobre o NetApp Console
 
 O Keystone pode ser acessado pelo NetApp Console.
@@ -53,6 +55,7 @@ Observe o seguinte:
 
 
 
+[[keystone-features-in-netapp-console-and-digital-advisor]]
 == Recursos do Keystone no NetApp Console e no Digital Advisor
 
 A tabela a seguir mostra a disponibilidade de recursos no NetApp Console e no Digital Advisor, ajudando você a identificar rapidamente a plataforma certa para suas necessidades:

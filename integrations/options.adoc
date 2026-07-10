@@ -18,6 +18,7 @@ Você pode pesquisar e filtrar seus dados, gerar relatórios de assinaturas e us
 
 
 
+[[search-and-filter-data-from-netapp-console]]
 == Pesquisar e filtrar dados do NetApp Console
 
 No Console, você pode pesquisar e filtrar dados do Keystone com base nos parâmetros de coluna disponíveis na tabela dentro de uma guia. Por exemplo, na aba *Assinaturas* na página *Assinaturas*, você pode filtrar dados inserindo a versão do Keystone na caixa de pesquisa. Da mesma forma, na guia *Volumes em clusters* na página *Ativos*, você pode filtrar volumes inserindo o nome do volume na caixa de pesquisa.
@@ -26,6 +27,7 @@ Você pode refinar suas pesquisas usando a opção de filtro avançado, quando d
 
 
 
+[[generate-reports-from-netapp-console-or-digital-advisor]]
 == Gere relatórios do NetApp Console ou do Digital Advisor
 
 Você pode gerar e visualizar relatórios para seus dados Keystone usando o botão de downloadimage:bluexp-download-report-2.png["ícone de download do relatório 2 no Console"] disponível em abas no Console ou no Digital Advisor. Essas guias permitem que você gere relatórios para suas assinaturas, uso histórico, uso intermitente, desempenho, ativos, volumes e objetos.
@@ -34,6 +36,7 @@ Os detalhes são gerados em formato CSV que você pode salvar para uso futuro e 
 
 
 
+[[generate-consolidated-report-from-digital-advisor]]
 == Gerar relatório consolidado do Digital Advisor
 
 No Digital Advisor, você pode gerar e visualizar um relatório consolidado para suas assinaturas, uso histórico, uso intermitente, desempenho, ativos, volumes e objetos. Para fazer isso, selecione *Keystone Subscriptions* como o tipo de relatório no recurso Relatório no Digital Advisor. Você pode gerar esses relatórios no nível de cliente, cluster, lista de observação ou assinatura.

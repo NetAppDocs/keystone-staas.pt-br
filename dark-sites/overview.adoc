@@ -31,6 +31,7 @@ NOTE: O Keystone Collector pode ser configurado sem restrições de conetividade
 
 
 
+[[keystone-collector-in-private-mode]]
 == Keystone Collector em modo privado
 
 O Keystone Collector é responsável por coletar periodicamente dados de uso de sistemas de storage e exportar as métricas para um repórter de uso off-line e um armazenamento de arquivos local. Os arquivos gerados, que são criados nos formatos de texto criptografado e sem formatação, são encaminhados manualmente para o NetApp pelo usuário após as verificações de validação. Após o recebimento, a plataforma de cobrança do Keystone da NetApp autentica e processa esses arquivos, integrando-os aos sistemas de gerenciamento de assinaturas e cobrança para calcular os encargos mensais.

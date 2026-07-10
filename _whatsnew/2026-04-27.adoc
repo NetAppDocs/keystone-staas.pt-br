@@ -6,12 +6,14 @@ Novos aprimoramentos no painel do Keystone no NetApp Console:
 
 
 
+[[renamed-provisioned-capacity-label]]
 === Rótulo de capacidade provisionada renomeado
 
 A etiqueta *Capacidade provisionada* foi renomeada para *Capacidade de volume provisionada*. A etiqueta atualizada também é refletida nos relatórios CSV e Excel relacionados.
 
 
 
+[[forecast-toggle-for-accrued-burst]]
 === Alternância de previsão para rajada acumulada
 
-Agora você pode usar a opção *Previsão* na visualização *Consumo acumulado* da guia *Tendência de consumo* para projetar o uso acumulado de burst para os próximos 120 dias a partir da data atual. Para saber mais, consulte link:./integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].
+Agora você pode usar a opção *Previsão* na visualização *Consumo acumulado* da guia *Tendência de consumo* para projetar o uso acumulado de burst para os próximos 120 dias a partir da data atual. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].

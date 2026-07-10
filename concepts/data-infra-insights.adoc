@@ -20,6 +20,7 @@ Para saber mais sobre o Data Infrastructure Insights, link:https://docs.netapp.c
 
 
 
+[[about-dii-for-keystone-subscriptions]]
 == Sobre o DII para assinaturas Keystone
 
 DII está disponível tanto para novas assinaturas quanto para assinaturas existentes. Ele pode ser integrado a uma assinatura Keystone como um complemento para a capacidade contratada.
@@ -28,6 +29,7 @@ Quando o DII é integrado a uma assinatura Keystone, ele terá um nível de serv
 
 
 
+[[deployment-of-dii-for-keystone]]
 == Implantação do DII para Keystone
 
 Os clientes podem integrar o DII para Keystone de duas maneiras: Como parte de uma instância existente que monitora outros ambientes que não são do Keystone ou como parte de uma nova instância. É da responsabilidade do cliente configurar o DII. Se for necessária ajuda para configurar o DII em um ambiente complexo, a equipe de conta pode se envolver link:https://www.netapp.com/services/["Serviços profissionais da NetApp"^]com o .
@@ -62,6 +64,7 @@ NOTE: Embora o DII ofereça amplos recursos de monitoramento para o hardware imp
 
 
 
+[[view-dii-consumption]]
 == Ver consumo de DII
 
 Você pode visualizar o consumo dos seus serviços adicionais do DII através do NetApp Console ou Digital Advisor. Os dados de consumo para os níveis de serviço de desempenho do DII (como DII Extreme, DII Premium e DII Performance) aparecem junto com os seus níveis de serviço de desempenho básicos nas visualizações de consumo atual e tendência de consumo.
@@ -82,6 +85,7 @@ Para obter mais informações sobre a visualização do consumo, consulte:
 
 
 
+[[billing-and-metering]]
 == Faturamento e medição
 
 O seguinte descreve os detalhes de faturação e medição do serviço complementar DII:
@@ -94,6 +98,7 @@ O seguinte descreve os detalhes de faturação e medição do serviço complemen
 
 
 
+[[support-and-user-access]]
 == Suporte e acesso do usuário
 
 Os membros da equipe de suporte aprovado da NetApp podem acessar a instância DII do cliente se o cliente ativar a opção *permitir acesso à NetApp ao ambiente de informações da infraestrutura de dados*. Para tal, aceda a *Ajuda > suporte* e ative a opção.

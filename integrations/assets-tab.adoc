@@ -18,6 +18,7 @@ Você pode visualizar informações detalhadas sobre clusters e nós do ONTAP , 
 
 
 
+[[view-keystone-subscription-assets-from-netapp-console]]
 == Exibir ativos de assinatura do Keystone no NetApp Console
 
 A guia *Ativos* na página *Assinaturas* mostra informações detalhadas sobre volumes em clusters, nós StorageGRID e nós ONTAP associados à assinatura, incluindo vários detalhes e status de capacidade.
@@ -106,6 +107,7 @@ TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-s
 ====
 
 
+[[view-keystone-subscription-assets-from-digital-advisor]]
 == Ver ativos de assinatura Keystone do Digital Advisor
 
 A aba *Ativos* do painel do Keystone no Digital Advisor inclui duas subabas: *ONTAP* e *StorageGRID*. Esta guia acumula informações em nível de cluster para ONTAP e informações em nível de grade para StorageGRID com base em suas assinaturas, segregando e apresentando os dados com detalhes precisos. Você pode visualizar essas informações clicando nas respectivas subabas.

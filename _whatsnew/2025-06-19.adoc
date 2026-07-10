@@ -4,6 +4,7 @@
 
 
 
+[[keystone-dashboard-in-bluexp]]
 === Painel Keystone no BlueXP
 
 Agora você pode acessar o painel do Keystone diretamente do BlueXP. Essa integração oferece um único local para monitorar, gerenciar e acompanhar todas as suas assinaturas do Keystone, além dos seus outros serviços da NetApp.

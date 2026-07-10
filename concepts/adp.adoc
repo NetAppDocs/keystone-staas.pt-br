@@ -25,6 +25,7 @@ Você pode monitorar métricas de consumo e de integridade para a sua configura�
 
 
 
+[[understand-pricing]]
 == Entenda preços
 
 O serviço adicional de proteção de dados avançada tem seu preço calculado com base na capacidade contratada em cada site. As taxas adicionais se aplicam a todas as capacidades da sua assinatura, incluindo dados de origem, cópias espelhadas e dados não espelhados.
@@ -40,6 +41,7 @@ Observe o seguinte:
 
 
 
+[[supported-metrocluster-configurations]]
 == Configurações suportadas de MetroCluster
 
 Keystone suporta os seguintes cenários de implantação do MetroCluster:

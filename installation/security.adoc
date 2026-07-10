@@ -25,6 +25,7 @@ O funcionamento do Keystone Collector baseia-se nos seguintes princípios de seg
 
 
 
+[[security-hardening]]
 == Endurecimento da segurança
 
 Por padrão, o Keystone Collector está configurado para usar configurações de segurança endurecidas. A seguir estão as configurações de segurança recomendadas:

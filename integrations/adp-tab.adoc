@@ -18,6 +18,7 @@ Ao assinar o serviço complementar de proteção de dados avançada, você pode 
 
 
 
+[[view-metrocluster-subscriptions-consumption-and-health-status]]
 == Visualizar o consumo de assinaturas e o status de integridade do MetroCluster
 
 Siga as etapas abaixo:

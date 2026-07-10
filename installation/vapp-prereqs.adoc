@@ -25,12 +25,14 @@ Seu sistema VMware vSphere deve atender a vários requisitos antes de instalar o
 
 
 
+[[other-requirements]]
 == Outros requisitos
 
 Certifique-se de que os seguintes requisitos genéricos são cumpridos:
 
 
 
+[[networking-requirements]]
 === Requisitos de rede
 
 Os requisitos de rede do Keystone Collector estão listados na tabela a seguir.
@@ -198,6 +200,7 @@ NOTE: A porta padrão para MySQL, 3306, é restrita apenas ao localhost durante 
 
 
 
+[[url-access]]
 === Acesso a URL
 
 O Keystone Collector precisa de acesso aos seguintes hosts de internet:

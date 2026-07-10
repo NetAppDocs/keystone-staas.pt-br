@@ -47,6 +47,7 @@ NOTE: O consumo de capacidade nas assinaturas do Keystone é exibido em TiBs nos
 
 
 
+[[search-by-keystone-watchlists]]
 == PESQUISE por Keystone watchlists
 
 A lista de observação é um recurso disponível no Digital Advisor. Para obter informações, https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Entenda a lista de observação"^]consulte . Para obter informações sobre como criar listas de observação, https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["Crie uma lista de observação"^] consulte .

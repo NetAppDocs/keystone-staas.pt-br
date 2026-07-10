@@ -18,6 +18,7 @@ Você pode visualizar e criar monitores de alerta para suas assinaturas do Keyst
 
 
 
+[[view-alert-monitors]]
 == Ver monitores de alerta
 
 Para visualizar os monitores de alerta, siga estas etapas:
@@ -38,6 +39,7 @@ NOTE: A aba *Relatórios* está temporariamente indisponível para assinaturas K
 
 
 
+[[create-and-manage-alert-monitors]]
 == Crie e gerencie monitores de alerta
 
 Na aba *Monitores de alerta*, você pode criar monitores para rastrear o uso da capacidade e a expiração da assinatura.  Você também pode editar, duplicar ou excluir monitores existentes, conforme necessário.
@@ -137,6 +139,7 @@ Após a exclusão, as assinaturas conectadas ao monitor param de receber notific
 ====
 
 
+[[manage-coverage-gaps]]
 == Gerenciar lacunas de cobertura
 
 Uma caixa de notificação recolhível com a mensagem *Complete sua cobertura* aparece acima da lista de monitores de alerta quando alguma ação é necessária.  Isso te ajuda a:

@@ -20,6 +20,7 @@ Para configurar alertas definidos pelo usuário, consultelink:../integrations/mo
 
 
 
+[[view-alerts]]
 == Ver alertas
 
 Para visualizar alertas ativos, siga estas etapas:
@@ -44,6 +45,7 @@ TIP: Você pode personalizar a tabela usando o seletor de colunas image:column-s
 
 
 
+[[manage-alerts]]
 == Gerenciar alertas
 
 Na aba *Alertas*, você pode executar as seguintes ações:

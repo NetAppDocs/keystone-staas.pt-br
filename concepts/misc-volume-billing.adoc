@@ -39,30 +39,35 @@ A tabela a seguir resume as regras de faturamento para cada tipo de volume.
 |===
 
 
+[[billing-for-cloned-volumes]]
 == Faturamento de volumes clonados
 
 Os volumes clonados são cobrados como volumes padrão, com o mesmo nível de serviço de desempenho do volume do qual foram clonados. Todos os volumes clonados são medidos e cobrados, independentemente do seu tamanho ou finalidade.
 
 
 
+[[billing-for-temporary-volumes]]
 == Cobrança de volumes temporários
 
 Ocasionalmente, volumes temporários (TMP) são criados pelo ONTAP ao mover volumes. Estes volumes temporários têm uma duração curta e o consumo destes volumes não é medido para faturação.
 
 
 
+[[billing-for-snapmirror-destinations]]
 == Faturamento para destinos SnapMirror
 
 O preço dos volumes de destino do SnapMirror, sejam eles usados para recuperação de desastres ou retenção de longo prazo, é baseado no nível de serviço de desempenho atribuído ao destino. Não há taxa extra para proteção de dados.
 
 
 
+[[billing-for-luns]]
 == Cobrança de LUNs
 
 Para LUNs, a cobrança é baseada nos níveis de serviço de desempenho do volume.
 
 
 
+[[system-and-root-volumes]]
 == Volumes de sistema e raiz
 
 Os volumes de sistema e raiz são monitorados como parte do monitoramento geral do serviço Keystone, mas não são contados ou faturados. O consumo destes volumes está isento para faturação.

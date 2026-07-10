@@ -18,6 +18,7 @@ Os requisitos mínimos de capacidade e os incrementos para os níveis de serviç
 
 
 
+[[minimum-capacity-requirements-for-unified-and-block-optimized-storage]]
 == Requisitos mínimos de capacidade para armazenamento unificado e otimizado por bloco
 
 Você pode ver a capacidade mínima e a capacidade incremental permitidas por assinatura para armazenamento unificado e otimizado por bloco nas seguintes tabelas:
@@ -70,6 +71,7 @@ A capacidade mínima para cada nível de serviço de desempenho é a mesma em to
 
 
 
+[[minimum-capacity-requirements-for-afx-storage]]
 == Requisitos mínimos de capacidade para armazenamento AFX
 
 Você pode consultar os requisitos mínimos de capacidade para storage AFX na tabela a seguir:
@@ -99,6 +101,7 @@ NOTE: Para o armazenamento AFX, a capacidade é alocada e medida no nível do cl
 
 
 
+[[minimum-capacity-requirements-for-object-storage]]
 == Requisitos mínimos de capacidade para storage de objetos
 
 Você pode ver os requisitos de capacidade mínima para storage de objetos na tabela a seguir:
@@ -125,6 +128,7 @@ Capacidade incremental (e em múltiplos) permitida como complemento durante a as
 |===
 
 
+[[minimum-capacity-requirements-for-cloud-services]]
 == Requisitos mínimos de capacidade para serviços em nuvem
 
 Você pode ver os requisitos mínimos de capacidade para serviços de nuvem na tabela a seguir:
@@ -151,6 +155,7 @@ Capacidade incremental (e em múltiplos) permitida como complemento durante a as
 |===
 
 
+[[capacity-adjustments]]
 == Ajustes de capacidade
 
 Comunique quaisquer alterações de capacidade planejadas à NetApp em tempo hábil para permitir o planejamento e a implementação. As seguintes condições se aplicam a todos os ajustes de capacidade:
@@ -164,6 +169,7 @@ Comunique quaisquer alterações de capacidade planejadas à NetApp em tempo há
 
 
 
+[[capacity-reduction]]
 === Redução de capacidade
 
 A redução de capacidade contratada aplica-se apenas ao modelo de pagamento _Annual in Advance_ e às implementações locais do Keystone. É necessário um período mínimo de assinatura de 24 meses para ser elegível. Serviços em nuvem e implementações de nuvem híbrida não são elegíveis para redução de capacidade.
@@ -192,6 +198,7 @@ Neste exemplo, a capacidade inicialmente contratada é de 300 TiB (pagamento anu
 
 
 
+[[quarterly-spend-reallocation]]
 === Realocação de gastos trimestral
 
 A realocação trimestral de gastos está disponível apenas para serviços de nuvem híbrida. Ela permite que você realoque gastos com serviços locais para gastos com serviços em nuvem trimestralmente. A realocação de serviços em nuvem de volta para serviços locais não é permitida.

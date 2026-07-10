@@ -141,6 +141,7 @@ Você pode clicar no botão de alternância *Mostrar uso atual* para exibir os d
 ====
 
 
+[[accrued-burst-computation]]
 == Cálculo de burst acumulado
 
 O uso acumulado de estouro para um mês inteiro é calculado como este:
@@ -155,6 +156,7 @@ A explosão é a diferença entre a capacidade consumida e a capacidade comprome
 
 
 
+[[view-accrued-burst]]
 == Ver explosão acumulada
 
 Você pode visualizar o uso acumulado de dados em rajadas pelo Console ou Digital Advisor. Se você selecionou *Accrued burst* no menu suspenso *View* na guia *Consumption trend* no Console, ou a opção *Invoiced Accrued Burst* na guia *Consumption Trend* do Digital Advisor, você pode ver o uso acumulado de dados em rajadas mensalmente ou trimestralmente, dependendo do período de faturamento selecionado.
@@ -178,6 +180,7 @@ image:accr-burst-2.png["utilização de expansões sazonais acumuladas trimestra
 
 
 
+[[view-forecast-data]]
 == Veja os dados de previsão
 
 No Console, você pode usar a opção *Previsão* na guia *Tendência de consumo* para visualizar o uso de capacidade projetado na visualização *Consumo histórico* e o pico acumulado projetado na visualização *Pico acumulado*. A opção está ativada por padrão em ambas as visualizações.
@@ -196,6 +199,7 @@ Se a previsão de consumo ultrapassar a capacidade contratada, um indicador de a
 
 
 
+[[view-daily-accrued-burst-data-usage]]
 == Veja o uso diário de dados de pico acumulado
 
 Você pode visualizar o uso diário de dados acumulados em intervalos de um período de cobrança mensal ou trimestral por meio do Console ou do Digital Advisor. No Console, a tabela *Explosão acumulada por dias* fornece dados detalhados, incluindo registro de data e hora, capacidade comprometida, consumida e acumulada em estouro, se você selecionar *Explosão acumulada* no menu suspenso *Exibir* na guia *Tendência de consumo*.

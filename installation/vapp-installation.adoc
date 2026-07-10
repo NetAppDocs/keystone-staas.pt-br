@@ -18,6 +18,7 @@ A implantação do Keystone Collector em sistemas VMware vSphere inclui o downlo
 
 
 
+[[deploying-the-ova-template]]
 == Implantando o modelo OVA
 
 Siga estes passos:
@@ -59,6 +60,7 @@ Depois que a VM tiver sido implantada a partir do modelo e ativada, abra uma ses
 
 
 
+[[initial-system-configuration]]
 == Configuração inicial do sistema
 
 Execute estas etapas em seus sistemas VMware vSphere para obter uma configuração inicial dos servidores Keystone Collector implantados por meio DO OVA:
