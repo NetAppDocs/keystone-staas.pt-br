@@ -25,7 +25,7 @@ Para visualizar informações detalhadas de suas assinaturas, siga estas etapas:
 .Passos
 . No menu de navegação esquerdo do Console, selecione *Armazenamento > Keystone > Assinaturas*.
 +
-image:bxp-subscription-list-4.png["ver os detalhes da aba de assinatura"]
+image:console-subscription.png["ver os detalhes da aba de assinatura"]
 
 +
 Você vê as principais métricas, como uso de capacidade, status de expiração da assinatura e alertas não resolvidos.
@@ -43,7 +43,18 @@ Você pode ver os seguintes detalhes na tabela:
 ** *Período de cobrança*: O período de cobrança da assinatura.
 ** *Níveis de serviço de desempenho*: O número de planos de tarifas associados à assinatura, com cada plano de tarifas correspondendo a um nível de serviço de desempenho específico e capacidade comprometida.
 ** *Capacidade máxima*: Capacidade máxima consumida dentro da assinatura.
-** *Dias até o vencimento da assinatura*: Número de dias restantes até o vencimento da assinatura.
+** *Dias restantes para o vencimento da assinatura*: Exibe um ícone ao lado da data de vencimento para indicar quão próxima a assinatura está do vencimento e se ela será renovada automaticamente. Este status é somente leitura e reflete os termos do seu contrato. Para revisar os detalhes do contrato, consulte link:../integrations/subscription-timeline.html["Veja o cronograma de suas assinaturas Keystone"].
++
+Quando a renovação automática está desativada, a cor do ícone indica a proximidade do vencimento:
+
++
+*** *Verde*: restam mais de 120 dias até o vencimento.
+*** *Laranja*: Restam entre 91 e 120 dias até o vencimento.
+*** *Vermelho*: Faltam menos de 90 dias para o vencimento. Para evitar interrupção no serviço, envie uma solicitação de renovação para o suporte do NetApp Keystone.
+*** *Cinza*: A assinatura expirou.
++
+Para assinaturas com renovação automática ativada, um ícone de renovação automática é exibido, indicando que a assinatura será renovada automaticamente ao final do período atual.
+
 +
 
 NOTE: Você pode clicar na seta para baixo image:down-arrow.png["ícone de expansão"] no cabeçalho da tabela para expandir todas as assinaturas e visualizar as informações de níveis de serviço de desempenho para cada assinatura simultaneamente. Isso mostra informações detalhadas de capacidade, incluindo uso atual, capacidade comprometida, capacidade provisionada, capacidade de pico e capacidade disponível para todas as assinaturas. Como alternativa, você pode clicar na seta para baixo ao lado da coluna *Expiration date* nas linhas de assinatura individuais para expandi-las uma de cada vez.
@@ -51,6 +62,8 @@ NOTE: Você pode clicar na seta para baixo image:down-arrow.png["ícone de expan
 +
 
 TIP: Você pode personalizar as colunas exibidas na tabela usando o seletor de colunas image:column-selector.png["ícone do seletor de coluna"] ícone. Para determinados campos e colunas, você pode ver informações ou ícones de aviso e dicas de ferramentas que fornecem informações adicionais sobre os dados.
+
+
 
 
 

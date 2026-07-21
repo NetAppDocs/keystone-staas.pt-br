@@ -1,0 +1,14 @@
+= Veja o status de expiração da assinatura e de renovação automática
+:allow-uri-read: 
+
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+[[view-subscription-expiry-and-auto-renewal-status]]
+=== Veja o status de expiração da assinatura e de renovação automática
+
+A coluna *Dias até o vencimento da assinatura* na tabela de assinaturas (*Armazenamento > Keystone > Assinaturas*) agora exibe um ícone ao lado da data de vencimento. A cor do ícone indica a proximidade do vencimento quando a renovação automática está desativada: verde (mais de 120 dias), laranja (91 a 120 dias), vermelho (menos de 90 dias) ou cinza (vencida). Para assinaturas com renovação automática ativada, um ícone de renovação automática é exibido, indicando que a assinatura será renovada automaticamente ao final do período atual. O status é somente leitura e reflete os termos do seu contrato. Depois de abrir uma assinatura, esses ícones aparecem no cabeçalho de detalhes da assinatura nas guias *Consumo atual*, *Tendência de consumo*, *Linha do tempo da assinatura* e *Ativos*, fornecendo visibilidade do status de vencimento e renovação enquanto você navega.
+
+Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
