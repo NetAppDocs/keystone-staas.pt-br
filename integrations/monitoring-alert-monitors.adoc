@@ -14,7 +14,7 @@ summary: Use a guia Monitoramento para visualizar e criar monitores de alertas p
 
 
 [role="lead"]
-Você pode visualizar e criar monitores de alerta para suas assinaturas do Keystone a partir do painel do Keystone no NetApp Console.  O painel de controle exibe indicadores de uso de capacidade e expiração de assinaturas, tanto gerados pelo sistema quanto definidos pelo usuário. Você pode criar monitores para definir limites, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações.  Você pode solucionar as lacunas de cobertura adicionando monitores a assinaturas não cobertas ou resolvendo problemas com monitores não utilizados. Esta funcionalidade não está disponível no Digital Advisor.
+Você pode visualizar e criar monitores de alerta para suas assinaturas Keystone no painel do Keystone no NetApp Console. O painel exibe monitores gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura. Os monitores gerados pelo sistema são criados automaticamente para todas as assinaturas e vêm com limites predefinidos. Você também pode criar monitores definidos pelo usuário para configurar limites personalizados, escolher a gravidade do alerta e adicionar destinatários de e-mail para notificações. Você pode corrigir lacunas de cobertura adicionando monitores a assinaturas não cobertas ou resolvendo monitores não utilizados. Essa funcionalidade não está disponível no Digital Advisor.
 
 
 
@@ -32,8 +32,16 @@ image:monitoring-alert-monitors-default-view-1.png["Uma captura de tela dos moni
 Você pode visualizar uma lista de monitores de alerta em suas assinaturas Keystone, incluindo nomes dos monitores, condições dos monitores que acionam notificações, níveis de gravidade, números de assinatura, níveis de serviço de desempenho e status. Você pode verificar a coluna *Criado por* para ver se os monitores de alerta foram gerados pelo sistema ou definidos pelo usuário.
 
 +
+Keystone cria automaticamente monitores gerados pelo sistema para todas as suas assinaturas. Esses monitores não podem ser excluídos. A edição é limitada à modificação dos números de assinatura e dos níveis de serviço de desempenho para monitores de uso de capacidade, e à modificação dos números de assinatura para monitores de expiração de assinatura.
+
++
+** *Monitoramento de expiração de assinatura*: Alertas são acionados em cinco momentos distintos antes da data de expiração da assinatura (180, 90, 60, 30 e 7 dias). A gravidade aumenta de informativa para crítica à medida que a data de expiração se aproxima.
+** *Monitor de utilização de capacidade*: Os alertas são baseados na porcentagem de pico de uso contratada da sua assinatura, em vez de um valor fixo. Por exemplo, se o seu pico de uso contratado for de 40%, o alerta crítico é acionado quando a utilização da capacidade atinge 140% da capacidade contratada.
++
 
 NOTE: A aba *Relatórios* está temporariamente indisponível para assinaturas Keystone .
+
+
 
 
 
