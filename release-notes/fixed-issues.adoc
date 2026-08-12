@@ -22,6 +22,15 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+Na aba *Tendência de Consumo* do Digital Advisor, o gráfico de tendência de consumo não exibe os dados de consumo do dia atual, mostrando apenas os dados do dia anterior.
+ a| 
+Fixo
+ a| 
+2026-08-10
+
+
+
+ a| 
 As assinaturas exibem incorretamente o status *Acima do Limite de Burst* no painel do Digital Advisor , apesar do consumo estar dentro dos limites de burst permitidos.
  a| 
 Fixo
