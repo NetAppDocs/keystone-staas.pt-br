@@ -79,7 +79,7 @@ TIP: Você pode selecionar a assinatura do Cluster B (espelho) na topologia ADP 
 
 +
 
-TIP: Se o status de sincronização mostrar fora de sincronia ou o status da conexão mostrar degradado, consulte link:../concepts/support-services.html["Obtenha ajuda com o Keystone"] para solucionar o problema.
+TIP: Se o status de sincronização mostrar fora de sincronia ou o status da conexão mostrar degradado, consulte link:../concepts/support-services.html["Serviços de suporte para o Keystone"] para solucionar o problema.
 
 ** Veja as tendências históricas de consumo do site principal ou do site espelho.
 +
