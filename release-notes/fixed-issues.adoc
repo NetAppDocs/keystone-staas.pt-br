@@ -22,6 +22,15 @@ Os problemas encontrados em versões anteriores dos serviços STaaS da NetApp Ke
 
 
  a| 
+Na aba *Tendência de Consumo* no Digital Advisor, o gráfico de pico de faturamento acumulado mostra valores diferentes para o mesmo período de faturamento quando diferentes intervalos de datas são selecionados.
+ a| 
+Fixo
+ a| 
+2026-08-31
+
+
+
+ a| 
 Na aba *Tendência de Consumo* do Digital Advisor, o gráfico de tendência de consumo não exibe os dados de consumo do dia atual, mostrando apenas os dados do dia anterior.
  a| 
 Fixo

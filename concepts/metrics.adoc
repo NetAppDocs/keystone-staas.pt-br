@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/metrics.html 
-keywords: metrics, GiB, IOPS, latency, durability, v3, version 3 
-summary: O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone na versão 3 do serviço. 
+keywords: metrics, GiB, TiB, PiB, IOPS, latency, durability, availability, capacity, performance, v3, version 3 
+summary: Saiba como o Keystone STaaS mede a capacidade, o desempenho e a disponibilidade da sua assinatura de storage. 
 ---
-= Métricas e definições de armazenamento no Keystone
+= Métricas e definições de storage do Keystone STaaS
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,24 @@ summary: O serviço STaaS da NetApp Keystone usa vários termos para medir métr
 
 
 [role="lead"]
-Aprenda os principais termos que Keystone STaaS usa para medir e gerar relatórios sobre sua assinatura de storage, incluindo unidades de capacidade, métricas de desempenho e definições de disponibilidade.
+O Keystone STaaS utiliza termos específicos para medir e gerar relatórios sobre sua assinatura de storage. Compreender esses termos ajuda você a interpretar os dados do painel e os relatórios de assinatura.
+
+[cols="1,3"]
+|===
+| Termo | Definição 
 
 
+| Capacidade (GiB, TiB, PiB) | A capacidade de storage é medida usando potências de 1024: 1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes e 1 PiB = 1024^5^ bytes. 
 
-[[metrics-measurement]]
-== Medição de métricas
 
-* *Medição de capacidade em GiB, TiB e PiB*: Medições de capacidade de armazenamento de dados usando base de 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes e 1 PiB = 1024^5^ bytes).
-* *Gráfico do contador de operações em IOPS*: As operações de protocolo por segundo, solicitadas pelo aplicativo.
-* *Disponibilidade*: Medido como uma porcentagem do número de solicitações de e/S respondidas com sucesso pelo serviço, dividido pelo número total de solicitações de e/S feitas ao serviço. Isso é medido na demarcação do serviço em um mês e não inclui o tempo de inatividade programado do serviço ou a indisponibilidade das instalações, da rede ou de outros serviços fornecidos pelo cliente.
-* *Durabilidade*: Porcentagem de dados acessados sem perda de fidelidade, excluindo exclusão ou corrupção causada pelo cliente.
-* *Latência*: Tempo para atender uma solicitação de e/S recebida de um cliente, medida na demarcação do serviço (porta de e/S do controlador de armazenamento).
+| IOPS | IOPS (operações de E/S por segundo) é o número de operações de protocolo por segundo solicitadas pelo aplicativo. IOPS é exibido no gráfico do contador de operações no painel do Keystone. 
 
+
+| Disponibilidade | A disponibilidade é a porcentagem de solicitações de E/S respondidas com sucesso pelo serviço em relação ao total de solicitações de E/S feitas em um mês. Essa medição é feita na demarcação do serviço em um mês e não inclui o tempo de inatividade programado do serviço ou a indisponibilidade das instalações, da rede ou de outros serviços fornecidos pelo cliente. 
+
+
+| Durabilidade | Durabilidade é a porcentagem de dados que podem ser acessados sem perda de fidelidade, excluindo exclusão ou corrupção causada pelo cliente. 
+
+
+| Latência | Latência é o tempo necessário para atender a uma solicitação de E/S recebida de um cliente, medido no ponto de demarcação do serviço (porta de I/O do controlador de storage). 
+|===

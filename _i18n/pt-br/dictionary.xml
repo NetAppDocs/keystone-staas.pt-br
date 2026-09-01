@@ -156,9 +156,6 @@
   <block id="6961b64b96800d43e0da115e9763a226" category="paragraph">Em um serviço operado pelo cliente do Keystone, a infraestrutura de storage e as ferramentas de monitoramento são instaladas no seu local. A infraestrutura de storage consiste no hardware de storage necessário para dar suporte ao seu pedido inicial, com o provisionamento para solicitar mais storage posteriormente.</block>
   <block id="ae031eb46bb3af9ef59c200e318f13e4" category="paragraph">Além do equipamento de storage, duas ferramentas de monitoramento são provisionadas para monitoramento de armazenamento e consumo.</block>
   <block id="0719eeba43039e5122ee28a4a45955e4" category="section-title">Medição de métricas</block>
-  <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">*Disponibilidade*: Medido como uma porcentagem do número de solicitações de e/S respondidas com sucesso pelo serviço, dividido pelo número total de solicitações de e/S feitas ao serviço. Isso é medido na demarcação do serviço em um mês e não inclui o tempo de inatividade programado do serviço ou a indisponibilidade das instalações, da rede ou de outros serviços fornecidos pelo cliente.</block>
-  <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*Durabilidade*: Porcentagem de dados acessados sem perda de fidelidade, excluindo exclusão ou corrupção causada pelo cliente.</block>
-  <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">*Latência*: Tempo para atender uma solicitação de e/S recebida de um cliente, medida na demarcação do serviço (porta de e/S do controlador de armazenamento).</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">Faturamento de volumes clonados</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">Cobrança de volumes temporários</block>
   <block id="480da42f59e7a8b523d40d52ba830cb8" category="paragraph">Ocasionalmente, volumes temporários (TMP) são criados pelo ONTAP ao mover volumes. Estes volumes temporários têm uma duração curta e o consumo destes volumes não é medido para faturação.</block>
@@ -216,7 +213,6 @@
   <block id="a6f1b0a7a0dc76c228aff931a7f131c9" category="inline-link-macro">Preços do Keystone</block>
   <block id="e6158c69831c3faa8af6ba0dce7118fd" category="list-text"><block ref="e6158c69831c3faa8af6ba0dce7118fd" category="inline-link-macro-rx"></block></block>
   <block id="9e38decf152b1fba3ebe0ddbb861a5a3" category="inline-link-macro">Serviços complementares no Keystone STaaS</block>
-  <block id="91ad65d98336ef29959957165ed0c9ea" category="list-text"><block ref="91ad65d98336ef29959957165ed0c9ea" category="inline-link-macro-rx"></block></block>
   <block id="78ba841e2af7da29fc53dabaf1dfd5e5" category="inline-link-macro">Níveis de serviço no Keystone</block>
   <block id="df7d31258a77cf6838aec404025cc8f0" category="list-text"><block ref="df7d31258a77cf6838aec404025cc8f0" category="inline-link-macro-rx"></block></block>
   <block id="5866f5199f36da24870932aa9db6ab49" category="list-text">Ele apresenta cobrança previsível para a capacidade comprometida e pagamento por uso para uso de capacidade variável (sobrecarga).</block>
@@ -1743,8 +1739,6 @@
   <block id="de0189fb2d8a23d211a49728ea826dc1" category="list-text">Coletor de Dados Keystone: O Coletor de Dados Keystone coleta dados e os fornece à plataforma de faturamento Keystone para processamento posterior. Esta aplicação é fornecida com o Active IQ Unified Manager. Ele coleta dados de controladores ONTAP e StorageGRID em um intervalo de cinco minutos. Os dados são processados e os metadados são enviados para o data Lake Active IQ centralizado por meio do mecanismo AutoSupport, que é usado para geração de dados de cobrança. O data lake do Active IQ processa os dados de faturamento e os envia à Zuora para faturamento.</block>
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">fluxo de dados do coletor</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">O serviço STaaS da NetApp Keystone usa vários termos para medir métricas. Talvez você queira aprender mais sobre esses termos ao usar o Keystone na versão 3 do serviço.</block>
-  <block id="06270a3cff387fa75ec0294b7ef6f62c" category="list-text">*Gráfico do contador de operações em IOPS*: As operações de protocolo por segundo, solicitadas pelo aplicativo.</block>
   <block id="b4c0f0b2da46ea7f6c48938cbb43241d" category="list-text">*IOPS*: Para o ONTAP 9.16.1 com NFS, cada instância de nível de desempenho suporta acesso aleatório com uma taxa de leitura de 70% e gravação de 30%, um tamanho de bloco de 8 KB e uma latência de 1 ms (4 ms para o Standard).</block>
   <block id="8223729bf5a771d590fde341043bac3d" category="list-text">*Rendimento de dados*: Para o ONTAP 9.16.1 com NFS, cada instância de nível de desempenho suporta acesso sequencial com 100% de leitura e um tamanho de bloco de 32 KB.</block>
   <block id="3d7debc9f9eb6961623316d3dcefaeb8" category="list-text">*IOPS*: Para o ONTAP 9.16.1 com FCP, cada instância de nível de desempenho suporta acesso aleatório com uma taxa de leitura de 70% e gravação de 30%, um tamanho de bloco de 8 KB e uma latência de 1 ms.</block>
@@ -1935,7 +1929,6 @@
   <block id="f02c5e27d3f80e7755fdb672ca0a6235" category="list-text">Nível de valor do Keystone STaaS, nível de objeto do Keystone STaaS StorageGRID ou grade StorageGRID Webscale (SGWS) existente (de propriedade do cliente) - Não há custo adicional; faz parte do serviço padrão.</block>
   <block id="8e4d26d9b322f38152cd72b8fdf2ed25" category="admonition">Os serviços de computação, armazenamento e rede baseados em hiperescalador exigidos pelo Cloud Volumes ONTAP não são fornecidos pela NetApp como parte das assinaturas do Keystone STaaS; esses serviços precisam ser adquiridos diretamente de provedores de serviços de nuvem em hiperescalador.</block>
   <block id="7362a3703ab6814c98fdb90fe873b654" category="paragraph">Os aplicativos corporativos precisam de plataformas de armazenamento para dar suporte a fluxos de trabalho de provisionamento rápido, manter disponibilidade contínua, sustentar altas cargas de trabalho com baixa latência, oferecer maior desempenho e dar suporte à integração com os principais provedores de nuvem. A NetApp tem vários produtos e tecnologias para dar suporte a esses requisitos. Para o serviço Keystone , a NetApp usa sistemas ONTAP (AFF, ASA e FAS) e sistemas StorageGRID .</block>
-  <block id="aefe5d691bbfd5f85d52918fd2b8748f" category="list-text">*Medição de capacidade em GiB, TiB e PiB*: Medições de capacidade de armazenamento de dados usando base de 1024 (1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes e 1 PiB = 1024^5^ bytes).</block>
   <block id="ef379c37057d9a196c5c79f68a141fe6" category="paragraph">A Keystone oferece os seguintes recursos de cobrança:</block>
   <block id="52bde02f3e1edb6d6e28dca0d312445a" category="list-text">*Armazenamento unificado ou otimizado em bloco*: A capacidade consumida é calculada com base no tipo de capacidade (lógica ou física) selecionada durante o processo de pedido.  O cálculo é realizado por instância de nível de serviço de desempenho.</block>
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*Capacidade lógica*: É a soma de:</block>
@@ -2500,7 +2493,6 @@
   <block id="26e38ecf975660cbeeab3546610f30ab" category="admonition">Para o armazenamento AFX, a capacidade é alocada e medida no nível do cluster AFX, em todos os compartimentos de unidades do cluster. Isso é independente do número de controladores de armazenamento AFX no cluster.</block>
   <block id="48b11c6f6db8a6a3328baeb0a51c976d" category="paragraph">Os serviços padrão do Keystone STaaS para armazenamento de arquivos e blocos incluem recursos de hierarquização que identificam dados menos utilizados e os alocam em cold storage compatível com Keystone STaaS da NetApp. Você pode usar a hierarquização de dados como um serviço adicional se desejar alocar seus dados frios em qualquer storage compatível com Keystone STaaS que não seja da NetApp. Este serviço adicional é compatível apenas com o tipo de storage unificado.</block>
   <block id="75e68181255b1c90bd260488cd15b20b" category="admonition">O serviço adicional de tiering é necessário apenas quando os dados são armazenados em camadas em qualquer storage que não seja NetApp, como Amazon Web Services (AWS) S3, Azure Blob, Google Cloud Platform (GCP) e outros storage de objetos compatíveis com S3 de terceiros suportados pelo Keystone STaaS. Este serviço está disponível apenas para o tipo de storage unificado.</block>
-  <block id="ab111be95a3b1e0a20af6d3cc9835537" category="paragraph">Aprenda os principais termos que Keystone STaaS usa para medir e gerar relatórios sobre sua assinatura de storage, incluindo unidades de capacidade, métricas de desempenho e definições de disponibilidade.</block>
   <block id="b0dc64ee46414f1cba4fa86cb3cecb46" category="paragraph">Uma assinatura Keystone pode incluir vários PSLs em um ou mais tipos de storage. Cada PSL tem uma capacidade comprometida, que é a capacidade mínima faturada para esse nível de serviço durante o período da assinatura.</block>
   <block id="61d50a4de5460f878250bbbb0807eaa0" category="admonition">A assinatura AFX é limitada ao tipo de storage AFX e atualmente oferece apenas um PSL, Extreme.</block>
   <block id="4e4e6e5b08219061956b8d07df28d2e9" category="section-title">Instâncias de níveis de serviço de desempenho</block>
@@ -2742,7 +2734,6 @@
   <block id="68590e28745629d3e9c45d233ec874f4" category="paragraph">Na aba *Tendência de Consumo* do Digital Advisor, o gráfico de tendência de consumo não exibe os dados de consumo do dia atual, mostrando apenas os dados do dia anterior.</block>
   <block id="c11ff4c4af6e617e0c27f005526215c1" category="paragraph">2026-08-10</block>
   <block id="92f0ca3d130ab33a16d28b57af2ef1fa" category="doc">Saiba mais sobre a infraestrutura Keystone</block>
-  <block id="af8ce1366fa4c20969881474e68d69d4" category="doc">Métricas e definições de armazenamento no Keystone</block>
   <block id="efc51c397e61250c642c86d68b092174" category="doc">Serviço adicional de NRNVC e conformidade SnapLock para Keystone</block>
   <block id="7e09a61a4369064a74afa38f6e7a8c9a" category="paragraph">Para obter mais informações sobre a implantação, consulte <block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block> e <block ref="79f76dbd81e71f36d15d1dac3766b8c8" category="inline-link-macro-rx"></block>.</block>
   <block id="d03ef5b6e8b6191ac72b7ae5462d2546" category="list-text"><block ref="d03ef5b6e8b6191ac72b7ae5462d2546" category="inline-link-macro-rx"></block></block>
@@ -2762,4 +2753,19 @@
   <block id="d23d8e4208389cdbfa05c473cb8410ad" category="sidebar">Obtenha uma lista de clientes do Keystone</block>
   <block id="7544c020cb246587d47ad73d1598a7e4" category="sidebar">Obtenha as assinaturas de clientes Keystone</block>
   <block id="0fb6871a30d0a0891c81661a4c790079" category="sidebar">Obtenha detalhes de consumo do cliente do Keystone</block>
+  <block id="8a90a5578fe3c0a1bf0c36a2ff8e39c6" category="summary">Saiba como o Keystone STaaS mede a capacidade, o desempenho e a disponibilidade da sua assinatura de storage.</block>
+  <block id="ce554340b5d358edd16adc582cbd1e9f" category="doc">Métricas e definições de storage do Keystone STaaS</block>
+  <block id="2637ea81c49feab6407426cc8e45cb57" category="paragraph">O Keystone STaaS utiliza termos específicos para medir e gerar relatórios sobre sua assinatura de storage. Compreender esses termos ajuda você a interpretar os dados do painel e os relatórios de assinatura.</block>
+  <block id="cf5f3091e30dee6597885d8c0e0c357f" category="cell">Termo</block>
+  <block id="0b890b1926b90387673882e6ccae7fdc" category="cell">Definição</block>
+  <block id="c1b1d0f81a92a33cb13a455458cba18f" category="cell">Capacidade (GiB, TiB, PiB)</block>
+  <block id="be4e5e7304cce0a3f092bf09f988e5c7" category="cell">A capacidade de storage é medida usando potências de 1024: 1 GiB = 1024^3^ bytes, 1 TiB = 1024^4^ bytes e 1 PiB = 1024^5^ bytes.</block>
+  <block id="58e7610d09b9f2e839011184d76819fe" category="cell">IOPS (operações de E/S por segundo) é o número de operações de protocolo por segundo solicitadas pelo aplicativo. IOPS é exibido no gráfico do contador de operações no painel do Keystone.</block>
+  <block id="419d9cc5de330a52a416271c0e55b303" category="cell">A disponibilidade é a porcentagem de solicitações de E/S respondidas com sucesso pelo serviço em relação ao total de solicitações de E/S feitas em um mês. Essa medição é feita na demarcação do serviço em um mês e não inclui o tempo de inatividade programado do serviço ou a indisponibilidade das instalações, da rede ou de outros serviços fornecidos pelo cliente.</block>
+  <block id="2166e76dc88d642260416a536b06a412" category="cell">Durabilidade</block>
+  <block id="7207796055990c2fdf24c8139ff9cd48" category="cell">Durabilidade é a porcentagem de dados que podem ser acessados sem perda de fidelidade, excluindo exclusão ou corrupção causada pelo cliente.</block>
+  <block id="67636cabf90c8bc5f88a58c653bd06ef" category="cell">Latência é o tempo necessário para atender a uma solicitação de E/S recebida de um cliente, medido no ponto de demarcação do serviço (porta de I/O do controlador de storage).</block>
+  <block id="9e1f1d9a0941c4381482b8b0522725a2" category="list-text"><block ref="9e1f1d9a0941c4381482b8b0522725a2" category="inline-link-macro-rx"></block></block>
+  <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">Na aba *Tendência de Consumo* no Digital Advisor, o gráfico de pico de faturamento acumulado mostra valores diferentes para o mesmo período de faturamento quando diferentes intervalos de datas são selecionados.</block>
+  <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026-08-31</block>
 </blocks>
